@@ -1063,247 +1063,247 @@ emojis:
   - name: "mag_right"
     keywords: [search, zoom]
   - name: "relaxed"
-    keywords: []
+    keywords: [blush, massage, happiness]
   - name: "u5272"
-    keywords: []
+    keywords: [cut, divide, chinese, pink]
   - name: "bow"
-    keywords: []
+    keywords: [man, male, boy]
   - name: "fallen_leaf"
-    keywords: []
+    keywords: [nature, plant, vegetable]
   - name: "mahjong"
-    keywords: []
+    keywords: [game, chinese]
   - name: "relieved"
-    keywords: []
+    keywords: [face, relaxed, phew, massage, happiness]
   - name: "u5408"
-    keywords: []
+    keywords: [japanese, chinese, join]
   - name: "bowling"
-    keywords: []
+    keywords: [sports, fun, play]
   - name: "family"
-    keywords: []
+    keywords: [home, parents, child, mom, dad, father, mother]
   - name: "mailbox"
-    keywords: []
+    keywords: [email, inbox, communication]
   - name: "repeat"
-    keywords: []
+    keywords: [loop, record]
   - name: "u55b6"
-    keywords: []
+    keywords: [japanese, opening hours]
   - name: "bowtie"
-    keywords: []
+    keywords: [face, formal, fashion, suit]
   - name: "fast_forward"
-    keywords: []
+    keywords: [blue-square]
   - name: "mailbox_closed"
-    keywords: []
+    keywords: [email, communication, inbox]
   - name: "repeat_one"
-    keywords: []
+    keywords: [blue-square, loop]
   - name: "u6307"
-    keywords: []
+    keywords: [chinese, point, green-square]
   - name: "boy"
-    keywords: []
+    keywords: [man, male, guy]
   - name: "fax"
-    keywords: []
+    keywords: [communication, technology]
   - name: "mailbox_with_mail"
-    keywords: []
+    keywords: [email, inbox, communication]
   - name: "restroom"
-    keywords: []
+    keywords: [blue-square]
   - name: "u6708"
-    keywords: []
+    keywords: [chinese, moon, japanese, orange-square]
   - name: "bread"
-    keywords: []
+    keywords: [food, wheat, breakfast, toast]
   - name: "fearful"
-    keywords: []
+    keywords: [face, scared, terrified, nervous, oops]
   - name: "mailbox_with_no_mail"
-    keywords: []
+    keywords: [email, inbox]
   - name: "revolving_hearts"
-    keywords: []
+    keywords: [love, like, affection]
   - name: "u6709"
-    keywords: []
+    keywords: [orange-square, chinese, have]
   - name: "bride_with_veil"
-    keywords: []
+    keywords: [couple, marriage, wedding]
   - name: "feelsgood"
-    keywords: []
+    keywords: [ghonly]
   - name: "man"
-    keywords: []
+    keywords: [mustashe, father, dad, guy]
   - name: "rewind"
-    keywords: []
+    keywords: [play, blue-square]
   - name: "u6e80"
-    keywords: []
+    keywords: [full, chinese, japanese, red-square]
   - name: "bridge_at_night"
-    keywords: []
+    keywords: [photo, sanfrancisco]
   - name: "feet"
-    keywords: []
+    keywords: [animal]
   - name: "man_with_gua_pi_mao"
-    keywords: []
+    keywords: [male, boy]
   - name: "ribbon"
-    keywords: []
+    keywords: [decoration, pink, girl]
   - name: "u7121"
-    keywords: []
+    keywords: [no, nothing, chinese, japanese, orange-square]
   - name: "briefcase"
-    keywords: []
+    keywords: [business, documents, work]
   - name: "ferris_wheel"
-    keywords: []
+    keywords: [photo, carnival, londoneye]
   - name: "man_with_turban"
-    keywords: []
+    keywords: [male]
   - name: "rice"
-    keywords: []
+    keywords: [food]
   - name: "u7533"
-    keywords: []
+    keywords: [chinese, japanese]
   - name: "broken_heart"
-    keywords: []
+    keywords: [sad, sorry]
   - name: "file_folder"
-    keywords: []
+    keywords: [documents]
   - name: "mans_shoe"
-    keywords: []
+    keywords: [fashion, male]
   - name: "rice_ball"
-    keywords: []
+    keywords: [food, japanese]
   - name: "u7981"
     keywords: []
   - name: "bug"
-    keywords: []
+    keywords: [insect, nature]
   - name: "finnadie"
-    keywords: []
+    keywords: [ghonly]
   - name: "maple_leaf"
-    keywords: []
+    keywords: [nature, plant, vegetable]
   - name: "rice_cracker"
-    keywords: []
+    keywords: [food, japanese]
   - name: "u7a7a"
     keywords: []
   - name: "bulb"
-    keywords: []
+    keywords: [light, electricity]
   - name: "fire"
-    keywords: []
+    keywords: [hot, cook]
   - name: "mask"
-    keywords: []
+    keywords: [face, sick, ill]
   - name: "rice_scene"
-    keywords: []
+    keywords: [photo]
   - name: "uk"
-    keywords: []
+    keywords: [british]
   - name: "bullettrain_front"
     keywords: []
   - name: "fire_engine"
-    keywords: []
+    keywords: [transportation, cars, vehicle]
   - name: "massage"
-    keywords: []
+    keywords: [female, girl, woman]
   - name: "ring"
-    keywords: []
+    keywords: [wedding, propose, marriage]
   - name: "umbrella"
-    keywords: []
+    keywords: [rain, weather]
   - name: "bullettrain_side"
     keywords: []
   - name: "fireworks"
-    keywords: []
+    keywords: [photo, festival, carnival, congratulations]
   - name: "meat_on_bone"
-    keywords: []
+    keywords: [good]
   - name: "rocket"
-    keywords: []
+    keywords: [launch, ship, staffmode]
   - name: "unamused"
-    keywords: []
+    keywords: [indifference, face, bored]
   - name: "bus"
-    keywords: []
+    keywords: [car, vehicle, transportation]
   - name: "first_quarter_moon"
-    keywords: []
+    keywords: [nature]
   - name: "mega"
-    keywords: []
+    keywords: [sound, speaker, volume]
   - name: "roller_coaster"
-    keywords: []
+    keywords: [carnival, playground, photo, play, fun]
   - name: "underage"
-    keywords: []
+    keywords: [18, drink, pub, night]
   - name: "busstop"
-    keywords: []
+    keywords: [transportation]
   - name: "first_quarter_moon_with_face"
     keywords: []
   - name: "melon"
-    keywords: []
+    keywords: [fruit, nature, food]
   - name: "rooster"
-    keywords: []
+    keywords: [animal, nature]
   - name: "bust_in_silhouette"
     keywords: []
   - name: "fish"
-    keywords: []
+    keywords: [animal, food, nature]
   - name: "memo"
-    keywords: []
+    keywords: [documents, stationery]
   - name: "rose"
-    keywords: []
+    keywords: [flowers, valentines, love]
   - name: "unlock"
-    keywords: []
+    keywords: [privacy, security]
   - name: "busts_in_silhouette"
     keywords: []
   - name: "fish_cake"
-    keywords: []
+    keywords: [food]
   - name: "mens"
-    keywords: []
+    keywords: [toilet, restroom, wc]
   - name: "rotating_light"
-    keywords: []
+    keywords: [police, ambulance, 911, emergency]
   - name: "up"
-    keywords: []
+    keywords: [blue-square]
   - name: "cactus"
-    keywords: []
+    keywords: [vegetable, plant, nature]
   - name: "fishing_pole_and_fish"
-    keywords: []
+    keywords: [food, hobby]
   - name: "metal"
-    keywords: []
+    keywords: [fingers, rocknroll, concert, band]
   - name: "round_pushpin"
-    keywords: []
+    keywords: [stationery]
   - name: "us"
-    keywords: []
+    keywords: [nation, flag, american]
   - name: "cake"
-    keywords: []
+    keywords: [food, desert]
   - name: "fist"
-    keywords: []
+    keywords: [fingers, hand]
   - name: "metro"
-    keywords: []
+    keywords: [transportation, blue-square, mrt, underground, tube]
   - name: "rowboat"
-    keywords: []
+    keywords: [sports, hobby, water, ship]
   - name: "v"
-    keywords: []
+    keywords: [fingers, ohyeah, hand]
   - name: "calendar"
-    keywords: []
+    keywords: [schedule]
   - name: "five"
-    keywords: []
+    keywords: [numbers, blue-square]
   - name: "microphone"
-    keywords: []
+    keywords: [sound, music, PA]
   - name: "ru"
-    keywords: []
+    keywords: [russian, nation, flag]
   - name: "vertical_traffic_light"
-    keywords: []
+    keywords: [transportation]
   - name: "calling"
-    keywords: []
+    keywords: [iphone, incoming]
   - name: "flags"
-    keywords: []
+    keywords: [fish, japanese]
   - name: "microscope"
-    keywords: []
+    keywords: [laboratory, experiment, zoomin]
   - name: "rugby_football"
-    keywords: []
+    keywords: [sports]
   - name: "vhs"
-    keywords: []
+    keywords: [record, video, oldschool]
   - name: "camel"
-    keywords: []
+    keywords: [animal, nature, hot]
   - name: "flashlight"
-    keywords: []
+    keywords: [dark]
   - name: "milky_way"
-    keywords: []
+    keywords: [photo]
   - name: "runner"
-    keywords: []
+    keywords: [man, walking, exercise]
   - name: "vibration_mode"
-    keywords: []
+    keywords: [orange-square, phone]
   - name: "camera"
-    keywords: []
+    keywords: [gadgets, photo]
   - name: "floppy_disk"
-    keywords: []
+    keywords: [oldschool, technology, save]
   - name: "minibus"
     keywords: []
   - name: "running"
-    keywords: []
+    keywords: [man, walking, exercise]
   - name: "video_camera"
-    keywords: []
+    keywords: [film]
   - name: "cancer"
     keywords: [sign]
   - name: "flower_playing_cards"
     keywords: []
   - name: "minidisc"
-    keywords: []
+    keywords: [technology, record, data]
   - name: "running_shirt_with_sash"
     keywords: [play]
   - name: "video_game"
-    keywords: []
+    keywords: [play]
   - name: "candy"
     keywords: [snack, desert]
   - name: "flushed"
