@@ -6,204 +6,204 @@ rdiscount:
 timezone:         PST
 
 emojis:
-  - name: "+1"
-    keywords: [thumb, thumbs, thumbsup]
-  - name: "clock7"
-    keywords: [time, clock]
-  - name: "handbag"
-    keywords: [fashion, bag, accessory, accessories]
-  - name: "notes"
-    keywords: [music, score]
-  - name: "smirk"
-    keywords: [smile, mean, prank]
   - name: "-1"
     keywords: [thumb, thumbs, thumbsdown]
-  - name: "clock730"
-    keywords: [time, clock]
-  - name: "hankey"
-    keywords: [poop, shit, shitface]
-  - name: "nut_and_bolt"
-    keywords: [handy, tools]
-  - name: "smirk_cat"
-    keywords: [animal, cats]
+  - name: "+1"
+    keywords: [thumb, thumbs, thumbsup]
   - name: "100"
     keywords: [score, perfect, numbers]
-  - name: "clock8"
-    keywords: [time, clock]
-  - name: "hash"
-    keywords: [symbol]
-  - name: "o"
-    keywords: [circle, round]
-  - name: "smoking"
-    keywords: [kills, tobacco, cigarette]
   - name: "1234"
     keywords: [numbers, ]
-  - name: "clock830"
-    keywords: [time, clock]
-  - name: "hatched_chick"
-    keywords: [chicken, baby]
-  - name: "o2"
-    keywords: [alphabet, red-square]
-  - name: "snail"
-    keywords: [slow, animal, shell]
   - name: "8ball"
     keywords: [pool]
-  - name: "clock9"
-    keywords: [time, clock]
-  - name: "hatching_chick"
-    keywords: [chicken, egg, born]
-  - name: "ocean"
-    keywords: [sea, water, wave]
-  - name: "snake"
-    keywords: [animal, ]
   - name: "a"
     keywords: [red-square, alphabet]
-  - name: "clock930"
-    keywords: [time, clock]
-  - name: "headphones"
-    keywords: [music, score, gadgets]
-  - name: "octocat"
-    keywords: [animal, octopus, cat, github, ghonly]
-  - name: "snowboarder"
-    keywords: [sports]
   - name: "ab"
     keywords: [red-square, alphabet]
-  - name: "closed_book"
-    keywords: []
-  - name: "hear_no_evil"
-    keywords: [animal, monkey]
-  - name: "octopus"
-    keywords: [animal]
-  - name: "snowflake"
-    keywords: [winter, season, cold, weather]
   - name: "abc"
     keywords: [blue-square, alphabet]
-  - name: "closed_lock_with_key"
-    keywords: [security, privacy]
-  - name: "heart"
-    keywords: [love, like]
-  - name: "oden"
-    keywords: [food, japanese]
-  - name: "snowman"
-    keywords: [winter, season, cold, weather]
   - name: "abcd"
     keywords: [blue-square, alphabet]
-  - name: "closed_umbrella"
-    keywords: [weather, rain]
-  - name: "heart_decoration"
-    keywords: [purple-square, love, like]
-  - name: "office"
-    keywords: [building, bureau, work]
-  - name: "sob"
-    keywords: [cry, tears, sad, upset]
   - name: "accept"
     keywords: [ok, good, chinese, agree, yes]
-  - name: "cloud"
-    keywords: [weather]
-  - name: "heart_eyes"
-    keywords: [love, like, affection]
-  - name: "ok"
-    keywords: [good, agree, yes, blue-square]
-  - name: "soccer"
-    keywords: [sports, balls]
   - name: "aerial_tramway"
     keywords: [transportation, vehicle]
-  - name: "clubs"
-    keywords: [poker, cards]
-  - name: "heart_eyes_cat"
-    keywords: [animal, love, like, affection, cats]
-  - name: "ok_hand"
-    keywords: [fingers, limbs]
-  - name: "soon"
-    keywords: [arrow, words]
   - name: "airplane"
     keywords: [vehicle, transportation, flight]
-  - name: "cn"
-    keywords: [china, chinese, prc]
-  - name: "heartbeat"
-    keywords: [love, like, affection]
-  - name: "ok_woman"
-    keywords: [women, girl, female, pink, human]
-  - name: "sos"
-    keywords: [help, red-square, words, emergency]
   - name: "alarm_clock"
     keywords: [time, wake]
-  - name: "cocktail"
-    keywords: [drink, drunk, alcohol, beverage]
-  - name: "heartpulse"
-    keywords: [like, love, affection]
-  - name: "older_man"
-    keywords: [human, male, men]
-  - name: "sound"
-    keywords: [volume, speaker]
   - name: "alien"
     keywords: [UFO, paul]
-  - name: "coffee"
-    keywords: [drink, beverage, cafe, espresso]
-  - name: "hearts"
-    keywords: [poker, cards]
-  - name: "older_woman"
-    keywords: [female, women, girl]
-  - name: "space_invader"
-    keywords: [game]
   - name: "ambulance"
     keywords: [health, 911]
-  - name: "cold_sweat"
-    keywords: [face, nervous]
-  - name: "heavy_check_mark"
-    keywords: [ok, nike]
-  - name: "on"
-    keywords: [arrow, words]
-  - name: "spades"
-    keywords: [poker, cards]
   - name: "anchor"
     keywords: [ship, ferry]
-  - name: "collision"
-    keywords: [boom, bomb, blown]
-  - name: "heavy_division_sign"
-    keywords: [divide, math, calculation]
-  - name: "oncoming_automobile"
-    keywords: [car, vehicle, transportation]
-  - name: "spaghetti"
-    keywords: [food, italian, noodle]
   - name: "angel"
     keywords: [heaven, wings]
-  - name: "computer"
-    keywords: [tech, laptop]
-  - name: "heavy_dollar_sign"
-    keywords: [money]
-  - name: "oncoming_bus"
-    keywords: [vehicle, transportation]
-  - name: "sparkle"
-    keywords: [stars, green-square]
   - name: "anger"
     keywords: [angry, mad]
-  - name: "confetti_ball"
-    keywords: [festival, party]
-  - name: "heavy_exclamation_mark"
-    keywords: [surprise]
-  - name: "oncoming_police_car"
-    keywords: [vehicle, law, enforcement]
-  - name: "sparkler"
-    keywords: [stars, night, shine]
   - name: "angry"
     keywords: [mad, face, annoyed]
-  - name: "confounded"
-    keywords: [confused, sick, unwell]
-  - name: "heavy_minus_sign"
-    keywords: [math, calculation]
-  - name: "oncoming_taxi"
-    keywords: [vehicle, cars, uber]
-  - name: "sparkles"
-    keywords: [stars, shine, shiny, cool]
   - name: "anguished"
     keywords: [face, stunned]
+  - name: "clock7"
+    keywords: [time, clock]
+  - name: "clock730"
+    keywords: [time, clock]
+  - name: "clock8"
+    keywords: [time, clock]
+  - name: "clock830"
+    keywords: [time, clock]
+  - name: "clock9"
+    keywords: [time, clock]
+  - name: "clock930"
+    keywords: [time, clock]
+  - name: "closed_book"
+    keywords: []
+  - name: "closed_lock_with_key"
+    keywords: [security, privacy]
+  - name: "closed_umbrella"
+    keywords: [weather, rain]
+  - name: "cloud"
+    keywords: [weather]
+  - name: "clubs"
+    keywords: [poker, cards]
+  - name: "cn"
+    keywords: [china, chinese, prc]
+  - name: "cocktail"
+    keywords: [drink, drunk, alcohol, beverage]
+  - name: "coffee"
+    keywords: [drink, beverage, cafe, espresso]
+  - name: "cold_sweat"
+    keywords: [face, nervous]
+  - name: "collision"
+    keywords: [boom, bomb, blown]
+  - name: "computer"
+    keywords: [tech, laptop]
+  - name: "confetti_ball"
+    keywords: [festival, party]
+  - name: "confounded"
+    keywords: [confused, sick, unwell]
   - name: "confused"
     keywords: [indifference]
+  - name: "handbag"
+    keywords: [fashion, bag, accessory, accessories]
+  - name: "hankey"
+    keywords: [poop, shit, shitface]
+  - name: "hash"
+    keywords: [symbol]
+  - name: "hatched_chick"
+    keywords: [chicken, baby]
+  - name: "hatching_chick"
+    keywords: [chicken, egg, born]
+  - name: "headphones"
+    keywords: [music, score, gadgets]
+  - name: "hear_no_evil"
+    keywords: [animal, monkey]
+  - name: "heart_decoration"
+    keywords: [purple-square, love, like]
+  - name: "heart_eyes_cat"
+    keywords: [animal, love, like, affection, cats]
+  - name: "heart_eyes"
+    keywords: [love, like, affection]
+  - name: "heart"
+    keywords: [love, like]
+  - name: "heartbeat"
+    keywords: [love, like, affection]
+  - name: "heartpulse"
+    keywords: [like, love, affection]
+  - name: "hearts"
+    keywords: [poker, cards]
+  - name: "heavy_check_mark"
+    keywords: [ok, nike]
+  - name: "heavy_division_sign"
+    keywords: [divide, math, calculation]
+  - name: "heavy_dollar_sign"
+    keywords: [money]
+  - name: "heavy_exclamation_mark"
+    keywords: [surprise]
+  - name: "heavy_minus_sign"
+    keywords: [math, calculation]
   - name: "heavy_multiplication_x"
     keywords: [math, calculation]
+  - name: "notes"
+    keywords: [music, score]
+  - name: "nut_and_bolt"
+    keywords: [handy, tools]
+  - name: "o"
+    keywords: [circle, round]
+  - name: "o2"
+    keywords: [alphabet, red-square]
+  - name: "ocean"
+    keywords: [sea, water, wave]
+  - name: "octocat"
+    keywords: [animal, octopus, cat, github, ghonly]
+  - name: "octopus"
+    keywords: [animal]
+  - name: "oden"
+    keywords: [food, japanese]
+  - name: "office"
+    keywords: [building, bureau, work]
+  - name: "ok_hand"
+    keywords: [fingers, limbs]
+  - name: "ok_woman"
+    keywords: [women, girl, female, pink, human]
+  - name: "ok"
+    keywords: [good, agree, yes, blue-square]
+  - name: "older_man"
+    keywords: [human, male, men]
+  - name: "older_woman"
+    keywords: [female, women, girl]
+  - name: "on"
+    keywords: [arrow, words]
+  - name: "oncoming_automobile"
+    keywords: [car, vehicle, transportation]
+  - name: "oncoming_bus"
+    keywords: [vehicle, transportation]
+  - name: "oncoming_police_car"
+    keywords: [vehicle, law, enforcement]
+  - name: "oncoming_taxi"
+    keywords: [vehicle, cars, uber]
   - name: "one"
     keywords: [blue-square, numbers, 1]
+  - name: "smirk_cat"
+    keywords: [animal, cats]
+  - name: "smirk"
+    keywords: [smile, mean, prank]
+  - name: "smoking"
+    keywords: [kills, tobacco, cigarette]
+  - name: "snail"
+    keywords: [slow, animal, shell]
+  - name: "snake"
+    keywords: [animal, ]
+  - name: "snowboarder"
+    keywords: [sports]
+  - name: "snowflake"
+    keywords: [winter, season, cold, weather]
+  - name: "snowman"
+    keywords: [winter, season, cold, weather]
+  - name: "sob"
+    keywords: [cry, tears, sad, upset]
+  - name: "soccer"
+    keywords: [sports, balls]
+  - name: "soon"
+    keywords: [arrow, words]
+  - name: "sos"
+    keywords: [help, red-square, words, emergency]
+  - name: "sound"
+    keywords: [volume, speaker]
+  - name: "space_invader"
+    keywords: [game]
+  - name: "spades"
+    keywords: [poker, cards]
+  - name: "spaghetti"
+    keywords: [food, italian, noodle]
+  - name: "sparkle"
+    keywords: [stars, green-square]
+  - name: "sparkler"
+    keywords: [stars, night, shine]
+  - name: "sparkles"
+    keywords: [stars, shine, shiny, cool]
   - name: "sparkling_heart"
     keywords: [love, like, affection]
   - name: "ant"
