@@ -1,8 +1,12 @@
 $ ->
-  $("li, .storyline").on "mouseover", ->
-    i = $(this).find("input").get(0)
-    if i.value
-      $(i).select()
+
+  if navigator.userAgent.match(/iPad|iPhone/i)
+    $("li input, .queue").click ->
+      this.selectionStart = 0
+      this.selectionEnd = this.value.length
+  else 
+    $("li, .storyline").on "mouseover", ->
+      i = $(this).find("input").get(0)
       i.selectionStart = 0
       i.selectionEnd = i.value.length
 
@@ -15,4 +19,6 @@ $ ->
       $(".queue").val $.map( $(".story img"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
     $(".queue").val $.map( $(".story img"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
 
-  $("li img").on "click", -> $(this).addToStoryLine()
+  $("li img").on "click", (e) -> 
+    event.stopPropagation()
+    $(this).addToStoryLine()

@@ -1,6 +1,6 @@
 @import "bourbon/bourbon";
 
-html { padding: 0 }
+html { padding: 0; overflow: hidden; }
 
 body {
   font-family: sans-serif;
@@ -22,6 +22,7 @@ header, footer {
 }
 
 section {
+  overflow: hidden;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
@@ -29,8 +30,10 @@ section {
   padding: 20px;
   &.list {
   }
-  &.tell-me-a-story {
+  &.tell-me-a-story, &.groups {
     border-bottom: 1px solid #ddd;
+  }
+  &.tell-me-a-story {
     padding-bottom: 5px;
   }
 }
@@ -39,7 +42,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #469;
-  padding: 0 10px;
+  padding: 0 5px;
   font-weight: bold;
   img { width: 16px; height: 16px; }
 }
@@ -132,10 +135,18 @@ input.queue {
     position: absolute;
     top: 0; right: 0;
     background: none;
+    text-align: right;
     padding: 12px 15px;
+    img { display: none; }
+    img[src*=mag] { display: inline; }
     input.search { min-height: 0; width: 100px; }
   }
+
+  section input.queue { width: 100%; }
+
   input { font-size: 14px; }
+
+  ul { padding: 0; }
 
   li { 
     width: 49%;

@@ -1,5 +1,6 @@
 html {
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 body {
   font-family: sans-serif;
@@ -23,20 +24,22 @@ header, footer {
   text-align: center; }
 
 section {
+  overflow: hidden;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
   padding: 20px; }
+  section.tell-me-a-story, section.groups {
+    border-bottom: 1px solid #ddd; }
   section.tell-me-a-story {
-    border-bottom: 1px solid #ddd;
     padding-bottom: 5px; }
 
 a {
   text-decoration: none;
   cursor: pointer;
   color: #469;
-  padding: 0 10px;
+  padding: 0 5px;
   font-weight: bold; }
   a img {
     width: 16px;
@@ -139,13 +142,24 @@ input.queue {
     top: 0;
     right: 0;
     background: none;
+    text-align: right;
     padding: 12px 15px; }
+    section.search img {
+      display: none; }
+    section.search img[src*=mag] {
+      display: inline; }
     section.search input.search {
       min-height: 0;
       width: 100px; }
 
+  section input.queue {
+    width: 100%; }
+
   input {
     font-size: 14px; }
+
+  ul {
+    padding: 0; }
 
   li {
     width: 49%; } }
