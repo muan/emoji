@@ -144,10 +144,6 @@ input.queue {
     background: none;
     text-align: right;
     padding: 12px 15px; }
-    section.search img {
-      display: none; }
-    section.search img[src*=mag] {
-      display: inline; }
     section.search input.search {
       min-height: 0;
       width: 100px; }
