@@ -1,5 +1,12 @@
 $ ->
 
+  $("input.search").focus()
+
+  $(document).keydown (e) ->
+    if e.keyCode == 83 && !$("input.search:focus").length
+      $("input.search").focus()
+      false
+
   if navigator.userAgent.match(/iPad|iPhone/i)
     $("li input, .queue").click ->
       this.selectionStart = 0
