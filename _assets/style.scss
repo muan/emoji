@@ -58,6 +58,9 @@ li {
     border: 0;
     box-shadow: none;
     background-color: transparent;
+    &:focus {
+      box-shadow: none; outline: none;
+    }
   }
   &:hover {
     zoom: 2;

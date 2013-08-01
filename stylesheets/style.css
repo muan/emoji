@@ -65,6 +65,9 @@ li {
     border: 0;
     box-shadow: none;
     background-color: transparent; }
+    li input:focus {
+      box-shadow: none;
+      outline: none; }
   li:hover {
     zoom: 2;
     display: block;
