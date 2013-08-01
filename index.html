@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<section class="search">
+  <img src="/emojis/yum.png" width="20" />
+  <img src="/emojis/mag.png" width="20" />
+  <img src="/emojis/exclamation.png" width="20" />
+  <input type="search" class="search speedy-filter" />
+  <br />
+  <img src="/emojis/lips.png" width="20" />
+  <img src="/emojis/book.png" width="20" />
+  <img src="/emojis/question.png" width="20" />
+  <input type="text" class="story" />
+
+</section>
+
+<section class="groups">
+  <a href="#blue" class="group"><img src="/emojis/large_blue_circle.png" /></a>
+  <a href="#cats" class="group"><img src="/emojis/cat.png" /></a>
+  <a href="#monkey" class="group"><img src="/emojis/hear_no_evil.png" /></a>
+  <a href="#transportation" class="group"><img src="/emojis/oncoming_automobile.png" /></a>
+  <a href="#food" class="group"><img src="/emojis/ramen.png" /></a>
+  <a href="#time" class="group"><img src="/emojis/clock7.png" /></a>
+  <a href="#ghonly" class="group"><img src="/emojis/octocat.png" /></a>
+  <a href="#" class="group"><img src="/emojis/x.png" /></a>
+</section>
+<section class="list">
+  <ul>
+    {% for emoji in site.emojis %}
+      <li class="result">
+        <img src="/emojis/{{ emoji.name }}.png" title="{{ emoji.name }}" />
+        <input type="text" value=":{{ emoji.name }}:" />
+        <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

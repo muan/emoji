@@ -1,0 +1,118 @@
+@import "bourbon/bourbon";
+
+html { padding: 0 }
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6em;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  background-color: #f6f6f6;
+  img { vertical-align: middle; }
+  * { @include box-sizing(border-box); }
+}
+
+header, footer {
+  background-color: #f0f0f0;
+  padding: 70px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+section {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #469;
+  padding: 0 10px;
+  font-weight: bold;
+  img { width: 16px; height: 16px; }
+}
+
+ul {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+li {
+  @include inline-block;
+  margin: 0;
+  width: 140px;
+  padding: 8px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  .keywords {
+    font-size: 0;
+  }
+  input {
+    @include appearance(none);
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  &:hover {
+    zoom: 2;
+    display: block;
+    position: absolute;
+    padding: 30px;
+    img { height: 40px; width: 40px; }
+  }
+}
+
+ul, li { 
+  list-style-type: none;
+  img { width: 20px; height: 20px; }
+}
+
+input.search, input.story {
+  min-height: 34px;
+  padding: 7px 8px;
+  outline: none;
+  color: #333;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: right center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+  @include transition(all 0.2s ease-in);
+
+  width: 240px;
+  margin-left: 8px;
+  @include appearance(none);
+  &:hover { background-color: #fff; }
+  &:focus {
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5);
+  }
+}
+
+@media (max-width: 480px) { 
+
+  header, footer {
+    padding: 20px;
+    text-align: left;
+  }
+
+  section.search {
+    position: absolute;
+    top: 0; right: 0;
+    background: none;
+    padding: 12px 15px;
+    input.search { min-height: 0; width: 100px; }
+  }
+  input { font-size: 14px; }
+
+  li { 
+    width: 49%;
+  }
+}

@@ -1,0 +1,1774 @@
+title:            Emojis
+permalink:        pretty
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+timezone:         PST
+
+emojis:
+  - name: "+1"
+    keywords: [thumb, thumbs, thumbsup]
+  - name: "clock7"
+    keywords: [time, clock]
+  - name: "handbag"
+    keywords: [fashion, bag, accessory, accessories]
+  - name: "notes"
+    keywords: [music, score]
+  - name: "smirk"
+    keywords: [smile, mean, prank]
+  - name: "-1"
+    keywords: [thumb, thumbs, thumbsdown]
+  - name: "clock730"
+    keywords: [time, clock]
+  - name: "hankey"
+    keywords: [poop, shit, shitface]
+  - name: "nut_and_bolt"
+    keywords: [handy, tools]
+  - name: "smirk_cat"
+    keywords: [animal, cats]
+  - name: "100"
+    keywords: [score, perfect, numbers]
+  - name: "clock8"
+    keywords: [time, clock]
+  - name: "hash"
+    keywords: [symbol]
+  - name: "o"
+    keywords: [circle, round]
+  - name: "smoking"
+    keywords: [kills, tobacco, cigarette]
+  - name: "1234"
+    keywords: [numbers, ]
+  - name: "clock830"
+    keywords: [time, clock]
+  - name: "hatched_chick"
+    keywords: [chicken, baby]
+  - name: "o2"
+    keywords: [alphabet, red-square]
+  - name: "snail"
+    keywords: [slow, animal, shell]
+  - name: "8ball"
+    keywords: [pool]
+  - name: "clock9"
+    keywords: [time, clock]
+  - name: "hatching_chick"
+    keywords: [chicken, egg, born]
+  - name: "ocean"
+    keywords: [sea, water, wave]
+  - name: "snake"
+    keywords: [animal, ]
+  - name: "a"
+    keywords: [red-square, alphabet]
+  - name: "clock930"
+    keywords: [time, clock]
+  - name: "headphones"
+    keywords: [music, score, gadgets]
+  - name: "octocat"
+    keywords: [animal, octopus, cat, github, ghonly]
+  - name: "snowboarder"
+    keywords: [sports]
+  - name: "ab"
+    keywords: [red-square, alphabet]
+  - name: "closed_book"
+    keywords: []
+  - name: "hear_no_evil"
+    keywords: [animal, monkey]
+  - name: "octopus"
+    keywords: [animal]
+  - name: "snowflake"
+    keywords: [winter, season, cold, weather]
+  - name: "abc"
+    keywords: [blue-square, alphabet]
+  - name: "closed_lock_with_key"
+    keywords: [security, privacy]
+  - name: "heart"
+    keywords: [love, like]
+  - name: "oden"
+    keywords: [food, japanese]
+  - name: "snowman"
+    keywords: [winter, season, cold, weather]
+  - name: "abcd"
+    keywords: [blue-square, alphabet]
+  - name: "closed_umbrella"
+    keywords: [weather, rain]
+  - name: "heart_decoration"
+    keywords: [purple-square, love, like]
+  - name: "office"
+    keywords: [building, bureau, work]
+  - name: "sob"
+    keywords: [cry, tears, sad, upset]
+  - name: "accept"
+    keywords: [ok, good, chinese, agree, yes]
+  - name: "cloud"
+    keywords: [weather]
+  - name: "heart_eyes"
+    keywords: [love, like, affection]
+  - name: "ok"
+    keywords: [good, agree, yes, blue-square]
+  - name: "soccer"
+    keywords: [sports, balls]
+  - name: "aerial_tramway"
+    keywords: [transportation, vehicle]
+  - name: "clubs"
+    keywords: [poker, cards]
+  - name: "heart_eyes_cat"
+    keywords: [animal, love, like, affection, cats]
+  - name: "ok_hand"
+    keywords: [fingers, limbs]
+  - name: "soon"
+    keywords: [arrow, words]
+  - name: "airplane"
+    keywords: [vehicle, transportation, flight]
+  - name: "cn"
+    keywords: [china, chinese, prc]
+  - name: "heartbeat"
+    keywords: [love, like, affection]
+  - name: "ok_woman"
+    keywords: [women, girl, female, pink, human]
+  - name: "sos"
+    keywords: [help, red-square, words, emergency]
+  - name: "alarm_clock"
+    keywords: [time, wake]
+  - name: "cocktail"
+    keywords: [drink, drunk, alcohol, beverage]
+  - name: "heartpulse"
+    keywords: [like, love, affection]
+  - name: "older_man"
+    keywords: [human, male, men]
+  - name: "sound"
+    keywords: [volume, speaker]
+  - name: "alien"
+    keywords: [UFO, paul]
+  - name: "coffee"
+    keywords: [drink, beverage, cafe, espresso]
+  - name: "hearts"
+    keywords: [poker, cards]
+  - name: "older_woman"
+    keywords: [female, women, girl]
+  - name: "space_invader"
+    keywords: [game]
+  - name: "ambulance"
+    keywords: [health, 911]
+  - name: "cold_sweat"
+    keywords: [face, nervous]
+  - name: "heavy_check_mark"
+    keywords: [ok, nike]
+  - name: "on"
+    keywords: [arrow, words]
+  - name: "spades"
+    keywords: [poker, cards]
+  - name: "anchor"
+    keywords: [ship, ferry]
+  - name: "collision"
+    keywords: [boom, bomb, blown]
+  - name: "heavy_division_sign"
+    keywords: [divide, math, calculation]
+  - name: "oncoming_automobile"
+    keywords: [car, vehicle, transportation]
+  - name: "spaghetti"
+    keywords: [food, italian, noodle]
+  - name: "angel"
+    keywords: [heaven, wings]
+  - name: "computer"
+    keywords: [tech, laptop]
+  - name: "heavy_dollar_sign"
+    keywords: [money]
+  - name: "oncoming_bus"
+    keywords: [vehicle, transportation]
+  - name: "sparkle"
+    keywords: [stars, green-square]
+  - name: "anger"
+    keywords: [angry, mad]
+  - name: "confetti_ball"
+    keywords: [festival, party]
+  - name: "heavy_exclamation_mark"
+    keywords: [surprise]
+  - name: "oncoming_police_car"
+    keywords: [vehicle, law, enforcement]
+  - name: "sparkler"
+    keywords: [stars, night, shine]
+  - name: "angry"
+    keywords: [mad, face, annoyed]
+  - name: "confounded"
+    keywords: [confused, sick, unwell]
+  - name: "heavy_minus_sign"
+    keywords: [math, calculation]
+  - name: "oncoming_taxi"
+    keywords: [vehicle, cars, uber]
+  - name: "sparkles"
+    keywords: [stars, shine, shiny, cool]
+  - name: "anguished"
+    keywords: [face, stunned]
+  - name: "confused"
+    keywords: [indifference]
+  - name: "heavy_multiplication_x"
+    keywords: [math, calculation]
+  - name: "one"
+    keywords: [blue-square, numbers, 1]
+  - name: "sparkling_heart"
+    keywords: [love, like, affection]
+  - name: "ant"
+    keywords: [animal, insect]
+  - name: "congratulations"
+    keywords: [chinese, japanese]
+  - name: "heavy_plus_sign"
+    keywords: [math, calculation]
+  - name: "open_book"
+    keywords: []
+  - name: "speak_no_evil"
+    keywords: [monkey, animal]
+  - name: "apple"
+    keywords: [fruit, mac]
+  - name: "construction"
+    keywords: []
+  - name: "helicopter"
+    keywords: [transportation, vehicle]
+  - name: "open_file_folder"
+    keywords: [documents]
+  - name: "speaker"
+    keywords: [volume, sound]
+  - name: "aquarius"
+    keywords: [sign, purple-square]
+  - name: "construction_worker"
+    keywords: [man, male, human]
+  - name: "herb"
+    keywords: [vegetable, plant, medicine]
+  - name: "open_hands"
+    keywords: [fingers]
+  - name: "speech_balloon"
+    keywords: [bubble, words]
+  - name: "aries"
+    keywords: [sign, purple-square]
+  - name: "convenience_store"
+    keywords: [building]
+  - name: "hibiscus"
+    keywords: [plant, vegetable, flowers]
+  - name: "open_mouth"
+    keywords: [face, surprise, impressed, wow]
+  - name: "speedboat"
+    keywords: [ship, transportation, vehicle]
+  - name: "arrow_backward"
+    keywords: [arrow, blue-square]
+  - name: "cookie"
+    keywords: [food, snack, oreo, chocolate]
+  - name: "high_brightness"
+    keywords: [sun, light]
+  - name: "ophiuchus"
+    keywords: [sign, purple-square]
+  - name: "squirrel"
+    keywords: [animal, sherlock, inspector, dectective]
+  - name: "arrow_double_down"
+    keywords: [arrow, blue-square]
+  - name: "cool"
+    keywords: [words, blue-square]
+  - name: "high_heel"
+    keywords: [fashion, shoes, female]
+  - name: "orange_book"
+    keywords: []
+  - name: "star"
+    keywords: [night]
+  - name: "arrow_double_up"
+    keywords: [arrow, blue-square]
+  - name: "cop"
+    keywords: [man, police, law, enforcement, arrest]
+  - name: "hocho"
+    keywords: [knife, cut]
+  - name: "outbox_tray"
+    keywords: [inbox, email]
+  - name: "star2"
+    keywords: [night]
+  - name: "arrow_down"
+    keywords: [arrow, blue-square]
+  - name: "copyright"
+    keywords: [ip, license]
+  - name: "honey_pot"
+    keywords: [bees]
+  - name: "ox"
+    keywords: [animal, cow, beef]
+  - name: "stars"
+    keywords: [night]
+  - name: "arrow_down_small"
+    keywords: [arrow, blue-square]
+  - name: "corn"
+    keywords: [food, vegetable, plant]
+  - name: "honeybee"
+    keywords: [animal, insect]
+  - name: "package"
+    keywords: [mail, gift]
+  - name: "station"
+    keywords: [transportation, vehicle, public]
+  - name: "arrow_forward"
+    keywords: [arrow, blue-square]
+  - name: "couple"
+    keywords: [people, human, love, date, dating, like, affection, valentines]
+  - name: "horse"
+    keywords: [animal]
+  - name: "page_facing_up"
+    keywords: [documents]
+  - name: "statue_of_liberty"
+    keywords: [american, newyork]
+  - name: "arrow_heading_down"
+    keywords: [blue-square, arrow]
+  - name: "couple_with_heart"
+    keywords: [love, like, affection, human, dating, valentines]
+  - name: "horse_racing"
+    keywords: [animal, betting]
+  - name: "page_with_curl"
+    keywords: [documents]
+  - name: "steam_locomotive"
+    keywords: [transportation, vehicle, train]
+  - name: "arrow_heading_up"
+    keywords: [blue-square, arrow]
+  - name: "couplekiss"
+    keywords: [valentines, love, like, dating]
+  - name: "hospital"
+    keywords: [building, health, surgery, doctor]
+  - name: "pager"
+    keywords: [bbcall, oldschool]
+  - name: "stew"
+    keywords: [food]
+  - name: "arrow_left"
+    keywords: [blue-square, arrow]
+  - name: "cow"
+    keywords: [beef, ox, animal]
+  - name: "hotel"
+    keywords: [building, whotel, accomodation, checkin]
+  - name: "palm_tree"
+    keywords: [plant, vegetable, nature]
+  - name: "straight_ruler"
+    keywords: [stationery]
+  - name: "arrow_lower_left"
+    keywords: [arrow, blue-square]
+  - name: "cow2"
+    keywords: [beef, ox, animal, nature]
+  - name: "hotsprings"
+    keywords: []
+  - name: "panda_face"
+    keywords: [animal, nature]
+  - name: "strawberry"
+    keywords: [fruit, food, nature]
+  - name: "arrow_lower_right"
+    keywords: [arrow, blue-square]
+  - name: "credit_card"
+    keywords: [money, pay, dollar, bill]
+  - name: "hourglass"
+    keywords: [time, clock, oldschool]
+  - name: "paperclip"
+    keywords: [documents, stationery]
+  - name: "stuck_out_tongue"
+    keywords: [face, prank, childish]
+  - name: "arrow_right"
+    keywords: [blue-square]
+  - name: "crescent_moon"
+    keywords: [night]
+  - name: "hourglass_flowing_sand"
+    keywords: [oldschool, time, countdown]
+  - name: "parking"
+    keywords: [cars, blue-square, alphabet]
+  - name: "stuck_out_tongue_closed_eyes"
+    keywords: [face, prank]
+  - name: "arrow_right_hook"
+    keywords: [blue-square]
+  - name: "crocodile"
+    keywords: [animal, nature]
+  - name: "house"
+    keywords: [building, home]
+  - name: "part_alternation_mark"
+    keywords: [graph]
+  - name: "stuck_out_tongue_winking_eye"
+    keywords: [face, prank, childish]
+  - name: "arrow_up"
+    keywords: [blue-square]
+  - name: "crossed_flags"
+    keywords: [japan]
+  - name: "house_with_garden"
+    keywords: [home, plant, nature]
+  - name: "partly_sunny"
+    keywords: [weather, nature, cloud, morning]
+  - name: "sun_with_face"
+    keywords: [morning]
+  - name: "arrow_up_down"
+    keywords: [blue-square]
+  - name: "crown"
+    keywords: [king, kod]
+  - name: "hurtrealbad"
+    keywords: [mad]
+  - name: "passport_control"
+    keywords: [custom, blue-square]
+  - name: "sunflower"
+    keywords: [nature, plant, vegetable]
+  - name: "arrow_up_small"
+    keywords: [blue-square]
+  - name: "cry"
+    keywords: [tears, sad, face]
+  - name: "hushed"
+    keywords: [face, woo]
+  - name: "paw_prints"
+    keywords: [animal]
+  - name: "sunglasses"
+    keywords: [face]
+  - name: "arrow_upper_left"
+    keywords: [blue-square]
+  - name: "crying_cat_face"
+    keywords: [animal, tears, weep, sad, cats]
+  - name: "ice_cream"
+    keywords: [food, hot, desert]
+  - name: "peach"
+    keywords: [fruit, nature, food]
+  - name: "sunny"
+    keywords: [weather]
+  - name: "arrow_upper_right"
+    keywords: [blue-square]
+  - name: "crystal_ball"
+    keywords: [disco, party]
+  - name: "icecream"
+    keywords: [food, hot, desert]
+  - name: "pear"
+    keywords: [fruit, nature]
+  - name: "sunrise"
+    keywords: [morning, view, vacation, photo]
+  - name: "arrows_clockwise"
+    keywords: [sync]
+  - name: "cupid"
+    keywords: [love, like, heart, affection]
+  - name: "id"
+    keywords: [purple-square, words]
+  - name: "pencil"
+    keywords: [station, documents]
+  - name: "sunrise_over_mountains"
+    keywords: [view, vacation, photo]
+  - name: "arrows_counterclockwise"
+    keywords: [blue-square, sync]
+  - name: "curly_loop"
+    keywords: [scribble]
+  - name: "ideograph_advantage"
+    keywords: [chinese, obtain, get]
+  - name: "pencil2"
+    keywords: [stationery]
+  - name: "surfer"
+    keywords: [sports, ocean, sea]
+  - name: "art"
+    keywords: [design, paint, draw]
+  - name: "currency_exchange"
+    keywords: [money, dollar]
+  - name: "imp"
+    keywords: [devil, evil, angry, horns]
+  - name: "penguin"
+    keywords: [animal, nature]
+  - name: "sushi"
+    keywords: [food, japanese]
+  - name: "articulated_lorry"
+    keywords: [vehicle, cars, transportation]
+  - name: "curry"
+    keywords: [food]
+  - name: "inbox_tray"
+    keywords: [email]
+  - name: "pensive"
+    keywords: [face, sad]
+  - name: "suspect"
+    keywords: [mad, ghonly]
+  - name: "astonished"
+    keywords: [face]
+  - name: "custard"
+    keywords: [desert, food]
+  - name: "incoming_envelope"
+    keywords: [email, inbox]
+  - name: "performing_arts"
+    keywords: [acting, theater, drama]
+  - name: "suspension_railway"
+    keywords: [vehicle, transportation]
+  - name: "athletic_shoe"
+    keywords: [shoes, sports]
+  - name: "customs"
+    keywords: [passport, border]
+  - name: "information_desk_person"
+    keywords: [female, girl, woman, human]
+  - name: "persevere"
+    keywords: [face, sick]
+  - name: "sweat"
+    keywords: [face, hot]
+  - name: "atm"
+    keywords: [money, cash, blue-square]
+  - name: "cyclone"
+    keywords: [swirl]
+  - name: "information_source"
+    keywords: [blue-square, alphabet]
+  - name: "person_frowning"
+    keywords: [female, girl, woman]
+  - name: "sweat_drops"
+    keywords: [water]
+  - name: "b"
+    keywords: [red-square, alphabet]
+  - name: "dancer"
+    keywords: [female, girl, woman]
+  - name: "innocent"
+    keywords: [face, angel, heaven]
+  - name: "person_with_blond_hair"
+    keywords: [man, male]
+  - name: "sweat_smile"
+    keywords: [hot, happy]
+  - name: "baby"
+    keywords: [child]
+  - name: "dancers"
+    keywords: [female, bunny, women, girls]
+  - name: "interrobang"
+    keywords: [wat]
+  - name: "person_with_pouting_face"
+    keywords: [female, girl, woman]
+  - name: "sweet_potato"
+    keywords: [food, nature]
+  - name: "baby_bottle"
+    keywords: [food, container]
+  - name: "dango"
+    keywords: [food]
+  - name: "iphone"
+    keywords: [technology, apple, gadgets]
+  - name: "phone"
+    keywords: [technology, communication]
+  - name: "swimmer"
+    keywords: [sports]
+  - name: "baby_chick"
+    keywords: [animal, chicken]
+  - name: "dart"
+    keywords: [game, bar]
+  - name: "it"
+    keywords: [italy]
+  - name: "pig"
+    keywords: [animal]
+  - name: "symbols"
+    keywords: [blue-square]
+  - name: "baby_symbol"
+    keywords: [orange-square, child]
+  - name: "dash"
+    keywords: []
+  - name: "izakaya_lantern"
+    keywords: [light]
+  - name: "pig2"
+    keywords: [animal, nature]
+  - name: "syringe"
+    keywords: [health, hospital, drugs, blood]
+  - name: "back"
+    keywords: [arrow]
+  - name: "date"
+    keywords: [calendar, schedule]
+  - name: "jack_o_lantern"
+    keywords: [halloween]
+  - name: "pig_nose"
+    keywords: [animal]
+  - name: "tada"
+    keywords: [party, contulations]
+  - name: "baggage_claim"
+    keywords: [blue-square, airport, transport]
+  - name: "de"
+    keywords: [german, nation]
+  - name: "japan"
+    keywords: [nation]
+  - name: "pill"
+    keywords: [health, medicine]
+  - name: "tanabata_tree"
+    keywords: [plant, nature]
+  - name: "balloon"
+    keywords: [party]
+  - name: "deciduous_tree"
+    keywords: [plant, nature]
+  - name: "japanese_castle"
+    keywords: [photo, building]
+  - name: "pineapple"
+    keywords: [fruit, nature, food]
+  - name: "tangerine"
+    keywords: [food, fruit, nature]
+  - name: "ballot_box_with_check"
+    keywords: [ok, agree]
+  - name: "department_store"
+    keywords: [building, shopping, mall]
+  - name: "japanese_goblin"
+    keywords: []
+  - name: "pisces"
+    keywords: [purple-square, sign]
+  - name: "taurus"
+    keywords: [purple-square, sign]
+  - name: "bamboo"
+    keywords: [plant, nature, vegetable]
+  - name: "diamond_shape_with_a_dot_inside"
+    keywords: []
+  - name: "japanese_ogre"
+    keywords: [monster]
+  - name: "pizza"
+    keywords: [food, party]
+  - name: "taxi"
+    keywords: [uber, vehicle, cars, transportation]
+  - name: "banana"
+    keywords: [fruit, food]
+  - name: "diamonds"
+    keywords: [poker, cards]
+  - name: "jeans"
+    keywords: [fashion, shopping]
+  - name: "point_down"
+    keywords: []
+  - name: "tea"
+    keywords: []
+  - name: "bangbang"
+    keywords: []
+  - name: "disappointed"
+    keywords: []
+  - name: "joy"
+    keywords: [cry, tears, weep, happy, haha]
+  - name: "point_left"
+    keywords: []
+  - name: "telephone"
+    keywords: []
+  - name: "bank"
+    keywords: []
+  - name: "disappointed_relieved"
+    keywords: []
+  - name: "joy_cat"
+    keywords: [animal, cats]
+  - name: "point_right"
+    keywords: []
+  - name: "telephone_receiver"
+    keywords: []
+  - name: "bar_chart"
+    keywords: []
+  - name: "dizzy"
+    keywords: []
+  - name: "jp"
+    keywords: []
+  - name: "point_up"
+    keywords: []
+  - name: "telescope"
+    keywords: []
+  - name: "barber"
+    keywords: []
+  - name: "dizzy_face"
+    keywords: []
+  - name: "key"
+    keywords: []
+  - name: "point_up_2"
+    keywords: []
+  - name: "tennis"
+    keywords: []
+  - name: "baseball"
+    keywords: []
+  - name: "do_not_litter"
+    keywords: []
+  - name: "keycap_ten"
+    keywords: []
+  - name: "police_car"
+    keywords: []
+  - name: "tent"
+    keywords: []
+  - name: "basketball"
+    keywords: []
+  - name: "dog"
+    keywords: []
+  - name: "kimono"
+    keywords: []
+  - name: "poodle"
+    keywords: []
+  - name: "thought_balloon"
+    keywords: []
+  - name: "bath"
+    keywords: []
+  - name: "dog2"
+    keywords: []
+  - name: "kiss"
+    keywords: []
+  - name: "poop"
+    keywords: []
+  - name: "three"
+    keywords: []
+  - name: "bathtub"
+    keywords: []
+  - name: "dollar"
+    keywords: []
+  - name: "kissing"
+    keywords: []
+  - name: "post_office"
+    keywords: []
+  - name: "thumbsdown"
+    keywords: []
+  - name: "battery"
+    keywords: []
+  - name: "dolls"
+    keywords: []
+  - name: "kissing_cat"
+    keywords: [animal, cats]
+  - name: "postal_horn"
+    keywords: []
+  - name: "thumbsup"
+    keywords: []
+  - name: "bear"
+    keywords: []
+  - name: "dolphin"
+    keywords: []
+  - name: "kissing_closed_eyes"
+    keywords: []
+  - name: "postbox"
+    keywords: []
+  - name: "ticket"
+    keywords: []
+  - name: "bee"
+    keywords: []
+  - name: "door"
+    keywords: []
+  - name: "kissing_heart"
+    keywords: []
+  - name: "potable_water"
+    keywords: []
+  - name: "tiger"
+    keywords: []
+  - name: "beer"
+    keywords: []
+  - name: "doughnut"
+    keywords: []
+  - name: "kissing_smiling_eyes"
+    keywords: []
+  - name: "pouch"
+    keywords: []
+  - name: "tiger2"
+    keywords: []
+  - name: "beers"
+    keywords: []
+  - name: "dragon"
+    keywords: []
+  - name: "koala"
+    keywords: []
+  - name: "poultry_leg"
+    keywords: []
+  - name: "tired_face"
+    keywords: []
+  - name: "beetle"
+    keywords: []
+  - name: "dragon_face"
+    keywords: []
+  - name: "koko"
+    keywords: []
+  - name: "pound"
+    keywords: []
+  - name: "tm"
+    keywords: []
+  - name: "beginner"
+    keywords: []
+  - name: "dress"
+    keywords: []
+  - name: "kr"
+    keywords: []
+  - name: "pouting_cat"
+    keywords: [animal, cats]
+  - name: "toilet"
+    keywords: []
+  - name: "bell"
+    keywords: []
+  - name: "dromedary_camel"
+    keywords: []
+  - name: "lantern"
+    keywords: []
+  - name: "pray"
+    keywords: []
+  - name: "tokyo_tower"
+    keywords: []
+  - name: "bento"
+    keywords: []
+  - name: "droplet"
+    keywords: []
+  - name: "large_blue_circle"
+    keywords: []
+  - name: "princess"
+    keywords: []
+  - name: "tomato"
+    keywords: []
+  - name: "bicyclist"
+    keywords: []
+  - name: "dvd"
+    keywords: []
+  - name: "large_blue_diamond"
+    keywords: []
+  - name: "punch"
+    keywords: []
+  - name: "tongue"
+    keywords: []
+  - name: "bike"
+    keywords: []
+  - name: "e-mail"
+    keywords: []
+  - name: "large_orange_diamond"
+    keywords: []
+  - name: "purple_heart"
+    keywords: []
+  - name: "top"
+    keywords: []
+  - name: "bikini"
+    keywords: []
+  - name: "ear"
+    keywords: []
+  - name: "last_quarter_moon"
+    keywords: []
+  - name: "purse"
+    keywords: []
+  - name: "tophat"
+    keywords: [magic, gentleman]
+  - name: "bird"
+    keywords: [animal, nature]
+  - name: "ear_of_rice"
+    keywords: []
+  - name: "last_quarter_moon_with_face"
+    keywords: []
+  - name: "pushpin"
+    keywords: [stationery]
+  - name: "tractor"
+    keywords: []
+  - name: "birthday"
+    keywords: [party]
+  - name: "earth_africa"
+    keywords: []
+  - name: "laughing"
+    keywords: [happy, joy]
+  - name: "put_litter_in_its_place"
+    keywords: []
+  - name: "traffic_light"
+    keywords: []
+  - name: "black_circle"
+    keywords: []
+  - name: "earth_americas"
+    keywords: []
+  - name: "leaves"
+    keywords: []
+  - name: "question"
+    keywords: []
+  - name: "train"
+    keywords: []
+  - name: "black_joker"
+    keywords: []
+  - name: "earth_asia"
+    keywords: []
+  - name: "ledger"
+    keywords: []
+  - name: "rabbit"
+    keywords: []
+  - name: "train2"
+    keywords: []
+  - name: "black_large_square"
+    keywords: []
+  - name: "egg"
+    keywords: []
+  - name: "left_luggage"
+    keywords: []
+  - name: "rabbit2"
+    keywords: []
+  - name: "tram"
+    keywords: []
+  - name: "black_medium_small_square"
+    keywords: []
+  - name: "eggplant"
+    keywords: []
+  - name: "left_right_arrow"
+    keywords: []
+  - name: "racehorse"
+    keywords: []
+  - name: "triangular_flag_on_post"
+    keywords: []
+  - name: "black_medium_square"
+    keywords: []
+  - name: "eight"
+    keywords: []
+  - name: "leftwards_arrow_with_hook"
+    keywords: []
+  - name: "radio"
+    keywords: []
+  - name: "triangular_ruler"
+    keywords: []
+  - name: "black_nib"
+    keywords: []
+  - name: "eight_pointed_black_star"
+    keywords: []
+  - name: "lemon"
+    keywords: []
+  - name: "radio_button"
+    keywords: []
+  - name: "trident"
+    keywords: []
+  - name: "black_small_square"
+    keywords: []
+  - name: "eight_spoked_asterisk"
+    keywords: []
+  - name: "leo"
+    keywords: []
+  - name: "rage"
+    keywords: [angry, mad]
+  - name: "triumph"
+    keywords: []
+  - name: "black_square_button"
+    keywords: []
+  - name: "electric_plug"
+    keywords: []
+  - name: "leopard"
+    keywords: []
+  - name: "rage1"
+    keywords: [angry, mad, ghonly]
+  - name: "trolleybus"
+    keywords: []
+  - name: "blossom"
+    keywords: []
+  - name: "elephant"
+    keywords: []
+  - name: "libra"
+    keywords: []
+  - name: "rage2"
+    keywords: [angry, mad, ghonly]
+  - name: "trollface"
+    keywords: []
+  - name: "blowfish"
+    keywords: []
+  - name: "email"
+    keywords: []
+  - name: "light_rail"
+    keywords: []
+  - name: "rage3"
+    keywords: [angry, mad, ghonly]
+  - name: "trophy"
+    keywords: []
+  - name: "blue_book"
+    keywords: []
+  - name: "end"
+    keywords: []
+  - name: "link"
+    keywords: []
+  - name: "rage4"
+    keywords: [angry, mad, ghonly]
+  - name: "tropical_drink"
+    keywords: [beverage]
+  - name: "blue_car"
+    keywords: []
+  - name: "envelope"
+    keywords: []
+  - name: "lips"
+    keywords: []
+  - name: "railway_car"
+    keywords: [transportation, vehicle]
+  - name: "tropical_fish"
+    keywords: [animal]
+  - name: "blue_heart"
+    keywords: [love, like, affection]
+  - name: "envelope_with_arrow"
+    keywords: [email]
+  - name: "lipstick"
+    keywords: [female, girl, fashion]
+  - name: "rainbow"
+    keywords: [nature, happy, unicorn]
+  - name: "truck"
+    keywords: [cars, transportation]
+  - name: "blush"
+    keywords: [face]
+  - name: "es"
+    keywords: [spain, flag, nation]
+  - name: "lock"
+    keywords: [security]
+  - name: "raised_hand"
+    keywords: [female, girl, woman]
+  - name: "trumpet"
+    keywords: [music]
+  - name: "boar"
+    keywords: [animal, nature]
+  - name: "euro"
+    keywords: [money, dollar]
+  - name: "lock_with_ink_pen"
+    keywords: []
+  - name: "raised_hands"
+    keywords: [gesture]
+  - name: "tshirt"
+    keywords: [fashion]
+  - name: "boat"
+    keywords: [transportation]
+  - name: "european_castle"
+    keywords: [building]
+  - name: "lollipop"
+    keywords: [food, snack, desert]
+  - name: "raising_hand"
+    keywords: [female, girl, woman]
+  - name: "tulip"
+    keywords: [flowers, plant, nature]
+  - name: "bomb"
+    keywords: [boom, explode]
+  - name: "european_post_office"
+    keywords: [building]
+  - name: "loop"
+    keywords: []
+  - name: "ram"
+    keywords: [animal, sheep, nature]
+  - name: "turtle"
+    keywords: [animal]
+  - name: "book"
+    keywords: []
+  - name: "evergreen_tree"
+    keywords: [plant, nature]
+  - name: "loudspeaker"
+    keywords: [volume, sound]
+  - name: "ramen"
+    keywords: [food]
+  - name: "tv"
+    keywords: [technology]
+  - name: "bookmark"
+    keywords: []
+  - name: "exclamation"
+    keywords: [surprise]
+  - name: "love_hotel"
+    keywords: [love, like, affection, dating]
+  - name: "rat"
+    keywords: [animal]
+  - name: "twisted_rightwards_arrows"
+    keywords: []
+  - name: "bookmark_tabs"
+    keywords: []
+  - name: "expressionless"
+    keywords: [face]
+  - name: "love_letter"
+    keywords: [email, like, affection]
+  - name: "recycle"
+    keywords: [arrow]
+  - name: "two"
+    keywords: [numbers, 2]
+  - name: "books"
+    keywords: []
+  - name: "eyeglasses"
+    keywords: [fashion, accessories]
+  - name: "low_brightness"
+    keywords: [sun]
+  - name: "red_car"
+    keywords: [transportation, vehicle]
+  - name: "two_hearts"
+    keywords: [love, like, affection]
+  - name: "boom"
+    keywords: [bomb]
+  - name: "eyes"
+    keywords: []
+  - name: "m"
+    keywords: [alphabet, blue]
+  - name: "red_circle"
+    keywords: []
+  - name: "two_men_holding_hands"
+    keywords: [couple, love, like, bromance, friends]
+  - name: "boot"
+    keywords: [shoes, fashion]
+  - name: "facepunch"
+    keywords: [angry, violence]
+  - name: "mag"
+    keywords: [search, zoom]
+  - name: "registered"
+    keywords: [alphabet, circle]
+  - name: "two_women_holding_hands"
+    keywords: [friends, couple, love, like]
+  - name: "bouquet"
+    keywords: [flowers, nature]
+  - name: "factory"
+    keywords: [building]
+  - name: "mag_right"
+    keywords: [search, zoom]
+  - name: "relaxed"
+    keywords: []
+  - name: "u5272"
+    keywords: []
+  - name: "bow"
+    keywords: []
+  - name: "fallen_leaf"
+    keywords: []
+  - name: "mahjong"
+    keywords: []
+  - name: "relieved"
+    keywords: []
+  - name: "u5408"
+    keywords: []
+  - name: "bowling"
+    keywords: []
+  - name: "family"
+    keywords: []
+  - name: "mailbox"
+    keywords: []
+  - name: "repeat"
+    keywords: []
+  - name: "u55b6"
+    keywords: []
+  - name: "bowtie"
+    keywords: []
+  - name: "fast_forward"
+    keywords: []
+  - name: "mailbox_closed"
+    keywords: []
+  - name: "repeat_one"
+    keywords: []
+  - name: "u6307"
+    keywords: []
+  - name: "boy"
+    keywords: []
+  - name: "fax"
+    keywords: []
+  - name: "mailbox_with_mail"
+    keywords: []
+  - name: "restroom"
+    keywords: []
+  - name: "u6708"
+    keywords: []
+  - name: "bread"
+    keywords: []
+  - name: "fearful"
+    keywords: []
+  - name: "mailbox_with_no_mail"
+    keywords: []
+  - name: "revolving_hearts"
+    keywords: []
+  - name: "u6709"
+    keywords: []
+  - name: "bride_with_veil"
+    keywords: []
+  - name: "feelsgood"
+    keywords: []
+  - name: "man"
+    keywords: []
+  - name: "rewind"
+    keywords: []
+  - name: "u6e80"
+    keywords: []
+  - name: "bridge_at_night"
+    keywords: []
+  - name: "feet"
+    keywords: []
+  - name: "man_with_gua_pi_mao"
+    keywords: []
+  - name: "ribbon"
+    keywords: []
+  - name: "u7121"
+    keywords: []
+  - name: "briefcase"
+    keywords: []
+  - name: "ferris_wheel"
+    keywords: []
+  - name: "man_with_turban"
+    keywords: []
+  - name: "rice"
+    keywords: []
+  - name: "u7533"
+    keywords: []
+  - name: "broken_heart"
+    keywords: []
+  - name: "file_folder"
+    keywords: []
+  - name: "mans_shoe"
+    keywords: []
+  - name: "rice_ball"
+    keywords: []
+  - name: "u7981"
+    keywords: []
+  - name: "bug"
+    keywords: []
+  - name: "finnadie"
+    keywords: []
+  - name: "maple_leaf"
+    keywords: []
+  - name: "rice_cracker"
+    keywords: []
+  - name: "u7a7a"
+    keywords: []
+  - name: "bulb"
+    keywords: []
+  - name: "fire"
+    keywords: []
+  - name: "mask"
+    keywords: []
+  - name: "rice_scene"
+    keywords: []
+  - name: "uk"
+    keywords: []
+  - name: "bullettrain_front"
+    keywords: []
+  - name: "fire_engine"
+    keywords: []
+  - name: "massage"
+    keywords: []
+  - name: "ring"
+    keywords: []
+  - name: "umbrella"
+    keywords: []
+  - name: "bullettrain_side"
+    keywords: []
+  - name: "fireworks"
+    keywords: []
+  - name: "meat_on_bone"
+    keywords: []
+  - name: "rocket"
+    keywords: []
+  - name: "unamused"
+    keywords: []
+  - name: "bus"
+    keywords: []
+  - name: "first_quarter_moon"
+    keywords: []
+  - name: "mega"
+    keywords: []
+  - name: "roller_coaster"
+    keywords: []
+  - name: "underage"
+    keywords: []
+  - name: "busstop"
+    keywords: []
+  - name: "first_quarter_moon_with_face"
+    keywords: []
+  - name: "melon"
+    keywords: []
+  - name: "rooster"
+    keywords: []
+  - name: "bust_in_silhouette"
+    keywords: []
+  - name: "fish"
+    keywords: []
+  - name: "memo"
+    keywords: []
+  - name: "rose"
+    keywords: []
+  - name: "unlock"
+    keywords: []
+  - name: "busts_in_silhouette"
+    keywords: []
+  - name: "fish_cake"
+    keywords: []
+  - name: "mens"
+    keywords: []
+  - name: "rotating_light"
+    keywords: []
+  - name: "up"
+    keywords: []
+  - name: "cactus"
+    keywords: []
+  - name: "fishing_pole_and_fish"
+    keywords: []
+  - name: "metal"
+    keywords: []
+  - name: "round_pushpin"
+    keywords: []
+  - name: "us"
+    keywords: []
+  - name: "cake"
+    keywords: []
+  - name: "fist"
+    keywords: []
+  - name: "metro"
+    keywords: []
+  - name: "rowboat"
+    keywords: []
+  - name: "v"
+    keywords: []
+  - name: "calendar"
+    keywords: []
+  - name: "five"
+    keywords: []
+  - name: "microphone"
+    keywords: []
+  - name: "ru"
+    keywords: []
+  - name: "vertical_traffic_light"
+    keywords: []
+  - name: "calling"
+    keywords: []
+  - name: "flags"
+    keywords: []
+  - name: "microscope"
+    keywords: []
+  - name: "rugby_football"
+    keywords: []
+  - name: "vhs"
+    keywords: []
+  - name: "camel"
+    keywords: []
+  - name: "flashlight"
+    keywords: []
+  - name: "milky_way"
+    keywords: []
+  - name: "runner"
+    keywords: []
+  - name: "vibration_mode"
+    keywords: []
+  - name: "camera"
+    keywords: []
+  - name: "floppy_disk"
+    keywords: []
+  - name: "minibus"
+    keywords: []
+  - name: "running"
+    keywords: []
+  - name: "video_camera"
+    keywords: []
+  - name: "cancer"
+    keywords: [sign]
+  - name: "flower_playing_cards"
+    keywords: []
+  - name: "minidisc"
+    keywords: []
+  - name: "running_shirt_with_sash"
+    keywords: [play]
+  - name: "video_game"
+    keywords: []
+  - name: "candy"
+    keywords: [snack, desert]
+  - name: "flushed"
+    keywords: [face]
+  - name: "mobile_phone_off"
+    keywords: [mute]
+  - name: "sa"
+    keywords: [japanese, blue-square]
+  - name: "violin"
+    keywords: [music, instrument]
+  - name: "capital_abcd"
+    keywords: [alphabet, words, blue-square]
+  - name: "foggy"
+    keywords: [photo]
+  - name: "money_with_wings"
+    keywords: [dollar, bills]
+  - name: "sagittarius"
+    keywords: [sign]
+  - name: "virgo"
+    keywords: [sign]
+  - name: "capricorn"
+    keywords: [sign]
+  - name: "football"
+    keywords: [sports, balls]
+  - name: "moneybag"
+    keywords: [dollar]
+  - name: "sailboat"
+    keywords: [transportation, ship]
+  - name: "volcano"
+    keywords: [photo]
+  - name: "car"
+    keywords: [transportation]
+  - name: "footprints"
+    keywords: [feet]
+  - name: "monkey"
+    keywords: [animal, nature]
+  - name: "sake"
+    keywords: [wine, drink, drunk, beverage]
+  - name: "vs"
+    keywords: [words, orange-square]
+  - name: "card_index"
+    keywords: [business, stationery]
+  - name: "fork_and_knife"
+    keywords: [cutlery, kitchen]
+  - name: "monkey_face"
+    keywords: [animal, nature]
+  - name: "sandal"
+    keywords: [shoes, fashion]
+  - name: "walking"
+    keywords: [man, human]
+  - name: "carousel_horse"
+    keywords: [photo, carnival, horse]
+  - name: "fountain"
+    keywords: [photo]
+  - name: "monorail"
+    keywords: [transportation, vehicle]
+  - name: "santa"
+    keywords: [festival, man, male]
+  - name: "waning_crescent_moon"
+    keywords: [nature]
+  - name: "cat"
+    keywords: [animal]
+  - name: "four"
+    keywords: [4, numbers]
+  - name: "moon"
+    keywords: [nature]
+  - name: "satellite"
+    keywords: [communication]
+  - name: "waning_gibbous_moon"
+    keywords: [nature]
+  - name: "cat2"
+    keywords: [animal]
+  - name: "four_leaf_clover"
+    keywords: [vegetable, plant, nature, lucky]
+  - name: "mortar_board"
+    keywords: [school, college, degree]
+  - name: "satisfied"
+    keywords: [happy, face, joy, glad]
+  - name: "warning"
+    keywords: [exclamation]
+  - name: "cd"
+    keywords: [technology]
+  - name: "fr"
+    keywords: [flag, nation, france, french]
+  - name: "mount_fuji"
+    keywords: [photo, mountain, nature, japan]
+  - name: "saxophone"
+    keywords: [music, instrument]
+  - name: "watch"
+    keywords: [time, accessories]
+  - name: "chart"
+    keywords: [green-square, graph]
+  - name: "free"
+    keywords: [blue-square, words]
+  - name: "mountain_bicyclist"
+    keywords: [transportation, sports, human]
+  - name: "school"
+    keywords: [building]
+  - name: "water_buffalo"
+    keywords: [animal, nature, ox, cow]
+  - name: "chart_with_downwards_trend"
+    keywords: [graph]
+  - name: "fried_shrimp"
+    keywords: [food, animal]
+  - name: "mountain_cableway"
+    keywords: [transportation, vehicle]
+  - name: "school_satchel"
+    keywords: []
+  - name: "watermelon"
+    keywords: [fruit, food]
+  - name: "chart_with_upwards_trend"
+    keywords: [graph]
+  - name: "fries"
+    keywords: [food]
+  - name: "mountain_railway"
+    keywords: [transportation]
+  - name: "scissors"
+    keywords: [stationery, cut]
+  - name: "wave"
+    keywords: [hands, gesture]
+  - name: "checkered_flag"
+    keywords: [contest, finishline]
+  - name: "frog"
+    keywords: [animal, nature]
+  - name: "mouse"
+    keywords: [animal, nature]
+  - name: "scorpius"
+    keywords: [sign]
+  - name: "wavy_dash"
+    keywords: []
+  - name: "cherries"
+    keywords: [food, fruit]
+  - name: "frowning"
+    keywords: [face, aw]
+  - name: "mouse2"
+    keywords: [animal, nature]
+  - name: "scream"
+    keywords: [face, munch, ]
+  - name: "waxing_crescent_moon"
+    keywords: [nature]
+  - name: "cherry_blossom"
+    keywords: [flower, nature, plant]
+  - name: "fuelpump"
+    keywords: []
+  - name: "movie_camera"
+    keywords: [film, record]
+  - name: "scream_cat"
+    keywords: [animal, cats, munch]
+  - name: "waxing_gibbous_moon"
+    keywords: [nature]
+  - name: "chestnut"
+    keywords: [food, squirrel]
+  - name: "full_moon"
+    keywords: [nature]
+  - name: "moyai"
+    keywords: [stone]
+  - name: "scroll"
+    keywords: [documents]
+  - name: "wc"
+    keywords: [toilet, restroom, blue-square]
+  - name: "chicken"
+    keywords: [animal]
+  - name: "full_moon_with_face"
+    keywords: []
+  - name: "muscle"
+    keywords: [hand]
+  - name: "seat"
+    keywords: []
+  - name: "weary"
+    keywords: [tired, sleepy, sad]
+  - name: "children_crossing"
+    keywords: [school]
+  - name: "game_die"
+    keywords: [dice]
+  - name: "mushroom"
+    keywords: [plant, vegetable]
+  - name: "secret"
+    keywords: [privacy]
+  - name: "wedding"
+    keywords: [love, like, affection, couple, marriage]
+  - name: "chocolate_bar"
+    keywords: [food, snack, desert]
+  - name: "gb"
+    keywords: [nation, flag, britsh, UK]
+  - name: "musical_keyboard"
+    keywords: []
+  - name: "see_no_evil"
+    keywords: [monkey, animal, nature]
+  - name: "whale"
+    keywords: [animal, nature, sea]
+  - name: "christmas_tree"
+    keywords: [festival, vacation]
+  - name: "gem"
+    keywords: [blue]
+  - name: "musical_note"
+    keywords: []
+  - name: "seedling"
+    keywords: [plant, nature]
+  - name: "whale2"
+    keywords: [animal, nature]
+  - name: "church"
+    keywords: [building, religion]
+  - name: "gemini"
+    keywords: [sign]
+  - name: "musical_score"
+    keywords: []
+  - name: "seven"
+    keywords: [7, numbers, blue-square]
+  - name: "wheelchair"
+    keywords: [blue-square, disabled]
+  - name: "cinema"
+    keywords: [blue-square, record, film, movie]
+  - name: "ghost"
+    keywords: []
+  - name: "mute"
+    keywords: [sound, volume]
+  - name: "shaved_ice"
+    keywords: [hot, desert]
+  - name: "white_check_mark"
+    keywords: [green-square, ok, agree]
+  - name: "circus_tent"
+    keywords: [festival, carnival, party]
+  - name: "gift"
+    keywords: []
+  - name: "nail_care"
+    keywords: []
+  - name: "sheep"
+    keywords: [animal, nature]
+  - name: "white_circle"
+    keywords: []
+  - name: "city_sunrise"
+    keywords: [photo]
+  - name: "gift_heart"
+    keywords: [love]
+  - name: "name_badge"
+    keywords: [fire]
+  - name: "shell"
+    keywords: [nature, sea, beach]
+  - name: "white_flower"
+    keywords: [japanese]
+  - name: "city_sunset"
+    keywords: [photo]
+  - name: "girl"
+    keywords: [female, woman]
+  - name: "neckbeard"
+    keywords: []
+  - name: "ship"
+    keywords: [transportation]
+  - name: "white_large_square"
+    keywords: []
+  - name: "cl"
+    keywords: []
+  - name: "globe_with_meridians"
+    keywords: []
+  - name: "necktie"
+    keywords: []
+  - name: "shipit"
+    keywords: []
+  - name: "white_medium_small_square"
+    keywords: []
+  - name: "clap"
+    keywords: []
+  - name: "goat"
+    keywords: []
+  - name: "negative_squared_cross_mark"
+    keywords: []
+  - name: "shirt"
+    keywords: []
+  - name: "white_medium_square"
+    keywords: []
+  - name: "clapper"
+    keywords: [movie, film, record]
+  - name: "goberserk"
+    keywords: [ghonly]
+  - name: "neutral_face"
+    keywords: [indifference]
+  - name: "shit"
+    keywords: [poop]
+  - name: "white_small_square"
+    keywords: []
+  - name: "clipboard"
+    keywords: [stationery, documents]
+  - name: "godmode"
+    keywords: [ghonly]
+  - name: "new"
+    keywords: [blue-square]
+  - name: "shoe"
+    keywords: [accessories, fashion]
+  - name: "white_square_button"
+    keywords: []
+  - name: "clock1"
+    keywords: [time, clock]
+  - name: "golf"
+    keywords: [sports]
+  - name: "new_moon"
+    keywords: [nature]
+  - name: "shower"
+    keywords: [clean, bath]
+  - name: "wind_chime"
+    keywords: []
+  - name: "clock10"
+    keywords: [time, clock]
+  - name: "grapes"
+    keywords: [fruit, food]
+  - name: "new_moon_with_face"
+    keywords: [nature]
+  - name: "signal_strength"
+    keywords: [blue-square]
+  - name: "wine_glass"
+    keywords: [drink, beverage, drunk]
+  - name: "clock1030"
+    keywords: [time, clock]
+  - name: "green_apple"
+    keywords: [fruit, nature]
+  - name: "newspaper"
+    keywords: [press]
+  - name: "six"
+    keywords: [6, numbers]
+  - name: "wink"
+    keywords: [face]
+  - name: "clock11"
+    keywords: [time, clock]
+  - name: "green_book"
+    keywords: []
+  - name: "ng"
+    keywords: [blue-square]
+  - name: "six_pointed_star"
+    keywords: [purple-square]
+  - name: "wolf"
+    keywords: [animal, nature]
+  - name: "clock1130"
+    keywords: [time, clock]
+  - name: "green_heart"
+    keywords: [love, like, affection]
+  - name: "nine"
+    keywords: [blue-square]
+  - name: "ski"
+    keywords: [sports, winter, cold]
+  - name: "woman"
+    keywords: [female, girls]
+  - name: "clock12"
+    keywords: [time, clock]
+  - name: "grey_exclamation"
+    keywords: []
+  - name: "no_bell"
+    keywords: [sound, volume, mute]
+  - name: "skull"
+    keywords: [dead]
+  - name: "womans_clothes"
+    keywords: [fashion]
+  - name: "clock1230"
+    keywords: [time, clock]
+  - name: "grey_question"
+    keywords: []
+  - name: "no_bicycles"
+    keywords: []
+  - name: "sleeping"
+    keywords: [face, tired, sleepy]
+  - name: "womans_hat"
+    keywords: [fashion, accessories]
+  - name: "clock130"
+    keywords: [time, clock]
+  - name: "grimacing"
+    keywords: [face]
+  - name: "no_entry"
+    keywords: [limit, security, privacy]
+  - name: "sleepy"
+    keywords: [face, tired]
+  - name: "womens"
+    keywords: [purple-square]
+  - name: "clock2"
+    keywords: [time, clock]
+  - name: "grin"
+    keywords: [face, happy, smile, joy]
+  - name: "no_entry_sign"
+    keywords: []
+  - name: "slot_machine"
+    keywords: [bet, gamble, vegas]
+  - name: "worried"
+    keywords: [face, concern]
+  - name: "clock230"
+    keywords: [time, clock]
+  - name: "grinning"
+    keywords: [face, smile, happy, joy]
+  - name: "no_good"
+    keywords: [female, girl, woman]
+  - name: "small_blue_diamond"
+    keywords: []
+  - name: "wrench"
+    keywords: [tools]
+  - name: "clock3"
+    keywords: [time, clock]
+  - name: "guardsman"
+    keywords: [uk, gb, british, man, male]
+  - name: "no_mobile_phones"
+    keywords: [iphone, mute]
+  - name: "small_orange_diamond"
+    keywords: []
+  - name: "x"
+    keywords: [no]
+  - name: "clock330"
+    keywords: [time, clock]
+  - name: "guitar"
+    keywords: [music, instrument]
+  - name: "no_mouth"
+    keywords: [face]
+  - name: "small_red_triangle"
+    keywords: []
+  - name: "yellow_heart"
+    keywords: [love, like, affection]
+  - name: "clock4"
+    keywords: [time, clock]
+  - name: "gun"
+    keywords: [violence, weapon]
+  - name: "no_pedestrians"
+    keywords: [limit]
+  - name: "small_red_triangle_down"
+    keywords: []
+  - name: "yen"
+    keywords: [money, japanese, dollar]
+  - name: "clock430"
+    keywords: [time, clock]
+  - name: "haircut"
+    keywords: [female, girl, woman]
+  - name: "no_smoking"
+    keywords: [cigarette]
+  - name: "smile"
+    keywords: [happy, joy]
+  - name: "yum"
+    keywords: [happy, joy, tongue]
+  - name: "clock5"
+    keywords: [time, clock]
+  - name: "hamburger"
+    keywords: [food]
+  - name: "non-potable_water"
+    keywords: []
+  - name: "smile_cat"
+    keywords: [animal, cats]
+  - name: "zap"
+    keywords: [thunder, weather]
+  - name: "clock530"
+    keywords: [time, clock]
+  - name: "hammer"
+    keywords: [tools]
+  - name: "nose"
+    keywords: []
+  - name: "smiley"
+    keywords: [happy, joy, haha]
+  - name: "zero"
+    keywords: [numbers]
+  - name: "clock6"
+    keywords: [time, clock]
+  - name: "hamster"
+    keywords: []
+  - name: "notebook"
+    keywords: [stationery]
+  - name: "smiley_cat"
+    keywords: [animal, cats, happy]
+  - name: "zzz"
+    keywords: [sleepy, tired]
+  - name: "clock630"
+    keywords: [time, clock]
+  - name: "hand"
+    keywords: []
+  - name: "notebook_with_decorative_cover"
+    keywords: []
+  - name: "smiling_imp"
+    keywords: [devil, horns]
