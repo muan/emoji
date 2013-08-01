@@ -7,6 +7,8 @@ $.fn.speedy = (result_selector) ->
   result_selector ?= ".result"
 
   search = (keyword) ->
+    $(".add-all").toggle( !!keyword )
+
     unless window.speedy_keyword == keyword
       window.speedy_keyword = keyword
       if keyword.length
@@ -18,15 +20,18 @@ $.fn.speedy = (result_selector) ->
         $(result_selector).show()
   
   $input.on "search keyup", -> 
-      search( $(this).val() )
-      location.hash = $(this).val()
+    search( $(this).val() )
+    location.hash = $(this).val()
 
   $(".group").click ->
     search $(this).attr("href").substr(1)
 
   if location.hash.length
     search $input.val(location.hash.substr(1)).val()
+  else
+    search ""
 
   $(".speedy-remover").click ->
     $input.val("")
     $(result_selector).show()
+    search (location.hash = "")

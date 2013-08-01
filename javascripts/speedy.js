@@ -14,6 +14,7 @@ $.fn.speedy = function(result_selector) {
   }
   search = function(keyword) {
     var reg;
+    $(".add-all").toggle(!!keyword);
     if (window.speedy_keyword !== keyword) {
       window.speedy_keyword = keyword;
       if (keyword.length) {
@@ -38,9 +39,12 @@ $.fn.speedy = function(result_selector) {
   });
   if (location.hash.length) {
     search($input.val(location.hash.substr(1)).val());
+  } else {
+    search("");
   }
   return $(".speedy-remover").click(function() {
     $input.val("");
-    return $(result_selector).show();
+    $(result_selector).show();
+    return search((location.hash = ""));
   });
 };

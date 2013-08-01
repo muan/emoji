@@ -9,7 +9,10 @@ $(function() {
       return i.selectionEnd = i.value.length;
     }
   });
-  return $("li img").on("click", function() {
+  $(".add-all").click(function() {
+    return $("li:visible img").click();
+  });
+  $.fn.addToStoryLine = function() {
     $(this).clone().appendTo(".story").click(function() {
       $(this).remove();
       return $(".queue").val($.map($(".story img"), function(e) {
@@ -19,5 +22,8 @@ $(function() {
     return $(".queue").val($.map($(".story img"), function(e) {
       return ":" + $(e).attr("title") + ":";
     }).join(""));
+  };
+  return $("li img").on("click", function() {
+    return $(this).addToStoryLine();
   });
 });

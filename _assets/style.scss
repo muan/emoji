@@ -22,9 +22,13 @@ header, footer {
 }
 
 section {
-  background-color: #f6f6f6;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
+  &.list {
+  }
   &.tell-me-a-story {
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
@@ -33,6 +37,7 @@ section {
 
 a {
   text-decoration: none;
+  cursor: pointer;
   color: #469;
   padding: 0 10px;
   font-weight: bold;
@@ -40,12 +45,9 @@ a {
 }
 
 ul {
-  width: 100%;
-  margin: 0 auto;
   text-align: left;
-  max-width: 900px;
-  padding: 0 20px;
 }
+
 .plain {
   @include appearance(none);
   border: 0;
@@ -59,7 +61,7 @@ ul {
 li {
   @include inline-block;
   margin: 0;
-  width: 140px;
+  width: 160px;
   padding: 8px 0;
   overflow: hidden;
   white-space: nowrap;

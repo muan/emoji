@@ -23,15 +23,18 @@ header, footer {
   text-align: center; }
 
 section {
-  background-color: #f6f6f6;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
   text-align: center;
-  padding: 20px 0; }
+  padding: 20px; }
   section.tell-me-a-story {
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px; }
 
 a {
   text-decoration: none;
+  cursor: pointer;
   color: #469;
   padding: 0 10px;
   font-weight: bold; }
@@ -40,11 +43,7 @@ a {
     height: 16px; }
 
 ul {
-  width: 100%;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 900px;
-  padding: 0 20px; }
+  text-align: left; }
 
 .plain {
   -webkit-appearance: none;
@@ -66,7 +65,7 @@ li {
   *display: inline;
   *vertical-align: auto;
   margin: 0;
-  width: 140px;
+  width: 160px;
   padding: 8px 0;
   overflow: hidden;
   white-space: nowrap; }
