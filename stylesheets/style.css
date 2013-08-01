@@ -26,6 +26,9 @@ section {
   background-color: #f6f6f6;
   text-align: center;
   padding: 20px 0; }
+  section.search {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px; }
 
 a {
   text-decoration: none;
@@ -84,7 +87,7 @@ ul, li {
     width: 20px;
     height: 20px; }
 
-input.search, input.story {
+input.search {
   min-height: 34px;
   padding: 7px 8px;
   outline: none;
@@ -105,11 +108,27 @@ input.search, input.story {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none; }
-  input.search:hover, input.story:hover {
+  input.search:hover {
     background-color: #fff; }
-  input.search:focus, input.story:focus {
+  input.search:focus {
     border-color: #51a7e8;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(81, 167, 232, 0.5); }
+
+input.queue {
+  width: 400px;
+  text-align: center;
+  padding: 4px; }
+
+.story:empty {
+  background-image: url(/emojis/grey_question.png);
+  width: 200px;
+  height: 20px;
+  margin: auto; }
+.story img {
+  width: 20px; }
+
+.story img, li img {
+  cursor: pointer; }
 
 @media (max-width: 480px) {
   header, footer {

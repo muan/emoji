@@ -3,13 +3,21 @@ $(function() {
   $("li, .storyline").on("mouseover", function() {
     var i;
     i = $(this).find("input").get(0);
-    $(i).select();
-    i.selectionStart = 0;
-    return i.selectionEnd = i.value.length;
+    if (i.value) {
+      $(i).select();
+      i.selectionStart = 0;
+      return i.selectionEnd = i.value.length;
+    }
   });
   return $("li img").on("click", function() {
-    $(".placeholder").remove();
-    $(this).clone().appendTo(".story");
-    return $(".queue")[0].value = $(".queue")[0].value + ":" + $(this).attr("title") + ":";
+    $(this).clone().appendTo(".story").click(function() {
+      $(this).remove();
+      return $(".queue").val($.map($(".story img"), function(e) {
+        return ":" + $(e).attr("title") + ":";
+      }).join(""));
+    });
+    return $(".queue").val($.map($(".story img"), function(e) {
+      return ":" + $(e).attr("title") + ":";
+    }).join(""));
   });
 });
