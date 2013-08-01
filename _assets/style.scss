@@ -42,6 +42,15 @@ ul {
   max-width: 900px;
   padding: 0 20px;
 }
+.plain {
+  @include appearance(none);
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+  &:focus {
+    box-shadow: none; outline: none;
+  }
+}
 
 li {
   @include inline-block;
@@ -52,15 +61,6 @@ li {
   white-space: nowrap;
   .keywords {
     font-size: 0;
-  }
-  input {
-    @include appearance(none);
-    border: 0;
-    box-shadow: none;
-    background-color: transparent;
-    &:focus {
-      box-shadow: none; outline: none;
-    }
   }
   &:hover {
     zoom: 2;

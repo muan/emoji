@@ -43,6 +43,19 @@ ul {
   max-width: 900px;
   padding: 0 20px; }
 
+.plain {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 0;
+  box-shadow: none;
+  background-color: transparent; }
+  .plain:focus {
+    box-shadow: none;
+    outline: none; }
+
 li {
   display: inline-block;
   vertical-align: baseline;
@@ -56,18 +69,6 @@ li {
   white-space: nowrap; }
   li .keywords {
     font-size: 0; }
-  li input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    border: 0;
-    box-shadow: none;
-    background-color: transparent; }
-    li input:focus {
-      box-shadow: none;
-      outline: none; }
   li:hover {
     zoom: 2;
     display: block;

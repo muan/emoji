@@ -8,10 +8,18 @@ layout: default
   <img src="/emojis/exclamation.png" width="20" />
   <input type="search" class="search speedy-filter" />
   <br />
+  <br />
   <img src="/emojis/lips.png" width="20" />
   <img src="/emojis/book.png" width="20" />
-  <img src="/emojis/question.png" width="20" />
-  <input type="text" class="story" />
+  <img src="/emojis/question.png" width="20" /> : 
+  <span class="story">
+    <img src="/emojis/grey_question.png" width="20" class="placeholder" />
+    <img src="/emojis/grey_question.png" width="20" class="placeholder" />
+    <img src="/emojis/grey_question.png" width="20" class="placeholder" />
+    <img src="/emojis/grey_question.png" width="20" class="placeholder" />
+    <img src="/emojis/grey_question.png" width="20" class="placeholder" />
+  </span>
+  <span class="storyline"><input type="text" class="queue autofocus plain" /></span>
 
 </section>
 
@@ -23,14 +31,14 @@ layout: default
   <a href="#food" class="group"><img src="/emojis/ramen.png" /></a>
   <a href="#time" class="group"><img src="/emojis/clock7.png" /></a>
   <a href="#ghonly" class="group"><img src="/emojis/octocat.png" /></a>
-  <a href="#" class="group"><img src="/emojis/x.png" /></a>
+  <a class="speedy-remover"><img src="/emojis/x.png" /></a>
 </section>
 <section class="list">
   <ul>
     {% for emoji in site.emojis %}
       <li class="result">
         <img src="/emojis/{{ emoji.name }}.png" title="{{ emoji.name }}" />
-        <input type="text" value=":{{ emoji.name }}:" />
+        <input type="text" class="autofocus plain" value=":{{ emoji.name }}:" />
         <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
       </li>
     {% endfor %}
