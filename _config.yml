@@ -603,179 +603,179 @@ emojis:
   - name: "jeans"
     keywords: [fashion, shopping]
   - name: "point_down"
-    keywords: []
+    keywords: [fingers, hand, direction]
   - name: "tea"
-    keywords: []
+    keywords: [drink, bowl, breakfast, green]
   - name: "bangbang"
-    keywords: []
+    keywords: [exclamation, surprise]
   - name: "disappointed"
-    keywords: []
+    keywords: [face, sad, upset]
   - name: "joy"
     keywords: [cry, tears, weep, happy, haha]
   - name: "point_left"
-    keywords: []
+    keywords: [direction, fingers, hand]
   - name: "telephone"
-    keywords: []
+    keywords: [communication, technology]
   - name: "bank"
-    keywords: []
+    keywords: [building]
   - name: "disappointed_relieved"
-    keywords: []
+    keywords: [phew, sweat]
   - name: "joy_cat"
-    keywords: [animal, cats]
+    keywords: [animal, cats, haha, happy, tears]
   - name: "point_right"
-    keywords: []
+    keywords: [fingers, hand, direction]
   - name: "telephone_receiver"
-    keywords: []
+    keywords: [technology, communication]
   - name: "bar_chart"
-    keywords: []
+    keywords: [graph, presentation, stats]
   - name: "dizzy"
-    keywords: []
+    keywords: [star, sparkle, shoot]
   - name: "jp"
-    keywords: []
+    keywords: [japan, nation, flag]
   - name: "point_up"
-    keywords: []
+    keywords: [hand, fingers, direction]
   - name: "telescope"
-    keywords: []
+    keywords: [stars, space]
   - name: "barber"
-    keywords: []
+    keywords: [hair, salon, style]
   - name: "dizzy_face"
-    keywords: []
+    keywords: [face, spent, unconscious]
   - name: "key"
-    keywords: []
+    keywords: [lock, door, password]
   - name: "point_up_2"
-    keywords: []
+    keywords: [fingers, hand, direction]
   - name: "tennis"
-    keywords: []
+    keywords: [sports, balls, green]
   - name: "baseball"
-    keywords: []
+    keywords: [sports, balls, MLB]
   - name: "do_not_litter"
     keywords: []
   - name: "keycap_ten"
-    keywords: []
+    keywords: [numbers, 10]
   - name: "police_car"
-    keywords: []
+    keywords: [vehicle, cars, transportation, law, enforcement]
   - name: "tent"
-    keywords: []
+    keywords: [photo, camp, outdoors]
   - name: "basketball"
-    keywords: []
+    keywords: [sports, balls, NBA]
   - name: "dog"
-    keywords: []
+    keywords: [animal, friend, nature, woff]
   - name: "kimono"
-    keywords: []
+    keywords: [dress, fashion, women, female, japanese]
   - name: "poodle"
-    keywords: []
+    keywords: [dog, animal, 101, nature]
   - name: "thought_balloon"
-    keywords: []
+    keywords: [bubble, cloud, speech]
   - name: "bath"
-    keywords: []
+    keywords: [clean, shower]
   - name: "dog2"
-    keywords: []
+    keywords: [animal, nature, friend]
   - name: "kiss"
-    keywords: []
+    keywords: [lips, love, like, affection]
   - name: "poop"
-    keywords: []
+    keywords: [poop, shit, shitface]
   - name: "three"
-    keywords: []
+    keywords: [3, numbers]
   - name: "bathtub"
-    keywords: []
+    keywords: [clean, shower]
   - name: "dollar"
-    keywords: []
+    keywords: [money, bill, currency]
   - name: "kissing"
-    keywords: []
+    keywords: [love, like, face, 3]
   - name: "post_office"
-    keywords: []
+    keywords: [building, email, communication]
   - name: "thumbsdown"
     keywords: []
   - name: "battery"
-    keywords: []
+    keywords: [power, energy, sustain]
   - name: "dolls"
-    keywords: []
+    keywords: [japanese, toy]
   - name: "kissing_cat"
     keywords: [animal, cats]
   - name: "postal_horn"
-    keywords: []
+    keywords: [instrument, music]
   - name: "thumbsup"
     keywords: []
   - name: "bear"
-    keywords: []
+    keywords: [animal, nature]
   - name: "dolphin"
-    keywords: []
+    keywords: [animal, nature, fish]
   - name: "kissing_closed_eyes"
     keywords: []
   - name: "postbox"
-    keywords: []
+    keywords: [email, letter, envelope]
   - name: "ticket"
-    keywords: []
+    keywords: [event, concert]
   - name: "bee"
-    keywords: []
+    keywords: [animal, insect]
   - name: "door"
-    keywords: []
+    keywords: [house, entry, exit]
   - name: "kissing_heart"
-    keywords: []
+    keywords: [face, love, like, affection]
   - name: "potable_water"
-    keywords: []
+    keywords: [blue-square, liquid, restroom, cleaning, faucet]
   - name: "tiger"
-    keywords: []
+    keywords: [animal]
   - name: "beer"
-    keywords: []
+    keywords: [relax, beverage, drink, drunk, party, pub]
   - name: "doughnut"
-    keywords: []
+    keywords: [food, desert, snack, sweet]
   - name: "kissing_smiling_eyes"
-    keywords: []
+    keywords: [face, affection]
   - name: "pouch"
-    keywords: []
+    keywords: [bag, accessories]
   - name: "tiger2"
-    keywords: []
+    keywords: [animal, nature]
   - name: "beers"
-    keywords: []
+    keywords: [relax, beverage, drink, drunk, party, pub]
   - name: "dragon"
-    keywords: []
+    keywords: [animal, myth, nature, chinese, green]
   - name: "koala"
-    keywords: []
+    keywords: [animal, nature]
   - name: "poultry_leg"
-    keywords: []
+    keywords: [food]
   - name: "tired_face"
-    keywords: []
+    keywords: [sick, whine, ahhh, upset]
   - name: "beetle"
-    keywords: []
+    keywords: [insect, nature]
   - name: "dragon_face"
-    keywords: []
+    keywords: [animal, myth, nature, chinese, green]
   - name: "koko"
-    keywords: []
+    keywords: [blue-square]
   - name: "pound"
-    keywords: []
+    keywords: [british, sterling, money, bills, uk, england]
   - name: "tm"
-    keywords: []
+    keywords: [trademark, brand]
   - name: "beginner"
-    keywords: []
+    keywords: [badge, shield]
   - name: "dress"
-    keywords: []
+    keywords: [fashion]
   - name: "kr"
-    keywords: []
+    keywords: [korea, nation, flag]
   - name: "pouting_cat"
     keywords: [animal, cats]
   - name: "toilet"
-    keywords: []
+    keywords: [restroom, wc]
   - name: "bell"
-    keywords: []
+    keywords: [sound, notification]
   - name: "dromedary_camel"
-    keywords: []
+    keywords: [animal, hot]
   - name: "lantern"
     keywords: []
   - name: "pray"
-    keywords: []
+    keywords: [please, hope, wish]
   - name: "tokyo_tower"
-    keywords: []
+    keywords: [photo, japan]
   - name: "bento"
-    keywords: []
+    keywords: [food]
   - name: "droplet"
-    keywords: []
+    keywords: [water, drip, faucet]
   - name: "large_blue_circle"
     keywords: []
   - name: "princess"
-    keywords: []
+    keywords: [girl, woman, female, blond, crown]
   - name: "tomato"
-    keywords: []
+    keywords: [fruit, vegetable, nature, food]
   - name: "bicyclist"
     keywords: []
   - name: "dvd"
