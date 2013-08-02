@@ -1559,19 +1559,19 @@ emojis:
   - name: "globe_with_meridians"
     keywords: []
   - name: "necktie"
-    keywords: []
+    keywords: [shirt, suitup, formal, fashion, cloth]
   - name: "shipit"
-    keywords: []
+    keywords: [squirrel]
   - name: "white_medium_small_square"
     keywords: []
   - name: "clap"
-    keywords: []
+    keywords: [hands, praise, applause]
   - name: "goat"
-    keywords: []
+    keywords: [animal, nature]
   - name: "negative_squared_cross_mark"
     keywords: []
   - name: "shirt"
-    keywords: []
+    keywords: [fashion, cloth]
   - name: "white_medium_square"
     keywords: []
   - name: "clapper"
@@ -1581,7 +1581,7 @@ emojis:
   - name: "neutral_face"
     keywords: [indifference]
   - name: "shit"
-    keywords: [poop]
+    keywords: [poop, face]
   - name: "white_small_square"
     keywords: []
   - name: "clipboard"
