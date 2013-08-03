@@ -47,6 +47,8 @@ a {
   img { width: 16px; height: 16px; }
 }
 
+input:invalid { visibility: hidden; }
+
 ul {
   text-align: left;
 }
@@ -71,18 +73,15 @@ li {
   .keywords {
     font-size: 0;
   }
-  &:hover {
-    zoom: 2;
-    display: block;
+  img { 
+    width: 20px; height: 20px;
     position: absolute;
-    padding: 30px;
-    img { height: 40px; width: 40px; }
   }
+  input { margin-left: 25px; }
 }
 
 ul, li { 
   list-style-type: none;
-  img { width: 20px; height: 20px; }
 }
 
 input.search {

@@ -12,6 +12,7 @@ $ ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length
   else 
+    $("li input").attr("readonly", "readonly")
     $("li, .storyline").on "mouseover", ->
       i = $(this).find("input").get(0)
       i.selectionStart = 0

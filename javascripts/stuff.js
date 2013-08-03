@@ -13,6 +13,7 @@ $(function() {
       return this.selectionEnd = this.value.length;
     });
   } else {
+    $("li input").attr("readonly", "readonly");
     $("li, .storyline").on("mouseover", function() {
       var i;
       i = $(this).find("input").get(0);
