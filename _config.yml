@@ -895,7 +895,7 @@ emojis:
   - name: "rage"
     keywords: [angry, mad]
   - name: "triumph"
-    keywords: [face, gas?, phew]
+    keywords: [face, "gas?", phew]
   - name: "black_square_button"
     keywords: []
   - name: "electric_plug"
