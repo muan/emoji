@@ -28,7 +28,9 @@ section {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
-  &.list {
+  &.groups {
+    padding-left: 0;
+    padding-right: 0;
   }
   &.tell-me-a-story, &.groups {
     border-bottom: 1px solid #ddd;

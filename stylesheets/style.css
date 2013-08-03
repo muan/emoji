@@ -30,6 +30,9 @@ section {
   margin: 0 auto;
   text-align: center;
   padding: 20px; }
+  section.groups {
+    padding-left: 0;
+    padding-right: 0; }
   section.tell-me-a-story, section.groups {
     border-bottom: 1px solid #ddd; }
   section.tell-me-a-story {
