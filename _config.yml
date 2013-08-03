@@ -59,7 +59,7 @@ emojis:
   - name: "clock930"
     keywords: [time, clock]
   - name: "closed_book"
-    keywords: []
+    keywords: [read, library, knowledge]
   - name: "closed_lock_with_key"
     keywords: [security, privacy]
   - name: "closed_umbrella"
@@ -213,7 +213,7 @@ emojis:
   - name: "heavy_plus_sign"
     keywords: [math, calculation]
   - name: "open_book"
-    keywords: []
+    keywords: [read, library, knowledge]
   - name: "speak_no_evil"
     keywords: [monkey, animal]
   - name: "apple"
@@ -263,7 +263,7 @@ emojis:
   - name: "high_heel"
     keywords: [fashion, shoes, female]
   - name: "orange_book"
-    keywords: []
+    keywords: [read, library, knowledge]
   - name: "star"
     keywords: [night]
   - name: "arrow_double_up"
@@ -789,17 +789,17 @@ emojis:
   - name: "bike"
     keywords: []
   - name: "e-mail"
-    keywords: []
+    keywords: [communication, inbox]
   - name: "large_orange_diamond"
     keywords: []
   - name: "purple_heart"
-    keywords: []
+    keywords: [love, like, affection]
   - name: "top"
-    keywords: []
+    keywords: [words, blue-square]
   - name: "bikini"
-    keywords: []
+    keywords: [swimming, female, woman ,girl, fashion, beach]
   - name: "ear"
-    keywords: []
+    keywords: [face, hear, sound, listen]
   - name: "last_quarter_moon"
     keywords: []
   - name: "purse"
@@ -823,123 +823,123 @@ emojis:
   - name: "laughing"
     keywords: [happy, joy]
   - name: "put_litter_in_its_place"
-    keywords: []
+    keywords: [blue-square]
   - name: "traffic_light"
-    keywords: []
+    keywords: [traffic, transportation]
   - name: "black_circle"
     keywords: []
   - name: "earth_americas"
-    keywords: []
+    keywords: [globe, world, USA, international]
   - name: "leaves"
-    keywords: []
+    keywords: [nature, plant, tree, vegetable]
   - name: "question"
-    keywords: []
+    keywords: [doubt, confused]
   - name: "train"
-    keywords: []
+    keywords: [transportation]
   - name: "black_joker"
-    keywords: []
+    keywords: [poker, cards, game]
   - name: "earth_asia"
-    keywords: []
+    keywords: [globe, world, east, international]
   - name: "ledger"
-    keywords: []
+    keywords: [notes]
   - name: "rabbit"
-    keywords: []
+    keywords: [animal, nature]
   - name: "train2"
-    keywords: []
+    keywords: [transportation, vehicle]
   - name: "black_large_square"
     keywords: []
   - name: "egg"
-    keywords: []
+    keywords: [food]
   - name: "left_luggage"
-    keywords: []
+    keywords: [blue-square, travel]
   - name: "rabbit2"
-    keywords: []
+    keywords: [animal, nature]
   - name: "tram"
-    keywords: []
+    keywords: [transportation, vehicle]
   - name: "black_medium_small_square"
     keywords: []
   - name: "eggplant"
-    keywords: []
+    keywords: [vegetable, nature, food]
   - name: "left_right_arrow"
     keywords: []
   - name: "racehorse"
-    keywords: []
+    keywords: [animal, gamble]
   - name: "triangular_flag_on_post"
     keywords: []
   - name: "black_medium_square"
     keywords: []
   - name: "eight"
-    keywords: []
+    keywords: [8, blue-square, numbers]
   - name: "leftwards_arrow_with_hook"
     keywords: []
   - name: "radio"
-    keywords: []
+    keywords: [communication, music, podcast, program]
   - name: "triangular_ruler"
-    keywords: []
+    keywords: [stationery, math, architect, sketch]
   - name: "black_nib"
-    keywords: []
+    keywords: [pen, stationery]
   - name: "eight_pointed_black_star"
     keywords: []
   - name: "lemon"
-    keywords: []
+    keywords: [fruit, nature]
   - name: "radio_button"
-    keywords: []
+    keywords: [input]
   - name: "trident"
     keywords: []
   - name: "black_small_square"
     keywords: []
   - name: "eight_spoked_asterisk"
-    keywords: []
+    keywords: [star, sparkle, green-square]
   - name: "leo"
-    keywords: []
+    keywords: [sign, purple-square]
   - name: "rage"
     keywords: [angry, mad]
   - name: "triumph"
-    keywords: []
+    keywords: [face, gas?, phew]
   - name: "black_square_button"
     keywords: []
   - name: "electric_plug"
-    keywords: []
+    keywords: [charger, power]
   - name: "leopard"
-    keywords: []
+    keywords: [animal, nature]
   - name: "rage1"
     keywords: [angry, mad, ghonly]
   - name: "trolleybus"
-    keywords: []
+    keywords: [bart, transportation, vehicle]
   - name: "blossom"
-    keywords: []
+    keywords: [nature, flowers, yellow]
   - name: "elephant"
-    keywords: []
+    keywords: [animal, nature, nose, thailand]
   - name: "libra"
-    keywords: []
+    keywords: [sign, purple-square]
   - name: "rage2"
     keywords: [angry, mad, ghonly]
   - name: "trollface"
-    keywords: []
+    keywords: [internet, meme]
   - name: "blowfish"
-    keywords: []
+    keywords: [nature, food, sea, ocean]
   - name: "email"
-    keywords: []
+    keywords: [inbox, communication]
   - name: "light_rail"
-    keywords: []
+    keywords: [transportation, vehicle]
   - name: "rage3"
     keywords: [angry, mad, ghonly]
   - name: "trophy"
-    keywords: []
+    keywords: [win, award, contest, place, ftw, ceremony]
   - name: "blue_book"
-    keywords: []
+    keywords: [read, library, knowledge]
   - name: "end"
-    keywords: []
+    keywords: [words, arrow]
   - name: "link"
-    keywords: []
+    keywords: [rings, url]
   - name: "rage4"
     keywords: [angry, mad, ghonly]
   - name: "tropical_drink"
     keywords: [beverage]
   - name: "blue_car"
-    keywords: []
+    keywords: [car]
   - name: "envelope"
-    keywords: []
+    keywords: [mail, letter, postal, communication]
   - name: "lips"
     keywords: []
   - name: "railway_car"
@@ -1423,9 +1423,9 @@ emojis:
   - name: "scissors"
     keywords: [stationery, cut]
   - name: "wave"
-    keywords: [hands, gesture]
+    keywords: [hands, gesture, goodbye, solong, farewell]
   - name: "checkered_flag"
-    keywords: [contest, finishline]
+    keywords: [contest, finishline, rase, gokart]
   - name: "frog"
     keywords: [animal, nature]
   - name: "mouse"
@@ -1555,9 +1555,9 @@ emojis:
   - name: "white_large_square"
     keywords: []
   - name: "cl"
-    keywords: []
+    keywords: [alphabet, words, red-square]
   - name: "globe_with_meridians"
-    keywords: []
+    keywords: [earth, international, world]
   - name: "necktie"
     keywords: [shirt, suitup, formal, fashion, cloth]
   - name: "shipit"
@@ -1569,7 +1569,7 @@ emojis:
   - name: "goat"
     keywords: [animal, nature]
   - name: "negative_squared_cross_mark"
-    keywords: []
+    keywords: [x, green-square, no, deny]
   - name: "shirt"
     keywords: [fashion, cloth]
   - name: "white_medium_square"
@@ -1603,7 +1603,7 @@ emojis:
   - name: "shower"
     keywords: [clean, bath]
   - name: "wind_chime"
-    keywords: []
+    keywords: [nature, ding]
   - name: "clock10"
     keywords: [time, clock]
   - name: "grapes"
@@ -1627,7 +1627,7 @@ emojis:
   - name: "clock11"
     keywords: [time, clock]
   - name: "green_book"
-    keywords: []
+    keywords: [read, library, knowledge]
   - name: "ng"
     keywords: [blue-square]
   - name: "six_pointed_star"
@@ -1657,7 +1657,7 @@ emojis:
   - name: "clock1230"
     keywords: [time, clock]
   - name: "grey_question"
-    keywords: []
+    keywords: [doubts]
   - name: "no_bicycles"
     keywords: []
   - name: "sleeping"
