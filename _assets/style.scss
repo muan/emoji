@@ -122,8 +122,9 @@ input.queue {
   }
   img { width: 20px; }
 }
-.story img, li img { cursor: pointer }
-.emoji { @include inline-block; text-indent: -9999px; overflow: hidden; @include transform(scale(0.8)); }
+.alert { font-size: 11px; word-break: break-all; display: none; position: fixed; right: 10px; left: 10px; bottom: 10px; background: rgba(0,0,0,0.7); color: #fff; font-weight: bold; padding: 10px; text-align: center; border-radius: 5px; }
+.emoji { @include inline-block; text-indent: -9999px; overflow: hidden; @include transform(scale(0.8)); cursor: pointer; }
+[data-clipboard-text] { cursor: pointer; }
 
 @media (max-width: 480px) {
 

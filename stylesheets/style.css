@@ -128,8 +128,20 @@ input.queue {
 .story img {
   width: 20px; }
 
-.story img, li img {
-  cursor: pointer; }
+.alert {
+  font-size: 11px;
+  word-break: break-all;
+  display: none;
+  position: fixed;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px; }
 
 .emoji {
   display: inline-block;
@@ -143,7 +155,11 @@ input.queue {
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
   -o-transform: scale(0.8);
-  transform: scale(0.8); }
+  transform: scale(0.8);
+  cursor: pointer; }
+
+[data-clipboard-text] {
+  cursor: pointer; }
 
 @media (max-width: 480px) {
   header, footer {

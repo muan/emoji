@@ -12,6 +12,9 @@ $ ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length
   else
+    clip = new ZeroClipboard( $("[data-clipboard-text]"),{ moviePath: "/assets/zeroclipboard.swf"} )
+    clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
+
     $("li input").attr("readonly", "readonly")
     $("li, .storyline").on "mouseover", ->
       i = $(this).find("input").get(0)
@@ -24,9 +27,11 @@ $ ->
   $.fn.addToStoryLine = ->
     $(this).clone().appendTo(".story").click ->
       $(this).remove()
-      $(".queue").val $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-    $(".queue").val $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
+      val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
+      $(".queue").val(val).attr("data-clipboard-text", val)
+    val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
+    $(".queue").val(val).val(val).attr("data-clipboard-text", val)
 
-  $("body").on "click", "li .emoji", (e) ->
+  $("body").on "click", ".emoji", (e) ->
     e.stopPropagation()
     $(this).addToStoryLine()
