@@ -14,8 +14,8 @@ $.fn.speedy = (result_selector) ->
       if keyword.length
         reg = new RegExp( $.trim(keyword) ,"gi")
         $(result_selector).hide()
-        $(result_selector).each (i, ele) ->
-          $(this).show() if ele.innerText.match(reg)
+        $(result_selector).each ->
+          $(this).show() if reg.test $(this).text()
       else
         $(result_selector).show()
   
