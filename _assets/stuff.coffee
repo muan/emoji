@@ -27,6 +27,6 @@ $ ->
       $(".queue").val $.map( $(".story img"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
     $(".queue").val $.map( $(".story img"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
 
-  $("li img").on "click", (e) -> 
-    event.stopPropagation()
+  $("body").on "click", "li img", (e) -> 
+    e.stopPropagation()
     $(this).addToStoryLine()
