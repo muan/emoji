@@ -139,7 +139,11 @@ input.queue {
   *vertical-align: auto;
   text-indent: -9999px;
   overflow: hidden;
-  zoom: 0.76; }
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8); }
 
 @media (max-width: 480px) {
   header, footer {

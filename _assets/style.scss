@@ -123,7 +123,7 @@ input.queue {
   img { width: 20px; }
 }
 .story img, li img { cursor: pointer }
-.emoji { @include inline-block; text-indent: -9999px; overflow: hidden; zoom: 0.76; }
+.emoji { @include inline-block; text-indent: -9999px; overflow: hidden; @include transform(scale(0.8)); }
 
 @media (max-width: 480px) {
 
