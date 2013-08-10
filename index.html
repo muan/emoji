@@ -28,7 +28,7 @@ layout: default
   <ul>
     {% for emoji in site.emojis %}
       <li class="result">
-        <img src="/emojis/{{ emoji.name }}.png" title="{{ emoji.name }}" />
+        <div class="emoji {{ emoji.name }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
         <input type="text" class="autofocus plain" value=":{{ emoji.name }}:" />
         <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
       </li>

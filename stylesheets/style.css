@@ -80,9 +80,7 @@ li {
   white-space: nowrap; }
   li .keywords {
     font-size: 0; }
-  li img {
-    width: 20px;
-    height: 20px;
+  li .emoji {
     position: absolute; }
   li input {
     margin-left: 25px; }
@@ -132,6 +130,16 @@ input.queue {
 
 .story img, li img {
   cursor: pointer; }
+
+.emoji {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  text-indent: -9999px;
+  overflow: hidden;
+  zoom: 0.76; }
 
 @media (max-width: 480px) {
   header, footer {

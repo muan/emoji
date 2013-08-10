@@ -11,7 +11,7 @@ $ ->
     $("li input, .queue").click ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length
-  else 
+  else
     $("li input").attr("readonly", "readonly")
     $("li, .storyline").on "mouseover", ->
       i = $(this).find("input").get(0)
@@ -19,14 +19,14 @@ $ ->
       i.selectionEnd = i.value.length
 
   $(".add-all").click ->
-    $("li:visible img").click()
+    $("li:visible .emoji").click()
 
   $.fn.addToStoryLine = ->
     $(this).clone().appendTo(".story").click ->
       $(this).remove()
-      $(".queue").val $.map( $(".story img"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-    $(".queue").val $.map( $(".story img"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
+      $(".queue").val $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
+    $(".queue").val $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
 
-  $("body").on "click", "li img", (e) -> 
+  $("body").on "click", "li .emoji", (e) ->
     e.stopPropagation()
     $(this).addToStoryLine()
