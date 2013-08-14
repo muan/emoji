@@ -35,7 +35,7 @@ $.fn.speedy = function(result_selector) {
     return location.hash = $(this).val();
   });
   $(".group").click(function() {
-    return search($(this).attr("href").substr(1));
+    return search($input.val($(this).attr("href").substr(1)).val());
   });
   if (location.hash.length) {
     search($input.val(location.hash.substr(1)).val());
