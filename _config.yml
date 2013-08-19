@@ -45,7 +45,7 @@ emojis:
   - name: "angry"
     keywords: [mad, face, annoyed]
   - name: "anguished"
-    keywords: [face, stunned]
+    keywords: [face, stunned, nervous]
   - name: "clock7"
     keywords: [time, clock]
   - name: "clock730"
@@ -483,7 +483,7 @@ emojis:
   - name: "information_desk_person"
     keywords: [female, girl, woman, human]
   - name: "persevere"
-    keywords: [face, sick]
+    keywords: [face, sick, no]
   - name: "sweat"
     keywords: [face, hot]
   - name: "atm"
@@ -619,7 +619,7 @@ emojis:
   - name: "bank"
     keywords: [building]
   - name: "disappointed_relieved"
-    keywords: [phew, sweat]
+    keywords: [phew, sweat, nervous]
   - name: "joy_cat"
     keywords: [animal, cats, haha, happy, tears]
   - name: "point_right"
@@ -1007,7 +1007,7 @@ emojis:
   - name: "tv"
     keywords: [technology]
   - name: "bookmark"
-    keywords: []
+    keywords: [favorite]
   - name: "exclamation"
     keywords: [surprise]
   - name: "love_hotel"
@@ -1017,9 +1017,9 @@ emojis:
   - name: "twisted_rightwards_arrows"
     keywords: []
   - name: "bookmark_tabs"
-    keywords: []
+    keywords: [favorite]
   - name: "expressionless"
-    keywords: [face]
+    keywords: [face, indifferent]
   - name: "love_letter"
     keywords: [email, like, affection]
   - name: "recycle"
@@ -1027,7 +1027,7 @@ emojis:
   - name: "two"
     keywords: [numbers, 2]
   - name: "books"
-    keywords: []
+    keywords: [literature, library]
   - name: "eyeglasses"
     keywords: [fashion, accessories]
   - name: "low_brightness"
@@ -1039,11 +1039,11 @@ emojis:
   - name: "boom"
     keywords: [bomb]
   - name: "eyes"
-    keywords: []
+    keywords: [look, watch, stalk, peek]
   - name: "m"
     keywords: [alphabet, blue]
   - name: "red_circle"
-    keywords: []
+    keywords: [shape]
   - name: "two_men_holding_hands"
     keywords: [couple, love, like, bromance, friends]
   - name: "boot"
@@ -1187,7 +1187,7 @@ emojis:
   - name: "umbrella"
     keywords: [rain, weather]
   - name: "bullettrain_side"
-    keywords: []
+    keywords: [transportation, vehicle]
   - name: "fireworks"
     keywords: [photo, festival, carnival, congratulations]
   - name: "meat_on_bone"
@@ -1215,7 +1215,7 @@ emojis:
   - name: "rooster"
     keywords: [animal, nature]
   - name: "bust_in_silhouette"
-    keywords: []
+    keywords: [man, user, person, human]
   - name: "fish"
     keywords: [animal, food, nature]
   - name: "memo"
@@ -1225,7 +1225,7 @@ emojis:
   - name: "unlock"
     keywords: [privacy, security]
   - name: "busts_in_silhouette"
-    keywords: []
+    keywords: [man, user, person, human, group, team]
   - name: "fish_cake"
     keywords: [food]
   - name: "mens"
@@ -1307,7 +1307,7 @@ emojis:
   - name: "candy"
     keywords: [snack, desert]
   - name: "flushed"
-    keywords: [face]
+    keywords: [face, blush, shy]
   - name: "mobile_phone_off"
     keywords: [mute]
   - name: "sa"
@@ -1433,7 +1433,7 @@ emojis:
   - name: "scorpius"
     keywords: [sign]
   - name: "wavy_dash"
-    keywords: []
+    keywords: [draw, line]
   - name: "cherries"
     keywords: [food, fruit]
   - name: "frowning"
@@ -1471,7 +1471,7 @@ emojis:
   - name: "muscle"
     keywords: [hand]
   - name: "seat"
-    keywords: []
+    keywords: [sit]
   - name: "weary"
     keywords: [tired, sleepy, sad]
   - name: "children_crossing"
@@ -1527,9 +1527,9 @@ emojis:
   - name: "circus_tent"
     keywords: [festival, carnival, party]
   - name: "gift"
-    keywords: []
+    keywords: [present, birthday]
   - name: "nail_care"
-    keywords: []
+    keywords: [beauty, manicure]
   - name: "sheep"
     keywords: [animal, nature]
   - name: "white_circle"
@@ -1683,7 +1683,7 @@ emojis:
   - name: "slot_machine"
     keywords: [bet, gamble, vegas]
   - name: "worried"
-    keywords: [face, concern]
+    keywords: [face, concern, nervous]
   - name: "clock230"
     keywords: [time, clock]
   - name: "grinning"
