@@ -299,7 +299,7 @@ emojis:
   - name: "arrow_forward"
     keywords: [arrow, blue-square]
   - name: "couple"
-    keywords: [people, human, love, date, dating, like, affection, valentines]
+    keywords: [people, human, love, date, dating, like, affection, valentines, marriage]
   - name: "horse"
     keywords: [animal]
   - name: "page_facing_up"
@@ -309,7 +309,7 @@ emojis:
   - name: "arrow_heading_down"
     keywords: [blue-square, arrow]
   - name: "couple_with_heart"
-    keywords: [love, like, affection, human, dating, valentines]
+    keywords: [love, like, affection, human, dating, valentines, marriage]
   - name: "horse_racing"
     keywords: [animal, betting]
   - name: "page_with_curl"
@@ -319,7 +319,7 @@ emojis:
   - name: "arrow_heading_up"
     keywords: [blue-square, arrow]
   - name: "couplekiss"
-    keywords: [valentines, love, like, dating]
+    keywords: [valentines, love, like, dating, marriage]
   - name: "hospital"
     keywords: [building, health, surgery, doctor]
   - name: "pager"
