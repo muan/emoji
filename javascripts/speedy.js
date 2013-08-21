@@ -14,21 +14,23 @@ $.fn.speedy = function(result_selector) {
   }
   search = function(keyword) {
     var reg;
-    $(".add-all").toggle(!!keyword);
+    $(".keyword").text(keyword);
     if (window.speedy_keyword !== keyword) {
       window.speedy_keyword = keyword;
       if (keyword.length) {
         reg = new RegExp($.trim(keyword), "gi");
         $(result_selector).hide();
-        return $(result_selector).each(function() {
+        $(result_selector).each(function() {
           if (reg.test($(this).text())) {
             return $(this).show();
           }
         });
       } else {
-        return $(result_selector).show();
+        $(result_selector).show();
       }
     }
+    $(".add-all").toggle(!!keyword.length && !!$(".result:visible").length);
+    return $(".no-result").toggle(!$(".result:visible").length);
   };
   $input.on("search keyup", function() {
     search($(this).val());

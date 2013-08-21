@@ -33,6 +33,8 @@ section {
   section.groups {
     padding-left: 0;
     padding-right: 0; }
+    section.groups a {
+      padding: 0 5px; }
   section.tell-me-a-story, section.groups {
     border-bottom: 1px solid #ddd; }
   section.tell-me-a-story {
@@ -42,7 +44,6 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #469;
-  padding: 0 5px;
   font-weight: bold; }
   a img {
     width: 16px;

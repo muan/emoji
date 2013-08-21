@@ -7,7 +7,7 @@ $.fn.speedy = (result_selector) ->
   result_selector ?= ".result"
 
   search = (keyword) ->
-    $(".add-all").toggle( !!keyword )
+    $(".keyword").text keyword
 
     unless window.speedy_keyword == keyword
       window.speedy_keyword = keyword
@@ -18,6 +18,9 @@ $.fn.speedy = (result_selector) ->
           $(this).show() if reg.test $(this).text()
       else
         $(result_selector).show()
+
+    $(".add-all").toggle (!!keyword.length && !!$(".result:visible").length)
+    $(".no-result").toggle( !$(".result:visible").length )
   
   $input.on "search keyup", -> 
     search( $(this).val() )
