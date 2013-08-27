@@ -219,7 +219,7 @@ emojis:
   - name: "apple"
     keywords: [fruit, mac]
   - name: "construction"
-    keywords: []
+    keywords: [wip]
   - name: "helicopter"
     keywords: [transportation, vehicle]
   - name: "open_file_folder"
@@ -229,7 +229,7 @@ emojis:
   - name: "aquarius"
     keywords: [sign, purple-square]
   - name: "construction_worker"
-    keywords: [man, male, human]
+    keywords: [man, male, human, wip]
   - name: "herb"
     keywords: [vegetable, plant, medicine]
   - name: "open_hands"
@@ -1383,7 +1383,7 @@ emojis:
   - name: "satisfied"
     keywords: [happy, face, joy, glad]
   - name: "warning"
-    keywords: [exclamation]
+    keywords: [exclamation, wip]
   - name: "cd"
     keywords: [technology]
   - name: "fr"
@@ -1747,9 +1747,9 @@ emojis:
   - name: "clock530"
     keywords: [time, clock]
   - name: "hammer"
-    keywords: [tools]
+    keywords: [tools, verdict, judge, done]
   - name: "nose"
-    keywords: []
+    keywords: [smile]
   - name: "smiley"
     keywords: [happy, joy, haha]
   - name: "zero"
@@ -1757,7 +1757,7 @@ emojis:
   - name: "clock6"
     keywords: [time, clock]
   - name: "hamster"
-    keywords: []
+    keywords: [animal, nature]
   - name: "notebook"
     keywords: [stationery]
   - name: "smiley_cat"
@@ -1767,7 +1767,7 @@ emojis:
   - name: "clock630"
     keywords: [time, clock]
   - name: "hand"
-    keywords: []
+    keywords: [fingers, stop, highfive]
   - name: "notebook_with_decorative_cover"
     keywords: []
   - name: "smiling_imp"
