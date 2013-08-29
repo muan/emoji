@@ -957,7 +957,7 @@ emojis:
   - name: "truck"
     keywords: [cars, transportation]
   - name: "blush"
-    keywords: [face]
+    keywords: [face, smile, happy]
   - name: "es"
     keywords: [spain, flag, nation]
   - name: "lock"
@@ -1733,7 +1733,7 @@ emojis:
   - name: "smile"
     keywords: [happy, joy]
   - name: "yum"
-    keywords: [happy, joy, tongue]
+    keywords: [happy, joy, tongue, smile, face]
   - name: "clock5"
     keywords: [time, clock]
   - name: "hamburger"
