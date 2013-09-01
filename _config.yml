@@ -540,12 +540,122 @@ emojis:
     keywords: [dog, animal, 101, nature]
   - name: "paw_prints"
     keywords: [animal]
-    
-    
-    
-    
-    
-    
+
+  - name: "bouquet"
+    keywords: [flowers, nature]
+  - name: "cherry_blossom"
+    keywords: [flower, nature, plant]
+  - name: "tulip"
+    keywords: [flowers, plant, nature]
+  - name: "four_leaf_clover"
+    keywords: [vegetable, plant, nature, lucky]
+  - name: "rose"
+    keywords: [flowers, valentines, love]
+  - name: "sunflower"
+    keywords: [nature, plant]
+  - name: "hibiscus"
+    keywords: [plant, vegetable, flowers]
+  - name: "maple_leaf"
+    keywords: [nature, plant, vegetable]
+  - name: "leaves"
+    keywords: [nature, plant, tree, vegetable]
+  - name: "fallen_leaf"
+    keywords: [nature, plant, vegetable, leaves]
+  - name: "herb"
+    keywords: [vegetable, plant, medicine, weed]
+  - name: "ear_of_rice"
+    keywords: [nature, plant]
+  - name: "mushroom"
+    keywords: [plant, vegetable]
+  - name: "cactus"
+    keywords: [vegetable, plant, nature]
+  - name: "palm_tree"
+    keywords: [plant, vegetable, nature]
+  - name: "evergreen_tree"
+    keywords: [plant, nature]
+  - name: "deciduous_tree"
+    keywords: [plant, nature]
+  - name: "chestnut"
+    keywords: [food, squirrel]
+  - name: "seedling"
+    keywords: [plant, nature]
+  - name: "blossom"
+    keywords: [nature, flowers, yellow]
+  - name: "globe_with_meridians"
+    keywords: [earth, international, world]
+
+
+  - name: "sun_with_face"
+    keywords: [morning]
+  - name: "full_moon_with_face"
+    keywords: []
+  - name: "new_moon_with_face"
+    keywords: [nature]
+  - name: "new_moon"
+    keywords: [nature]
+  - name: "waxing_crescent_moon"
+    keywords: [nature]
+  - name: "first_quarter_moon"
+    keywords: [nature]
+  - name: "moon"
+    keywords: [nature]
+  - name: "full_moon"
+    keywords: [nature]
+  - name: "waning_gibbous_moon"
+    keywords: [nature]
+  - name: "last_quarter_moon"
+    keywords: []
+  - name: "waning_crescent_moon"
+    keywords: [nature]
+  - name: "last_quarter_moon_with_face"
+    keywords: []
+  - name: "first_quarter_moon_with_face"
+    keywords: []
+  - name: "crescent_moon"
+    keywords: [night]
+  - name: "earth_africa"
+    keywords: [globe, world, international]
+  - name: "earth_americas"
+    keywords: [globe, world, USA, international]
+  - name: "earth_asia"
+    keywords: [globe, world, east, international]
+  - name: "volcano"
+    keywords: [photo]
+  - name: "milky_way"
+    keywords: [photo]
+  - name: "stars"
+    keywords: [night, photo]
+  - name: "star"
+    keywords: [night]
+
+  - name: "sunny"
+    keywords: [weather]
+  - name: "partly_sunny"
+    keywords: [weather, nature, cloud, morning]
+  - name: "cloud"
+    keywords: [weather]
+  - name: "zap"
+    keywords: [thunder, weather]
+  - name: "umbrella"
+    keywords: [rain, weather]
+  - name: "snowflake"
+    keywords: [winter, season, cold, weather]
+  - name: "snowman"
+    keywords: [winter, season, cold, weather]
+  - name: "cyclone"
+    keywords: [swirl]
+  - name: "foggy"
+    keywords: [photo]
+  - name: "rainbow"
+    keywords: [nature, happy, unicorn, photo]
+  - name: "ocean"
+    keywords: [sea, water, wave]
+
+
+
+
+
+
   - name: "100"
     keywords: [score, perfect, numbers]
   - name: "1234"
@@ -588,8 +698,6 @@ emojis:
     keywords: [read, library, knowledge]
   - name: "closed_lock_with_key"
     keywords: [security, privacy]
-  - name: "cloud"
-    keywords: [weather]
   - name: "clubs"
     keywords: [poker, cards]
   - name: "cn"
@@ -632,8 +740,6 @@ emojis:
     keywords: [circle, round]
   - name: "o2"
     keywords: [alphabet, red-square]
-  - name: "ocean"
-    keywords: [sea, water, wave]
   - name: "octocat"
     keywords: [animal, octopus, cat, github, ghonly]
   - name: "oden"
@@ -658,10 +764,6 @@ emojis:
     keywords: [kills, tobacco, cigarette]
   - name: "snowboarder"
     keywords: [sports]
-  - name: "snowflake"
-    keywords: [winter, season, cold, weather]
-  - name: "snowman"
-    keywords: [winter, season, cold, weather]
   - name: "soccer"
     keywords: [sports, balls]
   - name: "soon"
@@ -698,14 +800,10 @@ emojis:
     keywords: [volume, sound]
   - name: "aquarius"
     keywords: [sign, purple-square]
-  - name: "herb"
-    keywords: [vegetable, plant, medicine]
   - name: "aries"
     keywords: [sign, purple-square]
   - name: "convenience_store"
     keywords: [building]
-  - name: "hibiscus"
-    keywords: [plant, vegetable, flowers]
   - name: "speedboat"
     keywords: [ship, transportation, vehicle]
   - name: "arrow_backward"
@@ -724,8 +822,6 @@ emojis:
     keywords: [words, blue-square]
   - name: "orange_book"
     keywords: [read, library, knowledge]
-  - name: "star"
-    keywords: [night]
   - name: "arrow_double_up"
     keywords: [arrow, blue-square]
   - name: "hocho"
@@ -738,8 +834,6 @@ emojis:
     keywords: [ip, license]
   - name: "honey_pot"
     keywords: [bees]
-  - name: "stars"
-    keywords: [night]
   - name: "arrow_down_small"
     keywords: [arrow, blue-square]
   - name: "corn"
@@ -772,8 +866,6 @@ emojis:
     keywords: [blue-square, arrow]
   - name: "hotel"
     keywords: [building, whotel, accomodation, checkin]
-  - name: "palm_tree"
-    keywords: [plant, vegetable, nature]
   - name: "straight_ruler"
     keywords: [stationery]
   - name: "arrow_lower_left"
@@ -792,8 +884,6 @@ emojis:
     keywords: [documents, stationery]
   - name: "arrow_right"
     keywords: [blue-square]
-  - name: "crescent_moon"
-    keywords: [night]
   - name: "hourglass_flowing_sand"
     keywords: [oldschool, time, countdown]
   - name: "parking"
@@ -810,18 +900,12 @@ emojis:
     keywords: [japan]
   - name: "house_with_garden"
     keywords: [home, plant, nature]
-  - name: "partly_sunny"
-    keywords: [weather, nature, cloud, morning]
-  - name: "sun_with_face"
-    keywords: [morning]
   - name: "arrow_up_down"
     keywords: [blue-square]
   - name: "hurtrealbad"
     keywords: [mad]
   - name: "passport_control"
     keywords: [custom, blue-square]
-  - name: "sunflower"
-    keywords: [nature, plant, vegetable]
   - name: "arrow_up_small"
     keywords: [blue-square]
   - name: "arrow_upper_left"
@@ -830,8 +914,6 @@ emojis:
     keywords: [food, hot, desert]
   - name: "peach"
     keywords: [fruit, nature, food]
-  - name: "sunny"
-    keywords: [weather]
   - name: "arrow_upper_right"
     keywords: [blue-square]
   - name: "crystal_ball"
@@ -886,8 +968,6 @@ emojis:
     keywords: [passport, border]
   - name: "atm"
     keywords: [money, cash, blue-square]
-  - name: "cyclone"
-    keywords: [swirl]
   - name: "information_source"
     keywords: [blue-square, alphabet]
   - name: "b"
@@ -940,8 +1020,6 @@ emojis:
     keywords: [plant, nature]
   - name: "balloon"
     keywords: [party]
-  - name: "deciduous_tree"
-    keywords: [plant, nature]
   - name: "japanese_castle"
     keywords: [photo, building]
   - name: "pineapple"
@@ -1075,20 +1153,12 @@ emojis:
     keywords: []
   - name: "top"
     keywords: [words, blue-square]
-  - name: "last_quarter_moon"
-    keywords: []
-  - name: "ear_of_rice"
-    keywords: []
-  - name: "last_quarter_moon_with_face"
-    keywords: []
   - name: "pushpin"
     keywords: [stationery]
   - name: "tractor"
     keywords: []
   - name: "birthday"
     keywords: [party]
-  - name: "earth_africa"
-    keywords: []
   - name: "laughing"
     keywords: [happy, joy]
   - name: "put_litter_in_its_place"
@@ -1097,18 +1167,12 @@ emojis:
     keywords: [traffic, transportation]
   - name: "black_circle"
     keywords: []
-  - name: "earth_americas"
-    keywords: [globe, world, USA, international]
-  - name: "leaves"
-    keywords: [nature, plant, tree, vegetable]
   - name: "question"
     keywords: [doubt, confused]
   - name: "train"
     keywords: [transportation]
   - name: "black_joker"
     keywords: [poker, cards, game]
-  - name: "earth_asia"
-    keywords: [globe, world, east, international]
   - name: "ledger"
     keywords: [notes]
   - name: "train2"
@@ -1165,8 +1229,6 @@ emojis:
     keywords: [angry, mad, ghonly]
   - name: "trolleybus"
     keywords: [bart, transportation, vehicle]
-  - name: "blossom"
-    keywords: [nature, flowers, yellow]
   - name: "libra"
     keywords: [sign, purple-square]
   - name: "rage2"
@@ -1199,8 +1261,6 @@ emojis:
     keywords: [transportation, vehicle]
   - name: "envelope_with_arrow"
     keywords: [email]
-  - name: "rainbow"
-    keywords: [nature, happy, unicorn]
   - name: "truck"
     keywords: [cars, transportation]
   - name: "es"
@@ -1221,8 +1281,6 @@ emojis:
     keywords: [food, snack]
   - name: "raising_hand"
     keywords: [female, girl, woman]
-  - name: "tulip"
-    keywords: [flowers, plant, nature]
   - name: "bomb"
     keywords: [boom, explode]
   - name: "european_post_office"
@@ -1231,8 +1289,6 @@ emojis:
     keywords: []
   - name: "book"
     keywords: []
-  - name: "evergreen_tree"
-    keywords: [plant, nature]
   - name: "loudspeaker"
     keywords: [volume, sound]
   - name: "ramen"
@@ -1267,16 +1323,12 @@ emojis:
     keywords: [search, zoom]
   - name: "registered"
     keywords: [alphabet, circle]
-  - name: "bouquet"
-    keywords: [flowers, nature]
   - name: "factory"
     keywords: [building]
   - name: "mag_right"
     keywords: [search, zoom]
   - name: "u5272"
     keywords: [cut, divide, chinese, pink]
-  - name: "fallen_leaf"
-    keywords: [nature, plant, vegetable]
   - name: "mahjong"
     keywords: [game, chinese]
   - name: "u5408"
@@ -1339,8 +1391,6 @@ emojis:
     keywords: []
   - name: "finnadie"
     keywords: [ghonly]
-  - name: "maple_leaf"
-    keywords: [nature, plant, vegetable]
   - name: "rice_cracker"
     keywords: [food, japanese]
   - name: "u7a7a"
@@ -1355,8 +1405,6 @@ emojis:
     keywords: []
   - name: "fire_engine"
     keywords: [transportation, cars, vehicle]
-  - name: "umbrella"
-    keywords: [rain, weather]
   - name: "bullettrain_side"
     keywords: [transportation, vehicle]
   - name: "fireworks"
@@ -1367,8 +1415,6 @@ emojis:
     keywords: [launch, ship, staffmode]
   - name: "bus"
     keywords: [car, vehicle, transportation]
-  - name: "first_quarter_moon"
-    keywords: [nature]
   - name: "mega"
     keywords: [sound, speaker, volume]
   - name: "roller_coaster"
@@ -1377,14 +1423,10 @@ emojis:
     keywords: [18, drink, pub, night]
   - name: "busstop"
     keywords: [transportation]
-  - name: "first_quarter_moon_with_face"
-    keywords: []
   - name: "melon"
     keywords: [fruit, nature, food]
   - name: "memo"
     keywords: [documents, stationery]
-  - name: "rose"
-    keywords: [flowers, valentines, love]
   - name: "unlock"
     keywords: [privacy, security]
   - name: "fish_cake"
@@ -1395,8 +1437,6 @@ emojis:
     keywords: [police, ambulance, 911, emergency]
   - name: "up"
     keywords: [blue-square]
-  - name: "cactus"
-    keywords: [vegetable, plant, nature]
   - name: "fishing_pole_and_fish"
     keywords: [food, hobby]
   - name: "metal"
@@ -1433,8 +1473,6 @@ emojis:
     keywords: [record, video, oldschool]
   - name: "flashlight"
     keywords: [dark]
-  - name: "milky_way"
-    keywords: [photo]
   - name: "vibration_mode"
     keywords: [orange-square, phone]
   - name: "camera"
@@ -1463,8 +1501,6 @@ emojis:
     keywords: [music, instrument]
   - name: "capital_abcd"
     keywords: [alphabet, words, blue-square]
-  - name: "foggy"
-    keywords: [photo]
   - name: "money_with_wings"
     keywords: [dollar, bills]
   - name: "sagittarius"
@@ -1479,8 +1515,6 @@ emojis:
     keywords: [dollar]
   - name: "sailboat"
     keywords: [transportation, ship]
-  - name: "volcano"
-    keywords: [photo]
   - name: "car"
     keywords: [transportation]
   - name: "sake"
@@ -1499,18 +1533,10 @@ emojis:
     keywords: [transportation, vehicle]
   - name: "santa"
     keywords: [festival, man, male]
-  - name: "waning_crescent_moon"
-    keywords: [nature]
   - name: "four"
     keywords: [4, numbers]
-  - name: "moon"
-    keywords: [nature]
   - name: "satellite"
     keywords: [communication]
-  - name: "waning_gibbous_moon"
-    keywords: [nature]
-  - name: "four_leaf_clover"
-    keywords: [vegetable, plant, nature, lucky]
   - name: "mortar_board"
     keywords: [school, college, degree]
   - name: "warning"
@@ -1559,19 +1585,11 @@ emojis:
     keywords: [draw, line]
   - name: "cherries"
     keywords: [food, fruit]
-  - name: "waxing_crescent_moon"
-    keywords: [nature]
-  - name: "cherry_blossom"
-    keywords: [flower, nature, plant]
   - name: "fuelpump"
     keywords: []
   - name: "movie_camera"
     keywords: [film, record]
   - name: "waxing_gibbous_moon"
-    keywords: [nature]
-  - name: "chestnut"
-    keywords: [food, squirrel]
-  - name: "full_moon"
     keywords: [nature]
   - name: "moyai"
     keywords: [stone]
@@ -1579,16 +1597,12 @@ emojis:
     keywords: [documents]
   - name: "wc"
     keywords: [toilet, restroom, blue-square]
-  - name: "full_moon_with_face"
-    keywords: []
   - name: "seat"
     keywords: [sit]
   - name: "children_crossing"
     keywords: [school]
   - name: "game_die"
     keywords: [dice]
-  - name: "mushroom"
-    keywords: [plant, vegetable]
   - name: "secret"
     keywords: [privacy]
   - name: "wedding"
@@ -1599,12 +1613,8 @@ emojis:
     keywords: [nation, flag, britsh, UK]
   - name: "musical_keyboard"
     keywords: []
-  - name: "christmas_tree"
-    keywords: [festival, vacation]
   - name: "musical_note"
     keywords: []
-  - name: "seedling"
-    keywords: [plant, nature]
   - name: "church"
     keywords: [building, religion]
   - name: "gemini"
@@ -1649,8 +1659,6 @@ emojis:
     keywords: []
   - name: "cl"
     keywords: [alphabet, words, red-square]
-  - name: "globe_with_meridians"
-    keywords: [earth, international, world]
   - name: "shipit"
     keywords: [squirrel]
   - name: "white_medium_small_square"
@@ -1677,8 +1685,6 @@ emojis:
     keywords: [time, clock]
   - name: "golf"
     keywords: [sports]
-  - name: "new_moon"
-    keywords: [nature]
   - name: "shower"
     keywords: [clean, bath]
   - name: "wind_chime"
@@ -1687,8 +1693,6 @@ emojis:
     keywords: [time, clock]
   - name: "grapes"
     keywords: [fruit, food]
-  - name: "new_moon_with_face"
-    keywords: [nature]
   - name: "signal_strength"
     keywords: [blue-square]
   - name: "wine_glass"
@@ -1779,8 +1783,6 @@ emojis:
     keywords: [food]
   - name: "non-potable_water"
     keywords: []
-  - name: "zap"
-    keywords: [thunder, weather]
   - name: "clock530"
     keywords: [time, clock]
   - name: "hammer"
@@ -1798,3 +1800,6 @@ emojis:
 
   - name: "horse_racing"
     keywords: [animal, betting]
+    
+  - name: "christmas_tree"
+    keywords: [festival, vacation, december]
