@@ -25,8 +25,6 @@ emojis:
     keywords: [face, love, like, affection]
   - name: "kissing_closed_eyes"
     keywords: [face, love, like, affection]
-  - name: "kiss"
-    keywords: [face, lips, love, like, affection]
   - name: "kissing"
     keywords: [love, like, face, 3]
   - name: "kissing_smiling_eyes"
@@ -152,8 +150,6 @@ emojis:
   - name: "princess"
     keywords: [girl, woman, female, blond, crown]
 
-  - name: "cat"
-    keywords: [animal]
   - name: "smile_cat"
     keywords: [animal, cats]
   - name: "heart_eyes_cat"
@@ -320,8 +316,236 @@ emojis:
     keywords: [king, kod]
   - name: "womans_hat"
     keywords: [fashion, accessories]
+
+  - name: "athletic_shoe"
+    keywords: [shoes, sports]
+  - name: "shoe"
+    keywords: [accessories, fashion]
+  - name: "mans_shoe"
+    keywords: [fashion, male]
+  - name: "sandal"
+    keywords: [shoes, fashion]
+  - name: "high_heel"
+    keywords: [fashion, shoes, female]
+  - name: "boot"
+    keywords: [shoes, fashion]
+    
+  - name: "tshirt"
+    keywords: [fashion]
+  - name: "shirt"
+    keywords: [fashion, cloth]
+  - name: "necktie"
+    keywords: [shirt, suitup, formal, fashion, cloth]
+  - name: "womans_clothes"
+    keywords: [fashion]
+  - name: "dress"
+    keywords: [fashion]
+  - name: "running_shirt_with_sash"
+    keywords: [play]
+  - name: "jeans"
+    keywords: [fashion, shopping]
+  - name: "kimono"
+    keywords: [dress, fashion, women, female, japanese]
+  - name: "bikini"
+    keywords: [swimming, female, woman ,girl, fashion, beach]
+  - name: "briefcase"
+    keywords: [business, documents, work]
+  - name: "handbag"
+    keywords: [fashion, bag, accessory, accessories]
+  - name: "pouch"
+    keywords: [bag, accessories]
+  - name: "purse"
+    keywords: [fashion, accessories, money]
+  - name: "eyeglasses"
+    keywords: [fashion, accessories]
+  - name: "ribbon"
+    keywords: [decoration, pink, girl, bowtie]
+
+  - name: "closed_umbrella"
+    keywords: [weather, rain]
+  - name: "lipstick"
+    keywords: [female, girl, fashion]
+    
+  - name: "yellow_heart"
+    keywords: [love, like, affection]
+  - name: "blue_heart"
+    keywords: [love, like, affection]
+  - name: "purple_heart"
+    keywords: [love, like, affection]
+  - name: "green_heart"
+    keywords: [love, like, affection]
+  - name: "heart"
+    keywords: [love, like]
+  - name: "broken_heart"
+    keywords: [sad, sorry]
+  - name: "heartpulse"
+    keywords: [like, love, affection]
+  - name: "heartbeat"
+    keywords: [love, like, affection]
+  - name: "two_hearts"
+    keywords: [love, like, affection]
+  - name: "sparkling_heart"
+    keywords: [love, like, affection]
+  - name: "revolving_hearts"
+    keywords: [love, like, affection]
+  - name: "cupid"
+    keywords: [love, like, heart, affection]
+  - name: "love_letter"
+    keywords: [email, like, affection, envelope]
+  - name: "kiss"
+    keywords: [face, lips, love, like, affection]
+  - name: "ring"
+    keywords: [wedding, propose, marriage]
+  - name: "gem"
+    keywords: [blue, ruby]
+  - name: "bust_in_silhouette"
+    keywords: [man, user, person, human]
+  - name: "busts_in_silhouette"
+    keywords: [man, user, person, human, group, team]
+  - name: "speech_balloon"
+    keywords: [bubble, words]
+  - name: "footprints"
+    keywords: [feet]
+  - name: "thought_balloon"
+    keywords: [bubble, cloud, speech]
     
 
+  - name: "dog"
+    keywords: [animal, friend, nature, woff]
+  - name: "wolf"
+    keywords: [animal, nature]
+  - name: "cat"
+    keywords: [animal]
+  - name: "mouse"
+    keywords: [animal, nature]
+  - name: "hamster"
+    keywords: [animal, nature]
+  - name: "rabbit"
+    keywords: [animal, nature]
+  - name: "frog"
+    keywords: [animal, nature]
+  - name: "tiger"
+    keywords: [animal]
+  - name: "koala"
+    keywords: [animal, nature]
+  - name: "bear"
+    keywords: [animal, nature]
+  - name: "pig"
+    keywords: [animal]
+  - name: "pig_nose"
+    keywords: [animal]
+  - name: "cow"
+    keywords: [beef, ox, animal]
+  - name: "boar"
+    keywords: [animal, nature]
+  - name: "monkey"
+    keywords: [animal, nature]
+  - name: "monkey_face"
+    keywords: [animal, nature]
+  - name: "horse"
+    keywords: [animal]
+  - name: "sheep"
+    keywords: [animal, nature]
+  - name: "elephant"
+    keywords: [animal, nature, nose, thailand]
+  - name: "panda_face"
+    keywords: [animal, nature]
+  - name: "penguin"
+    keywords: [animal, nature]
+
+  - name: "bird"
+    keywords: [animal, nature]
+  - name: "baby_chick"
+    keywords: [animal, chicken]
+  - name: "hatched_chick"
+    keywords: [chicken, baby]
+  - name: "hatching_chick"
+    keywords: [chicken, egg, born]
+  - name: "chicken"
+    keywords: [animal]
+  - name: "snake"
+    keywords: [animal, evil]
+  - name: "turtle"
+    keywords: [animal, slow]
+  - name: "bug"
+    keywords: [insect, nature]
+  - name: "honeybee"
+    keywords: [animal, insect]
+  - name: "bee"
+    keywords: [animal, insect]
+  - name: "ant"
+    keywords: [animal, insect]
+  - name: "beetle"
+    keywords: [insect, nature]
+  - name: "snail"
+    keywords: [slow, animal, shell]
+  - name: "octopus"
+    keywords: [animal]
+  - name: "shell"
+    keywords: [nature, sea, beach]
+  - name: "tropical_fish"
+    keywords: [animal]
+  - name: "fish"
+    keywords: [animal, food, nature]
+  - name: "dolphin"
+    keywords: [animal, nature, fish]
+  - name: "whale"
+    keywords: [animal, nature, sea]
+  - name: "whale2"
+    keywords: [animal, nature]
+  - name: "cow2"
+    keywords: [beef, ox, animal, nature]
+  - name: "ram"
+    keywords: [animal, sheep, nature]
+
+  - name: "rat"
+    keywords: [animal, mouse]
+  - name: "water_buffalo"
+    keywords: [animal, nature, ox, cow]
+  - name: "tiger2"
+    keywords: [animal, nature]
+  - name: "rabbit2"
+    keywords: [animal, nature]
+  - name: "dragon"
+    keywords: [animal, myth, nature, chinese, green]
+  - name: "racehorse"
+    keywords: [animal, gamble]
+  - name: "goat"
+    keywords: [animal, nature]
+  - name: "rooster"
+    keywords: [animal, nature, chicken]
+  - name: "dog2"
+    keywords: [animal, nature, friend]
+  - name: "pig2"
+    keywords: [animal, nature]
+  - name: "mouse2"
+    keywords: [animal, nature]
+  - name: "ox"
+    keywords: [animal, cow, beef]
+  - name: "dragon_face"
+    keywords: [animal, myth, nature, chinese, green]
+  - name: "blowfish"
+    keywords: [nature, food, sea, ocean]
+  - name: "crocodile"
+    keywords: [animal, nature]
+  - name: "camel"
+    keywords: [animal, nature, hot]
+  - name: "dromedary_camel"
+    keywords: [animal, hot, desert]
+  - name: "leopard"
+    keywords: [animal, nature]
+  - name: "cat2"
+    keywords: [animal]
+  - name: "poodle"
+    keywords: [dog, animal, 101, nature]
+  - name: "paw_prints"
+    keywords: [animal]
+    
+    
+    
+    
+    
+    
   - name: "100"
     keywords: [score, perfect, numbers]
   - name: "1234"
@@ -364,8 +588,6 @@ emojis:
     keywords: [read, library, knowledge]
   - name: "closed_lock_with_key"
     keywords: [security, privacy]
-  - name: "closed_umbrella"
-    keywords: [weather, rain]
   - name: "cloud"
     keywords: [weather]
   - name: "clubs"
@@ -382,24 +604,12 @@ emojis:
     keywords: [festival, party]
   - name: "confused"
     keywords: [indifference]
-  - name: "handbag"
-    keywords: [fashion, bag, accessory, accessories]
   - name: "hash"
     keywords: [symbol]
-  - name: "hatched_chick"
-    keywords: [chicken, baby]
-  - name: "hatching_chick"
-    keywords: [chicken, egg, born]
   - name: "headphones"
     keywords: [music, score, gadgets]
   - name: "heart_decoration"
     keywords: [purple-square, love, like]
-  - name: "heart"
-    keywords: [love, like]
-  - name: "heartbeat"
-    keywords: [love, like, affection]
-  - name: "heartpulse"
-    keywords: [like, love, affection]
   - name: "hearts"
     keywords: [poker, cards]
   - name: "heavy_check_mark"
@@ -408,8 +618,6 @@ emojis:
     keywords: [divide, math, calculation]
   - name: "heavy_dollar_sign"
     keywords: [money]
-  - name: "cat2"
-    keywords: [animal]
   - name: "heavy_exclamation_mark"
     keywords: [surprise]
   - name: "heavy_minus_sign"
@@ -428,8 +636,6 @@ emojis:
     keywords: [sea, water, wave]
   - name: "octocat"
     keywords: [animal, octopus, cat, github, ghonly]
-  - name: "octopus"
-    keywords: [animal]
   - name: "oden"
     keywords: [food, japanese]
   - name: "office"
@@ -450,10 +656,6 @@ emojis:
     keywords: [blue-square, numbers, 1]
   - name: "smoking"
     keywords: [kills, tobacco, cigarette]
-  - name: "snail"
-    keywords: [slow, animal, shell]
-  - name: "snake"
-    keywords: [animal, ]
   - name: "snowboarder"
     keywords: [sports]
   - name: "snowflake"
@@ -478,10 +680,6 @@ emojis:
     keywords: [stars, green-square]
   - name: "sparkler"
     keywords: [stars, night, shine]
-  - name: "sparkling_heart"
-    keywords: [love, like, affection]
-  - name: "ant"
-    keywords: [animal, insect]
   - name: "congratulations"
     keywords: [chinese, japanese]
   - name: "heavy_plus_sign"
@@ -502,8 +700,6 @@ emojis:
     keywords: [sign, purple-square]
   - name: "herb"
     keywords: [vegetable, plant, medicine]
-  - name: "speech_balloon"
-    keywords: [bubble, words]
   - name: "aries"
     keywords: [sign, purple-square]
   - name: "convenience_store"
@@ -526,8 +722,6 @@ emojis:
     keywords: [arrow, blue-square]
   - name: "cool"
     keywords: [words, blue-square]
-  - name: "high_heel"
-    keywords: [fashion, shoes, female]
   - name: "orange_book"
     keywords: [read, library, knowledge]
   - name: "star"
@@ -544,32 +738,24 @@ emojis:
     keywords: [ip, license]
   - name: "honey_pot"
     keywords: [bees]
-  - name: "ox"
-    keywords: [animal, cow, beef]
   - name: "stars"
     keywords: [night]
   - name: "arrow_down_small"
     keywords: [arrow, blue-square]
   - name: "corn"
     keywords: [food, vegetable, plant]
-  - name: "honeybee"
-    keywords: [animal, insect]
   - name: "package"
     keywords: [mail, gift]
   - name: "station"
     keywords: [transportation, vehicle, public]
   - name: "arrow_forward"
     keywords: [arrow, blue-square]
-  - name: "horse"
-    keywords: [animal]
   - name: "page_facing_up"
     keywords: [documents]
   - name: "statue_of_liberty"
     keywords: [american, newyork]
   - name: "arrow_heading_down"
     keywords: [blue-square, arrow]
-  - name: "horse_racing"
-    keywords: [animal, betting]
   - name: "page_with_curl"
     keywords: [documents]
   - name: "steam_locomotive"
@@ -584,8 +770,6 @@ emojis:
     keywords: [food]
   - name: "arrow_left"
     keywords: [blue-square, arrow]
-  - name: "cow"
-    keywords: [beef, ox, animal]
   - name: "hotel"
     keywords: [building, whotel, accomodation, checkin]
   - name: "palm_tree"
@@ -594,12 +778,8 @@ emojis:
     keywords: [stationery]
   - name: "arrow_lower_left"
     keywords: [arrow, blue-square]
-  - name: "cow2"
-    keywords: [beef, ox, animal, nature]
   - name: "hotsprings"
     keywords: []
-  - name: "panda_face"
-    keywords: [animal, nature]
   - name: "strawberry"
     keywords: [fruit, food, nature]
   - name: "arrow_lower_right"
@@ -620,8 +800,6 @@ emojis:
     keywords: [cars, blue-square, alphabet]
   - name: "arrow_right_hook"
     keywords: [blue-square]
-  - name: "crocodile"
-    keywords: [animal, nature]
   - name: "house"
     keywords: [building, home]
   - name: "part_alternation_mark"
@@ -646,8 +824,6 @@ emojis:
     keywords: [nature, plant, vegetable]
   - name: "arrow_up_small"
     keywords: [blue-square]
-  - name: "paw_prints"
-    keywords: [animal]
   - name: "arrow_upper_left"
     keywords: [blue-square]
   - name: "ice_cream"
@@ -668,8 +844,6 @@ emojis:
     keywords: [morning, view, vacation, photo]
   - name: "arrows_clockwise"
     keywords: [sync]
-  - name: "cupid"
-    keywords: [love, like, heart, affection]
   - name: "id"
     keywords: [purple-square, words]
   - name: "pencil"
@@ -690,8 +864,6 @@ emojis:
     keywords: [design, paint, draw]
   - name: "currency_exchange"
     keywords: [money, dollar]
-  - name: "penguin"
-    keywords: [animal, nature]
   - name: "sushi"
     keywords: [food, japanese]
   - name: "articulated_lorry"
@@ -710,8 +882,6 @@ emojis:
     keywords: [acting, theater, drama]
   - name: "suspension_railway"
     keywords: [vehicle, transportation]
-  - name: "athletic_shoe"
-    keywords: [shoes, sports]
   - name: "customs"
     keywords: [passport, border]
   - name: "atm"
@@ -736,14 +906,10 @@ emojis:
     keywords: [technology, communication]
   - name: "swimmer"
     keywords: [sports]
-  - name: "baby_chick"
-    keywords: [animal, chicken]
   - name: "dart"
     keywords: [game, bar]
   - name: "it"
     keywords: [italy]
-  - name: "pig"
-    keywords: [animal]
   - name: "symbols"
     keywords: [blue-square]
   - name: "baby_symbol"
@@ -752,8 +918,6 @@ emojis:
     keywords: []
   - name: "izakaya_lantern"
     keywords: [light]
-  - name: "pig2"
-    keywords: [animal, nature]
   - name: "syringe"
     keywords: [health, hospital, drugs, blood]
   - name: "back"
@@ -762,8 +926,6 @@ emojis:
     keywords: [calendar, schedule]
   - name: "jack_o_lantern"
     keywords: [halloween]
-  - name: "pig_nose"
-    keywords: [animal]
   - name: "tada"
     keywords: [party, contulations]
   - name: "baggage_claim"
@@ -808,8 +970,6 @@ emojis:
     keywords: [fruit, food]
   - name: "diamonds"
     keywords: [poker, cards]
-  - name: "jeans"
-    keywords: [fashion, shopping]
   - name: "tea"
     keywords: [drink, bowl, breakfast, green]
   - name: "bangbang"
@@ -844,18 +1004,8 @@ emojis:
     keywords: [photo, camp, outdoors]
   - name: "basketball"
     keywords: [sports, balls, NBA]
-  - name: "dog"
-    keywords: [animal, friend, nature, woff]
-  - name: "kimono"
-    keywords: [dress, fashion, women, female, japanese]
-  - name: "poodle"
-    keywords: [dog, animal, 101, nature]
-  - name: "thought_balloon"
-    keywords: [bubble, cloud, speech]
   - name: "bath"
     keywords: [clean, shower]
-  - name: "dog2"
-    keywords: [animal, nature, friend]
   - name: "three"
     keywords: [3, numbers]
   - name: "bathtub"
@@ -870,42 +1020,23 @@ emojis:
     keywords: [japanese, toy]
   - name: "postal_horn"
     keywords: [instrument, music]
-  - name: "bear"
-    keywords: [animal, nature]
-  - name: "dolphin"
-    keywords: [animal, nature, fish]
   - name: "postbox"
     keywords: [email, letter, envelope]
   - name: "ticket"
     keywords: [event, concert]
-  - name: "bee"
-    keywords: [animal, insect]
   - name: "door"
     keywords: [house, entry, exit]
   - name: "potable_water"
     keywords: [blue-square, liquid, restroom, cleaning, faucet]
-  - name: "tiger"
-    keywords: [animal]
+
   - name: "beer"
     keywords: [relax, beverage, drink, drunk, party, pub]
   - name: "doughnut"
     keywords: [food, desert, snack, sweet]
-  - name: "pouch"
-    keywords: [bag, accessories]
-  - name: "tiger2"
-    keywords: [animal, nature]
   - name: "beers"
     keywords: [relax, beverage, drink, drunk, party, pub]
-  - name: "dragon"
-    keywords: [animal, myth, nature, chinese, green]
-  - name: "koala"
-    keywords: [animal, nature]
   - name: "poultry_leg"
     keywords: [food]
-  - name: "beetle"
-    keywords: [insect, nature]
-  - name: "dragon_face"
-    keywords: [animal, myth, nature, chinese, green]
   - name: "koko"
     keywords: [blue-square]
   - name: "pound"
@@ -914,16 +1045,12 @@ emojis:
     keywords: [trademark, brand]
   - name: "beginner"
     keywords: [badge, shield]
-  - name: "dress"
-    keywords: [fashion]
   - name: "kr"
     keywords: [korea, nation, flag]
   - name: "toilet"
     keywords: [restroom, wc]
   - name: "bell"
     keywords: [sound, notification]
-  - name: "dromedary_camel"
-    keywords: [animal, hot]
   - name: "lantern"
     keywords: []
   - name: "tokyo_tower"
@@ -946,18 +1073,10 @@ emojis:
     keywords: [communication, inbox]
   - name: "large_orange_diamond"
     keywords: []
-  - name: "purple_heart"
-    keywords: [love, like, affection]
   - name: "top"
     keywords: [words, blue-square]
-  - name: "bikini"
-    keywords: [swimming, female, woman ,girl, fashion, beach]
   - name: "last_quarter_moon"
     keywords: []
-  - name: "purse"
-    keywords: []
-  - name: "bird"
-    keywords: [animal, nature]
   - name: "ear_of_rice"
     keywords: []
   - name: "last_quarter_moon_with_face"
@@ -992,8 +1111,6 @@ emojis:
     keywords: [globe, world, east, international]
   - name: "ledger"
     keywords: [notes]
-  - name: "rabbit"
-    keywords: [animal, nature]
   - name: "train2"
     keywords: [transportation, vehicle]
   - name: "black_large_square"
@@ -1002,8 +1119,6 @@ emojis:
     keywords: [food]
   - name: "left_luggage"
     keywords: [blue-square, travel]
-  - name: "rabbit2"
-    keywords: [animal, nature]
   - name: "tram"
     keywords: [transportation, vehicle]
   - name: "black_medium_small_square"
@@ -1012,8 +1127,6 @@ emojis:
     keywords: [vegetable, nature, food]
   - name: "left_right_arrow"
     keywords: []
-  - name: "racehorse"
-    keywords: [animal, gamble]
   - name: "triangular_flag_on_post"
     keywords: []
   - name: "black_medium_square"
@@ -1048,24 +1161,18 @@ emojis:
     keywords: []
   - name: "electric_plug"
     keywords: [charger, power]
-  - name: "leopard"
-    keywords: [animal, nature]
   - name: "rage1"
     keywords: [angry, mad, ghonly]
   - name: "trolleybus"
     keywords: [bart, transportation, vehicle]
   - name: "blossom"
     keywords: [nature, flowers, yellow]
-  - name: "elephant"
-    keywords: [animal, nature, nose, thailand]
   - name: "libra"
     keywords: [sign, purple-square]
   - name: "rage2"
     keywords: [angry, mad, ghonly]
   - name: "trollface"
     keywords: [internet, meme]
-  - name: "blowfish"
-    keywords: [nature, food, sea, ocean]
   - name: "email"
     keywords: [inbox, communication]
   - name: "light_rail"
@@ -1090,14 +1197,8 @@ emojis:
     keywords: [mail, letter, postal, communication]
   - name: "railway_car"
     keywords: [transportation, vehicle]
-  - name: "tropical_fish"
-    keywords: [animal]
-  - name: "blue_heart"
-    keywords: [love, like, affection]
   - name: "envelope_with_arrow"
     keywords: [email]
-  - name: "lipstick"
-    keywords: [female, girl, fashion]
   - name: "rainbow"
     keywords: [nature, happy, unicorn]
   - name: "truck"
@@ -1108,20 +1209,16 @@ emojis:
     keywords: [security]
   - name: "trumpet"
     keywords: [music]
-  - name: "boar"
-    keywords: [animal, nature]
   - name: "euro"
     keywords: [money, dollar]
   - name: "lock_with_ink_pen"
     keywords: []
-  - name: "tshirt"
-    keywords: [fashion]
   - name: "boat"
     keywords: [transportation]
   - name: "european_castle"
     keywords: [building]
   - name: "lollipop"
-    keywords: [food, snack, desert]
+    keywords: [food, snack]
   - name: "raising_hand"
     keywords: [female, girl, woman]
   - name: "tulip"
@@ -1132,10 +1229,6 @@ emojis:
     keywords: [building]
   - name: "loop"
     keywords: []
-  - name: "ram"
-    keywords: [animal, sheep, nature]
-  - name: "turtle"
-    keywords: [animal]
   - name: "book"
     keywords: []
   - name: "evergreen_tree"
@@ -1152,34 +1245,24 @@ emojis:
     keywords: [surprise]
   - name: "love_hotel"
     keywords: [love, like, affection, dating]
-  - name: "rat"
-    keywords: [animal]
   - name: "twisted_rightwards_arrows"
     keywords: []
   - name: "bookmark_tabs"
     keywords: [favorite]
-  - name: "love_letter"
-    keywords: [email, like, affection]
   - name: "recycle"
     keywords: [arrow]
   - name: "two"
     keywords: [numbers, 2]
   - name: "books"
     keywords: [literature, library]
-  - name: "eyeglasses"
-    keywords: [fashion, accessories]
   - name: "low_brightness"
     keywords: [sun]
   - name: "red_car"
     keywords: [transportation, vehicle]
-  - name: "two_hearts"
-    keywords: [love, like, affection]
   - name: "m"
     keywords: [alphabet, blue]
   - name: "red_circle"
     keywords: [shape]
-  - name: "boot"
-    keywords: [shoes, fashion]
   - name: "mag"
     keywords: [search, zoom]
   - name: "registered"
@@ -1228,8 +1311,6 @@ emojis:
     keywords: [food, wheat, breakfast, toast]
   - name: "mailbox_with_no_mail"
     keywords: [email, inbox]
-  - name: "revolving_hearts"
-    keywords: [love, like, affection]
   - name: "u6709"
     keywords: [orange-square, chinese, have]
   - name: "feelsgood"
@@ -1242,30 +1323,20 @@ emojis:
     keywords: [photo, sanfrancisco]
   - name: "feet"
     keywords: [animal]
-  - name: "ribbon"
-    keywords: [decoration, pink, girl]
   - name: "u7121"
     keywords: [no, nothing, chinese, japanese, orange-square]
-  - name: "briefcase"
-    keywords: [business, documents, work]
   - name: "ferris_wheel"
     keywords: [photo, carnival, londoneye]
   - name: "rice"
     keywords: [food]
   - name: "u7533"
     keywords: [chinese, japanese]
-  - name: "broken_heart"
-    keywords: [sad, sorry]
   - name: "file_folder"
     keywords: [documents]
-  - name: "mans_shoe"
-    keywords: [fashion, male]
   - name: "rice_ball"
     keywords: [food, japanese]
   - name: "u7981"
     keywords: []
-  - name: "bug"
-    keywords: [insect, nature]
   - name: "finnadie"
     keywords: [ghonly]
   - name: "maple_leaf"
@@ -1284,8 +1355,6 @@ emojis:
     keywords: []
   - name: "fire_engine"
     keywords: [transportation, cars, vehicle]
-  - name: "ring"
-    keywords: [wedding, propose, marriage]
   - name: "umbrella"
     keywords: [rain, weather]
   - name: "bullettrain_side"
@@ -1312,20 +1381,12 @@ emojis:
     keywords: []
   - name: "melon"
     keywords: [fruit, nature, food]
-  - name: "rooster"
-    keywords: [animal, nature]
-  - name: "bust_in_silhouette"
-    keywords: [man, user, person, human]
-  - name: "fish"
-    keywords: [animal, food, nature]
   - name: "memo"
     keywords: [documents, stationery]
   - name: "rose"
     keywords: [flowers, valentines, love]
   - name: "unlock"
     keywords: [privacy, security]
-  - name: "busts_in_silhouette"
-    keywords: [man, user, person, human, group, team]
   - name: "fish_cake"
     keywords: [food]
   - name: "mens"
@@ -1370,8 +1431,6 @@ emojis:
     keywords: [sports]
   - name: "vhs"
     keywords: [record, video, oldschool]
-  - name: "camel"
-    keywords: [animal, nature, hot]
   - name: "flashlight"
     keywords: [dark]
   - name: "milky_way"
@@ -1392,8 +1451,6 @@ emojis:
     keywords: []
   - name: "minidisc"
     keywords: [technology, record, data]
-  - name: "running_shirt_with_sash"
-    keywords: [play]
   - name: "video_game"
     keywords: [play]
   - name: "candy"
@@ -1426,8 +1483,6 @@ emojis:
     keywords: [photo]
   - name: "car"
     keywords: [transportation]
-  - name: "footprints"
-    keywords: [feet]
   - name: "sake"
     keywords: [wine, drink, drunk, beverage]
   - name: "vs"
@@ -1436,8 +1491,6 @@ emojis:
     keywords: [business, stationery]
   - name: "fork_and_knife"
     keywords: [cutlery, kitchen]
-  - name: "sandal"
-    keywords: [shoes, fashion]
   - name: "carousel_horse"
     keywords: [photo, carnival, horse]
   - name: "fountain"
@@ -1480,8 +1533,6 @@ emojis:
     keywords: [transportation, sports, human]
   - name: "school"
     keywords: [building]
-  - name: "water_buffalo"
-    keywords: [animal, nature, ox, cow]
   - name: "chart_with_downwards_trend"
     keywords: [graph]
   - name: "fried_shrimp"
@@ -1502,18 +1553,12 @@ emojis:
     keywords: [stationery, cut]
   - name: "checkered_flag"
     keywords: [contest, finishline, rase, gokart]
-  - name: "frog"
-    keywords: [animal, nature]
-  - name: "mouse"
-    keywords: [animal, nature]
   - name: "scorpius"
     keywords: [sign]
   - name: "wavy_dash"
     keywords: [draw, line]
   - name: "cherries"
     keywords: [food, fruit]
-  - name: "mouse2"
-    keywords: [animal, nature]
   - name: "waxing_crescent_moon"
     keywords: [nature]
   - name: "cherry_blossom"
@@ -1534,8 +1579,6 @@ emojis:
     keywords: [documents]
   - name: "wc"
     keywords: [toilet, restroom, blue-square]
-  - name: "chicken"
-    keywords: [animal]
   - name: "full_moon_with_face"
     keywords: []
   - name: "seat"
@@ -1556,18 +1599,12 @@ emojis:
     keywords: [nation, flag, britsh, UK]
   - name: "musical_keyboard"
     keywords: []
-  - name: "whale"
-    keywords: [animal, nature, sea]
   - name: "christmas_tree"
     keywords: [festival, vacation]
-  - name: "gem"
-    keywords: [blue]
   - name: "musical_note"
     keywords: []
   - name: "seedling"
     keywords: [plant, nature]
-  - name: "whale2"
-    keywords: [animal, nature]
   - name: "church"
     keywords: [building, religion]
   - name: "gemini"
@@ -1592,8 +1629,6 @@ emojis:
     keywords: [festival, carnival, party]
   - name: "gift"
     keywords: [present, birthday]
-  - name: "sheep"
-    keywords: [animal, nature]
   - name: "white_circle"
     keywords: []
   - name: "city_sunrise"
@@ -1602,8 +1637,6 @@ emojis:
     keywords: [love]
   - name: "name_badge"
     keywords: [fire]
-  - name: "shell"
-    keywords: [nature, sea, beach]
   - name: "white_flower"
     keywords: [japanese]
   - name: "city_sunset"
@@ -1618,18 +1651,12 @@ emojis:
     keywords: [alphabet, words, red-square]
   - name: "globe_with_meridians"
     keywords: [earth, international, world]
-  - name: "necktie"
-    keywords: [shirt, suitup, formal, fashion, cloth]
   - name: "shipit"
     keywords: [squirrel]
   - name: "white_medium_small_square"
     keywords: []
-  - name: "goat"
-    keywords: [animal, nature]
   - name: "negative_squared_cross_mark"
     keywords: [x, green-square, no, deny]
-  - name: "shirt"
-    keywords: [fashion, cloth]
   - name: "white_medium_square"
     keywords: []
   - name: "clapper"
@@ -1644,8 +1671,6 @@ emojis:
     keywords: [ghonly]
   - name: "new"
     keywords: [blue-square]
-  - name: "shoe"
-    keywords: [accessories, fashion]
   - name: "white_square_button"
     keywords: []
   - name: "clock1"
@@ -1684,12 +1709,8 @@ emojis:
     keywords: [blue-square]
   - name: "six_pointed_star"
     keywords: [purple-square]
-  - name: "wolf"
-    keywords: [animal, nature]
   - name: "clock1130"
     keywords: [time, clock]
-  - name: "green_heart"
-    keywords: [love, like, affection]
   - name: "nine"
     keywords: [blue-square]
   - name: "ski"
@@ -1700,8 +1721,6 @@ emojis:
     keywords: []
   - name: "no_bell"
     keywords: [sound, volume, mute]
-  - name: "womans_clothes"
-    keywords: [fashion]
   - name: "clock1230"
     keywords: [time, clock]
   - name: "grey_question"
@@ -1740,8 +1759,6 @@ emojis:
     keywords: [music, instrument]
   - name: "small_red_triangle"
     keywords: []
-  - name: "yellow_heart"
-    keywords: [love, like, affection]
   - name: "clock4"
     keywords: [time, clock]
   - name: "gun"
@@ -1772,8 +1789,6 @@ emojis:
     keywords: [numbers]
   - name: "clock6"
     keywords: [time, clock]
-  - name: "hamster"
-    keywords: [animal, nature]
   - name: "notebook"
     keywords: [stationery]
   - name: "clock630"
@@ -1781,7 +1796,5 @@ emojis:
   - name: "notebook_with_decorative_cover"
     keywords: []
 
-  - name: "monkey"
-    keywords: [animal, nature]
-  - name: "monkey_face"
-    keywords: [animal, nature]
+  - name: "horse_racing"
+    keywords: [animal, betting]
