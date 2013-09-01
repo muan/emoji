@@ -2,44 +2,95 @@
 layout: default
 ---
 
-<section class="search">
-  <img src="/emojis/mag.png" width="20" />
-  <input type="search" class="search speedy-filter" />
-</section>
-<section class="tell-me-a-story">
-  <div class="story"></div>
-  <div class="storyline"><input type="text" data-clipboard-text="" class="queue autofocus plain" required /></div>
-</section>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='/fav.png' rel='shortcut icon'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta content="{{ site.title }}" property="og:title" />
+    <title>{{ site.title }}</title>
+    <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
+    <link href="/stylesheets/emoji.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/zeroclipboard.js"></script>
+    <script src="javascripts/stuff.js"></script>
+    <script src="javascripts/speedy.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-21332781-16', 'muan.co');
+      ga('send', 'pageview');
+    </script>
+  </head>
 
-<section class="groups">
-  <a href="#blue" class="group"><img src="/emojis/large_blue_circle.png" /></a>
-  <a href="#cats" class="group"><img src="/emojis/cat.png" /></a>
-  <a href="#monkey" class="group"><img src="/emojis/hear_no_evil.png" /></a>
-  <a href="#transportation" class="group"><img src="/emojis/oncoming_automobile.png" /></a>
-  <a href="#food" class="group"><img src="/emojis/ramen.png" /></a>
-  <a href="#fruit" class="group"><img src="/emojis/apple.png" /></a>
-  <a href="#photo" class="group"><img src="/emojis/mount_fuji.png" /></a>
-  <a href="#time" class="group"><img src="/emojis/clock7.png" /></a>
-  <a href="#ghonly" class="group"><img src="/emojis/octocat.png" /></a>
-  <a class="speedy-remover"><img src="/emojis/x.png" /></a>
-</section>
-<section class="list">
-  <a class="add-all">Queue all</a>
-  <ul>
-    {% for emoji in site.emojis %}
-      <li class="result">
-        <div class="emoji {{ emoji.name }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
-        <input type="text" class="autofocus plain emoji-code" value=":{{ emoji.name }}:" data-clipboard-text=":{{ emoji.name }}:" />
-        <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
-      </li>
-    {% endfor %}
-  </ul>
-  <div class="no-result">
-    <p>Can't find the emojis for <strong class="keyword"></strong>? <a href="https://github.com/muan/emoji/blob/gh-pages/_config.yml#L8" target="_blank">Add this word to the keyword list on GitHub</a>!</p>
-    <p>
-      <img src="/emojis/mag.png" />
-      <img src="/emojis/octocat.png" />
-      <img src="/emojis/mag_right.png" />
-    </p>
-  </div>
-</section>
+  <body>
+    <header>
+      <div class="container">
+          <img src="/emojis/octopus.png" width="20" />
+          +
+          <img src="/emojis/cat.png" width="20" />
+          =
+          <img src="/emojis/octocat.png" width="20" />
+          <div></div>
+      </div>
+      <div class="search">
+        <img src="/emojis/mag.png" width="20" />
+        <input type="search" class="search speedy-filter" />
+      </section>
+    </header>
+
+    <section class="tell-me-a-story">
+      <div class="story"></div>
+      <div class="storyline"><input type="text" data-clipboard-text="" class="queue autofocus plain" required /></div>
+    </section>
+
+    <section class="groups">
+      <a href="#blue" class="group"><img src="/emojis/large_blue_circle.png" /></a>
+      <a href="#cats" class="group"><img src="/emojis/cat.png" /></a>
+      <a href="#monkey" class="group"><img src="/emojis/hear_no_evil.png" /></a>
+      <a href="#transportation" class="group"><img src="/emojis/oncoming_automobile.png" /></a>
+      <a href="#food" class="group"><img src="/emojis/ramen.png" /></a>
+      <a href="#fruit" class="group"><img src="/emojis/apple.png" /></a>
+      <a href="#photo" class="group"><img src="/emojis/mount_fuji.png" /></a>
+      <a href="#time" class="group"><img src="/emojis/clock7.png" /></a>
+      <a href="#ghonly" class="group"><img src="/emojis/octocat.png" /></a>
+      <a class="speedy-remover"><img src="/emojis/x.png" /></a>
+      <a href="#" class="js-hide-text">Toggle text</a>
+    </section>
+    <section class="list">
+      <a class="js-queue-all">Queue all</a>
+      <ul>
+        {% for emoji in site.emojis %}
+          {% if emoji.name == "group" %}
+            <li class="emoji-group">
+              {{ emoji.keywords }}
+            </li>
+          {% else %}
+            <li class="result emoji-wrapper">
+              <div class="emoji {{ emoji.name }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
+              <input type="text" class="autofocus plain emoji-code" value=":{{ emoji.name }}:" data-clipboard-text=":{{ emoji.name }}:" />
+              <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <div class="no-result">
+        <p>Can't find the emojis for <strong class="keyword"></strong>? <a href="https://github.com/muan/emoji/blob/gh-pages/_config.yml#L8" target="_blank">Add this word to the keyword list on GitHub</a>!</p>
+        <p>
+          <img src="/emojis/mag.png" />
+          <img src="/emojis/octocat.png" />
+          <img src="/emojis/mag_right.png" />
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <img src="/emojis/heart.png" width="20" />
+    </footer>
+  </body>
+</html>

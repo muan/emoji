@@ -16,16 +16,19 @@ body {
 
 header, footer {
   background-color: #f0f0f0;
-  padding: 70px 0;
+  padding: 20px 0;
   font-size: 20px;
   text-align: center;
 }
 
-section {
-  overflow: hidden;
+.container, section {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+}
+
+section {
+  overflow: hidden;
   text-align: center;
   padding: 20px;
   &.groups {
@@ -65,7 +68,15 @@ ul {
   }
 }
 
-li {
+.emoji-group {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.emoji-wrapper {
   @include inline-block;
   margin: 0;
   width: 160px;
@@ -81,6 +92,14 @@ li {
   input { margin-left: 25px; }
 }
 
+ul.hide-text {
+  .emoji-wrapper { 
+    width: 30px;
+    .emoji {  @include transform(scale(1)); }
+  }
+  input { display: none; }
+}
+
 ul, li {
   list-style-type: none;
 }
@@ -89,6 +108,7 @@ input.search {
   min-height: 34px;
   padding: 7px 8px;
   outline: none;
+  margin-top: 15px;
   color: #333;
   background-color: #fafafa;
   background-repeat: no-repeat;
@@ -133,13 +153,13 @@ input.queue {
     text-align: left;
   }
 
-  section.search {
+  .search {
     position: absolute;
-    top: 0; right: 0;
+    top: 5px; right: 5px;
     background: none;
     text-align: right;
     padding: 12px 15px;
-    input.search { min-height: 0; width: 100px; }
+    input.search { min-height: 0; width: 140px; margin-top: 0; }
   }
 
   section input.queue { width: 100%; }

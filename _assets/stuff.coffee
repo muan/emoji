@@ -5,6 +5,9 @@ $ ->
   $(document).keydown (e) ->
     if e.keyCode == 83 && !$("input.search:focus").length
       $("input.search").focus()
+      t = $("input.search").get(0)
+      t.selectionStart = 0
+      t.selectionEnd = t.value.length
       false
 
   if navigator.userAgent.match(/iPad|iPhone/i)
@@ -21,8 +24,11 @@ $ ->
       i.selectionStart = 0
       i.selectionEnd = i.value.length
 
-  $(".add-all").click ->
+  $(".js-queue-all").click ->
     $("li:visible .emoji").click()
+
+  $(".js-hide-text").click ->
+    $("ul").toggleClass("hide-text")
 
   $.fn.addToStoryLine = ->
     $(this).clone().appendTo(".story").click ->

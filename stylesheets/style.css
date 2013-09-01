@@ -19,15 +19,17 @@ body {
 
 header, footer {
   background-color: #f0f0f0;
-  padding: 70px 0;
+  padding: 20px 0;
   font-size: 20px;
   text-align: center; }
 
-section {
-  overflow: hidden;
+.container, section {
   width: 100%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+section {
+  overflow: hidden;
   text-align: center;
   padding: 20px; }
   section.groups {
@@ -68,7 +70,14 @@ ul {
     box-shadow: none;
     outline: none; }
 
-li {
+.emoji-group {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0; }
+
+.emoji-wrapper {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
@@ -79,12 +88,23 @@ li {
   padding: 8px 0;
   overflow: hidden;
   white-space: nowrap; }
-  li .keywords {
+  .emoji-wrapper .keywords {
     font-size: 0; }
-  li .emoji {
+  .emoji-wrapper .emoji {
     position: absolute; }
-  li input {
+  .emoji-wrapper input {
     margin-left: 25px; }
+
+ul.hide-text .emoji-wrapper {
+  width: 30px; }
+  ul.hide-text .emoji-wrapper .emoji {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+ul.hide-text input {
+  display: none; }
 
 ul, li {
   list-style-type: none; }
@@ -93,6 +113,7 @@ input.search {
   min-height: 34px;
   padding: 7px 8px;
   outline: none;
+  margin-top: 15px;
   color: #333;
   background-color: #fafafa;
   background-repeat: no-repeat;
@@ -167,16 +188,17 @@ input.queue {
     padding: 20px;
     text-align: left; }
 
-  section.search {
+  .search {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 5px;
     background: none;
     text-align: right;
     padding: 12px 15px; }
-    section.search input.search {
+    .search input.search {
       min-height: 0;
-      width: 100px; }
+      width: 140px;
+      margin-top: 0; }
 
   section input.queue {
     width: 100%; }

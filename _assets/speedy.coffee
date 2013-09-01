@@ -19,7 +19,7 @@ $.fn.speedy = (result_selector) ->
       else
         $(result_selector).show()
 
-    $(".add-all").toggle (!!keyword.length && !!$(".result:visible").length)
+    $(".js-queue-all").toggle (!!keyword.length && !!$(".result:visible").length)
     $(".no-result").toggle( !$(".result:visible").length )
   
   $input.on "search keyup", -> 

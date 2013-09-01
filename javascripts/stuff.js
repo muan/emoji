@@ -3,8 +3,12 @@ $(function() {
   var clip;
   $("input.search").focus();
   $(document).keydown(function(e) {
+    var t;
     if (e.keyCode === 83 && !$("input.search:focus").length) {
       $("input.search").focus();
+      t = $("input.search").get(0);
+      t.selectionStart = 0;
+      t.selectionEnd = t.value.length;
       return false;
     }
   });
@@ -28,8 +32,11 @@ $(function() {
       return i.selectionEnd = i.value.length;
     });
   }
-  $(".add-all").click(function() {
+  $(".js-queue-all").click(function() {
     return $("li:visible .emoji").click();
+  });
+  $(".js-hide-text").click(function() {
+    return $("ul").toggleClass("hide-text");
   });
   $.fn.addToStoryLine = function() {
     var val;
