@@ -6,10 +6,322 @@ rdiscount:
 timezone:         PST
 
 emojis:
-  - name: "-1"
-    keywords: [thumb, thumbs, thumbsdown]
+
+  - name: "smile"
+    keywords: [face, happy, joy]
+  - name: "grinning"
+    keywords: [face, smile, happy, joy]
+  - name: "smiley"
+    keywords: [face, happy, joy, haha]
+  - name: "blush"
+    keywords: [face, smile, happy]
+  - name: "relaxed"
+    keywords: [face, blush, massage, happiness]
+  - name: "wink"
+    keywords: [face, happy]
+  - name: "heart_eyes"
+    keywords: [face, love, like, affection]
+  - name: "kissing_heart"
+    keywords: [face, love, like, affection]
+  - name: "kissing_closed_eyes"
+    keywords: [face, love, like, affection]
+  - name: "kiss"
+    keywords: [face, lips, love, like, affection]
+  - name: "kissing"
+    keywords: [love, like, face, 3]
+  - name: "kissing_smiling_eyes"
+    keywords: [face, affection]
+  - name: "stuck_out_tongue_winking_eye"
+    keywords: [face, prank, childish]
+  - name: "stuck_out_tongue_closed_eyes"
+    keywords: [face, prank]
+  - name: "stuck_out_tongue"
+    keywords: [face, prank, childish]
+  - name: "flushed"
+    keywords: [face, blush, shy]
+  - name: "grin"
+    keywords: [face, happy, smile, joy]
+  - name: "pensive"
+    keywords: [face, sad]
+  - name: "relieved"
+    keywords: [face, relaxed, phew, massage, happiness]
+  - name: "unamused"
+    keywords: [indifference, face, bored]
+  - name: "disappointed"
+    keywords: [face, sad, upset]
+  - name: "persevere"
+    keywords: [face, sick, no, upset]
+  - name: "cry"
+    keywords: [face, tears, sad, face]
+  - name: "joy"
+    keywords: [face, cry, tears, weep, happy, haha]
+  - name: "sob"
+    keywords: [face, cry, tears, sad, upset]
+  - name: "sleepy"
+    keywords: [face, tired]
+  - name: "disappointed_relieved"
+    keywords: [face, phew, sweat, nervous]
+  - name: "cold_sweat"
+    keywords: [face, nervous]
+  - name: "sweat_smile"
+    keywords: [face, hot, happy]
+  - name: "sweat"
+    keywords: [face, hot]
+  - name: "weary"
+    keywords: [face, tired, sleepy, sad]
+  - name: "tired_face"
+    keywords: [face, sick, whine, upset]
+  - name: "fearful"
+    keywords: [face, scared, terrified, nervous, oops]
+  - name: "scream"
+    keywords: [face, munch]
+  - name: "angry"
+    keywords: [mad, face, annoyed]
+  - name: "triumph"
+    keywords: [face, "gas?", phew]
+  - name: "confounded"
+    keywords: [face, confused, sick, unwell]
+  - name: "satisfied"
+    keywords: [haha, happy, face, joy, glad]
+  - name: "yum"
+    keywords: [happy, joy, tongue, smile, face]
+  - name: "mask"
+    keywords: [face, sick, ill]
+  - name: "sunglasses"
+    keywords: [face, cool]
+  - name: "sleeping"
+    keywords: [face, tired, sleepy]
+  - name: "dizzy_face"
+    keywords: [face, spent, unconscious, xox]
+  - name: "astonished"
+    keywords: [face, xox]
+  - name: "worried"
+    keywords: [face, concern, nervous]
+  - name: "frowning"
+    keywords: [face, aw]
+  - name: "anguished"
+    keywords: [face, stunned, nervous]
+  - name: "smiling_imp"
+    keywords: [devil, horns]
+  - name: "imp"
+    keywords: [devil, evil, angry, horns]
+  - name: "open_mouth"
+    keywords: [face, surprise, impressed, wow]
+  - name: "grimacing"
+    keywords: [face]
+  - name: "neutral_face"
+    keywords: [face, ._., indifference]
+  - name: "hushed"
+    keywords: [face, woo]
+  - name: "no_mouth"
+    keywords: [face, hellokitty]
+  - name: "innocent"
+    keywords: [face, angel, heaven]
+  - name: "smirk"
+    keywords: [smile, mean, prank]
+  - name: "expressionless"
+    keywords: [face, "-_-", indifferent]
+  - name: "man_with_gua_pi_mao"
+    keywords: [male, boy]
+  - name: "man_with_turban"
+    keywords: [male]
+  - name: "cop"
+    keywords: [man, police, law, enforcement, arrest]
+  - name: "construction_worker"
+    keywords: [man, male, human, wip]
+  - name: "guardsman"
+    keywords: [uk, gb, british, man, male]
+  - name: "baby"
+    keywords: [child]
+  - name: "boy"
+    keywords: [man, male, guy]
+  - name: "girl"
+    keywords: [female, woman]
+  - name: "man"
+    keywords: [mustashe, father, dad, guy]
+  - name: "woman"
+    keywords: [female, girls]
+  - name: "older_man"
+    keywords: [human, male, men]
+  - name: "older_woman"
+    keywords: [female, women, girl]
+  - name: "person_with_blond_hair"
+    keywords: [man, male]
+  - name: "angel"
+    keywords: [heaven, wings]
+  - name: "princess"
+    keywords: [girl, woman, female, blond, crown]
+
+  - name: "cat"
+    keywords: [animal]
+  - name: "smile_cat"
+    keywords: [animal, cats]
+  - name: "heart_eyes_cat"
+    keywords: [animal, love, like, affection, cats]
+  - name: "kissing_cat"
+    keywords: [animal, cats]
+  - name: "smirk_cat"
+    keywords: [animal, cats]
+  - name: "scream_cat"
+    keywords: [animal, cats, munch]
+  - name: "crying_cat_face"
+    keywords: [animal, tears, weep, sad, cats]
+  - name: "joy_cat"
+    keywords: [animal, cats, haha, happy, tears]
+  - name: "pouting_cat"
+    keywords: [animal, cats]
+  - name: "smiley_cat"
+    keywords: [animal, cats, happy]
+
+  - name: "japanese_goblin"
+    keywords: []
+
+  - name: "see_no_evil"
+    keywords: [monkey, animal, nature]
+  - name: "hear_no_evil"
+    keywords: [animal, monkey]
+  - name: "speak_no_evil"
+    keywords: [monkey, animal]
+
+  - name: "skull"
+    keywords: [dead]
+  - name: "alien"
+    keywords: [UFO, paul]
+  - name: "hankey"
+    keywords: [poop, shit, shitface]
+  - name: "poop"
+    keywords: [poop, shit, shitface]
+  - name: "shit"
+    keywords: [poop, face]
+  - name: "fire"
+    keywords: [hot, cook]
+
+  - name: "sparkles"
+    keywords: [stars, shine, shiny, cool]
+  - name: "star2"
+    keywords: [night]
+  - name: "dizzy"
+    keywords: [star, sparkle, shoot]
+  - name: "boom"
+    keywords: [bomb]
+  - name: "collision"
+    keywords: [boom, bomb, blown]
+  - name: "anger"
+    keywords: [angry, mad]
+  - name: "sweat_drops"
+    keywords: [water]
+  - name: "droplet"
+    keywords: [water, drip, faucet]
+
+  - name: "zzz"
+    keywords: [sleepy, tired]
+
+  - name: "ear"
+    keywords: [face, hear, sound, listen]
+  - name: "eyes"
+    keywords: [look, watch, stalk, peek]
+  - name: "nose"
+    keywords: [smell, sniff]
+  - name: "tongue"
+    keywords: []
+  - name: "lips"
+    keywords: []
+
   - name: "+1"
     keywords: [thumb, thumbs, thumbsup]
+  - name: "thumbsup"
+    keywords: []
+  - name: "-1"
+    keywords: [thumb, thumbs, thumbsdown]
+  - name: "thumbsdown"
+    keywords: []
+  - name: "ok_hand"
+    keywords: [fingers, limbs]
+  - name: "punch"
+    keywords: []
+  - name: "facepunch"
+    keywords: [angry, violence, fist, hit, attack]
+  - name: "fist"
+    keywords: [fingers, hand]
+  - name: "v"
+    keywords: [fingers, ohyeah, hand]
+  - name: "wave"
+    keywords: [hands, gesture, goodbye, solong, farewell]
+  - name: "hand"
+    keywords: [fingers, stop, highfive]
+  - name: "open_hands"
+    keywords: [fingers, butterfly]
+  - name: "point_up"
+    keywords: [hand, fingers, direction]
+  - name: "point_down"
+    keywords: [fingers, hand, direction]
+  - name: "point_right"
+    keywords: [fingers, hand, direction]
+  - name: "point_left"
+    keywords: [direction, fingers, hand]
+  - name: "raised_hands"
+    keywords: [gesture, hooray]
+  - name: "pray"
+    keywords: [please, hope, wish]
+  - name: "point_up_2"
+    keywords: [fingers, hand, direction]
+  - name: "clap"
+    keywords: [hands, praise, applause]
+  - name: "muscle"
+    keywords: [hand]
+  - name: "walking"
+    keywords: [man, human]
+  - name: "runner"
+    keywords: [man, walking, exercise]
+  - name: "running"
+    keywords: [man, walking, exercise]
+  - name: "dancer"
+    keywords: [female, girl, woman]
+
+  - name: "couple"
+    keywords: [people, human, love, date, dating, like, affection, valentines, marriage]
+  - name: "family"
+    keywords: [home, parents, child, mom, dad, father, mother]
+  - name: "two_men_holding_hands"
+    keywords: [couple, love, like, bromance, friends]
+  - name: "two_women_holding_hands"
+    keywords: [friends, couple, love, like]
+  - name: "couplekiss"
+    keywords: [valentines, love, like, dating, marriage]
+  - name: "couple_with_heart"
+    keywords: [love, like, affection, human, dating, valentines, marriage]
+  - name: "dancers"
+    keywords: [female, bunny, women, girls]
+  - name: "ok_woman"
+    keywords: [women, girl, female, pink, human]
+  - name: "no_good"
+    keywords: [female, girl, woman]
+  - name: "information_desk_person"
+    keywords: [female, girl, woman, human]
+  - name: "raised_hand"
+    keywords: [female, girl, woman]
+  - name: "massage"
+    keywords: [female, girl, woman]
+  - name: "haircut"
+    keywords: [female, girl, woman]
+  - name: "nail_care"
+    keywords: [beauty, manicure]
+  - name: "bride_with_veil"
+    keywords: [couple, marriage, wedding]
+  - name: "person_with_pouting_face"
+    keywords: [female, girl, woman]
+  - name: "person_frowning"
+    keywords: [female, girl, woman]
+  - name: "bow"
+    keywords: [man, male, boy]
+  - name: "tophat"
+    keywords: [magic, gentleman]
+  - name: "crown"
+    keywords: [king, kod]
+  - name: "womans_hat"
+    keywords: [fashion, accessories]
+    
+
   - name: "100"
     keywords: [score, perfect, numbers]
   - name: "1234"
@@ -32,20 +344,10 @@ emojis:
     keywords: [vehicle, transportation, flight]
   - name: "alarm_clock"
     keywords: [time, wake]
-  - name: "alien"
-    keywords: [UFO, paul]
   - name: "ambulance"
     keywords: [health, 911]
   - name: "anchor"
     keywords: [ship, ferry]
-  - name: "angel"
-    keywords: [heaven, wings]
-  - name: "anger"
-    keywords: [angry, mad]
-  - name: "angry"
-    keywords: [mad, face, annoyed]
-  - name: "anguished"
-    keywords: [face, stunned, nervous]
   - name: "clock7"
     keywords: [time, clock]
   - name: "clock730"
@@ -74,22 +376,14 @@ emojis:
     keywords: [drink, drunk, alcohol, beverage]
   - name: "coffee"
     keywords: [drink, beverage, cafe, espresso]
-  - name: "cold_sweat"
-    keywords: [face, nervous]
-  - name: "collision"
-    keywords: [boom, bomb, blown]
   - name: "computer"
     keywords: [tech, laptop]
   - name: "confetti_ball"
     keywords: [festival, party]
-  - name: "confounded"
-    keywords: [confused, sick, unwell]
   - name: "confused"
     keywords: [indifference]
   - name: "handbag"
     keywords: [fashion, bag, accessory, accessories]
-  - name: "hankey"
-    keywords: [poop, shit, shitface]
   - name: "hash"
     keywords: [symbol]
   - name: "hatched_chick"
@@ -98,14 +392,8 @@ emojis:
     keywords: [chicken, egg, born]
   - name: "headphones"
     keywords: [music, score, gadgets]
-  - name: "hear_no_evil"
-    keywords: [animal, monkey]
   - name: "heart_decoration"
     keywords: [purple-square, love, like]
-  - name: "heart_eyes_cat"
-    keywords: [animal, love, like, affection, cats]
-  - name: "heart_eyes"
-    keywords: [love, like, affection]
   - name: "heart"
     keywords: [love, like]
   - name: "heartbeat"
@@ -120,6 +408,8 @@ emojis:
     keywords: [divide, math, calculation]
   - name: "heavy_dollar_sign"
     keywords: [money]
+  - name: "cat2"
+    keywords: [animal]
   - name: "heavy_exclamation_mark"
     keywords: [surprise]
   - name: "heavy_minus_sign"
@@ -144,16 +434,8 @@ emojis:
     keywords: [food, japanese]
   - name: "office"
     keywords: [building, bureau, work]
-  - name: "ok_hand"
-    keywords: [fingers, limbs]
-  - name: "ok_woman"
-    keywords: [women, girl, female, pink, human]
   - name: "ok"
     keywords: [good, agree, yes, blue-square]
-  - name: "older_man"
-    keywords: [human, male, men]
-  - name: "older_woman"
-    keywords: [female, women, girl]
   - name: "on"
     keywords: [arrow, words]
   - name: "oncoming_automobile"
@@ -166,10 +448,6 @@ emojis:
     keywords: [vehicle, cars, uber]
   - name: "one"
     keywords: [blue-square, numbers, 1]
-  - name: "smirk_cat"
-    keywords: [animal, cats]
-  - name: "smirk"
-    keywords: [smile, mean, prank]
   - name: "smoking"
     keywords: [kills, tobacco, cigarette]
   - name: "snail"
@@ -182,8 +460,6 @@ emojis:
     keywords: [winter, season, cold, weather]
   - name: "snowman"
     keywords: [winter, season, cold, weather]
-  - name: "sob"
-    keywords: [cry, tears, sad, upset]
   - name: "soccer"
     keywords: [sports, balls]
   - name: "soon"
@@ -202,8 +478,6 @@ emojis:
     keywords: [stars, green-square]
   - name: "sparkler"
     keywords: [stars, night, shine]
-  - name: "sparkles"
-    keywords: [stars, shine, shiny, cool]
   - name: "sparkling_heart"
     keywords: [love, like, affection]
   - name: "ant"
@@ -214,8 +488,6 @@ emojis:
     keywords: [math, calculation]
   - name: "open_book"
     keywords: [read, library, knowledge]
-  - name: "speak_no_evil"
-    keywords: [monkey, animal]
   - name: "apple"
     keywords: [fruit, mac]
   - name: "construction"
@@ -228,12 +500,8 @@ emojis:
     keywords: [volume, sound]
   - name: "aquarius"
     keywords: [sign, purple-square]
-  - name: "construction_worker"
-    keywords: [man, male, human, wip]
   - name: "herb"
     keywords: [vegetable, plant, medicine]
-  - name: "open_hands"
-    keywords: [fingers]
   - name: "speech_balloon"
     keywords: [bubble, words]
   - name: "aries"
@@ -242,8 +510,6 @@ emojis:
     keywords: [building]
   - name: "hibiscus"
     keywords: [plant, vegetable, flowers]
-  - name: "open_mouth"
-    keywords: [face, surprise, impressed, wow]
   - name: "speedboat"
     keywords: [ship, transportation, vehicle]
   - name: "arrow_backward"
@@ -268,14 +534,10 @@ emojis:
     keywords: [night]
   - name: "arrow_double_up"
     keywords: [arrow, blue-square]
-  - name: "cop"
-    keywords: [man, police, law, enforcement, arrest]
   - name: "hocho"
     keywords: [knife, cut]
   - name: "outbox_tray"
     keywords: [inbox, email]
-  - name: "star2"
-    keywords: [night]
   - name: "arrow_down"
     keywords: [arrow, blue-square]
   - name: "copyright"
@@ -298,8 +560,6 @@ emojis:
     keywords: [transportation, vehicle, public]
   - name: "arrow_forward"
     keywords: [arrow, blue-square]
-  - name: "couple"
-    keywords: [people, human, love, date, dating, like, affection, valentines, marriage]
   - name: "horse"
     keywords: [animal]
   - name: "page_facing_up"
@@ -308,8 +568,6 @@ emojis:
     keywords: [american, newyork]
   - name: "arrow_heading_down"
     keywords: [blue-square, arrow]
-  - name: "couple_with_heart"
-    keywords: [love, like, affection, human, dating, valentines, marriage]
   - name: "horse_racing"
     keywords: [animal, betting]
   - name: "page_with_curl"
@@ -318,8 +576,6 @@ emojis:
     keywords: [transportation, vehicle, train]
   - name: "arrow_heading_up"
     keywords: [blue-square, arrow]
-  - name: "couplekiss"
-    keywords: [valentines, love, like, dating, marriage]
   - name: "hospital"
     keywords: [building, health, surgery, doctor]
   - name: "pager"
@@ -354,8 +610,6 @@ emojis:
     keywords: [time, clock, oldschool]
   - name: "paperclip"
     keywords: [documents, stationery]
-  - name: "stuck_out_tongue"
-    keywords: [face, prank, childish]
   - name: "arrow_right"
     keywords: [blue-square]
   - name: "crescent_moon"
@@ -364,8 +618,6 @@ emojis:
     keywords: [oldschool, time, countdown]
   - name: "parking"
     keywords: [cars, blue-square, alphabet]
-  - name: "stuck_out_tongue_closed_eyes"
-    keywords: [face, prank]
   - name: "arrow_right_hook"
     keywords: [blue-square]
   - name: "crocodile"
@@ -374,8 +626,6 @@ emojis:
     keywords: [building, home]
   - name: "part_alternation_mark"
     keywords: [graph]
-  - name: "stuck_out_tongue_winking_eye"
-    keywords: [face, prank, childish]
   - name: "arrow_up"
     keywords: [blue-square]
   - name: "crossed_flags"
@@ -388,8 +638,6 @@ emojis:
     keywords: [morning]
   - name: "arrow_up_down"
     keywords: [blue-square]
-  - name: "crown"
-    keywords: [king, kod]
   - name: "hurtrealbad"
     keywords: [mad]
   - name: "passport_control"
@@ -398,18 +646,10 @@ emojis:
     keywords: [nature, plant, vegetable]
   - name: "arrow_up_small"
     keywords: [blue-square]
-  - name: "cry"
-    keywords: [tears, sad, face]
-  - name: "hushed"
-    keywords: [face, woo]
   - name: "paw_prints"
     keywords: [animal]
-  - name: "sunglasses"
-    keywords: [face]
   - name: "arrow_upper_left"
     keywords: [blue-square]
-  - name: "crying_cat_face"
-    keywords: [animal, tears, weep, sad, cats]
   - name: "ice_cream"
     keywords: [food, hot, desert]
   - name: "peach"
@@ -450,8 +690,6 @@ emojis:
     keywords: [design, paint, draw]
   - name: "currency_exchange"
     keywords: [money, dollar]
-  - name: "imp"
-    keywords: [devil, evil, angry, horns]
   - name: "penguin"
     keywords: [animal, nature]
   - name: "sushi"
@@ -462,12 +700,8 @@ emojis:
     keywords: [food]
   - name: "inbox_tray"
     keywords: [email]
-  - name: "pensive"
-    keywords: [face, sad]
   - name: "suspect"
     keywords: [mad, ghonly]
-  - name: "astonished"
-    keywords: [face]
   - name: "custard"
     keywords: [desert, food]
   - name: "incoming_envelope"
@@ -480,40 +714,16 @@ emojis:
     keywords: [shoes, sports]
   - name: "customs"
     keywords: [passport, border]
-  - name: "information_desk_person"
-    keywords: [female, girl, woman, human]
-  - name: "persevere"
-    keywords: [face, sick, no]
-  - name: "sweat"
-    keywords: [face, hot]
   - name: "atm"
     keywords: [money, cash, blue-square]
   - name: "cyclone"
     keywords: [swirl]
   - name: "information_source"
     keywords: [blue-square, alphabet]
-  - name: "person_frowning"
-    keywords: [female, girl, woman]
-  - name: "sweat_drops"
-    keywords: [water]
   - name: "b"
     keywords: [red-square, alphabet]
-  - name: "dancer"
-    keywords: [female, girl, woman]
-  - name: "innocent"
-    keywords: [face, angel, heaven]
-  - name: "person_with_blond_hair"
-    keywords: [man, male]
-  - name: "sweat_smile"
-    keywords: [hot, happy]
-  - name: "baby"
-    keywords: [child]
-  - name: "dancers"
-    keywords: [female, bunny, women, girls]
   - name: "interrobang"
     keywords: [wat]
-  - name: "person_with_pouting_face"
-    keywords: [female, girl, woman]
   - name: "sweet_potato"
     keywords: [food, nature]
   - name: "baby_bottle"
@@ -580,8 +790,6 @@ emojis:
     keywords: [ok, agree]
   - name: "department_store"
     keywords: [building, shopping, mall]
-  - name: "japanese_goblin"
-    keywords: []
   - name: "pisces"
     keywords: [purple-square, sign]
   - name: "taurus"
@@ -602,48 +810,26 @@ emojis:
     keywords: [poker, cards]
   - name: "jeans"
     keywords: [fashion, shopping]
-  - name: "point_down"
-    keywords: [fingers, hand, direction]
   - name: "tea"
     keywords: [drink, bowl, breakfast, green]
   - name: "bangbang"
     keywords: [exclamation, surprise]
-  - name: "disappointed"
-    keywords: [face, sad, upset]
-  - name: "joy"
-    keywords: [cry, tears, weep, happy, haha]
-  - name: "point_left"
-    keywords: [direction, fingers, hand]
   - name: "telephone"
     keywords: [communication, technology]
   - name: "bank"
     keywords: [building]
-  - name: "disappointed_relieved"
-    keywords: [phew, sweat, nervous]
-  - name: "joy_cat"
-    keywords: [animal, cats, haha, happy, tears]
-  - name: "point_right"
-    keywords: [fingers, hand, direction]
   - name: "telephone_receiver"
     keywords: [technology, communication]
   - name: "bar_chart"
     keywords: [graph, presentation, stats]
-  - name: "dizzy"
-    keywords: [star, sparkle, shoot]
   - name: "jp"
     keywords: [japan, nation, flag]
-  - name: "point_up"
-    keywords: [hand, fingers, direction]
   - name: "telescope"
     keywords: [stars, space]
   - name: "barber"
     keywords: [hair, salon, style]
-  - name: "dizzy_face"
-    keywords: [face, spent, unconscious]
   - name: "key"
     keywords: [lock, door, password]
-  - name: "point_up_2"
-    keywords: [fingers, hand, direction]
   - name: "tennis"
     keywords: [sports, balls, green]
   - name: "baseball"
@@ -670,38 +856,24 @@ emojis:
     keywords: [clean, shower]
   - name: "dog2"
     keywords: [animal, nature, friend]
-  - name: "kiss"
-    keywords: [lips, love, like, affection]
-  - name: "poop"
-    keywords: [poop, shit, shitface]
   - name: "three"
     keywords: [3, numbers]
   - name: "bathtub"
     keywords: [clean, shower]
   - name: "dollar"
     keywords: [money, bill, currency]
-  - name: "kissing"
-    keywords: [love, like, face, 3]
   - name: "post_office"
     keywords: [building, email, communication]
-  - name: "thumbsdown"
-    keywords: []
   - name: "battery"
     keywords: [power, energy, sustain]
   - name: "dolls"
     keywords: [japanese, toy]
-  - name: "kissing_cat"
-    keywords: [animal, cats]
   - name: "postal_horn"
     keywords: [instrument, music]
-  - name: "thumbsup"
-    keywords: []
   - name: "bear"
     keywords: [animal, nature]
   - name: "dolphin"
     keywords: [animal, nature, fish]
-  - name: "kissing_closed_eyes"
-    keywords: []
   - name: "postbox"
     keywords: [email, letter, envelope]
   - name: "ticket"
@@ -710,8 +882,6 @@ emojis:
     keywords: [animal, insect]
   - name: "door"
     keywords: [house, entry, exit]
-  - name: "kissing_heart"
-    keywords: [face, love, like, affection]
   - name: "potable_water"
     keywords: [blue-square, liquid, restroom, cleaning, faucet]
   - name: "tiger"
@@ -720,8 +890,6 @@ emojis:
     keywords: [relax, beverage, drink, drunk, party, pub]
   - name: "doughnut"
     keywords: [food, desert, snack, sweet]
-  - name: "kissing_smiling_eyes"
-    keywords: [face, affection]
   - name: "pouch"
     keywords: [bag, accessories]
   - name: "tiger2"
@@ -734,8 +902,6 @@ emojis:
     keywords: [animal, nature]
   - name: "poultry_leg"
     keywords: [food]
-  - name: "tired_face"
-    keywords: [sick, whine, ahhh, upset]
   - name: "beetle"
     keywords: [insect, nature]
   - name: "dragon_face"
@@ -752,8 +918,6 @@ emojis:
     keywords: [fashion]
   - name: "kr"
     keywords: [korea, nation, flag]
-  - name: "pouting_cat"
-    keywords: [animal, cats]
   - name: "toilet"
     keywords: [restroom, wc]
   - name: "bell"
@@ -762,18 +926,12 @@ emojis:
     keywords: [animal, hot]
   - name: "lantern"
     keywords: []
-  - name: "pray"
-    keywords: [please, hope, wish]
   - name: "tokyo_tower"
     keywords: [photo, japan]
   - name: "bento"
     keywords: [food]
-  - name: "droplet"
-    keywords: [water, drip, faucet]
   - name: "large_blue_circle"
     keywords: []
-  - name: "princess"
-    keywords: [girl, woman, female, blond, crown]
   - name: "tomato"
     keywords: [fruit, vegetable, nature, food]
   - name: "bicyclist"
@@ -781,10 +939,6 @@ emojis:
   - name: "dvd"
     keywords: []
   - name: "large_blue_diamond"
-    keywords: []
-  - name: "punch"
-    keywords: []
-  - name: "tongue"
     keywords: []
   - name: "bike"
     keywords: []
@@ -798,14 +952,10 @@ emojis:
     keywords: [words, blue-square]
   - name: "bikini"
     keywords: [swimming, female, woman ,girl, fashion, beach]
-  - name: "ear"
-    keywords: [face, hear, sound, listen]
   - name: "last_quarter_moon"
     keywords: []
   - name: "purse"
     keywords: []
-  - name: "tophat"
-    keywords: [magic, gentleman]
   - name: "bird"
     keywords: [animal, nature]
   - name: "ear_of_rice"
@@ -894,8 +1044,6 @@ emojis:
     keywords: [sign, purple-square]
   - name: "rage"
     keywords: [angry, mad]
-  - name: "triumph"
-    keywords: [face, "gas?", phew]
   - name: "black_square_button"
     keywords: []
   - name: "electric_plug"
@@ -940,8 +1088,6 @@ emojis:
     keywords: [car]
   - name: "envelope"
     keywords: [mail, letter, postal, communication]
-  - name: "lips"
-    keywords: []
   - name: "railway_car"
     keywords: [transportation, vehicle]
   - name: "tropical_fish"
@@ -956,14 +1102,10 @@ emojis:
     keywords: [nature, happy, unicorn]
   - name: "truck"
     keywords: [cars, transportation]
-  - name: "blush"
-    keywords: [face, smile, happy]
   - name: "es"
     keywords: [spain, flag, nation]
   - name: "lock"
     keywords: [security]
-  - name: "raised_hand"
-    keywords: [female, girl, woman]
   - name: "trumpet"
     keywords: [music]
   - name: "boar"
@@ -972,8 +1114,6 @@ emojis:
     keywords: [money, dollar]
   - name: "lock_with_ink_pen"
     keywords: []
-  - name: "raised_hands"
-    keywords: [gesture]
   - name: "tshirt"
     keywords: [fashion]
   - name: "boat"
@@ -1018,8 +1158,6 @@ emojis:
     keywords: []
   - name: "bookmark_tabs"
     keywords: [favorite]
-  - name: "expressionless"
-    keywords: [face, indifferent]
   - name: "love_letter"
     keywords: [email, like, affection]
   - name: "recycle"
@@ -1036,50 +1174,32 @@ emojis:
     keywords: [transportation, vehicle]
   - name: "two_hearts"
     keywords: [love, like, affection]
-  - name: "boom"
-    keywords: [bomb]
-  - name: "eyes"
-    keywords: [look, watch, stalk, peek]
   - name: "m"
     keywords: [alphabet, blue]
   - name: "red_circle"
     keywords: [shape]
-  - name: "two_men_holding_hands"
-    keywords: [couple, love, like, bromance, friends]
   - name: "boot"
     keywords: [shoes, fashion]
-  - name: "facepunch"
-    keywords: [angry, violence, fist, hit, attack]
   - name: "mag"
     keywords: [search, zoom]
   - name: "registered"
     keywords: [alphabet, circle]
-  - name: "two_women_holding_hands"
-    keywords: [friends, couple, love, like]
   - name: "bouquet"
     keywords: [flowers, nature]
   - name: "factory"
     keywords: [building]
   - name: "mag_right"
     keywords: [search, zoom]
-  - name: "relaxed"
-    keywords: [blush, massage, happiness]
   - name: "u5272"
     keywords: [cut, divide, chinese, pink]
-  - name: "bow"
-    keywords: [man, male, boy]
   - name: "fallen_leaf"
     keywords: [nature, plant, vegetable]
   - name: "mahjong"
     keywords: [game, chinese]
-  - name: "relieved"
-    keywords: [face, relaxed, phew, massage, happiness]
   - name: "u5408"
     keywords: [japanese, chinese, join]
   - name: "bowling"
     keywords: [sports, fun, play]
-  - name: "family"
-    keywords: [home, parents, child, mom, dad, father, mother]
   - name: "mailbox"
     keywords: [email, inbox, communication]
   - name: "repeat"
@@ -1096,8 +1216,6 @@ emojis:
     keywords: [blue-square, loop]
   - name: "u6307"
     keywords: [chinese, point, green-square]
-  - name: "boy"
-    keywords: [man, male, guy]
   - name: "fax"
     keywords: [communication, technology]
   - name: "mailbox_with_mail"
@@ -1108,20 +1226,14 @@ emojis:
     keywords: [chinese, moon, japanese, orange-square]
   - name: "bread"
     keywords: [food, wheat, breakfast, toast]
-  - name: "fearful"
-    keywords: [face, scared, terrified, nervous, oops]
   - name: "mailbox_with_no_mail"
     keywords: [email, inbox]
   - name: "revolving_hearts"
     keywords: [love, like, affection]
   - name: "u6709"
     keywords: [orange-square, chinese, have]
-  - name: "bride_with_veil"
-    keywords: [couple, marriage, wedding]
   - name: "feelsgood"
     keywords: [ghonly]
-  - name: "man"
-    keywords: [mustashe, father, dad, guy]
   - name: "rewind"
     keywords: [play, blue-square]
   - name: "u6e80"
@@ -1130,8 +1242,6 @@ emojis:
     keywords: [photo, sanfrancisco]
   - name: "feet"
     keywords: [animal]
-  - name: "man_with_gua_pi_mao"
-    keywords: [male, boy]
   - name: "ribbon"
     keywords: [decoration, pink, girl]
   - name: "u7121"
@@ -1140,8 +1250,6 @@ emojis:
     keywords: [business, documents, work]
   - name: "ferris_wheel"
     keywords: [photo, carnival, londoneye]
-  - name: "man_with_turban"
-    keywords: [male]
   - name: "rice"
     keywords: [food]
   - name: "u7533"
@@ -1168,10 +1276,6 @@ emojis:
     keywords: []
   - name: "bulb"
     keywords: [light, electricity]
-  - name: "fire"
-    keywords: [hot, cook]
-  - name: "mask"
-    keywords: [face, sick, ill]
   - name: "rice_scene"
     keywords: [photo]
   - name: "uk"
@@ -1180,8 +1284,6 @@ emojis:
     keywords: []
   - name: "fire_engine"
     keywords: [transportation, cars, vehicle]
-  - name: "massage"
-    keywords: [female, girl, woman]
   - name: "ring"
     keywords: [wedding, propose, marriage]
   - name: "umbrella"
@@ -1194,8 +1296,6 @@ emojis:
     keywords: [good]
   - name: "rocket"
     keywords: [launch, ship, staffmode]
-  - name: "unamused"
-    keywords: [indifference, face, bored]
   - name: "bus"
     keywords: [car, vehicle, transportation]
   - name: "first_quarter_moon"
@@ -1246,14 +1346,10 @@ emojis:
     keywords: [nation, flag, american]
   - name: "cake"
     keywords: [food, desert]
-  - name: "fist"
-    keywords: [fingers, hand]
   - name: "metro"
     keywords: [transportation, blue-square, mrt, underground, tube]
   - name: "rowboat"
     keywords: [sports, hobby, water, ship]
-  - name: "v"
-    keywords: [fingers, ohyeah, hand]
   - name: "calendar"
     keywords: [schedule]
   - name: "five"
@@ -1280,8 +1376,6 @@ emojis:
     keywords: [dark]
   - name: "milky_way"
     keywords: [photo]
-  - name: "runner"
-    keywords: [man, walking, exercise]
   - name: "vibration_mode"
     keywords: [orange-square, phone]
   - name: "camera"
@@ -1290,8 +1384,6 @@ emojis:
     keywords: [oldschool, technology, save]
   - name: "minibus"
     keywords: []
-  - name: "running"
-    keywords: [man, walking, exercise]
   - name: "video_camera"
     keywords: [film]
   - name: "cancer"
@@ -1306,8 +1398,6 @@ emojis:
     keywords: [play]
   - name: "candy"
     keywords: [snack, desert]
-  - name: "flushed"
-    keywords: [face, blush, shy]
   - name: "mobile_phone_off"
     keywords: [mute]
   - name: "sa"
@@ -1338,8 +1428,6 @@ emojis:
     keywords: [transportation]
   - name: "footprints"
     keywords: [feet]
-  - name: "monkey"
-    keywords: [animal, nature]
   - name: "sake"
     keywords: [wine, drink, drunk, beverage]
   - name: "vs"
@@ -1348,12 +1436,8 @@ emojis:
     keywords: [business, stationery]
   - name: "fork_and_knife"
     keywords: [cutlery, kitchen]
-  - name: "monkey_face"
-    keywords: [animal, nature]
   - name: "sandal"
     keywords: [shoes, fashion]
-  - name: "walking"
-    keywords: [man, human]
   - name: "carousel_horse"
     keywords: [photo, carnival, horse]
   - name: "fountain"
@@ -1364,8 +1448,6 @@ emojis:
     keywords: [festival, man, male]
   - name: "waning_crescent_moon"
     keywords: [nature]
-  - name: "cat"
-    keywords: [animal]
   - name: "four"
     keywords: [4, numbers]
   - name: "moon"
@@ -1374,14 +1456,10 @@ emojis:
     keywords: [communication]
   - name: "waning_gibbous_moon"
     keywords: [nature]
-  - name: "cat2"
-    keywords: [animal]
   - name: "four_leaf_clover"
     keywords: [vegetable, plant, nature, lucky]
   - name: "mortar_board"
     keywords: [school, college, degree]
-  - name: "satisfied"
-    keywords: [happy, face, joy, glad]
   - name: "warning"
     keywords: [exclamation, wip]
   - name: "cd"
@@ -1422,8 +1500,6 @@ emojis:
     keywords: [transportation]
   - name: "scissors"
     keywords: [stationery, cut]
-  - name: "wave"
-    keywords: [hands, gesture, goodbye, solong, farewell]
   - name: "checkered_flag"
     keywords: [contest, finishline, rase, gokart]
   - name: "frog"
@@ -1436,12 +1512,8 @@ emojis:
     keywords: [draw, line]
   - name: "cherries"
     keywords: [food, fruit]
-  - name: "frowning"
-    keywords: [face, aw]
   - name: "mouse2"
     keywords: [animal, nature]
-  - name: "scream"
-    keywords: [face, munch, ]
   - name: "waxing_crescent_moon"
     keywords: [nature]
   - name: "cherry_blossom"
@@ -1450,8 +1522,6 @@ emojis:
     keywords: []
   - name: "movie_camera"
     keywords: [film, record]
-  - name: "scream_cat"
-    keywords: [animal, cats, munch]
   - name: "waxing_gibbous_moon"
     keywords: [nature]
   - name: "chestnut"
@@ -1468,12 +1538,8 @@ emojis:
     keywords: [animal]
   - name: "full_moon_with_face"
     keywords: []
-  - name: "muscle"
-    keywords: [hand]
   - name: "seat"
     keywords: [sit]
-  - name: "weary"
-    keywords: [tired, sleepy, sad]
   - name: "children_crossing"
     keywords: [school]
   - name: "game_die"
@@ -1490,8 +1556,6 @@ emojis:
     keywords: [nation, flag, britsh, UK]
   - name: "musical_keyboard"
     keywords: []
-  - name: "see_no_evil"
-    keywords: [monkey, animal, nature]
   - name: "whale"
     keywords: [animal, nature, sea]
   - name: "christmas_tree"
@@ -1528,8 +1592,6 @@ emojis:
     keywords: [festival, carnival, party]
   - name: "gift"
     keywords: [present, birthday]
-  - name: "nail_care"
-    keywords: [beauty, manicure]
   - name: "sheep"
     keywords: [animal, nature]
   - name: "white_circle"
@@ -1546,8 +1608,6 @@ emojis:
     keywords: [japanese]
   - name: "city_sunset"
     keywords: [photo]
-  - name: "girl"
-    keywords: [female, woman]
   - name: "neckbeard"
     keywords: []
   - name: "ship"
@@ -1564,8 +1624,6 @@ emojis:
     keywords: [squirrel]
   - name: "white_medium_small_square"
     keywords: []
-  - name: "clap"
-    keywords: [hands, praise, applause]
   - name: "goat"
     keywords: [animal, nature]
   - name: "negative_squared_cross_mark"
@@ -1578,10 +1636,6 @@ emojis:
     keywords: [movie, film, record]
   - name: "goberserk"
     keywords: [ghonly]
-  - name: "neutral_face"
-    keywords: [indifference]
-  - name: "shit"
-    keywords: [poop, face]
   - name: "white_small_square"
     keywords: []
   - name: "clipboard"
@@ -1622,8 +1676,6 @@ emojis:
     keywords: [press]
   - name: "six"
     keywords: [6, numbers]
-  - name: "wink"
-    keywords: [face]
   - name: "clock11"
     keywords: [time, clock]
   - name: "green_book"
@@ -1642,16 +1694,12 @@ emojis:
     keywords: [blue-square]
   - name: "ski"
     keywords: [sports, winter, cold]
-  - name: "woman"
-    keywords: [female, girls]
   - name: "clock12"
     keywords: [time, clock]
   - name: "grey_exclamation"
     keywords: []
   - name: "no_bell"
     keywords: [sound, volume, mute]
-  - name: "skull"
-    keywords: [dead]
   - name: "womans_clothes"
     keywords: [fashion]
   - name: "clock1230"
@@ -1660,44 +1708,26 @@ emojis:
     keywords: [doubts]
   - name: "no_bicycles"
     keywords: []
-  - name: "sleeping"
-    keywords: [face, tired, sleepy]
-  - name: "womans_hat"
-    keywords: [fashion, accessories]
   - name: "clock130"
     keywords: [time, clock]
-  - name: "grimacing"
-    keywords: [face]
   - name: "no_entry"
     keywords: [limit, security, privacy]
-  - name: "sleepy"
-    keywords: [face, tired]
   - name: "womens"
     keywords: [purple-square]
   - name: "clock2"
     keywords: [time, clock]
-  - name: "grin"
-    keywords: [face, happy, smile, joy]
   - name: "no_entry_sign"
     keywords: []
   - name: "slot_machine"
     keywords: [bet, gamble, vegas]
-  - name: "worried"
-    keywords: [face, concern, nervous]
   - name: "clock230"
     keywords: [time, clock]
-  - name: "grinning"
-    keywords: [face, smile, happy, joy]
-  - name: "no_good"
-    keywords: [female, girl, woman]
   - name: "small_blue_diamond"
     keywords: []
   - name: "wrench"
     keywords: [tools]
   - name: "clock3"
     keywords: [time, clock]
-  - name: "guardsman"
-    keywords: [uk, gb, british, man, male]
   - name: "no_mobile_phones"
     keywords: [iphone, mute]
   - name: "small_orange_diamond"
@@ -1708,8 +1738,6 @@ emojis:
     keywords: [time, clock]
   - name: "guitar"
     keywords: [music, instrument]
-  - name: "no_mouth"
-    keywords: [face]
   - name: "small_red_triangle"
     keywords: []
   - name: "yellow_heart"
@@ -1726,32 +1754,20 @@ emojis:
     keywords: [money, japanese, dollar]
   - name: "clock430"
     keywords: [time, clock]
-  - name: "haircut"
-    keywords: [female, girl, woman]
   - name: "no_smoking"
     keywords: [cigarette]
-  - name: "smile"
-    keywords: [happy, joy]
-  - name: "yum"
-    keywords: [happy, joy, tongue, smile, face]
   - name: "clock5"
     keywords: [time, clock]
   - name: "hamburger"
     keywords: [food]
   - name: "non-potable_water"
     keywords: []
-  - name: "smile_cat"
-    keywords: [animal, cats]
   - name: "zap"
     keywords: [thunder, weather]
   - name: "clock530"
     keywords: [time, clock]
   - name: "hammer"
     keywords: [tools, verdict, judge, done]
-  - name: "nose"
-    keywords: [smile]
-  - name: "smiley"
-    keywords: [happy, joy, haha]
   - name: "zero"
     keywords: [numbers]
   - name: "clock6"
@@ -1760,15 +1776,12 @@ emojis:
     keywords: [animal, nature]
   - name: "notebook"
     keywords: [stationery]
-  - name: "smiley_cat"
-    keywords: [animal, cats, happy]
-  - name: "zzz"
-    keywords: [sleepy, tired]
   - name: "clock630"
     keywords: [time, clock]
-  - name: "hand"
-    keywords: [fingers, stop, highfive]
   - name: "notebook_with_decorative_cover"
     keywords: []
-  - name: "smiling_imp"
-    keywords: [devil, horns]
+
+  - name: "monkey"
+    keywords: [animal, nature]
+  - name: "monkey_face"
+    keywords: [animal, nature]
