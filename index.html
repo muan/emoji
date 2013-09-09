@@ -72,7 +72,7 @@ layout: default
             </li>
           {% else %}
             <li class="result emoji-wrapper">
-              <div class="emoji {{ emoji.name }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
+              <div class="emoji {{ emoji.name | replace: '+', '' }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
               <input type="text" class="autofocus plain emoji-code" value=":{{ emoji.name }}:" data-clipboard-text=":{{ emoji.name }}:" />
               <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
             </li>
