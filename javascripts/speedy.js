@@ -18,7 +18,7 @@ $.fn.speedy = function(result_selector) {
     if (window.speedy_keyword !== keyword) {
       window.speedy_keyword = keyword;
       if (keyword.length) {
-        reg = new RegExp($.trim(keyword), "gi");
+        reg = new RegExp($.trim(keyword), "i");
         $(result_selector).hide();
         $(result_selector).each(function() {
           if (reg.test($(this).text())) {

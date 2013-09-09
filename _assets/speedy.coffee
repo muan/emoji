@@ -12,7 +12,7 @@ $.fn.speedy = (result_selector) ->
     unless window.speedy_keyword == keyword
       window.speedy_keyword = keyword
       if keyword.length
-        reg = new RegExp( $.trim(keyword) ,"gi")
+        reg = new RegExp( $.trim(keyword) ,"i")
         $(result_selector).hide()
         $(result_selector).each ->
           $(this).show() if reg.test $(this).text()
