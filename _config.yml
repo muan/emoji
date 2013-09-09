@@ -7,6 +7,9 @@ timezone:         PST
 
 emojis:
 
+  - name: "group"
+    keywords: "Faces"
+
   - name: "smile"
     keywords: [face, happy, joy]
   - name: "grinning"
@@ -212,6 +215,9 @@ emojis:
   - name: "zzz"
     keywords: [sleepy, tired]
 
+  - name: "group"
+    keywords: "Body Parts"
+
   - name: "ear"
     keywords: [face, hear, sound, listen]
   - name: "eyes"
@@ -265,6 +271,10 @@ emojis:
     keywords: [hands, praise, applause]
   - name: "muscle"
     keywords: [hand]
+
+  - name: "group"
+    keywords: "People"
+
   - name: "walking"
     keywords: [man, human]
   - name: "runner"
@@ -310,6 +320,10 @@ emojis:
     keywords: [female, girl, woman]
   - name: "bow"
     keywords: [man, male, boy]
+
+  - name: "group"
+    keywords: "Things"
+
   - name: "tophat"
     keywords: [magic, gentleman]
   - name: "crown"
@@ -410,6 +424,9 @@ emojis:
     keywords: [bubble, cloud, speech]
     
 
+  - name: "group"
+    keywords: "Animals"
+    
   - name: "dog"
     keywords: [animal, friend, nature, woff]
   - name: "wolf"
@@ -541,6 +558,9 @@ emojis:
   - name: "paw_prints"
     keywords: [animal]
 
+  - name: "group"
+    keywords: "Plants"
+
   - name: "bouquet"
     keywords: [flowers, nature]
   - name: "cherry_blossom"
@@ -581,6 +601,10 @@ emojis:
     keywords: [plant, nature]
   - name: "blossom"
     keywords: [nature, flowers, yellow]
+
+  - name: "group"
+    keywords: "World"
+
   - name: "globe_with_meridians"
     keywords: [earth, international, world]
 

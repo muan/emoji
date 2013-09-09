@@ -13,7 +13,7 @@ $.fn.speedy = function(result_selector) {
     result_selector = ".result";
   }
   search = function(keyword) {
-    var reg;
+    var foundSomething, reg;
     $(".keyword").text(keyword);
     if (window.speedy_keyword !== keyword) {
       window.speedy_keyword = keyword;
@@ -29,8 +29,10 @@ $.fn.speedy = function(result_selector) {
         $(result_selector).show();
       }
     }
-    $(".js-queue-all").toggle(!!keyword.length && !!$(".result:visible").length);
-    return $(".no-result").toggle(!$(".result:visible").length);
+    foundSomething = !!$(".result:visible").length;
+    $(".js-queue-all").toggle(!!keyword.length && foundSomething);
+    $(".no-result").toggle(!foundSomething);
+    return $(".emoji-group").toggle(!foundSomething);
   };
   $input.on("search keyup", function() {
     search($(this).val());
