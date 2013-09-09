@@ -22,7 +22,6 @@ $.fn.speedy = (result_selector) ->
     foundSomething = !!$(".result:visible").length
     $(".js-queue-all").toggle (!!keyword.length && foundSomething)
     $(".no-result").toggle( !foundSomething )
-    $(".emoji-group").toggle( !foundSomething )
   
   $input.on "search keyup", -> 
     search( $(this).val() )

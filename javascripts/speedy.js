@@ -31,8 +31,7 @@ $.fn.speedy = function(result_selector) {
     }
     foundSomething = !!$(".result:visible").length;
     $(".js-queue-all").toggle(!!keyword.length && foundSomething);
-    $(".no-result").toggle(!foundSomething);
-    return $(".emoji-group").toggle(!foundSomething);
+    return $(".no-result").toggle(!foundSomething);
   };
   $input.on("search keyup", function() {
     search($(this).val());
