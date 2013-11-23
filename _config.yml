@@ -1019,7 +1019,7 @@ emojis:
   - name: "baby_symbol"
     keywords: [orange-square, child]
   - name: "dash"
-    keywords: []
+    keywords: [wind, air, fast, shoo]
   - name: "izakaya_lantern"
     keywords: [light]
   - name: "syringe"
