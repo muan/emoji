@@ -2,6 +2,8 @@
 
 :heart: me some emojis. Go to http://emoji.muan.co/
 
+![emoji](https://f.cloud.github.com/assets/1153134/1609791/b29e53ea-5559-11e3-8697-aee235cd9338.gif)
+
 :octopus: :zap: :cat: = :octocat:<br />
 Find the emoji that echoes your heart using keywords 
 
