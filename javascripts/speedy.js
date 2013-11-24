@@ -45,9 +45,14 @@ $.fn.speedy = function(result_selector) {
   } else {
     search("");
   }
-  return $(".speedy-remover").click(function() {
+  $(".speedy-remover").click(function() {
     $input.val("");
     $(result_selector).show();
     return search((location.hash = ""));
   });
+  return window.onhashchange = function() {
+    search($input.val(location.hash.substr(1)).val());
+    $("[href^='#']").removeClass("active");
+    return $("[href=" + location.hash + "]").addClass("active");
+  };
 };

@@ -30,53 +30,30 @@ layout: default
 
   <body>
     <header>
-      <div class="container">
-          <img src="/emojis/octopus.png" width="20" />
-          +
-          <img src="/emojis/cat.png" width="20" />
-          =
-          <img src="/emojis/octocat.png" width="20" />
-          <div></div>
-      </div>
-      <div class="search">
-        <img src="/emojis/mag.png" width="20" />
-        <input type="search" class="search speedy-filter" />
-      </section>
+      <a href="#" class="button pull-right js-hide-text">Toggle text</a>
+      <a href="#" class="button pull-right js-queue-all">Queue all</a>
+      <input type="search" class="input-search speedy-filter" placeholder="Enter a keyword" />
     </header>
 
-    <section class="tell-me-a-story">
-      <div class="story"></div>
-      <div class="storyline"><input type="text" data-clipboard-text="" class="queue autofocus plain" required /></div>
-    </section>
-
     <section class="groups">
-      <a href="#blue" class="group"><img src="/emojis/large_blue_circle.png" /></a>
-      <a href="#cats" class="group"><img src="/emojis/cat.png" /></a>
-      <a href="#monkey" class="group"><img src="/emojis/hear_no_evil.png" /></a>
-      <a href="#transportation" class="group"><img src="/emojis/oncoming_automobile.png" /></a>
-      <a href="#food" class="group"><img src="/emojis/ramen.png" /></a>
-      <a href="#fruit" class="group"><img src="/emojis/apple.png" /></a>
-      <a href="#photo" class="group"><img src="/emojis/mount_fuji.png" /></a>
-      <a href="#time" class="group"><img src="/emojis/clock7.png" /></a>
-      <a href="#ghonly" class="group"><img src="/emojis/octocat.png" /></a>
-      <a class="speedy-remover"><img src="/emojis/x.png" /></a>
-      <a href="#" class="js-hide-text">Toggle text</a>
+      <a href="#blue" class="label"></a>
+      <a href="#cats" class="label"></a>
+      <a href="#monkey" class="label"></a>
+      <a href="#transportation" class="label"></a>
+      <a href="#food" class="label"></a>
+      <a href="#fruit" class="label"></a>
+      <a href="#photo" class="label"></a>
+      <a href="#time" class="label"></a>
+      <a href="#ghonly" class="label"></a>
     </section>
     <section class="list">
-      <a class="js-queue-all">Queue all</a>
       <ul>
         {% for emoji in site.emojis %}
-          {% if emoji.name == "group" %}
-            <li class="emoji-group">
-              {{ emoji.keywords }}
-            </li>
-          {% else %}
-            <li class="result emoji-wrapper">
-              <div class="emoji s_{{ emoji.name | replace: '+', '' }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
-              <input type="text" class="autofocus plain emoji-code" value=":{{ emoji.name }}:" data-clipboard-text=":{{ emoji.name }}:" />
-              <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
-            </li>
-          {% endif %}
+          <li class="result emoji-wrapper">
+            <div class="emoji s_{{ emoji.name | replace: '+', '' }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
+            <input type="text" class="autofocus plain emoji-code" value=":{{ emoji.name }}:" data-clipboard-text=":{{ emoji.name }}:" />
+            <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
+          </li>
         {% endfor %}
       </ul>
       <div class="no-result">
@@ -88,9 +65,5 @@ layout: default
         </p>
       </div>
     </section>
-
-    <footer>
-      <img src="/emojis/heart.png" width="20" />
-    </footer>
   </body>
 </html>

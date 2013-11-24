@@ -39,3 +39,8 @@ $.fn.speedy = (result_selector) ->
     $input.val("")
     $(result_selector).show()
     search (location.hash = "")
+
+  window.onhashchange = ->
+    search $input.val(location.hash.substr(1)).val()
+    $("[href^='#']").removeClass("active")
+    $("[href=#{location.hash}]").addClass("active")

@@ -1,18 +1,6 @@
 $ ->
 
-  $("input.search").focus()
-
-  focusOnSearch = (e) ->
-    if e.keyCode == 83 && !$("input.search:focus").length
-      $("input.search").focus()
-      t = $("input.search").get(0)
-      if t.value.length
-        t.selectionStart = 0
-        t.selectionEnd = t.value.length
-      false
-
-  $(document).keydown (e) -> focusOnSearch(e)
-  $(".emoji-wrapper input").keydown (e) -> $("input.search").blur(); focusOnSearch(e)
+  $(".input-search").focus()
 
   if navigator.userAgent.match(/iPad|iPhone/i)
     $("li input, .queue").click ->
@@ -29,20 +17,34 @@ $ ->
       i.selectionStart = 0
       i.selectionEnd = i.value.length
 
-  $(".js-queue-all").click ->
-    $("li:visible .emoji").click()
+focusOnSearch = (e) ->
+  if e.keyCode == 83 && !$(".input-search:focus").length
+    $(".input-search").focus()
+    t = $(".input-search").get(0)
+    if t.value.length
+      t.selectionStart = 0
+      t.selectionEnd = t.value.length
+    false
 
-  $(".js-hide-text").click ->
-    $("ul").toggleClass("hide-text")
+$(document).keydown (e) -> focusOnSearch(e)
 
-  $.fn.addToStoryLine = ->
-    $(this).clone().appendTo(".story").click ->
-      $(this).remove()
-      val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-      $(".queue").val(val).attr("data-clipboard-text", val)
+$(document).on 'keydown', '.emoji-wrapper input', (e) -> 
+  $(".input-search").blur(); focusOnSearch(e)
+
+$(document).on 'click', '.js-queue-all', ->
+  $("li:visible .emoji").click()
+
+$(document).on 'click', '.js-hide-text', ->
+  $("ul").toggleClass("hide-text")
+
+$.fn.addToStoryLine = ->
+  $(this).clone().appendTo(".story").click ->
+    $(this).remove()
     val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-    $(".queue").val(val).val(val).attr("data-clipboard-text", val)
+    $(".queue").val(val).attr("data-clipboard-text", val)
+  val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
+  $(".queue").val(val).val(val).attr("data-clipboard-text", val)
 
-  $("body").on "click", ".emoji", (e) ->
-    e.stopPropagation()
-    $(this).addToStoryLine()
+$(document).on "click", ".emoji", (e) ->
+  e.stopPropagation()
+  $(this).addToStoryLine()
