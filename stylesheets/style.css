@@ -44,12 +44,25 @@ header {
     clear: both; }
 
 section {
-  overflow: hidden;
-  margin-bottom: 10px; }
-  section.tell-me-a-story, section.groups {
+  *zoom: 1;
+  overflow: hidden; }
+  section:before, section:after {
+    content: " ";
+    display: table; }
+  section:after {
+    clear: both; }
+  section.story.queued, section.groups {
+    margin-bottom: 10px;
     border-bottom: 1px solid #ddd; }
-  section.tell-me-a-story {
-    padding-bottom: 5px; }
+
+.story.queued .button {
+  display: inline-block; }
+
+.story .button {
+  display: none; }
+
+.story .emoji {
+  margin-bottom: 4px; }
 
 .label {
   font-weight: bold;
@@ -138,9 +151,8 @@ ul, li {
   list-style-type: none; }
 
 .button {
-  height: 34px;
-  line-height: 33px;
-  padding: 0 10px;
+  line-height: 1;
+  padding: 10px 9px 9px;
   margin-left: 10px;
   display: inline-block;
   vertical-align: baseline;
@@ -153,6 +165,8 @@ ul, li {
   border: 1px solid #ace;
   text-transform: uppercase;
   font-weight: bold; }
+  .button.small {
+    padding: 5px; }
   .button:hover {
     background-color: #36a;
     border-color: #36a;
@@ -210,7 +224,7 @@ input.queue {
   width: 200px;
   margin-left: -100px;
   top: 10px;
-  background: rgba(255, 0, 0, 0.7);
+  background: rgba(10, 50, 90, 0.7);
   color: #fff;
   font-weight: bold;
   padding: 7px;

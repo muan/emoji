@@ -3,15 +3,15 @@ $ ->
   $(".input-search").focus()
 
   if navigator.userAgent.match(/iPad|iPhone/i)
-    $("li input, .queue").click ->
+    $(".emoji-code, .queue").click ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length
   else
     clip = new ZeroClipboard( $("[data-clipboard-text]"),{ moviePath: "/assets/zeroclipboard.swf"} )
     clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
 
-    $("li input").attr("readonly", "readonly")
-    $(".emoji-wrapper, .storyline").on "mouseover", ->
+    $(".emoji-code").attr("readonly", "readonly")
+    $(".emoji-wrapper").on "mouseover", ->
       input = $(this).find("input").focus()
       i = input.get(0)
       i.selectionStart = 0
@@ -33,18 +33,32 @@ $(document).on 'keydown', '.emoji-wrapper input', (e) ->
 
 $(document).on 'click', '.js-queue-all', ->
   $("li:visible .emoji").click()
+  false
 
 $(document).on 'click', '.js-hide-text', ->
   $("ul").toggleClass("hide-text")
+  false
 
-$.fn.addToStoryLine = ->
-  $(this).clone().appendTo(".story").click ->
-    $(this).remove()
-    val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-    $(".queue").val(val).attr("data-clipboard-text", val)
+$(document).on 'click', '.story .emoji', (e)->
+  $(this).remove()
+  updateQueue()
+  false
+
+$(document).on "click", ".list .emoji", (e) ->
+  $(this).clone().appendTo(".story")
+  updateQueue()
+  false
+
+$(document).on 'click', '.label.active', ->
+  location.hash = ""
+  false
+
+$(document).on 'click', '.js-clear-queue', ->
+  $(".story .emoji").remove()
+  updateQueue()
+  false
+
+updateQueue = ->
   val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-  $(".queue").val(val).val(val).attr("data-clipboard-text", val)
-
-$(document).on "click", ".emoji", (e) ->
-  e.stopPropagation()
-  $(this).addToStoryLine()
+  $(".js-copy-queue").attr("data-clipboard-text", val)
+  $(".story").toggleClass("queued", !!$(".story .emoji").length )
