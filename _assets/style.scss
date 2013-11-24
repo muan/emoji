@@ -39,7 +39,7 @@ header {
 section {
   @include clearfix;
   overflow: hidden;
-  &.story.queued, &.groups {
+  &.story.queued, &.groups, &.list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
   }
@@ -187,6 +187,20 @@ input.queue {
 .alert { font-size: 13px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; display: none; position: fixed; margin: auto; left: 50%; width: 200px; margin-left: -100px; top: 10px; background: rgba(10,50,90,0.7); color: #fff; font-weight: bold; padding: 7px; text-align: center; border-radius: 5px; }
 .emoji { @include inline-block; text-indent: -9999px; overflow: hidden; @include transform(scale(0.8)); cursor: pointer; }
 [data-clipboard-text] { cursor: pointer; }
+
+.no-result {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+code { background-color: #f8f8f8; border: 1px solid #aaa; padding: 0 2px; border-radius: 3px; color: #666; }
+
+.tips {
+  color: #777;
+}
 
 @media (max-width: 480px) {
   .input-search { width: 60px; position: absolute; &:focus { width: 100%; } }

@@ -51,7 +51,7 @@ section {
     display: table; }
   section:after {
     clear: both; }
-  section.story.queued, section.groups {
+  section.story.queued, section.groups, section.list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd; }
 
@@ -248,6 +248,23 @@ input.queue {
 
 [data-clipboard-text] {
   cursor: pointer; }
+
+.no-result {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 3px; }
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #aaa;
+  padding: 0 2px;
+  border-radius: 3px;
+  color: #666; }
+
+.tips {
+  color: #777; }
 
 @media (max-width: 480px) {
   .input-search {
