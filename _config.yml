@@ -1789,7 +1789,7 @@ emojis:
   - name: "clock530"
     keywords: [time, clock]
   - name: "hammer"
-    keywords: [tools, verdict, judge, done]
+    keywords: [tools, verdict, judge, done, law, ruling]
   - name: "zero"
     keywords: [numbers]
   - name: "clock6"
