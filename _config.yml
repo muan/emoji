@@ -517,7 +517,7 @@ emojis:
   - name: "rooster"
     keywords: [animal, nature, chicken]
   - name: "dog2"
-    keywords: [animal, nature, friend]
+    keywords: [animal, nature, friend, doge]
   - name: "pig2"
     keywords: [animal, nature]
   - name: "mouse2"
