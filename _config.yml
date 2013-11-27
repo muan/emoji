@@ -560,11 +560,11 @@ emojis:
   - name: "maple_leaf"
     keywords: [nature, plant, vegetable]
   - name: "leaves"
-    keywords: [nature, plant, tree, vegetable]
+    keywords: [nature, plant, tree, vegetable, grass, lawn]
   - name: "fallen_leaf"
     keywords: [nature, plant, vegetable, leaves]
   - name: "herb"
-    keywords: [vegetable, plant, medicine, weed]
+    keywords: [vegetable, plant, medicine, weed, grass, lawn]
   - name: "ear_of_rice"
     keywords: [nature, plant]
   - name: "mushroom"
@@ -580,7 +580,7 @@ emojis:
   - name: "chestnut"
     keywords: [food, squirrel]
   - name: "seedling"
-    keywords: [plant, nature]
+    keywords: [plant, nature, grass, lawn]
   - name: "blossom"
     keywords: [nature, flowers, yellow]
 
