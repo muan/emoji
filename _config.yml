@@ -1131,7 +1131,7 @@ emojis:
   - name: "toilet"
     keywords: [restroom, wc]
   - name: "bell"
-    keywords: [sound, notification]
+    keywords: [sound, notification, christmas, xmas]
   - name: "lantern"
     keywords: []
   - name: "tokyo_tower"
@@ -1535,7 +1535,7 @@ emojis:
   - name: "monorail"
     keywords: [transportation, vehicle]
   - name: "santa"
-    keywords: [festival, man, male]
+    keywords: [festival, man, male, christmas, xmas]
   - name: "four"
     keywords: [4, numbers]
   - name: "satellite"
@@ -1619,7 +1619,7 @@ emojis:
   - name: "musical_note"
     keywords: []
   - name: "church"
-    keywords: [building, religion]
+    keywords: [building, religion, christ]
   - name: "gemini"
     keywords: [sign]
   - name: "musical_score"
@@ -1641,7 +1641,7 @@ emojis:
   - name: "circus_tent"
     keywords: [festival, carnival, party]
   - name: "gift"
-    keywords: [present, birthday]
+    keywords: [present, birthday, christmas, xmas]
   - name: "white_circle"
     keywords: []
   - name: "city_sunrise"
