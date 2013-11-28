@@ -642,9 +642,9 @@ emojis:
   - name: "umbrella"
     keywords: [rain, weather]
   - name: "snowflake"
-    keywords: [winter, season, cold, weather]
+    keywords: [winter, season, cold, weather, christmas, xmas]
   - name: "snowman"
-    keywords: [winter, season, cold, weather]
+    keywords: [winter, season, cold, weather, christmas, xmas]
   - name: "cyclone"
     keywords: [swirl]
   - name: "foggy"
