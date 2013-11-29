@@ -632,11 +632,11 @@ emojis:
     keywords: [night]
 
   - name: "sunny"
-    keywords: [weather]
+    keywords: [weather, brightness]
   - name: "partly_sunny"
     keywords: [weather, nature, cloud, morning]
   - name: "cloud"
-    keywords: [weather]
+    keywords: [weather, sky]
   - name: "zap"
     keywords: [thunder, weather]
   - name: "umbrella"
@@ -650,7 +650,7 @@ emojis:
   - name: "foggy"
     keywords: [photo]
   - name: "rainbow"
-    keywords: [nature, happy, unicorn, photo]
+    keywords: [nature, happy, unicorn, photo, sky]
   - name: "ocean"
     keywords: [sea, water, wave]
 
