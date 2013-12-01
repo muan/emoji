@@ -40,6 +40,14 @@ focusOnSearch = function(e) {
   }
 };
 
+$.getJSON('emojis.json', function(emojis) {
+  var container;
+  container = $('.emojis-container');
+  return $.each(emojis, function(name, keywords) {
+    return container.append("<li class='result emoji-wrapper'><div class='emoji s_" + (name.replace(/\+/, '')) + "' title='" + name + "'>" + name + "</div>      <input type='text' class='autofocus plain emoji-code' value=':" + name + ":' data-clipboard-text=':" + name + ":' />      <span class='keywords'>" + name + " " + keywords + "</span>      </li>");
+  });
+});
+
 $(document).keydown(function(e) {
   return focusOnSearch(e);
 });

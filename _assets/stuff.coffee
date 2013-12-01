@@ -26,6 +26,14 @@ focusOnSearch = (e) ->
       t.selectionEnd = t.value.length
     false
 
+$.getJSON 'emojis.json', (emojis) ->
+  container = $('.emojis-container')
+  $.each emojis, (name, keywords) ->
+    container.append "<li class='result emoji-wrapper'><div class='emoji s_#{name.replace(/\+/,'')}' title='#{name}'>#{name}</div>
+      <input type='text' class='autofocus plain emoji-code' value=':#{name}:' data-clipboard-text=':#{name}:' />
+      <span class='keywords'>#{name} #{keywords}</span>
+      </li>"
+
 $(document).keydown (e) -> focusOnSearch(e)
 
 $(document).on 'keydown', '.emoji-wrapper input', (e) -> 

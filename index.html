@@ -61,15 +61,9 @@ layout: default
     </section>
 
     <section class="list">
-      <ul>
-        {% for emoji in site.emojis %}
-          <li class="result emoji-wrapper">
-            <div class="emoji s_{{ emoji.name | replace: '+', '' }}" title="{{ emoji.name }}">{{ emoji.name }}</div>
-            <input type="text" class="autofocus plain emoji-code" value=":{{ emoji.name }}:" data-clipboard-text=":{{ emoji.name }}:" />
-            <span class="keywords">{{ emoji.name }} {% for keyword in emoji.keywords %}{{ keyword }} {% endfor %}</span>
-          </li>
-        {% endfor %}
+      <ul class="emojis-container">
       </ul>
+
       <div class="no-result">
         <p>
           <img src="/emojis/mag.png" />
@@ -89,6 +83,7 @@ layout: default
         </p>
       </div>
     </section>
+    
     <footer>
       <code>press s to search</code>
       Made by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>.
