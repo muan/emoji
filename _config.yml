@@ -1002,7 +1002,7 @@ emojis:
   - name: "izakaya_lantern"
     keywords: [light]
   - name: "syringe"
-    keywords: [health, hospital, drugs, blood]
+    keywords: [health, hospital, drugs, blood, medicine, needle]
   - name: "back"
     keywords: [arrow]
   - name: "date"
