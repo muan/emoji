@@ -484,7 +484,7 @@
   "baby_symbol": ["orange-square", "child"],
   "dash": ["wind", "air", "fast", "shoo"],
   "izakaya_lantern": ["light"],
-  "syringe": ["health", "hospital", "drugs", "blood"],
+  "syringe": ["health", "hospital", "drugs", "blood", "medicine", "needle"],
   "back": ["arrow"],
   "date": ["calendar", "schedule"],
   "jack_o_lantern": ["halloween"],
