@@ -15,4 +15,4 @@ View emojis in groups and food-attack hungry people
 
 #### Please contribute :pray:
 
-There are almost 900 emojis, more keywords let you find emojis more easily. Go to `_config.yml` for the list of emoji & keywords.
+There are almost 900 emojis, more keywords let you find emojis more easily. Go to [`emojis.json`](https://github.com/muan/emoji/blob/gh-pages/emojis.json) for the list of emoji & keywords.
