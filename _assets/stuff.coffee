@@ -1,9 +1,8 @@
-$ ->
-
+$(document).on 'emoji:ready', ->
   $(".input-search").focus()
 
   if navigator.userAgent.match(/iPad|iPhone/i)
-    $(".emoji-code, .queue").click ->
+    $(document).on 'click', '.emoji-code, .queue', ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length
   else
@@ -11,7 +10,7 @@ $ ->
     clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
 
     $(".emoji-code").attr("readonly", "readonly")
-    $(".emoji-wrapper").on "mouseover", ->
+    $(document).on 'mouseover', '.emoji-wrapper', ->
       input = $(this).find("input").focus()
       i = input.get(0)
       i.selectionStart = 0
@@ -28,11 +27,14 @@ focusOnSearch = (e) ->
 
 $.getJSON 'emojis.json', (emojis) ->
   container = $('.emojis-container')
+  i = 0
   $.each emojis, (name, keywords) ->
+    i++
     container.append "<li class='result emoji-wrapper'><div class='emoji s_#{name.replace(/\+/,'')}' title='#{name}'>#{name}</div>
       <input type='text' class='autofocus plain emoji-code' value=':#{name}:' data-clipboard-text=':#{name}:' />
       <span class='keywords'>#{name} #{keywords}</span>
       </li>"
+    $(document).trigger 'emoji:ready' if Object.keys(emojis).length == i
 
 $(document).keydown (e) -> focusOnSearch(e)
 
