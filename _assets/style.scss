@@ -48,6 +48,16 @@ section {
 .story.queued .button { display: inline-block; }
 .story .button { display: none; }
 .story .emoji { margin-bottom: 4px; }
+.loading {
+  background-color: #fff;
+  padding: 100px 0 120px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 2px;
+  font-weight: bold;
+  & + .no-result { display: none; }
+}
 
 .label {
   font-weight: bold;

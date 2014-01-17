@@ -4,6 +4,7 @@ var focusOnSearch, updateQueue;
 $(document).on('emoji:ready', function() {
   var clip;
   $(".input-search").focus();
+  $(".loading").remove();
   if (navigator.userAgent.match(/iPad|iPhone/i)) {
     return $(document).on('click', '.emoji-code, .queue', function() {
       this.selectionStart = 0;

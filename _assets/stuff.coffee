@@ -1,5 +1,6 @@
 $(document).on 'emoji:ready', ->
   $(".input-search").focus()
+  $(".loading").remove()
 
   if navigator.userAgent.match(/iPad|iPhone/i)
     $(document).on 'click', '.emoji-code, .queue', ->
