@@ -172,7 +172,7 @@
   "eyeglasses": ["fashion", "accessories"],
   "ribbon": ["decoration", "pink", "girl", "bowtie"],
   "closed_umbrella": ["weather", "rain"],
-  "lipstick": ["female", "girl", "fashion"],
+  "lipstick": ["female", "girl", "fashion", "makeup", "cosmetics"],
     
   "yellow_heart": ["love", "like", "affection", "valentines"],
   "blue_heart": ["love", "like", "affection", "valentines"],
