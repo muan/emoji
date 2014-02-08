@@ -397,7 +397,7 @@
   "cool": ["words", "blue-square"],
   "orange_book": ["read", "library", "knowledge"],
   "arrow_double_up": ["arrow", "blue-square"],
-  "hocho": ["knife", "cut"],
+  "hocho": ["knife", "cut", "stab", "chop"],
   "outbox_tray": ["inbox", "email"],
   "arrow_down": ["arrow", "blue-square"],
   "copyright": ["ip", "license"],
