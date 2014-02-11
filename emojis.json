@@ -123,7 +123,7 @@
   "pray": ["please", "hope", "wish"],
   "point_up_2": ["fingers", "hand", "direction"],
   "clap": ["hands", "praise", "applause"],
-  "muscle": ["hand"],
+  "muscle": ["hand", "flex", "bicep", "exercise"],
   "walking": ["man", "human"],
   "runner": ["man", "walking", "exercise"],
   "running": ["man", "walking", "exercise"],
