@@ -95,7 +95,7 @@
   "boom": ["bomb"],
   "collision": ["boom", "bomb", "blown"],
   "anger": ["angry", "mad"],
-  "sweat_drops": ["water"],
+  "sweat_drops": ["water", "exercise", "workout"],
   "droplet": ["water", "drip", "faucet"],
   "zzz": ["sleepy", "tired"],
   "ear": ["face", "hear", "sound", "listen"],
