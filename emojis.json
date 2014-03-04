@@ -305,7 +305,7 @@
   "sunny": ["weather", "brightness"],
   "partly_sunny": ["weather", "nature", "cloud", "morning"],
   "cloud": ["weather", "sky"],
-  "zap": ["thunder", "weather"],
+  "zap": ["thunder", "weather", "lightning bolt"],
   "umbrella": ["rain", "weather"],
   "snowflake": ["winter", "season", "cold", "weather", "christmas", "xmas"],
   "snowman": ["winter", "season", "cold", "weather", "christmas", "xmas"],
