@@ -17,14 +17,7 @@ $(document).on('emoji:ready', function() {
     clip.on("complete", function(_, args) {
       return $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut();
     });
-    $(".emoji-code").attr("readonly", "readonly");
-    return $(document).on('mouseover', '.emoji-wrapper', function() {
-      var i, input;
-      input = $(this).find("input").focus();
-      i = input.get(0);
-      i.selectionStart = 0;
-      return i.selectionEnd = i.value.length;
-    });
+    return $(".emoji-code").attr("readonly", "readonly");
   }
 });
 

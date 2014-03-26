@@ -11,11 +11,6 @@ $(document).on 'emoji:ready', ->
     clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
 
     $(".emoji-code").attr("readonly", "readonly")
-    $(document).on 'mouseover', '.emoji-wrapper', ->
-      input = $(this).find("input").focus()
-      i = input.get(0)
-      i.selectionStart = 0
-      i.selectionEnd = i.value.length
 
 focusOnSearch = (e) ->
   if e.keyCode == 83 && !$(".input-search:focus").length
@@ -39,7 +34,7 @@ $.getJSON 'emojis.json', (emojis) ->
 
 $(document).keydown (e) -> focusOnSearch(e)
 
-$(document).on 'keydown', '.emoji-wrapper input', (e) -> 
+$(document).on 'keydown', '.emoji-wrapper input', (e) ->
   $(".input-search").blur(); focusOnSearch(e)
 
 $(document).on 'click', '.js-queue-all', ->
