@@ -11,10 +11,9 @@ search = (keyword) ->
   unless window.speedy_keyword == keyword
     window.speedy_keyword = keyword
     if keyword.length
-      reg = new RegExp( $.trim(keyword) ,'i')
       $('.result').hide()
       $('.result').each ->
-        $(this).show() if reg.test $(this).text()
+        $(this).show() if $(this).text().indexOf(keyword) > -1
     else
       $('.result').show()
 

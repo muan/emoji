@@ -10,7 +10,6 @@ $(document).on('emoji:ready', function() {
 });
 
 search = function(keyword) {
-  var reg;
   if (keyword == null) {
     keyword = '';
   }
@@ -18,10 +17,9 @@ search = function(keyword) {
   if (window.speedy_keyword !== keyword) {
     window.speedy_keyword = keyword;
     if (keyword.length) {
-      reg = new RegExp($.trim(keyword), 'i');
       $('.result').hide();
       $('.result').each(function() {
-        if (reg.test($(this).text())) {
+        if ($(this).text().indexOf(keyword) > -1) {
           return $(this).show();
         }
       });
