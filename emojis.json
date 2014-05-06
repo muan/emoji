@@ -155,7 +155,7 @@
   "sandal": ["shoes", "fashion"],
   "high_heel": ["fashion", "shoes", "female"],
   "boot": ["shoes", "fashion"],
-    
+
   "tshirt": ["fashion"],
   "shirt": ["fashion", "cloth"],
   "necktie": ["shirt", "suitup", "formal", "fashion", "cloth"],
@@ -173,7 +173,7 @@
   "ribbon": ["decoration", "pink", "girl", "bowtie"],
   "closed_umbrella": ["weather", "rain"],
   "lipstick": ["female", "girl", "fashion"],
-    
+
   "yellow_heart": ["love", "like", "affection", "valentines"],
   "blue_heart": ["love", "like", "affection", "valentines"],
   "purple_heart": ["love", "like", "affection", "valentines"],
