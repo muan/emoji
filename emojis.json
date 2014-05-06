@@ -195,8 +195,8 @@
   "speech_balloon": ["bubble", "words"],
   "footprints": ["feet"],
   "thought_balloon": ["bubble", "cloud", "speech"],
-    
-  "dog": ["animal", "friend", "nature", "woff"],
+
+  "dog": ["animal", "friend", "nature", "woof"],
   "wolf": ["animal", "nature"],
   "cat": ["animal"],
   "mouse": ["animal", "nature"],
