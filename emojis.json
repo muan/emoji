@@ -107,7 +107,7 @@
   "thumbsup": [],
   "-1": ["thumb", "thumbs", "thumbsdown"],
   "thumbsdown": [],
-  "ok_hand": ["fingers", "limbs"],
+  "ok_hand": ["fingers", "limbs", "perfect"],
   "punch": [],
   "facepunch": ["angry", "violence", "fist", "hit", "attack"],
   "fist": ["fingers", "hand"],
