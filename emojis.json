@@ -1,5 +1,5 @@
 {
-  "smile": ["face", "happy", "joy"],
+  "smile": ["face", "happy", "joy", "funny"],
   "grinning": ["face", "smile", "happy", "joy"],
   "smiley": ["face", "happy", "joy", "haha"],
   "blush": ["face", "smile", "happy", "flushed"],
@@ -23,7 +23,7 @@
   "cry": ["face", "tears", "sad", "face"],
   "joy": ["face", "cry", "tears", "weep", "happy", "haha"],
   "sob": ["face", "cry", "tears", "sad", "upset"],
-  "sleepy": ["face", "tired"],
+  "sleepy": ["face", "tired", "rest", "eyes"],
   "disappointed_relieved": ["face", "phew", "sweat", "nervous"],
   "cold_sweat": ["face", "nervous"],
   "sweat_smile": ["face", "hot", "happy"],
