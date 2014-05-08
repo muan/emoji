@@ -217,7 +217,7 @@
   "elephant": ["animal", "nature", "nose", "thailand"],
   "panda_face": ["animal", "nature"],
   "penguin": ["animal", "nature"],
-  "bird": ["animal", "nature", "tweet"],
+  "bird": ["animal", "nature", "fly", "tweet"],
   "baby_chick": ["animal", "chicken"],
   "hatched_chick": ["chicken", "baby"],
   "hatching_chick": ["chicken", "egg", "born"],
