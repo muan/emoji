@@ -282,7 +282,7 @@
   "blossom": ["nature", "flowers", "yellow"],
   "globe_with_meridians": ["earth", "international", "world"],
   "sun_with_face": ["morning"],
-  "full_moon_with_face": [],
+  "full_moon_with_face": ["nature", "sky", "space", "face"],
   "new_moon_with_face": ["nature"],
   "new_moon": ["nature"],
   "waxing_crescent_moon": ["nature"],
