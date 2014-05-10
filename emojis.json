@@ -1,5 +1,5 @@
 {
-  "smile": ["face", "happy", "joy", "funny", "haha"],
+  "smile": ["face", "happy", "joy", "funny", "haha", "laugh"],
   "grinning": ["face", "smile", "happy", "joy"],
   "smiley": ["face", "happy", "joy", "haha"],
   "blush": ["face", "smile", "happy", "flushed", "crush"],
@@ -53,7 +53,7 @@
   "hushed": ["face", "woo"],
   "no_mouth": ["face", "hellokitty"],
   "innocent": ["face", "angel", "heaven"],
-  "smirk": ["smile", "mean", "prank"],
+  "smirk": ["smile", "mean", "prank", "smug"],
   "expressionless": ["face", "indifferent"],
   "man_with_gua_pi_mao": ["male", "boy"],
   "man_with_turban": ["male"],
@@ -86,7 +86,7 @@
   "skull": ["dead", "skeleton"],
   "alien": ["UFO", "paul"],
   "hankey": ["poop", "shit", "shitface"],
-  "poop": ["poop", "shit", "shitface"],
+  "poop": ["poop", "shit", "shitface", "poo"],
   "shit": ["poop", "face"],
   "fire": ["hot", "cook"],
   "sparkles": ["stars", "shine", "shiny", "cool"],
@@ -195,7 +195,6 @@
   "speech_balloon": ["bubble", "words"],
   "footprints": ["feet"],
   "thought_balloon": ["bubble", "cloud", "speech"],
-
   "dog": ["animal", "friend", "nature", "woof"],
   "wolf": ["animal", "nature"],
   "cat": ["animal", "meow"],
