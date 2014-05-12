@@ -4,6 +4,14 @@ $(document).on 'emoji:ready', ->
   else
     search()
 
+#flag to help decide if hash is being set by us or by user
+currently_setting_hash = false
+    
+updateHash = (keyword) ->
+  currently_setting_hash = true
+  window.location.hash = keyword
+  currently_setting_hash = false
+    
 updateLabels = (keyword) ->
   $('[href^="#"]').removeClass('active')
   $("[href=##{keyword}]").addClass('active')
@@ -30,12 +38,24 @@ setRelatedDOMVisibility = (keyword) ->
 
 $(document).on 'search keyup', '.speedy-filter', -> 
   search( $(this).val() )
-  location.hash = $(this).val()
+  updateHash($(this).val())
 
 $(document).on 'click', '.group', ->
   search $('.speedy-filter').val($(this).attr('href').substr(1)).val()
 
 $(document).on 'click', '.speedy-remover', ->
   $('.speedy-filter').val('')
+  updatehash('')
   $('.result').show()
-  search (location.hash = '')
+  search ('')
+    
+
+$(window).on 'hashchange', ->
+  if currently_setting_hash
+    currently_setting_hash = false
+    return
+  else
+    currently_setting_hash = false
+    console.log('just set false in else')
+    search $('.speedy-filter').val(window.location.hash.substr(1)).val()
+    updateLabels(window.location.hash)
