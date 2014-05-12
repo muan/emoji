@@ -96,7 +96,7 @@ section {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #469; }
+  color: #08c; }
   a img {
     width: 16px;
     height: 16px; }
@@ -272,7 +272,9 @@ code {
   border: 1px solid #aaa;
   padding: 0 2px;
   border-radius: 3px;
-  color: #666; }
+  color: #666;
+  font-family: Monaco, monospace;
+  font-size: 11px; }
 
 .tips {
   color: #777; }
