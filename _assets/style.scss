@@ -5,7 +5,7 @@ html { padding: 0; overflow-x: hidden; }
 form { margin: 0; }
 
 body {
-  &, input { 
+  &, input {
     font-family: helvetica, sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -126,7 +126,7 @@ ul {
 }
 
 ul.hide-text {
-  .emoji-wrapper { 
+  .emoji-wrapper {
     width: 30px;
     .emoji {  @include transform(scale(1)); }
   }
@@ -160,7 +160,7 @@ ul, li {
 
 .input-search {
   min-height: 34px;
-  padding: 7px 8px;
+  padding: 5px;
   outline: none;
   color: #333;
   background-color: #fafafa;
