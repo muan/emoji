@@ -160,7 +160,7 @@ ul, li {
 
 .input-search {
   min-height: 34px;
-  padding: 5px;
+  padding: 7px 8px;
   outline: none;
   color: #333;
   background-color: #fafafa;
@@ -172,11 +172,14 @@ ul, li {
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
   @include transition(all 0.2s ease-in);
   width: 240px;
-  @include appearance(none);
+  @include appearance(textfield);
   &:hover { background-color: #fff; }
   &:focus {
     border-color: #51a7e8;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5);
+  }
+  &::-webkit-search-cancel-button, &::-webkit-search-decoration {
+    -webkit-appearance: none;
   }
 }
 
