@@ -4,10 +4,14 @@ $(document).on 'emoji:ready', ->
   else
     search()
 
+updateLabels = (keyword) ->
+  $('[href^="#"]').removeClass('active')
+  $("[href=##{keyword}]").addClass('active')
+    
 search = (keyword) ->
   keyword ?= ''
   $('.keyword').text keyword
-
+  updateLabels keyword
   unless window.speedy_keyword == keyword
     window.speedy_keyword = keyword
     if keyword.length
@@ -35,8 +39,3 @@ $(document).on 'click', '.speedy-remover', ->
   $('.speedy-filter').val('')
   $('.result').show()
   search (location.hash = '')
-
-window.onhashchange = ->
-  search $('.speedy-filter').val(location.hash.substr(1)).val()
-  $('[href^="#"]').removeClass('active')
-  $("[href=#{location.hash}]").addClass('active')
