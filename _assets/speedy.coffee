@@ -13,7 +13,7 @@ search = (keyword) ->
     if keyword.length
       $('.result').hide()
       $('.result').each ->
-        $(this).show() if $(this).text().indexOf(keyword) > -1
+        $(this).show() if $(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1
     else
       $('.result').show()
 
