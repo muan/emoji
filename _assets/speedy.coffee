@@ -6,17 +6,26 @@ $(document).on 'emoji:ready', ->
 
 #flag to help decide if hash is being set by us or by user
 currently_setting_hash = false
+
+currentTimeout = undefined
     
+#We keep track of the fact that we're setting the hash programmatically.
+#To give JQuery a chance to detect the change, we use setTimeout.
+#If we didn't use setTimeout, the onhashchange method would never see the
+#currently_setting_hash variable as true.
 updateHash = (keyword) ->
   currently_setting_hash = true
   window.location.hash = keyword
-  currently_setting_hash = false
+  currentTimeout = setTimeout ->
+    currently_setting_hash = false
+  , 100
     
 updateLabels = (keyword) ->
   $('[href^="#"]').removeClass('active')
   $("[href=##{keyword}]").addClass('active')
     
 search = (keyword) ->
+  console.log('searchin')
   keyword ?= ''
   $('.keyword').text keyword
   updateLabels keyword
@@ -49,13 +58,15 @@ $(document).on 'click', '.speedy-remover', ->
   $('.result').show()
   search ('')
     
-
-$(window).on 'hashchange', ->
-  if currently_setting_hash
-    currently_setting_hash = false
-    return
-  else
-    currently_setting_hash = false
-    console.log('just set false in else')
-    search $('.speedy-filter').val(window.location.hash.substr(1)).val()
-    updateLabels(window.location.hash)
+   
+$(window)
+  .on 'hashchange', ->
+    if currently_setting_hash
+      clearTimeout currentTimeout
+      currently_setting_hash = false
+      return
+    else
+      currently_setting_hash = false
+      search $('.speedy-filter').val(window.location.hash.substr(1)).val()
+      updateLabels(window.location.hash)
+  .trigger('hashchange')
