@@ -25,7 +25,6 @@ updateLabels = (keyword) ->
   $("[href=##{keyword}]").addClass('active')
     
 search = (keyword) ->
-  console.log('searchin')
   keyword ?= ''
   $('.keyword').text keyword
   updateLabels keyword
