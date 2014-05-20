@@ -27,7 +27,6 @@ updateLabels = function(keyword) {
 };
 
 search = function(keyword) {
-  console.log('searchin');
   if (keyword == null) {
     keyword = '';
   }
