@@ -7,6 +7,7 @@ $(document).on 'emoji:ready', ->
 search = (keyword) ->
   keyword ?= ''
   $('.keyword').text keyword
+  keyword = keyword.trim()
 
   unless window.speedy_keyword == keyword
     window.speedy_keyword = keyword
@@ -39,4 +40,4 @@ $(document).on 'click', '.speedy-remover', ->
 window.onhashchange = ->
   search $('.speedy-filter').val(location.hash.substr(1)).val()
   $('[href^="#"]').removeClass('active')
-  $("[href=#{location.hash}]").addClass('active')
+  $("[href='#{location.hash}']").addClass('active')
