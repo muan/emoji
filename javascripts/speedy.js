@@ -14,6 +14,7 @@ search = function(keyword) {
     keyword = '';
   }
   $('.keyword').text(keyword);
+  keyword = keyword.trim();
   if (window.speedy_keyword !== keyword) {
     window.speedy_keyword = keyword;
     if (keyword.length) {
@@ -55,5 +56,5 @@ $(document).on('click', '.speedy-remover', function() {
 window.onhashchange = function() {
   search($('.speedy-filter').val(location.hash.substr(1)).val());
   $('[href^="#"]').removeClass('active');
-  return $("[href=" + location.hash + "]").addClass('active');
+  return $("[href='" + location.hash + "']").addClass('active');
 };
