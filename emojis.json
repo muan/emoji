@@ -120,7 +120,7 @@
   "point_right": ["fingers", "hand", "direction"],
   "point_left": ["direction", "fingers", "hand"],
   "raised_hands": ["gesture", "hooray"],
-  "pray": ["please", "hope", "wish", "namaste"],
+  "pray": ["please", "hope", "wish", "namaste", "highfive"],
   "point_up_2": ["fingers", "hand", "direction"],
   "clap": ["hands", "praise", "applause"],
   "muscle": ["arm", "flex", "hand"],
