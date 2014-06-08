@@ -25,8 +25,7 @@ setRelatedDOMVisibility = (keyword) ->
   $('.js-queue-all').toggle (!!keyword.length && foundSomething)
   $('.no-result').toggle( !foundSomething )
 
-$(document).on 'search keyup', '.speedy-filter', -> 
-  search( $(this).val() )
+$(document).on 'search keyup', '.speedy-filter', ->
   location.hash = $(this).val()
 
 $(document).on 'click', '.group', ->
@@ -35,7 +34,7 @@ $(document).on 'click', '.group', ->
 $(document).on 'click', '.speedy-remover', ->
   $('.speedy-filter').val('')
   $('.result').show()
-  search (location.hash = '')
+  location.hash = ''
 
 window.onhashchange = ->
   search $('.speedy-filter').val(location.hash.substr(1)).val()

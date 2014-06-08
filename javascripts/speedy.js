@@ -39,7 +39,6 @@ setRelatedDOMVisibility = function(keyword) {
 };
 
 $(document).on('search keyup', '.speedy-filter', function() {
-  search($(this).val());
   return location.hash = $(this).val();
 });
 
@@ -50,7 +49,7 @@ $(document).on('click', '.group', function() {
 $(document).on('click', '.speedy-remover', function() {
   $('.speedy-filter').val('');
   $('.result').show();
-  return search((location.hash = ''));
+  return location.hash = '';
 });
 
 window.onhashchange = function() {
