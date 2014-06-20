@@ -1,5 +1,5 @@
 {
-  "smile": ["face", "happy", "joy", "funny", "haha"],
+  "smile": ["face", "happy", "joy", "funny", "haha", "laugh"],
   "grinning": ["face", "smile", "happy", "joy"],
   "smiley": ["face", "happy", "joy", "haha"],
   "blush": ["face", "smile", "happy", "flushed", "crush", "embarrassed"],
@@ -53,7 +53,7 @@
   "hushed": ["face", "woo"],
   "no_mouth": ["face", "hellokitty"],
   "innocent": ["face", "angel", "heaven", "halo"],
-  "smirk": ["smile", "mean", "prank"],
+  "smirk": ["smile", "mean", "prank", "smug"],
   "expressionless": ["face", "indifferent"],
   "man_with_gua_pi_mao": ["male", "boy"],
   "man_with_turban": ["male"],
@@ -195,7 +195,6 @@
   "speech_balloon": ["bubble", "words"],
   "footprints": ["feet"],
   "thought_balloon": ["bubble", "cloud", "speech"],
-
   "dog": ["animal", "friend", "nature", "woof"],
   "wolf": ["animal", "nature"],
   "cat": ["animal", "meow"],
