@@ -786,7 +786,7 @@
   "children_crossing": ["school"],
   "game_die": ["dice"],
   "secret": ["privacy"],
-  "wedding": ["love", "like", "affection", "couple", "marriage"],
+  "wedding": ["love", "like", "affection", "couple", "marriage", "bride", "groom"],
   "chocolate_bar": ["food", "snack", "desert"],
   "gb": ["banner", "nation", "flag", "britsh", "UK"],
   "musical_keyboard": ["piano", "instrument"],
