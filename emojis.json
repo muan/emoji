@@ -86,7 +86,7 @@
   "skull": ["dead", "skeleton"],
   "alien": ["UFO", "paul"],
   "hankey": ["poop", "shit", "shitface"],
-  "poop": ["poop", "shit", "shitface", "poo"],
+  "poop": ["poop", "shit", "shitface"],
   "shit": ["poop", "face"],
   "fire": ["hot", "cook"],
   "sparkles": ["stars", "shine", "shiny", "cool"],
