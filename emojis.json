@@ -266,7 +266,7 @@
   "rose": ["flowers", "valentines", "love"],
   "sunflower": ["nature", "plant"],
   "hibiscus": ["plant", "vegetable", "flowers"],
-  "maple_leaf": ["nature", "plant", "vegetable"],
+  "maple_leaf": ["nature", "plant", "vegetable", "canada"],
   "leaves": ["nature", "plant", "tree", "vegetable", "grass", "lawn"],
   "fallen_leaf": ["nature", "plant", "vegetable", "leaves"],
   "herb": ["vegetable", "plant", "medicine", "weed", "grass", "lawn"],
