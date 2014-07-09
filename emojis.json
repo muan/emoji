@@ -884,5 +884,6 @@
   "notebook_with_decorative_cover": ["classroom"],
   "horse_racing": ["animal", "betting"],
   "christmas_tree": ["festival", "vacation", "december", "xmas"],
-  "fu": ["fuck", "finger"]
+  "fu": ["fuck", "finger"],
+  "heart_heart_heart": ["heart", "yellow_heart", "green_heart", "purple_heart"]
 }
