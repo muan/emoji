@@ -19,7 +19,7 @@
   "relieved": ["face", "relaxed", "phew", "massage", "happiness"],
   "unamused": ["indifference", "face", "bored", "straight face"],
   "disappointed": ["face", "sad", "upset"],
-  "persevere": ["face", "sick", "no", "ucpset"],
+  "persevere": ["face", "sick", "no", "upset"],
   "cry": ["face", "tears", "sad", "face"],
   "joy": ["face", "cry", "tears", "weep", "happy", "haha"],
   "sob": ["face", "cry", "tears", "sad", "upset"],
