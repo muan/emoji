@@ -105,7 +105,7 @@
   "tongue": ["mouth", "playful"],
   "lips": ["mouth", "kiss"],
   "+1": ["thumb", "thumbs", "thumbsup"],
-  "thumbsup": ["cool", "hand", "yes"],
+  "thumbsup": ["cool", "hand", "yes", "like"],
   "-1": ["thumb", "thumbs", "thumbsdown"],
   "thumbsdown": ["hand", "no"],
   "ok_hand": ["fingers", "limbs", "perfect"],
@@ -156,7 +156,6 @@
   "sandal": ["shoes", "fashion"],
   "high_heel": ["fashion", "shoes", "female"],
   "boot": ["shoes", "fashion"],
-
   "tshirt": ["cloth", "fashion"],
   "shirt": ["fashion", "cloth"],
   "necktie": ["shirt", "suitup", "formal", "fashion", "cloth"],
@@ -174,7 +173,6 @@
   "ribbon": ["decoration", "pink", "girl", "bowtie"],
   "closed_umbrella": ["weather", "rain"],
   "lipstick": ["female", "girl", "fashion"],
-
   "yellow_heart": ["love", "like", "affection", "valentines"],
   "blue_heart": ["love", "like", "affection", "valentines"],
   "purple_heart": ["love", "like", "affection", "valentines"],
@@ -884,5 +882,5 @@
   "notebook_with_decorative_cover": ["classroom"],
   "horse_racing": ["animal", "betting"],
   "christmas_tree": ["festival", "vacation", "december", "xmas"],
-  "fu": ["fuck", "finger"]
+  "fu": ["fuck", "finger", "dislike"]
 }
