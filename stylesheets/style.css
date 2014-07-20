@@ -217,11 +217,6 @@ input.queue {
   text-align: center;
   padding: 4px; }
 
-.story:empty {
-  background-image: url(/emojis/grey_question.png);
-  width: 200px;
-  height: 20px;
-  margin: auto; }
 .story img {
   width: 20px; }
 

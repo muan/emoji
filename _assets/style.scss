@@ -189,12 +189,6 @@ input.queue {
   padding: 4px;
 }
 .story {
-  &:empty {
-    background-image: url(/emojis/grey_question.png);
-    width: 200px;
-    height: 20px;
-    margin: auto;
-  }
   img { width: 20px; }
 }
 .alert { font-size: 13px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; display: none; position: fixed; margin: auto; left: 50%; width: 200px; margin-left: -100px; top: 10px; background: rgba(10,50,90,0.7); color: #fff; font-weight: bold; padding: 7px; text-align: center; border-radius: 5px; }
