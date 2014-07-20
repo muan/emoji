@@ -1,4 +1,4 @@
-.emoji { background: url('/emojis/emoji.gif') no-repeat top left; width: 24px; height: 24px;  }
+.emoji { background: url('/emojis/emoji.png') no-repeat top left; width: 24px; height: 24px;  }
 .emoji.s_-1 { background-position: 0px 0px;  }
 .emoji.s_thumbsdown { background-position: -25px 0px;  }
 .emoji.s_1 { background-position: -50px 0px;  }
