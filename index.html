@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <link href='/fav.png' rel='shortcut icon'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='/fav.png' rel='shortcut icon'>
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
-    <meta content="Emoji searcher" property="og:title" />
-    <meta content="Emoji searcher" property="title" />
-    <meta content="Find the emoji that echoes your heart using keywords. No need to remember all the names of emojis! Queue the emojis up to tell a story!" property="description" />
-    <meta content="Find the emoji that echoes your heart using keywords. No need to remember all the names of emojis! Queue the emojis up to tell a story!" property="og:description" />
-    <meta content="http://emoji.muan.co/emojis/mag-big.png" property="og:image" />
+    <meta content="Emoji searcher" property="og:title">
+    <meta content="Emoji searcher" property="title">
+    <meta content="Find the emoji that echoes your heart using keywords. No need to remember all the names of emojis! Queue the emojis up to tell a story!" property="description">
+    <meta content="Find the emoji that echoes your heart using keywords. No need to remember all the names of emojis! Queue the emojis up to tell a story!" property="og:description">
+    <meta content="http://emoji.muan.co/appicon.png" property="og:image">
     <title>Emoji searcher</title>
     <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
-    <link href="stylesheets/emoji.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/emoji.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
     <script src="javascripts/jquery.js"></script>
     <script src="javascripts/zeroclipboard.js"></script>
     <script src="javascripts/stuff.js"></script>
@@ -32,7 +32,7 @@
     <header>
       <a href="#" class="button pull-right js-hide-text">Toggle text</a>
       <a href="#" class="button pull-right js-queue-all">Queue all</a>
-      <input type="search" class="input-search speedy-filter" placeholder="Enter a keyword" />
+      <input type="search" class="input-search speedy-filter" placeholder="Enter a keyword">
     </header>
 
     <section class="groups">
@@ -62,22 +62,18 @@
       </div>
 
       <div class="no-result">
-        <p>
-          <img src="emojis/mag.png" />
-          <img src="emojis/octocat.png" />
-          <img src="emojis/mag_right.png" />
-        </p>
+        <div class="emoji s_mag" title="mag">mag</div>
+        <div class="emoji s_octocat" title="octocat">octocat</div>
+        <div class="emoji s_mag_right" title="mag_right">mag_right</div>
         <p>Can't find emojis for <strong class="keyword"></strong>?</p>
         <p>Help the future you!</p>
         <p>
           <a class="button" href="https://github.com/muan/emoji/blob/gh-pages/emojis.json" target="_blank">Add this word to the keyword list on GitHub</a>
         </p>
         <p>It'll only take a second.</p>
-        <p>
-          <img src="emojis/mag.png" />
-          <img src="emojis/octocat.png" />
-          <img src="emojis/mag_right.png" />
-        </p>
+        <div class="emoji s_mag" title="mag">mag</div>
+        <div class="emoji s_octocat" title="octocat">octocat</div>
+        <div class="emoji s_mag_right" title="mag_right">mag_right</div>
       </div>
     </section>
 
