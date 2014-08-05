@@ -96,7 +96,7 @@ section {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #469; }
+  color: #08c; }
   a img {
     width: 16px;
     height: 16px; }
@@ -199,27 +199,24 @@ ul, li {
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   width: 240px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none; }
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  -ms-appearance: textfield;
+  -o-appearance: textfield;
+  appearance: textfield; }
   .input-search:hover {
     background-color: #fff; }
   .input-search:focus {
     border-color: #51a7e8;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(81, 167, 232, 0.5); }
+  .input-search::-webkit-search-cancel-button, .input-search::-webkit-search-decoration {
+    -webkit-appearance: none; }
 
 input.queue {
   width: 400px;
   text-align: center;
   padding: 4px; }
 
-.story:empty {
-  background-image: url(/emojis/grey_question.png);
-  width: 200px;
-  height: 20px;
-  margin: auto; }
 .story img {
   width: 20px; }
 
@@ -272,7 +269,9 @@ code {
   border: 1px solid #aaa;
   padding: 0 2px;
   border-radius: 3px;
-  color: #666; }
+  color: #666;
+  font-family: Monaco, monospace;
+  font-size: 11px; }
 
 .tips {
   color: #777; }
