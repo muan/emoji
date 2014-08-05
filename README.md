@@ -1,4 +1,4 @@
-#### Emoji finder
+## Emoji finder
 
 :heart: me some emoji. Go to http://emoji.muan.co/
 
