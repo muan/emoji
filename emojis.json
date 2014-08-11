@@ -364,7 +364,7 @@
   "one": ["blue-square", "numbers", "1"],
   "smoking": ["kills", "tobacco", "cigarette"],
   "snowboarder": ["sports", "winter"],
-  "soccer": ["sports", "balls"],
+  "soccer": ["sports", "balls","football","fifa"],
   "soon": ["arrow", "words"],
   "sos": ["help", "red-square", "words", "emergency"],
   "sound": ["volume", "speaker"],
@@ -736,7 +736,7 @@
   "sagittarius": ["sign", "zodiac"],
   "virgo": ["sign", "zodiac"],
   "capricorn": ["sign", "zodiac"],
-  "football": ["sports", "balls"],
+  "football": ["sports", "balls", "NFL"],
   "moneybag": ["dollar", "payment", "coins"],
   "sailboat": ["transportation", "ship"],
   "car": ["transportation", "vehicle"],
@@ -882,5 +882,5 @@
   "notebook_with_decorative_cover": ["classroom", "notes", "record", "paper"],
   "horse_racing": ["animal", "betting", "competition"],
   "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration"],
-  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove"]
+  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove"],
 }
