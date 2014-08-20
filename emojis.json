@@ -472,8 +472,8 @@
   "sweet_potato": ["food", "nature"],
   "baby_bottle": ["food", "container"],
   "dango": ["food"],
-  "iphone": ["technology", "apple", "gadgets"],
-  "phone": ["technology", "communication"],
+  "iphone": ["technology", "apple", "gadgets", "dial"],
+  "phone": ["technology", "communication", "dial"],
   "swimmer": ["sports"],
   "dart": ["game", "bar"],
   "it": ["italy", "flag"],
@@ -508,9 +508,9 @@
   "diamonds": ["poker", "cards"],
   "tea": ["drink", "bowl", "breakfast", "green", "british"],
   "bangbang": ["exclamation", "surprise"],
-  "telephone": ["communication", "technology"],
+  "telephone": ["communication", "technology", "dial"],
   "bank": ["building"],
-  "telephone_receiver": ["technology", "communication"],
+  "telephone_receiver": ["technology", "communication", "dial"],
   "bar_chart": ["graph", "presentation", "stats"],
   "jp": ["japan", "nation", "flag"],
   "telescope": ["stars", "space"],
@@ -882,5 +882,5 @@
   "notebook_with_decorative_cover": ["classroom", "notes", "record", "paper"],
   "horse_racing": ["animal", "betting", "competition"],
   "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration"],
-  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove"]
+  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no"]
 }
