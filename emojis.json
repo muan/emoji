@@ -23,7 +23,7 @@
   "cry": ["face", "tears", "sad", "face"],
   "joy": ["face", "cry", "tears", "weep", "happy", "haha"],
   "sob": ["face", "cry", "tears", "sad", "upset"],
-  "sleepy": ["face", "tired", "rest"],
+  "sleepy": ["face", "tired", "rest", "nap"],
   "disappointed_relieved": ["face", "phew", "sweat", "nervous"],
   "cold_sweat": ["face", "nervous"],
   "sweat_smile": ["face", "hot", "happy"],
