@@ -50,22 +50,16 @@
   "open_mouth": ["face", "surprise", "impressed", "wow"],
   "grimacing": ["face", "grimace", "teeth"],
   "neutral_face": ["face", "indifference"],
-<<<<<<< HEAD
   "confused": ["indifference", "huh", "weird"],
-=======
   "confused": ["face", "indifference"],
->>>>>>> FETCH_HEAD
   "hushed": ["face", "woo"],
   "no_mouth": ["face", "hellokitty"],
   "innocent": ["face", "angel", "heaven", "halo"],
   "smirk": ["face", "smile", "mean", "prank", "smug"],
   "expressionless": ["face", "indifferent"],
   "man_with_gua_pi_mao": ["male", "boy"],
-<<<<<<< HEAD
   "man_with_turban": ["male", "indian", "hindu", "hinduism"],
-=======
   "man_with_turban": ["man", "male"],
->>>>>>> FETCH_HEAD
   "cop": ["man", "police", "law", "enforcement", "arrest"],
   "construction_worker": ["man", "male", "human", "wip"],
   "guardsman": ["uk", "gb", "british", "man", "male"],
@@ -667,13 +661,10 @@
   "u6307": ["chinese", "point", "green-square", "kanji"],
   "fax": ["communication", "technology"],
   "mailbox_with_mail": ["email", "inbox", "communication"],
-<<<<<<< HEAD
   "restroom": ["blue-square", "toilet", "refresh"],
   "u6708": ["chinese", "moon", "japanese", "orange-square", "kanji"],
-=======
   "restroom": ["blue-square"],
   "u6708": ["chinese", "month", "moon", "japanese", "orange-square", "kanji"],
->>>>>>> FETCH_HEAD
   "bread": ["food", "wheat", "breakfast", "toast"],
   "mailbox_with_no_mail": ["email", "inbox"],
   "u6709": ["orange-square", "chinese", "have", "kanji"],
@@ -741,13 +732,10 @@
   "minidisc": ["technology", "record", "data", "disk", "disc"],
   "video_game": ["play", "console", "PS4", "controller"],
   "candy": ["snack", "desert"],
-<<<<<<< HEAD
   "mobile_phone_off": ["mute", "silence", "quet"],
   "sa": ["japanese", "blue-square"],
-=======
   "mobile_phone_off": ["mute"],
   "sa": ["japanese", "blue-square", "katakana"],
->>>>>>> FETCH_HEAD
   "violin": ["music", "instrument"],
   "capital_abcd": ["alphabet", "words", "blue-square"],
   "money_with_wings": ["dollar", "bills", "payment"],
@@ -796,21 +784,18 @@
   "movie_camera": ["film", "record"],
   "waxing_gibbous_moon": ["nature"],
   "moyai": ["stone", "island"],
-<<<<<<< HEAD
   "scroll": ["documents", "ancient", "history"],
   "wc": ["toilet", "restroom", "blue-square"],
   "seat": ["sit", "airplane", "transport", "bus"],
   "children_crossing": ["school", "warning", "danger", "sign", "driving"],
   "game_die": ["dice", "random", "tabbletop"],
   "secret": ["privacy", "chinese", "sshh"],
-=======
   "scroll": ["documents", "paper"],
   "wc": ["toilet", "restroom", "blue-square"],
   "seat": ["sit"],
   "children_crossing": ["school"],
   "game_die": ["dice"],
   "secret": ["privacy", "kanji"],
->>>>>>> FETCH_HEAD
   "wedding": ["love", "like", "affection", "couple", "marriage", "bride", "groom"],
   "chocolate_bar": ["food", "snack", "desert"],
   "gb": ["banner", "nation", "flag", "britsh", "UK"],
@@ -822,13 +807,10 @@
   "seven": ["7", "numbers", "blue-square", "prime"],
   "wheelchair": ["blue-square", "disabled"],
   "cinema": ["blue-square", "record", "film", "movie"],
-<<<<<<< HEAD
   "ghost": ["halloween", "scary", "joke", "night"],
   "mute": ["sound", "volume"],
-=======
   "ghost": ["halloween"],
   "mute": ["sound", "volume", "silence"],
->>>>>>> FETCH_HEAD
   "shaved_ice": ["hot", "desert"],
   "white_check_mark": ["green-square", "ok", "agree"],
   "circus_tent": ["festival", "carnival", "party"],
@@ -837,15 +819,12 @@
   "city_sunrise": ["photo", "morning", "good morning", "dawn"],
   "gift_heart": ["love", "valentines"],
   "name_badge": ["fire", "forbid"],
-<<<<<<< HEAD
   "white_flower": ["japanese", "spring"],
   "city_sunset": ["photo", "evening", "sky"],
   "neckbeard": ["nerdy", "basement", "beard"],
-=======
   "white_flower": ["japanese"],
   "city_sunset": ["photo"],
   "neckbeard": ["face", "nerdy"],
->>>>>>> FETCH_HEAD
   "ship": ["transportation", "titanic"],
   "white_large_square": ["shape", "icon", "stone", "button"],
   "cl": ["alphabet", "words", "red-square"],
@@ -879,13 +858,10 @@
   "clock1130": ["time", "clock"],
   "nine": ["blue-square", "numbers", "9"],
   "ski": ["sports", "winter", "cold"],
-<<<<<<< HEAD
   "clock12": ["time", "clock"],
   "grey_exclamation": ["surprise", "wow", "warning"],
-=======
   "clock12": ["time", "clock", "noon", "midnight"],
   "grey_exclamation": ["surprise"],
->>>>>>> FETCH_HEAD
   "no_bell": ["sound", "volume", "mute"],
   "clock1230": ["time", "clock"],
   "grey_question": ["doubts", "huh"],
