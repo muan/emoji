@@ -49,7 +49,7 @@
   "imp": ["devil", "evil", "angry", "horns"],
   "open_mouth": ["face", "surprise", "impressed", "wow"],
   "grimacing": ["face", "grimace", "teeth"],
-  "neutral_face": ["face", "indifference"],
+  "neutral_face": ["face", "indifference", "meh"],
   "confused": ["face", "indifference"],
   "hushed": ["face", "woo"],
   "no_mouth": ["face", "hellokitty"],
