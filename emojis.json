@@ -608,7 +608,7 @@
   "link": ["rings", "url"],
   "rage4": ["angry", "mad", "ghonly", "hate", "despise"],
   "tropical_drink": ["beverage"],
-  "blue_car": ["car"],
+  "blue_car": [],
   "envelope": ["email", "letter", "postal", "communication"],
   "railway_car": ["transportation", "vehicle"],
   "envelope_with_arrow": ["email", "communication"],
