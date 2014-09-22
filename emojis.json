@@ -195,7 +195,7 @@
   "footprints": ["feet", "tracking"],
   "thought_balloon": ["bubble", "cloud", "speech"],
   "dog": ["animal", "friend", "nature", "woof"],
-  "wolf": ["animal", "nature",
+  "wolf": ["animal", "nature"],
   "cat": ["animal", "meow"],
   "mouse": ["animal", "nature"],
   "hamster": ["animal", "nature"],
