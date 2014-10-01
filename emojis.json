@@ -768,7 +768,7 @@
   "watermelon": ["fruit", "food"],
   "chart_with_upwards_trend": ["graph", "presenetation", "stats"],
   "fries": ["food", "chips"],
-  "mountain_railway": ["transportation", "vehicle"],
+  "mountain_railway": ["transportation", "vehicle", "mountain"],
   "scissors": ["stationery", "cut"],
   "checkered_flag": ["contest", "finishline", "rase", "gokart"],
   "scorpius": ["sign", "zodiac"],
@@ -880,7 +880,7 @@
   "notebook": ["stationery", "record", "notes", "paper"],
   "clock630": ["time", "clock"],
   "notebook_with_decorative_cover": ["classroom", "notes", "record", "paper"],
-  "horse_racing": ["animal", "betting", "competition"],
+  "horse_racing": ["animal", "betting", "competition", "horse"],
   "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration"],
   "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no"]
 }
