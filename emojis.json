@@ -881,6 +881,6 @@
   "clock630": ["time", "clock"],
   "notebook_with_decorative_cover": ["classroom", "notes", "record", "paper"],
   "horse_racing": ["animal", "betting", "competition"],
-  "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration"],
+  "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration", "christmas"],
   "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no"]
 }
