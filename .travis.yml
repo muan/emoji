@@ -3,3 +3,4 @@ script: phantomjs test.js
 branches:
   only:
     - gh-pages
+    - /.+/
