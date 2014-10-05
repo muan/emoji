@@ -2,6 +2,10 @@ var fs   = require('fs')
 var data = JSON.parse(fs.read('emojis.json'))
 var keys = Object.keys(data)
 
+if(keys.length != 884) {
+  console.log("Emojis.json has " + keys.length + " entries, but there are 884 emojis.")
+}
+
 var testForDups = []
 
 keys.forEach(function(key) {
@@ -28,7 +32,7 @@ if(testForUnnecessities.length > 0) {
   })
 }
 
-var buildFailed = testForDups.length != keys.length || testForUnnecessities.length > 0
+var buildFailed = keys.length != 884 || testForDups.length != keys.length || testForUnnecessities.length > 0
 
 if(buildFailed) {
   phantom.exit(buildFailed)
