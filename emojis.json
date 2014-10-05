@@ -1,6 +1,7 @@
 {
   "smile": ["face", "happy", "joy", "funny", "haha", "laugh"],
-  "grinning": ["face", "smile", "happy", "joy"],
+  "grinning": ["face", "smile", "happy", "joy", "ning"],
+  "smiley": ["face", "happy", "joy", "haha"],
   "smiley": ["face", "happy", "joy", "haha"],
   "blush": ["face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy"],
   "relaxed": ["face", "blush", "massage", "happiness"],
