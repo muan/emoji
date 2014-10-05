@@ -1,5 +1,7 @@
 language: javascript
 script: phantomjs test.js
+notifications:
+  email: false
 branches:
   only:
     - gh-pages
