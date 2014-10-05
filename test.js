@@ -28,6 +28,11 @@ if(testForUnnecessities.length > 0) {
   })
 }
 
-var build = testForDups.length != keys.length || testForUnnecessities.length > 0
+var buildFailed = testForDups.length != keys.length || testForUnnecessities.length > 0
 
-phantom.exit(build)
+if(buildFailed) {
+  phantom.exit(buildFailed)
+} else {
+  console.log(":sparkles::+1:")
+  phantom.exit()
+}
