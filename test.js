@@ -1,6 +1,6 @@
 var fs   = require('fs')
 var data = JSON.parse(fs.read('emojis.json'))
-var keys = Object.keys(data)
+var keys = fs.read('emojis.json').toString().match(/\"(.+)\"\:/g).map(function(key){return key.replace(/\"|\:/g,'')})
 
 var testForOrphan = keys.length != 884
 
@@ -8,13 +8,18 @@ if(keys.length != 884) {
   console.log("There are 884 emojis, but emojis.json has " + keys.length + " entries.")
 }
 
+var arr = []
 var dups = []
 
 keys.forEach(function(key) {
-  if(dups.indexOf(key) < 0) dups.push(key)
+  if(arr.indexOf(key) < 0) {
+    arr.push(key)
+  } else {
+    dups.push(key)
+  }
 })
 
-var testForDups = dups.length != keys.length
+var testForDups = dups.length > 0
 
 if(testForDups) {
   dups.forEach(function(key) {
