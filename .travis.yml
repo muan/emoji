@@ -1,2 +1,5 @@
 language: javascript
 script: phamtonjs test.js
+branches:
+  only:
+    - gh-pages
