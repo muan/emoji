@@ -850,6 +850,7 @@
   "grey_exclamation": ["surprise", "punctuation", "gray", "wow", "warning"],
   "no_bell": ["sound", "volume", "mute"],
   "clock1230": ["time"],
+  "clock1230": ["time"],
   "grey_question": ["doubts", "gray", "huh"],
   "no_bicycles": ["cyclist", "prohibited"],
   "clock130": ["time"],
