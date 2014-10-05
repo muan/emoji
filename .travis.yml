@@ -1,5 +1,5 @@
 language: javascript
-script: phamtonjs test.js
+script: phantomjs test.js
 branches:
   only:
     - gh-pages
