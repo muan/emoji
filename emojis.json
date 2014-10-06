@@ -490,7 +490,7 @@
   "de": ["german", "nation", "flag", "country", "banner"],
   "japan": ["nation", "country", "japanese", "asia"],
   "pill": ["health", "medicine"],
-  "tanabata_tree": ["plant", "nature"],
+  "tanabata_tree": ["plant", "nature", "branch"],
   "balloon": ["party", "celebration"],
   "japanese_castle": ["photo", "building"],
   "pineapple": ["fruit", "nature", "food"],
