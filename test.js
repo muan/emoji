@@ -2,6 +2,8 @@ var fs   = require('fs')
 var data = JSON.parse(fs.read('emojis.json'))
 var keys = fs.read('emojis.json').toString().match(/\"(.+)\"\:/g).map(function(key){return key.replace(/\"|\:/g,'')})
 
+console.log("\n\n")
+
 var testForOrphan = keys.length != 884
 
 if(keys.length != 884) {
@@ -23,7 +25,7 @@ var testForDups = dups.length > 0
 
 if(testForDups) {
   dups.forEach(function(key) {
-    console.log("There is more than one " + key + " in emojis.json.")
+    console.log("There is more than one \"" + key + "\" in emojis.json.")
   })
 }
 
@@ -48,6 +50,6 @@ var buildFailed = testForOrphan || testForDups || testForUnnecessities
 if(buildFailed) {
   phantom.exit(buildFailed)
 } else {
-  console.log(":sparkles::+1:")
+  console.log("\n\n:sparkles::+1:")
   phantom.exit()
 }
