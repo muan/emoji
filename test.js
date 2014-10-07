@@ -1,13 +1,15 @@
-var fs     = require('fs')
-var data   = JSON.parse(fs.read('emojis.json'))
-var keys   = fs.read('emojis.json').toString().match(/\"(.+)\"\:/g).map(function(key){return key.replace(/\"|\:/g,'')})
-var failed = function() { console.log("\033[91mFAILED\033[0m\n") }
-var passed = function() { console.log("\033[92mPASSED\033[0m\n") }
+var fs          = require('fs')
+var data        = JSON.parse(fs.read('emojis.json'))
+var keys        = fs.read('emojis.json').toString().match(/\"(.+)\"\:/g).map(function(key){return key.replace(/\"|\:/g,'')})
+var buildFailed = false
+var passed      = function() { console.log("\033[92mPASSED\033[0m\n") }
+var failed      = function() { 
+  console.log("\033[91mFAILED\033[0m\n")
+  buildFailed = true
+}
 
 //
 console.log("\nTEST: Correct number of emojis")
-
-var testForOrphan = keys.length != 884
 
 if(keys.length != 884) {
   console.log("There are 884 emojis, but emojis.json has " + keys.length + " entries.")
@@ -30,9 +32,7 @@ keys.forEach(function(key) {
   }
 })
 
-var testForDups = dups.length > 0
-
-if(testForDups) {
+if(dups.length > 0) {
   dups.forEach(function(key) {
     console.log("There is more than one \"" + key + "\" in emojis.json.")
   })
@@ -52,9 +52,7 @@ keys.forEach(function(key) {
   })
 })
 
-var testForUnnecessities = unnecessities.length > 0
-
-if(testForUnnecessities) {
+if(unnecessities.length > 0) {
   unnecessities.forEach(function(arr) {
     console.log("\"" + arr[1] + "\" is unnecessary as it is already part of \"" + arr[0] + "\" and will be matched.")
   })
@@ -63,8 +61,7 @@ if(testForUnnecessities) {
   passed()
 }
 
-var buildFailed = testForOrphan || testForDups || testForUnnecessities
-
+//
 if(buildFailed) {
   console.log(":cry: \033[91mNo good, something failed.\033[0m :boom:\n")
   phantom.exit(buildFailed)
