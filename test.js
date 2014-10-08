@@ -45,17 +45,28 @@ if(dups.length > 0) {
 console.log("TEST: No unnecessary keywords")
 
 var unnecessities = []
+var unnecessitiesInKeywords = []
 
 keys.forEach(function(key) {
   data[key].forEach(function(keyword) {
     if(key.match(keyword)) unnecessities.push([key, keyword])
+
+    var otherKeywords = data[key]
+    otherKeywords.splice(data[key].indexOf(keyword), 1)
+    otherKeywords.forEach(function(otherKeyword) {
+      if(otherKeyword.match(keyword)) unnecessitiesInKeywords.push([otherKeyword, keyword, key])
+    })
   })
 })
 
-if(unnecessities.length > 0) {
+if(unnecessities.length > 0 || unnecessitiesInKeywords.length > 0) {
   unnecessities.forEach(function(arr) {
     console.log("\"" + arr[1] + "\" is unnecessary as it is already part of \"" + arr[0] + "\" and will be matched.")
   })
+  unnecessitiesInKeywords.forEach(function(arr) {
+    console.log("\"" + arr[1] + "\" is unnecessary as a \"" + arr[2] + "\" already has a keyword \"" + arr[0] + "\".")
+  })
+
   failed()
 } else {
   passed()
