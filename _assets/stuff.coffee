@@ -2,6 +2,15 @@ $(document).on 'emoji:ready', ->
   $(".input-search").focus()
   $(".loading").remove()
 
+  # Check for Flash
+  hasFlash = false
+  try
+    hasFlash = Boolean(new ActiveXObject('ShockwaveFlash.ShockwaveFlash'))
+  catch exception
+    hasFlash = ('undefined' != typeof navigator.mimeTypes['application/x-shockwave-flash'])
+  if not hasFlash
+    $(".js-copy-queue").css("display", "none")
+
   if navigator.userAgent.match(/iPad|iPhone/i)
     $(document).on 'click', '.emoji-code, .queue', ->
       this.selectionStart = 0
