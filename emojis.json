@@ -39,7 +39,7 @@
   "yum": ["happy", "joy", "tongue", "smile", "face"],
   "mask": ["face", "sick", "ill"],
   "sunglasses": ["face", "cool", "smile", "summer"],
-  "sleeping": ["face", "tired", "sleepy"],
+  "sleeping": ["face", "tired", "sleepy","night"],
   "dizzy_face": ["spent", "unconscious", "xox"],
   "astonished": ["face", "xox"],
   "worried": ["face", "concern", "nervous"],
