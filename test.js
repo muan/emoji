@@ -77,15 +77,15 @@ if(unnecessities.length > 0 || unnecessitiesInKeywords.length > 0) {
 console.log("TEST: No trailing whitespace")
 
 var offenses = []
-rawData.split("\n").forEach(function(line) {
+rawData.split("\n").forEach(function(line, index) {
   if(line.match(/\s+$/)) {
-    offenses.push(line);
+    offenses.push(index + 1);
   }
 })
 
 if(offenses.length > 0) {
-  offenses.forEach(function(line) {
-    console.log('"' + line + '" has a trailing whitespace.')
+  offenses.forEach(function(lineNo) {
+    console.log('Line ' + lineNo + ' has a trailing whitespace.')
   })
 
   failed()
