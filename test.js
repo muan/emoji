@@ -74,18 +74,28 @@ if(unnecessities.length > 0 || unnecessitiesInKeywords.length > 0) {
 }
 
 //
-console.log("TEST: No trailing whitespace")
+console.log("TEST: Line format")
 
 var offenses = []
-rawData.split("\n").forEach(function(line, index) {
-  if(line.match(/\s+$/)) {
-    offenses.push(index + 1);
+var lines = rawData.replace(/^{\n([\s\S]*)\n}\n$/, '$1').split("\n")
+var baseRegex = '^  "[\\w+-]+": \\["[\\w- ]+"(, "[\\w- ]+")*\\]'
+var contentRegex = new RegExp(baseRegex + ',$')
+var lastLineRegex = new RegExp(baseRegex + '$')
+lines.forEach(function(line, index) {
+  if(index == lines.length - 1) {
+    if(!line.match(lastLineRegex)) {
+      offenses.push(index + 2)
+    }
+  } else {
+    if(!line.match(contentRegex)) {
+      offenses.push(index + 2)
+    }
   }
 })
 
 if(offenses.length > 0) {
   offenses.forEach(function(lineNo) {
-    console.log('Line ' + lineNo + ' has a trailing whitespace.')
+    console.log('Line ' + lineNo + ' has the wrong format.')
   })
 
   failed()
