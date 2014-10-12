@@ -3,7 +3,7 @@ var data        = JSON.parse(fs.read('emojis.json'))
 var keys        = fs.read('emojis.json').toString().match(/"(.+)":/g).map(function(key){return key.replace(/"|:/g,'')})
 var buildFailed = false
 var passed      = function() { console.log("\033[92mPASSED\033[0m\n") }
-var failed      = function() { 
+var failed      = function() {
   console.log("\033[91mFAILED\033[0m\n")
   buildFailed = true
 }
