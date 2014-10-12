@@ -1,6 +1,7 @@
 var fs          = require('fs')
+var rawData     = fs.read('emojis.json').toString()
 var data        = JSON.parse(fs.read('emojis.json'))
-var keys        = fs.read('emojis.json').toString().match(/"(.+)":/g).map(function(key){return key.replace(/"|:/g,'')})
+var keys        = rawData.match(/"(.+)":/g).map(function(key){return key.replace(/"|:/g,'')})
 var buildFailed = false
 var passed      = function() { console.log("\033[92mPASSED\033[0m\n") }
 var failed      = function() {
@@ -65,6 +66,26 @@ if(unnecessities.length > 0 || unnecessitiesInKeywords.length > 0) {
   })
   unnecessitiesInKeywords.forEach(function(arr) {
     console.log('"' + arr[1] + '" is unnecessary as a "' + arr[2] + '" already has a keyword "' + arr[0] + '".')
+  })
+
+  failed()
+} else {
+  passed()
+}
+
+//
+console.log("TEST: No trailing whitespace")
+
+var offenses = []
+rawData.split("\n").forEach(function(line) {
+  if(line.match(/\s+$/)) {
+    offenses.push(line);
+  }
+})
+
+if(offenses.length > 0) {
+  offenses.forEach(function(line) {
+    console.log('"' + line + '" has a trailing whitespace.')
   })
 
   failed()
