@@ -823,7 +823,7 @@
   "new": ["blue-square", "words", "start"],
   "white_square_button": ["shape", "input"],
   "clock1": ["time"],
-  "golf": ["sports", "business"],
+  "golf": ["sports", "business", "flag", "hole"],
   "shower": ["clean", "bath"],
   "wind_chime": ["nature", "ding"],
   "clock10": ["time"],
