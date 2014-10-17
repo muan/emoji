@@ -12,7 +12,7 @@ var failed      = function() {
 //
 console.log("\nTEST: Correct number of emojis")
 
-if(keys.length != 884) {
+if(keys.length !== 884) {
   console.log("There are 884 emojis, but emojis.json has " + keys.length + " entries.")
   failed()
 } else {
@@ -86,7 +86,7 @@ var baseRegex = '^  "[\\w+-]+": \\["[\\w- ]+"(, "[\\w- ]+")*\\]'
 var contentRegex = new RegExp(baseRegex + ',$')
 var lastLineRegex = new RegExp(baseRegex + '$')
 lines.forEach(function(line, index) {
-  if(index == lines.length - 1) {
+  if(index === lines.length - 1) {
     if(!line.match(lastLineRegex)) {
       offenses.push(index + 2)
     }
