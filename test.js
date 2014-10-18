@@ -3,16 +3,16 @@ var rawData     = fs.read('emojis.json').toString()
 var data        = JSON.parse(fs.read('emojis.json'))
 var keys        = rawData.match(/"(.+)":/g).map(function(key){return key.replace(/"|:/g,'')})
 var buildFailed = false
-var passed      = function() { console.log("\033[92mPASSED\033[0m\n") }
+var passed      = function() { console.log("\x1B[92mPASSED\x1B[0m\n") }
 var failed      = function() {
-  console.log("\033[91mFAILED\033[0m\n")
+  console.log("\x1B[91mFAILED\x1B[0m\n")
   buildFailed = true
 }
 
 //
 console.log("\nTEST: Correct number of emojis")
 
-if(keys.length != 884) {
+if(keys.length !== 884) {
   console.log("There are 884 emojis, but emojis.json has " + keys.length + " entries.")
   failed()
 } else {
@@ -50,12 +50,16 @@ var unnecessitiesInKeywords = []
 
 keys.forEach(function(key) {
   data[key].forEach(function(keyword) {
-    if(key.match(keyword)) unnecessities.push([key, keyword])
+    if(key.match(keyword)) {
+      unnecessities.push([key, keyword])
+    }
 
     var otherKeywords = data[key]
     otherKeywords.splice(data[key].indexOf(keyword), 1)
     otherKeywords.forEach(function(otherKeyword) {
-      if(otherKeyword.match(keyword)) unnecessitiesInKeywords.push([otherKeyword, keyword, key])
+      if(otherKeyword.match(keyword)) {
+        unnecessitiesInKeywords.push([otherKeyword, keyword, key])
+      }
     })
   })
 })
@@ -82,7 +86,7 @@ var baseRegex = '^  "[\\w+-]+": \\["[\\w- ]+"(, "[\\w- ]+")*\\]'
 var contentRegex = new RegExp(baseRegex + ',$')
 var lastLineRegex = new RegExp(baseRegex + '$')
 lines.forEach(function(line, index) {
-  if(index == lines.length - 1) {
+  if(index === lines.length - 1) {
     if(!line.match(lastLineRegex)) {
       offenses.push(index + 2)
     }
@@ -105,9 +109,9 @@ if(offenses.length > 0) {
 
 //
 if(buildFailed) {
-  console.log(":cry: \033[91mNo good, something failed.\033[0m :boom:\n")
+  console.log(":cry: \x1B[91mNo good, something failed.\x1B[0m :boom:\n")
   phantom.exit(buildFailed)
 } else {
-  console.log(":sparkles: \033[96mWho's awesome? You're awesome!\033[0m :+1:\n")
+  console.log(":sparkles: \x1B[96mWho's awesome? You're awesome!\x1B[0m :+1:\n")
   phantom.exit()
 }
