@@ -470,7 +470,7 @@
   "b": ["red-square", "alphabet", "letter"],
   "interrobang": ["wat", "punctuation", "surprise"],
   "sweet_potato": ["food", "nature"],
-  "baby_bottle": ["food", "container"],
+  "baby_bottle": ["food", "container", "milk"],
   "dango": ["food", "barbecue", "meat"],
   "iphone": ["technology", "apple", "gadgets", "dial"],
   "phone": ["technology", "communication", "dial", "telephone"],
