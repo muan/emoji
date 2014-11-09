@@ -54,7 +54,7 @@ keys.forEach(function(key) {
       unnecessities.push([key, keyword])
     }
 
-    var otherKeywords = data[key]
+    var otherKeywords = data[key].slice()
     otherKeywords.splice(data[key].indexOf(keyword), 1)
     otherKeywords.forEach(function(otherKeyword) {
       if(otherKeyword.match(keyword)) {
