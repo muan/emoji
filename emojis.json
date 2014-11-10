@@ -866,7 +866,7 @@
   "clock4": ["time", "late", "early", "schedule"],
   "gun": ["violence", "weapon"],
   "no_pedestrians": ["rules", "crossing", "walking", "circle"],
-  "small_red_triangle_down": ["shape", "red"],
+  "small_red_triangle_down": ["shape"],
   "yen": ["money", "japanese", "dollar", "currency"],
   "clock430": ["time", "late", "early", "schedule"],
   "no_smoking": ["cigarette", "blue-square", "smell", "smoke"],
