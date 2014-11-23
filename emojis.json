@@ -255,7 +255,7 @@
   "camel": ["animal", "nature", "hot", "desert", "hump"],
   "dromedary_camel": ["animal", "hot", "desert", "hump"],
   "leopard": ["animal", "nature"],
-  "cat2": ["animal", "meow", "pet"],
+  "cat2": ["animal", "meow", "pet", "cats"],
   "poodle": ["dog", "animal", "101", "nature", "pet"],
   "paw_prints": ["animal", "dog", "cat", "pet"],
   "bouquet": ["flowers", "nature"],
