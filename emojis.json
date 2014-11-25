@@ -698,7 +698,7 @@
   "unlock": ["privacy", "security"],
   "fish_cake": ["food", "japan", "sea", "beach"],
   "mens": ["toilet", "restroom", "wc", "blue-square"],
-  "rotating_light": ["police", "ambulance", "911", "emergency"],
+  "rotating_light": ["police", "ambulance", "911", "emergency", "alert", "error", "pinged"],
   "up": ["blue-square", "above", "high"],
   "fishing_pole_and_fish": ["food", "hobby"],
   "metal": ["fingers", "rocknroll", "concert", "band"],
