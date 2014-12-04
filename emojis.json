@@ -751,7 +751,7 @@
   "four": ["4", "numbers", "blue-square"],
   "satellite": ["communication", "future", "radio", "space"],
   "mortar_board": ["school", "college", "degree", "university", "graduation", "cap", "hat"],
-  "warning": ["exclamation", "wip"],
+  "warning": ["exclamation", "wip", "alert", "error", "problem", "issue"],
   "cd": ["technology", "dvd", "disk", "disc"],
   "fr": ["banner", "flag", "nation", "france", "french", "country"],
   "mount_fuji": ["photo", "mountain", "nature", "japanese"],
