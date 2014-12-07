@@ -9,7 +9,6 @@ $(document).on 'emoji:ready', ->
   else
     clip = new ZeroClipboard( $("[data-clipboard-text]"),{ moviePath: "/assets/zeroclipboard.swf"} )
     clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
-
     $(".emoji-code").attr("readonly", "readonly")
 
 focusOnSearch = (e) ->
@@ -36,6 +35,9 @@ $(document).keydown (e) -> focusOnSearch(e)
 
 $(document).on 'keydown', '.emoji-wrapper input', (e) ->
   $(".input-search").blur(); focusOnSearch(e)
+
+$(document).on 'click', '[data-clipboard-text]', ->
+  ga 'send', 'event', 'copy', $(this).attr('data-clipboard-text')
 
 $(document).on 'click', '.js-queue-all', ->
   $("li:visible .emoji").click()

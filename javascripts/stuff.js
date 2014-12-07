@@ -56,6 +56,10 @@ $(document).on('keydown', '.emoji-wrapper input', function(e) {
   return focusOnSearch(e);
 });
 
+$(document).on('click', '[data-clipboard-text]', function() {
+  return ga('send', 'event', 'copy', $(this).attr('data-clipboard-text'));
+});
+
 $(document).on('click', '.js-queue-all', function() {
   $("li:visible .emoji").click();
   return false;
