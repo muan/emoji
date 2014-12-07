@@ -71,6 +71,9 @@ $(document).on 'click', '.js-clear-queue', ->
   ga 'send', 'event', 'story', 'clear queue'
   false
 
+$(document).on 'click', '.js-contribute', ->
+  ga 'send', 'event', 'contribute', 'click'
+
 updateQueue = ->
   val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
   $(".js-copy-queue").attr("data-clipboard-text", val)
