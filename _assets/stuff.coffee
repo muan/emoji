@@ -34,27 +34,33 @@ $.getJSON 'emojis.json', (emojis) ->
 $(document).keydown (e) -> focusOnSearch(e)
 
 $(document).on 'keydown', '.emoji-wrapper input', (e) ->
-  $(".input-search").blur(); focusOnSearch(e)
+  $(".input-search").blur()
+  focusOnSearch(e)
 
 $(document).on 'click', '[data-clipboard-text]', ->
   ga 'send', 'event', 'copy', $(this).attr('data-clipboard-text')
 
 $(document).on 'click', '.js-queue-all', ->
   $("li:visible .emoji").click()
+  ga 'send', 'event', 'story', 'bulk add to queue'
   false
 
 $(document).on 'click', '.js-hide-text', ->
-  $("ul").toggleClass("hide-text")
+  $('.emojis-container').toggleClass('hide-text')
+  showorhide = if $('.emojis-container').hasClass('hide-text') then 'hide' else 'show'
+  ga 'send', 'event', 'toggle text', showorhide
   false
 
 $(document).on 'click', '.story .emoji', (e)->
   $(this).remove()
   updateQueue()
+  ga 'send', 'event', 'story', 'remove from queue'
   false
 
 $(document).on "click", ".list .emoji", (e) ->
   $(this).clone().appendTo(".story")
   updateQueue()
+  ga 'send', 'event', 'story', 'add to queue'
   false
 
 $(document).on 'click', '.label.active', ->
@@ -64,6 +70,7 @@ $(document).on 'click', '.label.active', ->
 $(document).on 'click', '.js-clear-queue', ->
   $(".story .emoji").remove()
   updateQueue()
+  ga 'send', 'event', 'story', 'clear queue'
   false
 
 $(document).on 'click', '.js-contribute', ->

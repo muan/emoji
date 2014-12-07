@@ -62,23 +62,29 @@ $(document).on('click', '[data-clipboard-text]', function() {
 
 $(document).on('click', '.js-queue-all', function() {
   $("li:visible .emoji").click();
+  ga('send', 'event', 'story', 'bulk add to queue');
   return false;
 });
 
 $(document).on('click', '.js-hide-text', function() {
-  $("ul").toggleClass("hide-text");
+  var showorhide;
+  $('.emojis-container').toggleClass('hide-text');
+  showorhide = $('.emojis-container').hasClass('hide-text') ? 'hide' : 'show';
+  ga('send', 'event', 'toggle text', showorhide);
   return false;
 });
 
 $(document).on('click', '.story .emoji', function(e) {
   $(this).remove();
   updateQueue();
+  ga('send', 'event', 'story', 'remove from queue');
   return false;
 });
 
 $(document).on("click", ".list .emoji", function(e) {
   $(this).clone().appendTo(".story");
   updateQueue();
+  ga('send', 'event', 'story', 'add to queue');
   return false;
 });
 
@@ -90,6 +96,7 @@ $(document).on('click', '.label.active', function() {
 $(document).on('click', '.js-clear-queue', function() {
   $(".story .emoji").remove();
   updateQueue();
+  ga('send', 'event', 'story', 'clear queue');
   return false;
 });
 
