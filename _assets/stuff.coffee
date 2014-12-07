@@ -13,7 +13,7 @@ $(document).on 'emoji:ready', ->
     $(".emoji-code").attr("readonly", "readonly")
 
 focusOnSearch = (e) ->
-  if e.keyCode == 83 && !$(".input-search:focus").length
+  if e.keyCode == 191 && !$(".input-search:focus").length
     $(".input-search").focus()
     t = $(".input-search").get(0)
     if t.value.length
