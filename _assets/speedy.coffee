@@ -25,10 +25,11 @@ setRelatedDOMVisibility = (keyword) ->
   $('.js-queue-all').toggle (!!keyword.length && foundSomething)
   $('.no-result').toggle( !foundSomething )
 
-  if !foundSomething
-    ga 'send', 'event', 'search', 'no results'
-  else if keyword.length >= 3
-    ga 'send', 'event', 'search', keyword
+  if keyword.length >= 3
+    if !foundSomething
+      ga 'send', 'event', 'search', 'no results'
+    else
+      ga 'send', 'event', 'search', keyword
 
 $(document).on 'search keyup', '.speedy-filter', ->
   location.hash = $(this).val()

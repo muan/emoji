@@ -36,10 +36,12 @@ setRelatedDOMVisibility = function(keyword) {
   foundSomething = !!$('.result:visible').length;
   $('.js-queue-all').toggle(!!keyword.length && foundSomething);
   $('.no-result').toggle(!foundSomething);
-  if (!foundSomething) {
-    return ga('send', 'event', 'search', 'no results');
-  } else if (keyword.length >= 3) {
-    return ga('send', 'event', 'search', keyword);
+  if (keyword.length >= 3) {
+    if (!foundSomething) {
+      return ga('send', 'event', 'search', 'no results');
+    } else {
+      return ga('send', 'event', 'search', keyword);
+    }
   }
 };
 
