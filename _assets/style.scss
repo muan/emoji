@@ -203,6 +203,21 @@ input.queue {
   border-radius: 3px;
 }
 
+.no-result-text {
+  font-weight: bold;
+  color: #555;
+  border-bottom: 1px solid #aaa;
+  display: inline-block;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.contribute-button {
+  background-color: #36a;
+  border-color: #36a;
+  color: #fff;
+}
+
 code {
   background-color: #f8f8f8;
   border: 1px solid #aaa;

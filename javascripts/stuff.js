@@ -89,6 +89,10 @@ $(document).on('click', '.js-clear-queue', function() {
   return false;
 });
 
+$(document).on('click', '.js-contribute', function() {
+  return ga('send', 'event', 'contribute', 'click');
+});
+
 updateQueue = function() {
   var val;
   val = $.map($(".story .emoji"), function(e) {
