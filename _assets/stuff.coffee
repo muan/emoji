@@ -3,7 +3,7 @@ $(document).on 'emoji:ready', ->
   $(".loading").remove()
 
   if navigator.userAgent.match(/iPad|iPhone/i)
-    $(document).on 'click', '.emoji-code, .queue', ->
+    $(document).on 'click', '.emoji-code', ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length
   else
@@ -40,43 +40,15 @@ $(document).on 'keydown', '.emoji-wrapper input', (e) ->
 $(document).on 'click', '[data-clipboard-text]', ->
   ga 'send', 'event', 'copy', $(this).attr('data-clipboard-text')
 
-$(document).on 'click', '.js-queue-all', ->
-  $("li:visible .emoji").click()
-  ga 'send', 'event', 'story', 'bulk add to queue'
-  false
-
 $(document).on 'click', '.js-hide-text', ->
   $('.emojis-container').toggleClass('hide-text')
   showorhide = if $('.emojis-container').hasClass('hide-text') then 'hide' else 'show'
   ga 'send', 'event', 'toggle text', showorhide
   false
 
-$(document).on 'click', '.story .emoji', (e)->
-  $(this).remove()
-  updateQueue()
-  ga 'send', 'event', 'story', 'remove from queue'
-  false
-
-$(document).on "click", ".list .emoji", (e) ->
-  $(this).clone().appendTo(".story")
-  updateQueue()
-  ga 'send', 'event', 'story', 'add to queue'
-  false
-
-$(document).on 'click', '.label.active', ->
+$(document).on 'click', '.mojigroup.active', ->
   location.hash = ""
-  false
-
-$(document).on 'click', '.js-clear-queue', ->
-  $(".story .emoji").remove()
-  updateQueue()
-  ga 'send', 'event', 'story', 'clear queue'
   false
 
 $(document).on 'click', '.js-contribute', ->
   ga 'send', 'event', 'contribute', 'click'
-
-updateQueue = ->
-  val = $.map( $(".story .emoji"), (e) -> ":" + $(e).attr("title") + ":" ).join("")
-  $(".js-copy-queue").attr("data-clipboard-text", val)
-  $(".story").toggleClass("queued", !!$(".story .emoji").length )
