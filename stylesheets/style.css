@@ -76,23 +76,13 @@ section {
   .loading + .no-result {
     display: none; }
 
-.label {
-  font-weight: bold;
-  color: #368;
-  border-radius: 2px;
-  line-height: 1;
-  padding: 6px 10px;
-  margin: 0 0 10px 0;
-  border: 1px solid #cde;
-  display: inline-block;
-  vertical-align: baseline;
-  zoom: 1;
-  *display: inline;
-  *vertical-align: auto; }
-  .label:before {
+.mojigroup.button {
+  margin: 0 8px 10px 0; }
+  .mojigroup.button:before {
     content: attr(href); }
-  .label.active {
-    background-color: #def; }
+  .mojigroup.button.active {
+    background-color: #f9f9f9;
+    border-color: #58b2ee; }
 
 a {
   text-decoration: none;
@@ -164,25 +154,22 @@ ul, li {
 
 .button {
   line-height: 1;
-  padding: 10px 9px 9px;
-  margin-left: 10px;
+  padding: 10px 12px 9px;
+  margin-left: 5px;
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
   vertical-align: bottom;
-  background-color: #fff;
-  border-radius: 3px;
-  border: 1px solid #ace;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  color: #777;
   text-transform: uppercase;
   font-weight: bold; }
-  .button.small {
-    padding: 5px; }
   .button:hover {
-    background-color: #36a;
-    border-color: #36a;
-    color: #fff; }
+    border-color: #36a; }
 
 .input-search {
   min-height: 34px;
