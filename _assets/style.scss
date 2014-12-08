@@ -62,10 +62,8 @@ section {
 
 .mojigroup.button {
   margin: 0 8px 10px 0;
+  padding: 3px 5px;
 
-  &:before {
-    content: attr(href);
-  }
   &.active {
     background-color: #f9f9f9;
     border-color: #58b2ee;
@@ -145,9 +143,7 @@ ul, li {
   color: #777;
   text-transform: uppercase;
   font-weight: bold;
-  &.small {
-    // padding: 6px;
-  }
+
   &:hover {
     border-color: #36a;
   }

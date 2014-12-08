@@ -77,9 +77,8 @@ section {
     display: none; }
 
 .mojigroup.button {
-  margin: 0 8px 10px 0; }
-  .mojigroup.button:before {
-    content: attr(href); }
+  margin: 0 8px 10px 0;
+  padding: 3px 5px; }
   .mojigroup.button.active {
     background-color: #f9f9f9;
     border-color: #58b2ee; }
