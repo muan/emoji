@@ -210,7 +210,7 @@
   "boar": ["animal", "nature"],
   "monkey": ["animal", "nature", "banana"],
   "monkey_face": ["animal", "nature"],
-  "horse": ["animal", "brown", "nature"],
+  "horse": ["animal", "brown", "nature", "unicorn"],
   "sheep": ["animal", "nature", "wool"],
   "elephant": ["animal", "nature", "nose", "thailand"],
   "panda_face": ["animal", "nature"],
