@@ -104,6 +104,10 @@ $(document).on('click', '.js-contribute', function() {
   return ga('send', 'event', 'contribute', 'click');
 });
 
+$(document).on('click', '.js-copy-queue', function() {
+  return ga('send', 'event', 'story', 'copy queue');
+});
+
 updateQueue = function() {
   var val;
   val = $.map($(".story .emoji"), function(e) {
