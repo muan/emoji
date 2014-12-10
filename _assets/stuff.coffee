@@ -46,7 +46,7 @@ $(document).on 'click', '.js-hide-text', ->
   ga 'send', 'event', 'toggle text', showorhide
   false
 
-$(document).on 'click', '.mojigroup.active', ->
+$(document).on 'click', '.js-clear-search, .mojigroup.active', ->
   location.hash = ""
   false
 

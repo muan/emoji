@@ -68,7 +68,7 @@ $(document).on('click', '.js-hide-text', function() {
   return false;
 });
 
-$(document).on('click', '.mojigroup.active', function() {
+$(document).on('click', '.js-clear-search, .mojigroup.active', function() {
   location.hash = "";
   return false;
 });
