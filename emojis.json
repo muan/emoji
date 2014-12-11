@@ -401,7 +401,7 @@
   "honey_pot": ["bees", "sweet"],
   "arrow_down_small": ["blue-square"],
   "corn": ["food", "vegetable", "plant"],
-  "package": ["mail", "gift"],
+  "package": ["mail", "gift", "cardboard", "box", "moving"],
   "station": ["transportation", "vehicle", "public"],
   "arrow_forward": ["blue-square"],
   "page_facing_up": ["documents", "office", "paper", "information"],
