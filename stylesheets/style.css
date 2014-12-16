@@ -33,8 +33,6 @@ body {
 header {
   position: relative;
   line-height: 1;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
   margin-bottom: 5px;
   *zoom: 1; }
   header:before, header:after {
@@ -43,7 +41,12 @@ header {
   header:after {
     clear: both; }
 
+footer {
+  margin-top: 10px;
+  text-align: center; }
+
 section {
+  border: 1px solid #eee;
   *zoom: 1;
   overflow: hidden; }
   section:before, section:after {
@@ -51,9 +54,6 @@ section {
     display: table; }
   section:after {
     clear: both; }
-  section.list {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd; }
 
 .loading {
   background-color: #fff;
@@ -67,8 +67,8 @@ section {
     display: none; }
 
 .mojigroup.button {
-  margin: 0 8px 10px 0;
-  padding: 2px 4px; }
+  margin: 0 0 10px 5px;
+  padding: 3px 4px 1px; }
   .mojigroup.button.active {
     background-color: #f9f9f9;
     border-color: #58b2ee; }
@@ -109,32 +109,34 @@ ul {
   font-size: 20px;
   padding: 10px 0; }
 
+.emojis-container {
+  font-size: 0;
+  line-height: 0; }
+
 .emoji-wrapper {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
-  margin: 0;
-  width: 180px;
-  padding: 5px 0;
+  width: 25%;
+  padding: 12px 5px;
   overflow: hidden;
   white-space: nowrap; }
   .emoji-wrapper .keywords {
     font-size: 0; }
   .emoji-wrapper .emoji {
-    position: absolute; }
+    position: absolute;
+    margin-top: -3px; }
   .emoji-wrapper input {
     margin-left: 25px; }
 
+.global-zeroclipboard-container {
+  background-color: rgba(0, 0, 0, 0.02); }
+
 ul.hide-text .emoji-wrapper {
-  width: 30px; }
-  ul.hide-text .emoji-wrapper .emoji {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1); }
+  width: 30px;
+  height: 40px; }
 ul.hide-text input {
   display: none; }
 
@@ -159,18 +161,22 @@ ul, li {
   font-weight: bold; }
   .button:hover {
     border-color: #36a; }
+  .button.clear-search {
+    color: #ee9d9d; }
+    .button.clear-search:hover {
+      border-color: #ee9d9d; }
 
 .input-search {
-  min-height: 34px;
-  padding: 7px 8px;
+  min-height: 32px;
+  padding: 7px 15px;
   outline: none;
   color: #333;
-  background-color: #f9f9f9;
   background-repeat: no-repeat;
   background-position: right center;
-  border: 1px solid transparent;
+  border: 1px solid #ddd;
   margin: 0;
   width: 150px;
+  border-radius: 15px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -179,8 +185,6 @@ ul, li {
   -ms-appearance: textfield;
   -o-appearance: textfield;
   appearance: textfield; }
-  .input-search:hover {
-    background-color: #fff; }
   .input-search:focus {
     border-color: #51a7e8;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(81, 167, 232, 0.5); }
@@ -228,7 +232,6 @@ ul, li {
   background-color: #f9f9f9;
   padding: 50px 30px;
   text-align: center;
-  margin-bottom: 10px;
   border-radius: 3px; }
 
 .call {
