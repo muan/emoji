@@ -31,24 +31,21 @@ header {
   position: relative;
   line-height: 1;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  box-shadow: inset d 0 3px black;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   @include clearfix;
 }
 
 section {
   @include clearfix;
   overflow: hidden;
-  &.story.queued, &.groups, &.list {
+
+  &.list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
   }
 }
 
-.story.queued .button { display: inline-block; }
-.story .button { display: none; }
-.story .emoji { margin-bottom: 4px; }
 .loading {
   background-color: #fff;
   padding: 100px 0 120px;
@@ -57,23 +54,16 @@ section {
   color: #999;
   letter-spacing: 2px;
   font-weight: bold;
-  & + .no-result { display: none; }
+  & + .no-results { display: none; }
 }
 
-.label {
-  font-weight: bold;
-  color: #368;
-  border-radius: 2px;
-  line-height: 1;
-  padding: 6px 10px;
-  margin: 0 0 10px 0;
-  border: 1px solid #cde;
-  @include inline-block;
-  &:before {
-    content: attr(href);
-  }
+.mojigroup.button {
+  margin: 0 8px 10px 0;
+  padding: 2px 4px;
+
   &.active {
-    background-color: #def;
+    background-color: #f9f9f9;
+    border-color: #58b2ee;
   }
 }
 
@@ -140,22 +130,19 @@ ul, li {
 
 .button {
   line-height: 1;
-  padding: 10px 9px 9px;
-  margin-left: 10px;
+  padding: 10px 12px 9px;
+  margin-left: 5px;
   @include inline-block;
-  vertical-align: bottom;
-  background-color: #fff;
-  border-radius: 3px;
-  border: 1px solid #ace;
+  vertical-align: top;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  color: #777;
   text-transform: uppercase;
   font-weight: bold;
-  &.small {
-    padding: 5px;
-  }
+
   &:hover {
-    background-color: #36a;
     border-color: #36a;
-    color: #fff;
   }
 }
 
@@ -169,8 +156,8 @@ ul, li {
   background-position: right center;
   border: 1px solid transparent;
   margin: 0;
+  width: 150px;
   @include transition(all 0.2s ease-in);
-  width: 240px;
   @include appearance(textfield);
   &:hover { background-color: #fff; }
   &:focus {
@@ -182,19 +169,11 @@ ul, li {
   }
 }
 
-input.queue {
-  width: 400px;
-  text-align: center;
-  padding: 4px;
-}
-.story {
-  img { width: 20px; }
-}
 .alert { font-size: 13px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; display: none; position: fixed; margin: auto; left: 50%; width: 200px; margin-left: -100px; top: 10px; background: rgba(10,50,90,0.7); color: #fff; font-weight: bold; padding: 7px; text-align: center; border-radius: 5px; }
 .emoji { @include inline-block; text-indent: -9999px; overflow: hidden; @include transform(scale(0.8)); cursor: pointer; }
 [data-clipboard-text] { cursor: pointer; }
 
-.no-result {
+.no-results {
   background-color: #f9f9f9;
   padding: 50px 30px;
   text-align: center;
@@ -206,7 +185,7 @@ input.queue {
   font-size: 16px;
 }
 
-.no-result-text {
+.no-results-text {
   font-weight: bold;
   color: #555;
   border-bottom: 1px solid #aaa;
@@ -236,8 +215,6 @@ code {
 
 @media (max-width: 480px) {
   .input-search { width: 60px; position: absolute; &:focus { width: 100%; } }
-
-  section input.queue { width: 100%; }
 
   input { font-size: 14px; }
 

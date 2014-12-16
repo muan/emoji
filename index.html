@@ -7,8 +7,8 @@
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
     <meta content="Emoji searcher" property="og:title">
     <meta content="Emoji searcher" property="title">
-    <meta content="Find the emoji that echoes your heart using keywords. No need to remember all the names of emojis! Queue the emojis up to tell a story!" property="description">
-    <meta content="Find the emoji that echoes your heart using keywords. No need to remember all the names of emojis! Queue the emojis up to tell a story!" property="og:description">
+    <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji." property="description">
+    <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji." property="og:description">
     <meta content="http://emoji.muan.co/appicon.png" property="og:image">
     <title>Emoji searcher</title>
     <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
@@ -31,27 +31,39 @@
   <body>
     <header>
       <a href="#" class="button pull-right js-hide-text">Toggle text</a>
-      <a href="#" class="button pull-right js-queue-all">Queue all</a>
       <input type="search" class="input-search speedy-filter" placeholder="Search">
+      <a href="#" class="button js-clear-search">&times;</a>
+      <a href="#xmas" class="mojigroup button small">
+        <div class="emoji s_santa" title="xmas"></div>
+      </a>
+      <a href="#sad" class="mojigroup button small">
+        <div class="emoji s_cry" title="sad"></div>
+      </a>
+      <a href="#awesome" class="mojigroup button small">
+        <div class="emoji s_1" title="awesome"></div>
+      </a>
+      <a href="#fashion" class="mojigroup button small">
+        <div class="emoji s_high_heel" title="fashion"></div>
+      </a>
+      <a href="#cats" class="mojigroup button small">
+        <div class="emoji s_cat2" title="cats"></div>
+      </a>
+      <a href="#transportation" class="mojigroup button small">
+        <div class="emoji s_red_car" title="transportation"></div>
+      </a>
+      <a href="#food" class="mojigroup button small">
+        <div class="emoji s_bento" title="food"></div>
+      </a>
+      <a href="#fruit" class="mojigroup button small">
+        <div class="emoji s_apple" title="fruit"></div>
+      </a>
+      <a href="#photo" class="mojigroup button small">
+        <div class="emoji s_tokyo_tower" title="photo"></div>
+      </a>
+      <a href="#ghonly" class="mojigroup button small">
+        <div class="emoji s_octocat" title="ghonly"></div>
+      </a>
     </header>
-
-    <section class="groups">
-      <a href="#sad" class="label"></a>
-      <a href="#valentines" class="label"></a>
-      <a href="#fashion" class="label"></a>
-      <a href="#cats" class="label"></a>
-      <a href="#monkey" class="label"></a>
-      <a href="#transportation" class="label"></a>
-      <a href="#food" class="label"></a>
-      <a href="#fruit" class="label"></a>
-      <a href="#photo" class="label"></a>
-      <a href="#ghonly" class="label"></a>
-    </section>
-
-    <section class="story">
-      <a href="#" class="button pull-right small js-copy-queue" data-clipboard-text="">Copy all</a>
-      <a href="#" class="button pull-right small js-clear-queue">Clear all</a>
-    </section>
 
     <section class="list">
       <ul class="emojis-container">
@@ -61,9 +73,9 @@
         Loading
       </div>
 
-      <div class="no-result">
+      <div class="no-results">
         <div class="emoji s_cry" title="cry"></div>
-        <br><div class="no-result-text">No result</div>
+        <br><div class="no-results-text">No results</div>
         <p class="call">
           Help the future you by adding
           <strong class="keyword"></strong>

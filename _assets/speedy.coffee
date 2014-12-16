@@ -22,8 +22,7 @@ search = (keyword) ->
 
 setRelatedDOMVisibility = (keyword) ->
   foundSomething = !!$('.result:visible').length
-  $('.js-queue-all').toggle (!!keyword.length && foundSomething)
-  $('.no-result').toggle( !foundSomething )
+  $('.no-results').toggle( !foundSomething )
 
   if keyword.length >= 3
     if !foundSomething
