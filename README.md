@@ -8,7 +8,7 @@
 Find the emoji that echoes your heart using keywords
 
 :raised_hands::gun::moneybag::police_car::boom::hospital::syringe::skull:<br />
-Queue emoji up to tell a story
+Tell a story
 
 :oden::spaghetti::cookie::stew::ice_cream::icecream::sushi::curry::custard::dango::pizza::ramen::fried_shrimp::fries::chocolate_bar::hamburger:<br />
 View emoji in groups and food-attack hungry people

@@ -40,15 +40,13 @@ header {
 section {
   @include clearfix;
   overflow: hidden;
-  &.story.queued, &.groups, &.list {
+
+  &.groups, &.list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
   }
 }
 
-.story.queued .button { display: inline-block; }
-.story .button { display: none; }
-.story .emoji { margin-bottom: 4px; }
 .loading {
   background-color: #fff;
   padding: 100px 0 120px;
@@ -57,7 +55,7 @@ section {
   color: #999;
   letter-spacing: 2px;
   font-weight: bold;
-  & + .no-result { display: none; }
+  & + .no-results { display: none; }
 }
 
 .mojigroup.button {
@@ -172,19 +170,11 @@ ul, li {
   }
 }
 
-input.queue {
-  width: 400px;
-  text-align: center;
-  padding: 4px;
-}
-.story {
-  img { width: 20px; }
-}
 .alert { font-size: 13px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; display: none; position: fixed; margin: auto; left: 50%; width: 200px; margin-left: -100px; top: 10px; background: rgba(10,50,90,0.7); color: #fff; font-weight: bold; padding: 7px; text-align: center; border-radius: 5px; }
 .emoji { @include inline-block; text-indent: -9999px; overflow: hidden; @include transform(scale(0.8)); cursor: pointer; }
 [data-clipboard-text] { cursor: pointer; }
 
-.no-result {
+.no-results {
   background-color: #f9f9f9;
   padding: 50px 30px;
   text-align: center;
@@ -196,7 +186,7 @@ input.queue {
   font-size: 16px;
 }
 
-.no-result-text {
+.no-results-text {
   font-weight: bold;
   color: #555;
   border-bottom: 1px solid #aaa;
@@ -226,8 +216,6 @@ code {
 
 @media (max-width: 480px) {
   .input-search { width: 60px; position: absolute; &:focus { width: 100%; } }
-
-  section input.queue { width: 100%; }
 
   input { font-size: 14px; }
 

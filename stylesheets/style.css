@@ -52,18 +52,9 @@ section {
     display: table; }
   section:after {
     clear: both; }
-  section.story.queued, section.groups, section.list {
+  section.groups, section.list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd; }
-
-.story.queued .button {
-  display: inline-block; }
-
-.story .button {
-  display: none; }
-
-.story .emoji {
-  margin-bottom: 4px; }
 
 .loading {
   background-color: #fff;
@@ -73,7 +64,7 @@ section {
   color: #999;
   letter-spacing: 2px;
   font-weight: bold; }
-  .loading + .no-result {
+  .loading + .no-results {
     display: none; }
 
 .mojigroup.button {
@@ -197,14 +188,6 @@ ul, li {
   .input-search::-webkit-search-cancel-button, .input-search::-webkit-search-decoration {
     -webkit-appearance: none; }
 
-input.queue {
-  width: 400px;
-  text-align: center;
-  padding: 4px; }
-
-.story img {
-  width: 20px; }
-
 .alert {
   font-size: 13px;
   white-space: nowrap;
@@ -242,7 +225,7 @@ input.queue {
 [data-clipboard-text] {
   cursor: pointer; }
 
-.no-result {
+.no-results {
   background-color: #f9f9f9;
   padding: 50px 30px;
   text-align: center;
@@ -252,7 +235,7 @@ input.queue {
 .call {
   font-size: 16px; }
 
-.no-result-text {
+.no-results-text {
   font-weight: bold;
   color: #555;
   border-bottom: 1px solid #aaa;
@@ -283,9 +266,6 @@ code {
     position: absolute; }
     .input-search:focus {
       width: 100%; }
-
-  section input.queue {
-    width: 100%; }
 
   input {
     font-size: 14px; }

@@ -34,8 +34,7 @@ search = function(keyword) {
 setRelatedDOMVisibility = function(keyword) {
   var foundSomething;
   foundSomething = !!$('.result:visible').length;
-  $('.js-queue-all').toggle(!!keyword.length && foundSomething);
-  $('.no-result').toggle(!foundSomething);
+  $('.no-results').toggle(!foundSomething);
   if (keyword.length >= 3) {
     if (!foundSomething) {
       return ga('send', 'event', 'search', 'no results');
