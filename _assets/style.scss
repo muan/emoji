@@ -31,9 +31,8 @@ header {
   position: relative;
   line-height: 1;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  box-shadow: inset d 0 3px black;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   @include clearfix;
 }
 
@@ -41,7 +40,7 @@ section {
   @include clearfix;
   overflow: hidden;
 
-  &.groups, &.list {
+  &.list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
   }
@@ -60,7 +59,7 @@ section {
 
 .mojigroup.button {
   margin: 0 8px 10px 0;
-  padding: 3px 5px;
+  padding: 2px 4px;
 
   &.active {
     background-color: #f9f9f9;
@@ -134,7 +133,7 @@ ul, li {
   padding: 10px 12px 9px;
   margin-left: 5px;
   @include inline-block;
-  vertical-align: bottom;
+  vertical-align: top;
   border-radius: 35px;
   border: 1px solid #ccc;
   font-size: 11px;
@@ -157,8 +156,8 @@ ul, li {
   background-position: right center;
   border: 1px solid transparent;
   margin: 0;
+  width: 150px;
   @include transition(all 0.2s ease-in);
-  width: 240px;
   @include appearance(textfield);
   &:hover { background-color: #fff; }
   &:focus {
