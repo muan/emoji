@@ -218,7 +218,7 @@
   "bird": ["animal", "nature", "fly", "tweet"],
   "baby_chick": ["animal", "chicken"],
   "hatched_chick": ["animal", "chicken", "baby"],
-  "hatching_chick": ["animal","chicken", "egg", "born"],
+  "hatching_chick": ["animal", "chicken", "egg", "born"],
   "chicken": ["animal", "cluck", "nature"],
   "snake": ["animal", "evil", "nature", "hiss"],
   "turtle": ["animal", "slow", "nature", "tortoise"],
