@@ -1,5 +1,6 @@
 language: javascript
 script: phantomjs test.js
+sudo: false
 notifications:
   email: false
 branches:
