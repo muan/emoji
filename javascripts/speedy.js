@@ -44,17 +44,38 @@ setRelatedDOMVisibility = function(keyword) {
   }
 };
 
+
 var typingTimer = 0;
 $(document).on('search keyup', '.speedy-filter', function() {
-  var delayTime = 500;
+  /*
+  delay time is in ms
+
+  WARNING
+  The lower the time the more the potential unecessary searches.
+  The higher the value the greater the frustration of the user; rememember, 
+  people don't like to wait, so please remember this when changing the delay
+  time.
+  */
+  var delayTime = 400;
+
+  /*
+    Timeouts prevent unecessary searches for each character that the user types.
+  */
   clearTimeout(typingTimer);
   if ($(this).val()){
     $('.result').hide();
     typingTimer = setTimeout(keyupCallback, delayTime);
   }
+
 });
 
 keyupCallback = function(){
+  /*
+  setting location.hash performs search?
+
+  This is the only way I know to call the search
+  please edit if there is a better way.
+  */
   location.hash = $('.speedy-filter').val();
 }
 
