@@ -21,14 +21,23 @@ $(document).on('emoji:ready', function() {
   }
 });
 
-focusOnSearch = function(e) {
-  var t;
-  if(!$('.input-search').is(':focus')){
-      $(".input-search").focus();
-  }
+clearSearchField = function(){
   if($('.input-search').val()){
     $('.input-search').val('');
   }
+}
+focusOnSearch = function(e, clearField) {
+  var t;
+
+  if(!$('.input-search').is(':focus')){
+    $(".input-search").focus();
+    
+    //Don't clear the field when input is in focus
+    if(clearField){
+      clearSearchField();
+    }
+  }
+  
 
   if (true) {
     t = $(".input-search").get(0);
@@ -54,8 +63,17 @@ $.getJSON('emojis.json', function(emojis) {
 });
 
 $(document).keydown(function(e) {
-  
-  if(!$('.input-search').is(':focus')){
+  var inputInFocus = $('.input-search').is(':focus');
+
+  /*
+    The check is to make sure we don't refocus multiple
+    times.
+    The focus function clears the text box, and so
+    if we focus multiple times, the text box will 
+    constantly be cleared and the user will not be
+    able to type anything.
+  */
+  if(!inputInFocus){
     return focusOnSearch(e);
   }
 
