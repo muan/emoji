@@ -45,20 +45,17 @@ setRelatedDOMVisibility = function(keyword) {
 };
 
 var typingTimer = 0;
-
-var delayTime = 800;
 $(document).on('search keyup', '.speedy-filter', function() {
+  var delayTime = 500;
   clearTimeout(typingTimer);
-  console.log($(this).val());
   if ($(this).val()){
-    $('.result').fadeOut(100);
-    typingTimer = setTimeout(callback, delayTime);
+    $('.result').hide();
+    typingTimer = setTimeout(keyupCallback, delayTime);
   }
 });
 
-callback = function(){
+keyupCallback = function(){
   location.hash = $('.speedy-filter').val();
-  search(('.speedy-filter').val());
 }
 
 $(document).on('click', '.group', function() {

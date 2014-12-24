@@ -23,15 +23,20 @@ $(document).on('emoji:ready', function() {
 
 focusOnSearch = function(e) {
   var t;
-  var slashKey = 191;
-  if (e.keyCode === slash && !$(".input-search:focus").length) {
-    $(".input-search").focus();
+  if(!$('.input-search').is(':focus')){
+      $(".input-search").focus();
+  }
+  if($('.input-search').val()){
+    $('.input-search').val('');
+  }
+
+  if (true) {
     t = $(".input-search").get(0);
     if (t.value.length) {
       t.selectionStart = 0;
       t.selectionEnd = t.value.length;
     }
-    return false;
+    return true;
   }
 };
 
@@ -49,7 +54,11 @@ $.getJSON('emojis.json', function(emojis) {
 });
 
 $(document).keydown(function(e) {
-  return focusOnSearch(e);
+  
+  if(!$('.input-search').is(':focus')){
+    return focusOnSearch(e);
+  }
+
 });
 
 $(document).on('keydown', '.emoji-wrapper input', function(e) {
