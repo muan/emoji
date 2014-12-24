@@ -22,15 +22,13 @@ focusOnSearch = (e) ->
 
 $.getJSON 'emojis.json', (emojis) ->
   container = $('.emojis-container')
-  i = 0
   $.each emojis, (name, keywords) ->
-    i++
     container.append "<li class='result emoji-wrapper' data-clipboard-text=':#{name}:'>
       <div class='emoji s_#{name.replace(/\+/,'')}' title='#{name}'>#{name}</div>
       <input type='text' class='autofocus plain emoji-code' value=':#{name}:' />
       <span class='keywords'>#{name} #{keywords}</span>
       </li>"
-    $(document).trigger 'emoji:ready' if Object.keys(emojis).length == i
+  $(document).trigger 'emoji:ready'
 
 $(document).keydown (e) -> focusOnSearch(e)
 

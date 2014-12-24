@@ -35,16 +35,12 @@ focusOnSearch = function(e) {
 };
 
 $.getJSON('emojis.json', function(emojis) {
-  var container, i;
+  var container;
   container = $('.emojis-container');
-  i = 0;
-  return $.each(emojis, function(name, keywords) {
-    i++;
-    container.append("<li class='result emoji-wrapper' data-clipboard-text=':" + name + ":'> <div class='emoji s_" + (name.replace(/\+/, '')) + "' title='" + name + "'>" + name + "</div> <input type='text' class='autofocus plain emoji-code' value=':" + name + ":' /> <span class='keywords'>" + name + " " + keywords + "</span> </li>");
-    if (Object.keys(emojis).length === i) {
-      return $(document).trigger('emoji:ready');
-    }
+  $.each(emojis, function(name, keywords) {
+    return container.append("<li class='result emoji-wrapper' data-clipboard-text=':" + name + ":'> <div class='emoji s_" + (name.replace(/\+/, '')) + "' title='" + name + "'>" + name + "</div> <input type='text' class='autofocus plain emoji-code' value=':" + name + ":' /> <span class='keywords'>" + name + " " + keywords + "</span> </li>");
   });
+  return $(document).trigger('emoji:ready');
 });
 
 $(document).keydown(function(e) {
