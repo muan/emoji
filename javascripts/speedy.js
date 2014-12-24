@@ -56,7 +56,7 @@ $(document).on('search keyup', '.speedy-filter', function() {
   people don't like to wait, so please remember this when changing the delay
   time.
   */
-  var delayTime = 500;
+  var delayTime = 711;
 
   /*
     Timeouts prevent unecessary searches for each character that the user types.
