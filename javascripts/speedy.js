@@ -44,13 +44,26 @@ setRelatedDOMVisibility = function(keyword) {
   }
 };
 
+var typingTimer = 0;
+
+var delayTime = 800;
 $(document).on('search keyup', '.speedy-filter', function() {
-  return location.hash = $(this).val();
+  clearTimeout(typingTimer);
+  console.log($(this).val());
+  if ($(this).val()){
+    $('.result').fadeOut(100);
+    typingTimer = setTimeout(callback, delayTime);
+  }
 });
+
+callback = function(){
+  location.hash = $('.speedy-filter').val();
+  search(('.speedy-filter').val());
+}
 
 $(document).on('click', '.group', function() {
   ga('send', 'event', 'search', 'quick group search');
-  return search($('.speedy-filter').val($(this).attr('href').substr(1)).val());
+  return search($('.speedy-filter').val($('.speedy-filter').attr('href').substr(1)).val());
 });
 
 $(document).on('click', '.speedy-remover', function() {
@@ -64,3 +77,4 @@ window.onhashchange = function() {
   $('[href^="#"]').removeClass('active');
   return $("[href='" + location.hash + "']").addClass('active');
 };
+
