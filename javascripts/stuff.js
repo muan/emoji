@@ -21,35 +21,16 @@ $(document).on('emoji:ready', function() {
   }
 });
 
-clearSearchField = function(){
-  if($('.input-search').val()){
-    $('.input-search').val('');
-  }
-}
-focusOnSearch = function(e, clearField) {
+focusOnSearch = function(e) {
   var t;
-<<<<<<< HEAD
-
-  if(!$('.input-search').is(':focus')){
-=======
   if (e.keyCode === 191 && !$(".input-search:focus").length) {
->>>>>>> parent of 08057e9... Added Typing Delay For illusion of smoother experience
     $(".input-search").focus();
-    
-    //Don't clear the field when input is in focus
-    if(clearField){
-      clearSearchField();
-    }
-  }
-  
-
-  if (true) {
     t = $(".input-search").get(0);
     if (t.value.length) {
       t.selectionStart = 0;
       t.selectionEnd = t.value.length;
     }
-    return true;
+    return false;
   }
 };
 
@@ -67,20 +48,7 @@ $.getJSON('emojis.json', function(emojis) {
 });
 
 $(document).keydown(function(e) {
-  var inputInFocus = $('.input-search').is(':focus');
-
-  /*
-    The check is to make sure we don't refocus multiple
-    times.
-    The focus function clears the text box, and so
-    if we focus multiple times, the text box will 
-    constantly be cleared and the user will not be
-    able to type anything.
-  */
-  if(!inputInFocus){
-    return focusOnSearch(e);
-  }
-
+  return focusOnSearch(e);
 });
 
 $(document).on('keydown', '.emoji-wrapper input', function(e) {

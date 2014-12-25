@@ -44,47 +44,10 @@ setRelatedDOMVisibility = function(keyword) {
   }
 };
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-var typingTimer = 0;
-$(document).on('search keyup', '.speedy-filter', function() {
-  /*
-  delay time is in ms
-
-  WARNING
-  The lower the time the more the potential unecessary searches.
-  The higher the value the greater the frustration of the user; rememember, 
-  people don't like to wait, so please remember this when changing the delay
-  time.
-  */
-  var delayTime = 711;
-
-  /*
-    Timeouts prevent unecessary searches for each character that the user types.
-  */
-=======
-var typingTimer = 0;
-$(document).on('search keyup', '.speedy-filter', function() {
-  var delayTime = 500;
->>>>>>> parent of 472ca93... added comments
-  clearTimeout(typingTimer);
-  if ($(this).val()){
-    $('.result').hide();
-    typingTimer = setTimeout(keyupCallback, delayTime);
-  }
-});
-
-keyupCallback = function(){
-  location.hash = $('.speedy-filter').val();
-}
-
-=======
 $(document).on('search keyup', '.speedy-filter', function() {
   return location.hash = $(this).val();
 });
 
->>>>>>> parent of 08057e9... Added Typing Delay For illusion of smoother experience
 $(document).on('click', '.group', function() {
   ga('send', 'event', 'search', 'quick group search');
   return search($('.speedy-filter').val($(this).attr('href').substr(1)).val());
