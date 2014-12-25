@@ -45,6 +45,7 @@ setRelatedDOMVisibility = function(keyword) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 var typingTimer = 0;
 $(document).on('search keyup', '.speedy-filter', function() {
@@ -62,21 +63,19 @@ $(document).on('search keyup', '.speedy-filter', function() {
   /*
     Timeouts prevent unecessary searches for each character that the user types.
   */
+=======
+var typingTimer = 0;
+$(document).on('search keyup', '.speedy-filter', function() {
+  var delayTime = 500;
+>>>>>>> parent of 472ca93... added comments
   clearTimeout(typingTimer);
   if ($(this).val()){
     $('.result').hide();
     typingTimer = setTimeout(keyupCallback, delayTime);
   }
-
 });
 
 keyupCallback = function(){
-  /*
-  setting location.hash performs search?
-
-  This is the only way I know to call the search
-  please edit if there is a better way.
-  */
   location.hash = $('.speedy-filter').val();
 }
 
