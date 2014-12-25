@@ -28,8 +28,12 @@ clearSearchField = function(){
 }
 focusOnSearch = function(e, clearField) {
   var t;
+<<<<<<< HEAD
 
   if(!$('.input-search').is(':focus')){
+=======
+  if (e.keyCode === 191 && !$(".input-search:focus").length) {
+>>>>>>> parent of 08057e9... Added Typing Delay For illusion of smoother experience
     $(".input-search").focus();
     
     //Don't clear the field when input is in focus

@@ -44,6 +44,7 @@ setRelatedDOMVisibility = function(keyword) {
   }
 };
 
+<<<<<<< HEAD
 
 var typingTimer = 0;
 $(document).on('search keyup', '.speedy-filter', function() {
@@ -79,9 +80,15 @@ keyupCallback = function(){
   location.hash = $('.speedy-filter').val();
 }
 
+=======
+$(document).on('search keyup', '.speedy-filter', function() {
+  return location.hash = $(this).val();
+});
+
+>>>>>>> parent of 08057e9... Added Typing Delay For illusion of smoother experience
 $(document).on('click', '.group', function() {
   ga('send', 'event', 'search', 'quick group search');
-  return search($('.speedy-filter').val($('.speedy-filter').attr('href').substr(1)).val());
+  return search($('.speedy-filter').val($(this).attr('href').substr(1)).val());
 });
 
 $(document).on('click', '.speedy-remover', function() {
@@ -95,4 +102,3 @@ window.onhashchange = function() {
   $('[href^="#"]').removeClass('active');
   return $("[href='" + location.hash + "']").addClass('active');
 };
-

@@ -9,7 +9,7 @@ search = (keyword) ->
   $('.keyword').text keyword
   keyword = keyword.trim()
 
-  unless window.speedy_keyword == keyword
+  unless window.speedy_keyword  == keyword
     window.speedy_keyword = keyword
     if keyword.length
       $('.result').hide()
@@ -30,8 +30,8 @@ setRelatedDOMVisibility = (keyword) ->
     else
       ga 'send', 'event', 'search', keyword
 
-$(document).on 'search keyup', '.speedy-filter', ->
-  location.hash = $(this).val()
+#$(document).on 'search keyup', '.speedy-filter', ->
+ # location.hash = $(this).val()
 
 $(document).on 'click', '.group', ->
   ga 'send', 'event', 'search', 'quick group search'
