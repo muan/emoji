@@ -24,12 +24,13 @@ $(document).on('emoji:ready', function() {
 focusOnSearch = function(key) {
   var t;
   if (!$(".input-search:focus").length) {
+    $('input-search').focus();
     t = $(".input-search").get(0);
     if (t.value.length) {
       t.selectionStart = 0;
       t.selectionEnd = t.value.length;
     }
-    return false;
+    return true;
   }
 };
 

@@ -13,11 +13,12 @@ $(document).on 'emoji:ready', ->
 
 focusOnSearch = (key) ->
   if !$(".input-search:focus").length
+    $('input-search').focus()
     t = $(".input-search").get(0)
     if t.value.length
       t.selectionStart = 0
       t.selectionEnd = t.value.length
-    false
+    true
 
 $.getJSON 'emojis.json', (emojis) ->
   container = $('.emojis-container')
@@ -34,8 +35,8 @@ $.getJSON 'emojis.json', (emojis) ->
 $(document).keydown (key) -> focusOnSearch(key)
 
 $(document).on 'keydown', '.emoji-wrapper input', (key) ->
-  $(".input-search").blur()
-  focusOnSearch(key)
+   $(".input-search").blur()
+   focusOnSearch(key)
 
 $(document).on 'click', '[data-clipboard-text]', ->
   ga 'send', 'event', 'copy', $(this).attr('data-clipboard-text')
