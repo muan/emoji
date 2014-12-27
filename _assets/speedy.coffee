@@ -30,8 +30,27 @@ setRelatedDOMVisibility = (keyword) ->
     else
       ga 'send', 'event', 'search', keyword
 
-$(document).on 'search keyup', '.speedy-filter', ->
-  location.hash = $(this).val()
+timeout = null;
+delayedSearch = (delayTime)->
+
+  ###
+  We don't want timeouts stacking on top of eachother 
+  which would defeat what the delayed search function does
+  ###
+  clearTimeout(timeout);
+
+  timeout = setTimeout(
+    (()-> search($('.speedy-filter').val()) ), delayTime)
+
+###
+Timeout is initally given null because if variables
+are not given values coffeescript does not create them
+in the javascript file
+###
+$(document).on 'search keyup', '.speedy-filter', -> 
+  delayTime = 250;
+  delayedSearch(delayTime);
+
 
 $(document).on 'click', '.group', ->
   ga 'send', 'event', 'search', 'quick group search'

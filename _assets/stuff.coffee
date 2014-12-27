@@ -11,9 +11,8 @@ $(document).on 'emoji:ready', ->
     clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
     $(".emoji-code").attr("readonly", "readonly")
 
-focusOnSearch = (e) ->
-  if e.keyCode == 191 && !$(".input-search:focus").length
-    $(".input-search").focus()
+focusOnSearch = (key) ->
+  if !$(".input-search:focus").length
     t = $(".input-search").get(0)
     if t.value.length
       t.selectionStart = 0
@@ -32,11 +31,11 @@ $.getJSON 'emojis.json', (emojis) ->
       </li>"
     $(document).trigger 'emoji:ready' if Object.keys(emojis).length == i
 
-$(document).keydown (e) -> focusOnSearch(e)
+$(document).keydown (key) -> focusOnSearch(key)
 
-$(document).on 'keydown', '.emoji-wrapper input', (e) ->
+$(document).on 'keydown', '.emoji-wrapper input', (key) ->
   $(".input-search").blur()
-  focusOnSearch(e)
+  focusOnSearch(key)
 
 $(document).on 'click', '[data-clipboard-text]', ->
   ga 'send', 'event', 'copy', $(this).attr('data-clipboard-text')
