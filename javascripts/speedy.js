@@ -54,20 +54,13 @@ delayedSearch = function(delayTime) {
    */
   clearTimeout(timeout);
   return timeout = setTimeout((function() {
-    return search($('.speedy-filter').val());
+    return search(location.hash = $('.speedy-filter').val());
   }), delayTime);
 };
 
-
-/*
-Timeout is initally given null because if variables
-are not given values coffeescript does not create them
-in the javascript file
- */
-
 $(document).on('search keyup', '.speedy-filter', function() {
   var delayTime;
-  delayTime = 250;
+  delayTime = 1000;
   return delayedSearch(delayTime);
 });
 

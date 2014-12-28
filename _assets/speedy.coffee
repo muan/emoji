@@ -37,19 +37,17 @@ delayedSearch = (delayTime)->
   We don't want timeouts stacking on top of eachother 
   which would defeat what the delayed search function does
   ###
-  clearTimeout(timeout);
+  clearTimeout(timeout)
 
   timeout = setTimeout(
-    (()-> search($('.speedy-filter').val()) ), delayTime)
+    (-> search(
+      location.hash = $('.speedy-filter').val()) 
+    ), delayTime)
 
-###
-Timeout is initally given null because if variables
-are not given values coffeescript does not create them
-in the javascript file
-###
+
 $(document).on 'search keyup', '.speedy-filter', -> 
-  delayTime = 250;
-  delayedSearch(delayTime);
+  delayTime = 1000
+  delayedSearch(delayTime)
 
 
 $(document).on 'click', '.group', ->
