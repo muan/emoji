@@ -42,11 +42,6 @@ delayedSearch = (delayTime)->
   timeout = setTimeout(
     (()-> search($('.speedy-filter').val()) ), delayTime)
 
-###
-Timeout is initally given null because if variables
-are not given values coffeescript does not create them
-in the javascript file
-###
 $(document).on 'search keyup', '.speedy-filter', -> 
   delayTime = 250;
   delayedSearch(delayTime);
