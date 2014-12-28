@@ -13,7 +13,7 @@ $(document).on 'emoji:ready', ->
 
 focusOnSearch = (key) ->
   if !$(".input-search:focus").length
-    $('input-search').focus()
+    $('.input-search').focus()
     t = $(".input-search").get(0)
     if t.value.length
       t.selectionStart = 0
