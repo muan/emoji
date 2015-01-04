@@ -536,7 +536,7 @@
   "door": ["house", "entry", "exit"],
   "potable_water": ["blue-square", "liquid", "restroom", "cleaning", "faucet"],
   "beer": ["relax", "beverage", "drink", "drunk", "party", "pub", "summer"],
-  "doughnut": ["food", "dessert", "snack", "sweet"],
+  "doughnut": ["food", "dessert", "snack", "sweet", "donut"],
   "beers": ["relax", "beverage", "drink", "drunk", "party", "pub", "summer"],
   "poultry_leg": ["food", "meat", "drumstick", "bird", "chicken", "turkey"],
   "koko": ["blue-square", "here", "katakana", "japanese", "destination"],
