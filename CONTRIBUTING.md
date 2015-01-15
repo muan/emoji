@@ -15,6 +15,22 @@ Thanks for thinking about contributing to this project. :heart_eyes:
     :x: `"horse":["animal","unicorn"],`<br>
     :o: `"horse": ["animal", "unicorn"],`
 
+## Running locally
+
+To run emoji locally, grab [Foreman](https://ddollar.github.io/foreman/) and run it from the project root:
+
+`foreman start`
+
+This will do the following:
+
+- Start sass to compile the stylesheets and watch for changes.
+- Start coffeescript to compile the javascripts and watch for changes.
+- Start WEBrick to serve the site.
+
+Once foreman is running you can visit http://localhost:4001 to view the site.
+
+When you're done hit `ctrl + c` to stop everything.
+
 ## Commiting, sending the PR
 
 - It's preferred if when you are adding a keyword to one specific emoji, use that emoji, or a relevant emoji as the commit message. For example: [`2a34a84`](https://github.com/muan/emoji/commit/2a34a84576ec1565587bb78ff465844c835819ad)
