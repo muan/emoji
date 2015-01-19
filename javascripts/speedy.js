@@ -15,6 +15,7 @@ search = function(keyword) {
   }
   $('.keyword').text(keyword);
   keyword = keyword.trim();
+  keyword = keyword.replace(' ', '_');
   if (window.speedy_keyword !== keyword) {
     window.speedy_keyword = keyword;
     if (keyword.length) {
