@@ -16,7 +16,7 @@
     }
     $('.keyword').text(keyword);
     keyword = keyword.trim();
-    keyword = keywoard.replace(' ', '_');
+    keyword = keyword.replace(' ', '_');
     if (window.speedy_keyword !== keyword) {
       window.speedy_keyword = keyword;
       if (keyword.length) {
