@@ -8,6 +8,7 @@ search = (keyword) ->
   keyword ?= ''
   $('.keyword').text keyword
   keyword = keyword.trim()
+  keyword = keywoard.replace(' ', '_')
 
   unless window.speedy_keyword == keyword
     window.speedy_keyword = keyword
