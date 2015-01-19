@@ -2,7 +2,9 @@
 
 Thanks for thinking about contributing to this project. :heart_eyes:
 
-## Adding keywords
+## What do you want to do?
+
+#### Add keywords
 
 - Make sure the new word is not already part of the keyword array. For example: in `"hocho": ["cut", "cutlery"]`, `cut` is part of `cutlery`, so by adding `cutlery`, you should remove `cut` from the keyword array.
 
@@ -15,7 +17,19 @@ Thanks for thinking about contributing to this project. :heart_eyes:
     :x: `"horse":["animal","unicorn"],`<br>
     :o: `"horse": ["animal", "unicorn"],`
 
-## Running locally
+#### JavaScript changes
+
+The JavaScript is currently compiled from CoffeeScript, so you would need to install and develop in CoffeeScript, then include the compiled JavaScript file in your commits.
+
+#### CSS changes
+
+The CSS is currently compiled from SCSS, so you would need to install and develop in SASS, then include the compiled CSS file in your commits.
+
+## Coding Style
+
+When in doubt, follow https://github.com/styleguide
+
+## Development
 
 To run emoji locally, grab [Foreman](https://ddollar.github.io/foreman/) and run it from the project root:
 
@@ -31,7 +45,7 @@ Once foreman is running you can visit http://localhost:4001 to view the site.
 
 When you're done hit `ctrl + c` to stop everything.
 
-## Commiting, sending the PR
+## Commiting, sending the pull request
 
 - It's preferred if when you are adding a keyword to one specific emoji, use that emoji, or a relevant emoji as the commit message. For example: [`2a34a84`](https://github.com/muan/emoji/commit/2a34a84576ec1565587bb78ff465844c835819ad)
 
