@@ -1,6 +1,16 @@
+getParameter = (name) ->
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]")
+  regex = new RegExp("[\\?&]" + name + "=([^&#]*)")
+  results = regex.exec(location.search)
+  return if results == null then "" else decodeURIComponent(results[1].replace(/\+/g, " "))
+
 $(document).on 'emoji:ready', ->
   $(".input-search").focus()
   $(".loading").remove()
+
+  if getParameter("search").length
+    window.location.hash = '#' + getParameter('search')
+    window.location.search = ''
 
   if navigator.userAgent.match(/iPad|iPhone/i)
     $(document).on 'click', '.emoji-code', ->
@@ -10,6 +20,10 @@ $(document).on 'emoji:ready', ->
     clip = new ZeroClipboard( $("[data-clipboard-text]"),{ moviePath: "/assets/zeroclipboard.swf"} )
     clip.on "complete", (_, args) -> $("<div class=alert></div>").text("Copied " + args.text).appendTo("body").fadeIn().delay(1000).fadeOut()
     $(".emoji-code").attr("readonly", "readonly")
+
+  $('#search-form').submit (e) ->
+    e.preventDefault()
+    window.location.hash = '#' + $('.input-search').val()
 
 focusOnSearch = (e) ->
   if e.keyCode == 191 && !$(".input-search:focus").length
