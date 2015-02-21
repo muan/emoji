@@ -54,7 +54,7 @@
   "hushed": ["face", "woo", "shh"],
   "no_mouth": ["face", "hellokitty"],
   "innocent": ["face", "angel", "heaven", "halo"],
-  "smirk": ["face", "smile", "mean", "prank", "smug"],
+  "smirk": ["face", "smile", "mean", "prank", "smug", "sarcasm"],
   "expressionless": ["face", "indifferent", "-_-", "meh"],
   "man_with_gua_pi_mao": ["male", "boy"],
   "man_with_turban": ["male", "indian", "hinduism", "arabs"],
