@@ -50,7 +50,7 @@
   "open_mouth": ["face", "surprise", "impressed", "wow"],
   "grimacing": ["face", "grimace", "teeth"],
   "neutral_face": ["indifference", "meh"],
-  "confused": ["face", "indifference", "huh", "weird"],
+  "confused": ["face", "indifference", "huh", "weird", "hmmm"],
   "hushed": ["face", "woo", "shh"],
   "no_mouth": ["face", "hellokitty"],
   "innocent": ["face", "angel", "heaven", "halo"],
