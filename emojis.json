@@ -151,10 +151,6 @@
     "keywords": [ "face", "confused", "sick", "unwell" ],
     "char": "😖"
   },
-  "satisfied": {
-    "keywords": [ "haha", "happy", "face", "joy", "glad" ],
-    "char": null
-  },
   "yum": {
     "keywords": [ "happy", "joy", "tongue", "smile", "face", "silly" ],
     "char": "😋"
@@ -359,14 +355,6 @@
     "keywords": [ "poop", "shitface" ],
     "char": "💩"
   },
-  "poop": {
-    "keywords": [ "shitface" ],
-    "char": null
-  },
-  "shit": {
-    "keywords": [ "poop", "shitface" ],
-    "char": null
-  },
   "fire": {
     "keywords": [ "hot", "cook", "flame" ],
     "char": "🔥"
@@ -384,12 +372,8 @@
     "char": "💫"
   },
   "boom": {
-    "keywords": [ "bomb", "explode", "explosion" ],
+    "keywords": [ "bomb", "explode", "explosion", "collision", "blown" ],
     "char": "💥"
-  },
-  "collision": {
-    "keywords": [ "boom", "bomb", "blown" ],
-    "char": null
   },
   "anger": {
     "keywords": [ "angry", "mad" ],
@@ -428,31 +412,19 @@
     "char": "👄"
   },
   "+1": {
-    "keywords": [ "thumbsup", "yes", "awesome", "good", "agree", "accept" ],
+    "keywords": [ "thumbsup", "yes", "awesome", "good", "agree", "accept", "cool", "hand", "like" ],
     "char": "👍"
   },
-  "thumbsup": {
-    "keywords": [ "cool", "hand", "yes", "like" ],
-    "char": null
-  },
   "-1": {
-    "keywords": [ "thumbsdown", "no", "dislike" ],
+    "keywords": [ "thumbsdown", "no", "dislike", "hand" ],
     "char": "👎"
-  },
-  "thumbsdown": {
-    "keywords": [ "hand", "no", "dislike" ],
-    "char": null
   },
   "ok_hand": {
     "keywords": [ "fingers", "limbs", "perfect" ],
     "char": "👌"
   },
-  "punch": {
-    "keywords": [ "hand", "fist" ],
-    "char": null
-  },
   "facepunch": {
-    "keywords": [ "angry", "violence", "fist", "hit", "attack" ],
+    "keywords": [ "angry", "violence", "fist", "hit", "attack", "hand" ],
     "char": "👊"
   },
   "fist": {
@@ -468,7 +440,7 @@
     "char": "👋"
   },
   "hand": {
-    "keywords": [ "fingers", "stop", "highfive", "palm" ],
+    "keywords": [ "fingers", "stop", "highfive", "palm", "ban", "raised_hand" ],
     "char": "✋"
   },
   "open_hands": {
@@ -516,12 +488,8 @@
     "char": "🚶"
   },
   "runner": {
-    "keywords": [ "man", "walking", "exercise", "race" ],
+    "keywords": [ "man", "walking", "exercise", "race", "running" ],
     "char": "🏃"
-  },
-  "running": {
-    "keywords": [ "man", "walking", "exercise", "fun", "race" ],
-    "char": null
   },
   "dancer": {
     "keywords": [ "female", "girl", "woman", "fun" ],
@@ -567,10 +535,6 @@
     "keywords": [ "female", "girl", "woman", "human" ],
     "char": "💁"
   },
-  "raised_hand": {
-    "keywords": [ "female", "girl", "woman", "ban", "palm" ],
-    "char": null
-  },
   "massage": {
     "keywords": [ "female", "girl", "woman", "head" ],
     "char": "💆"
@@ -615,10 +579,6 @@
     "keywords": [ "shoes", "sports" ],
     "char": "👟"
   },
-  "shoe": {
-    "keywords": [ "accessories", "fashion" ],
-    "char": null
-  },
   "mans_shoe": {
     "keywords": [ "fashion", "male" ],
     "char": "👞"
@@ -635,12 +595,8 @@
     "keywords": [ "shoes", "fashion" ],
     "char": "👢"
   },
-  "tshirt": {
-    "keywords": [ "cloth", "fashion", "casual" ],
-    "char": null
-  },
   "shirt": {
-    "keywords": [ "fashion", "cloth" ],
+    "keywords": [ "fashion", "cloth", "casual", "tshirt" ],
     "char": "👕"
   },
   "necktie": {
@@ -903,10 +859,6 @@
     "keywords": [ "insect", "nature", "worm" ],
     "char": "🐛"
   },
-  "honeybee": {
-    "keywords": [ "animal", "insect", "nature" ],
-    "char": null
-  },
   "bee": {
     "keywords": [ "animal", "insect", "nature" ],
     "char": "🐝"
@@ -1038,10 +990,6 @@
   "poodle": {
     "keywords": [ "dog", "animal", "101", "nature", "pet" ],
     "char": "🐩"
-  },
-  "paw_prints": {
-    "keywords": [ "animal", "dog", "cat", "pet" ],
-    "char": null
   },
   "bouquet": {
     "keywords": [ "flowers", "nature" ],
@@ -1383,10 +1331,6 @@
     "keywords": [ "money", "sales", "payment", "currency" ],
     "char": "💲"
   },
-  "heavy_exclamation_mark": {
-    "keywords": [ "surprise", "danger", "punctuation", "warning" ],
-    "char": null
-  },
   "heavy_minus_sign": {
     "keywords": [ "math", "calculation", "subtract", "less" ],
     "char": "➖"
@@ -1502,10 +1446,6 @@
   "heavy_plus_sign": {
     "keywords": [ "math", "calculation" ],
     "char": "➕"
-  },
-  "open_book": {
-    "keywords": [ "read", "library", "knowledge" ],
-    "char": null
   },
   "apple": {
     "keywords": [ "fruit", "mac" ],
@@ -1777,10 +1717,6 @@
     "keywords": [ "purple-square", "words" ],
     "char": "🆔"
   },
-  "pencil": {
-    "keywords": [ "stationery", "documents", "paper", "writing", "write" ],
-    "char": null
-  },
   "sunrise_over_mountains": {
     "keywords": [ "view", "vacation", "photo" ],
     "char": "🌄"
@@ -1913,7 +1849,7 @@
     "char": "💨"
   },
   "izakaya_lantern": {
-    "keywords": [ "light", "paper", "halloween" ],
+    "keywords": [ "light", "paper", "halloween", "spooky" ],
     "char": "🏮"
   },
   "syringe": {
@@ -2022,10 +1958,6 @@
   "bangbang": {
     "keywords": [ "exclamation", "surprise" ],
     "char": "‼️"
-  },
-  "telephone": {
-    "keywords": [ "communication", "technology", "dial" ],
-    "char": null
   },
   "bank": {
     "keywords": [ "building", "money", "sales", "cash", "business", "enterprise" ],
@@ -2175,10 +2107,6 @@
     "keywords": [ "sound", "notification", "christmas", "xmas", "chime" ],
     "char": "🔔"
   },
-  "lantern": {
-    "keywords": [ "light", "spooky" ],
-    "char": null
-  },
   "tokyo_tower": {
     "keywords": [ "photo", "japanese" ],
     "char": "🗼"
@@ -2236,7 +2164,7 @@
     "char": "🎂"
   },
   "laughing": {
-    "keywords": [ "happy", "joy", "lol" ],
+    "keywords": [ "happy", "joy", "lol", "satisfied", "haha", "face", "glad" ],
     "char": "😆"
   },
   "put_litter_in_its_place": {
@@ -2388,7 +2316,7 @@
     "char": null
   },
   "email": {
-    "keywords": [ "inbox", "communication" ],
+    "keywords": [ "envelope", "letter", "postal", "inbox", "communication" ],
     "char": "✉️"
   },
   "light_rail": {
@@ -2427,10 +2355,6 @@
     "keywords": [ "transportation", "vehicle" ],
     "char": "🚙"
   },
-  "envelope": {
-    "keywords": [ "email", "letter", "postal", "communication" ],
-    "char": null
-  },
   "railway_car": {
     "keywords": [ "transportation", "vehicle" ],
     "char": "🚃"
@@ -2464,7 +2388,7 @@
     "char": "🔏"
   },
   "boat": {
-    "keywords": [ "transportation", "water", "sailing" ],
+    "keywords": [ "ship", "summer", "transportation", "water", "sailing", "sailboat" ],
     "char": "⛵"
   },
   "european_castle": {
@@ -2492,7 +2416,7 @@
     "char": "➿"
   },
   "book": {
-    "keywords": [ "library", "literature" ],
+    "keywords": [ "open_book", "read", "library", "knowledge", "literature" ],
     "char": "📖"
   },
   "loudspeaker": {
@@ -2512,7 +2436,7 @@
     "char": "🔖"
   },
   "exclamation": {
-    "keywords": [ "surprise", "punctuation", "wow", "warning" ],
+    "keywords": [ "heavy_exclamation_mark", "danger", "surprise", "punctuation", "wow", "warning" ],
     "char": "❗"
   },
   "love_hotel": {
@@ -2542,10 +2466,6 @@
   "low_brightness": {
     "keywords": [ "sun", "afternoon", "warm", "summer" ],
     "char": "🔅"
-  },
-  "red_car": {
-    "keywords": [ "transportation", "vehicle" ],
-    "char": null
   },
   "m": {
     "keywords": [ "alphabet", "blue-circle", "letter" ],
@@ -2664,7 +2584,7 @@
     "char": "🌉"
   },
   "feet": {
-    "keywords": [ "animal", "tracking", "footprints", "dog", "cat", "paw", "pet" ],
+    "keywords": [ "animal", "tracking", "footprints", "dog", "cat", "paw", "pet", "paw_prints" ],
     "char": "🐾"
   },
   "u7121": {
@@ -2715,10 +2635,6 @@
     "keywords": [ "photo", "japan", "asia", "tsukimi" ],
     "char": "🎑"
   },
-  "uk": {
-    "keywords": [ "british", "england", "union jack", "english", "flag", "country", "nation", "banner" ],
-    "char": null
-  },
   "bullettrain_front": {
     "keywords": [ "transportation", "vehicle", "speed", "fast", "public", "travel" ],
     "char": "🚅"
@@ -2768,7 +2684,7 @@
     "char": "🍈"
   },
   "memo": {
-    "keywords": [ "documents", "stationery", "pencil", "paper", "writing", "legal" ],
+    "keywords": [ "write", "documents", "stationery", "pencil", "paper", "writing", "legal" ],
     "char": "📝"
   },
   "unlock": {
@@ -2942,12 +2858,8 @@
     "keywords": [ "dollar", "payment", "coins", "sale" ],
     "char": "💰"
   },
-  "sailboat": {
-    "keywords": [ "transportation", "ship", "summer" ],
-    "char": null
-  },
   "car": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": [ "red", "transportation", "vehicle" ],
     "char": "🚗"
   },
   "sake": {
@@ -3135,7 +3047,7 @@
     "char": "🍫"
   },
   "gb": {
-    "keywords": [ "banner", "nation", "flag", "british", "UK", "country", "english" ],
+    "keywords": [ "banner", "nation", "flag", "british", "UK", "country", "english", "england", "union jack" ],
     "char": "🇬🇧"
   },
   "musical_keyboard": {
