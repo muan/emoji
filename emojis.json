@@ -1108,7 +1108,7 @@
     "char": "🌕"
   },
   "waning_gibbous_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep", "waxing_gibbous_moon" ],
     "char": "🌖"
   },
   "last_quarter_moon": {
@@ -1355,10 +1355,6 @@
     "keywords": [ "alphabet", "red-square", "letter" ],
     "char": "🅾️"
   },
-  "octocat": {
-    "keywords": [ "animal", "octopus", "github", "ghonly" ],
-    "char": null
-  },
   "oden": {
     "keywords": [ "food", "japanese" ],
     "char": "🍢"
@@ -1497,10 +1493,6 @@
   "ophiuchus": {
     "keywords": [ "sign", "purple-square", "constellation" ],
     "char": "⛎"
-  },
-  "squirrel": {
-    "keywords": [ "animal", "sherlock", "inspector", "dectective" ],
-    "char": null
   },
   "arrow_double_down": {
   "keywords": [ "blue-square" ], "char": "⏬"
@@ -1665,10 +1657,6 @@
     "keywords": [ "blue-square", "direction", "way" ],
     "char": "↕️"
   },
-  "hurtrealbad": {
-    "keywords": [ "mad", "injured", "doom", "oldschool" ],
-    "char": null
-  },
   "passport_control": {
     "keywords": [ "custom", "blue-square" ],
     "char": "🛂"
@@ -1764,10 +1752,6 @@
   "inbox_tray": {
     "keywords": [ "email", "documents" ],
     "char": "📥"
-  },
-  "suspect": {
-    "keywords": [ "mad", "ghonly" ],
-    "char": null
   },
   "custard": {
     "keywords": [ "dessert", "food" ],
@@ -2295,10 +2279,6 @@
     "keywords": [ "charger", "power" ],
     "char": "🔌"
   },
-  "rage1": {
-    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
-    "char": null
-  },
   "trolleybus": {
     "keywords": [ "bart", "transportation", "vehicle" ],
     "char": "🚎"
@@ -2307,14 +2287,6 @@
     "keywords": [ "sign", "purple-square", "zodiac" ],
     "char": "♎"
   },
-  "rage2": {
-    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
-    "char": null
-  },
-  "trollface": {
-    "keywords": [ "internet", "meme" ],
-    "char": null
-  },
   "email": {
     "keywords": [ "envelope", "letter", "postal", "inbox", "communication" ],
     "char": "✉️"
@@ -2322,10 +2294,6 @@
   "light_rail": {
     "keywords": [ "transportation", "vehicle" ],
     "char": "🚈"
-  },
-  "rage3": {
-    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
-    "char": null
   },
   "trophy": {
     "keywords": [ "win", "award", "contest", "place", "ftw", "ceremony" ],
@@ -2342,10 +2310,6 @@
   "link": {
     "keywords": [ "rings", "url" ],
     "char": "🔗"
-  },
-  "rage4": {
-    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
-    "char": null
   },
   "tropical_drink": {
     "keywords": [ "beverage", "cocktail", "summer", "beach" ],
@@ -2519,10 +2483,6 @@
     "keywords": [ "japanese", "opening hours", "orange-square" ],
     "char": "🈺"
   },
-  "bowtie": {
-    "keywords": [ "face", "formal", "fashion", "suit", "classy" ],
-    "char": null
-  },
   "fast_forward": {
     "keywords": [ "blue-square", "play", "speed", "continue" ],
     "char": "⏩"
@@ -2567,10 +2527,6 @@
     "keywords": [ "orange-square", "chinese", "have", "kanji" ],
     "char": "🈶"
   },
-  "feelsgood": {
-    "keywords": [ "ghonly", "doom", "oldschool" ],
-    "char": null
-  },
   "rewind": {
     "keywords": [ "play", "blue-square" ],
     "char": "⏪"
@@ -2614,10 +2570,6 @@
   "u7981": {
     "keywords": [ "kanji", "japanese", "chinese", "forbidden", "limit", "restricted", "red-square" ],
     "char": "🈲"
-  },
-  "finnadie": {
-    "keywords": [ "ghonly", "doom", "oldschool" ],
-    "char": null
   },
   "rice_cracker": {
     "keywords": [ "food", "japanese" ],
@@ -2710,10 +2662,6 @@
   "fishing_pole_and_fish": {
     "keywords": [ "food", "hobby" ],
     "char": "🎣"
-  },
-  "metal": {
-    "keywords": [ "fingers", "rocknroll", "concert", "band" ],
-    "char": null
   },
   "round_pushpin": {
     "keywords": [ "stationery", "location", "map", "here" ],
@@ -3006,10 +2954,6 @@
     "keywords": [ "film", "record" ],
     "char": "🎥"
   },
-  "waxing_gibbous_moon": {
-    "keywords": [ "nature", "night", "sky" ],
-    "char": null
-  },
   "moyai": {
     "keywords": [ "stone", "easter island" ],
     "char": "🗿"
@@ -3130,10 +3074,6 @@
     "keywords": [ "photo", "evening", "sky", "buildings" ],
     "char": "🌆"
   },
-  "neckbeard": {
-    "keywords": [ "nerdy", "face" ],
-    "char": null
-  },
   "ship": {
     "keywords": [ "transportation", "titanic", "deploy" ],
     "char": "🚢"
@@ -3145,10 +3085,6 @@
   "cl": {
     "keywords": [ "alphabet", "words", "red-square" ],
     "char": "🆑"
-  },
-  "shipit": {
-    "keywords": [ "squirrel", "detective" ],
-    "char": null
   },
   "white_medium_small_square": {
     "keywords": [ "shape", "stone", "icon", "button" ],
@@ -3166,10 +3102,6 @@
     "keywords": [ "movie", "film", "record" ],
     "char": "🎬"
   },
-  "goberserk": {
-    "keywords": [ "ghonly", "doom", "rage", "bloody", "hurt" ],
-    "char": null
-  },
   "white_small_square": {
     "keywords": [ "shape", "icon" ],
     "char": "▫️"
@@ -3177,10 +3109,6 @@
   "clipboard": {
     "keywords": [ "stationery", "documents" ],
     "char": "📋"
-  },
-  "godmode": {
-    "keywords": [ "ghonly", "doom" ],
-    "char": null
   },
   "new": {
     "keywords": [ "blue-square", "words", "start" ],
@@ -3428,8 +3356,72 @@
     "keywords": [ "festival", "vacation", "december", "xmas", "celebration" ],
     "char": "🎄"
   },
+  "octocat": {
+    "keywords": [ "animal", "octopus", "github", "custom*" ],
+    "char": null
+  },
+  "shipit": {
+    "keywords": [ "squirrel", "detective", "animal", "sherlock", "inspector", "custom*" ],
+    "char": null
+  },
+  "bowtie": {
+    "keywords": [ "face", "formal", "fashion", "suit", "classy", "custom*" ],
+    "char": null
+  },
+  "neckbeard": {
+    "keywords": [ "nerdy", "face", "custom*" ],
+    "char": null
+  },
+  "metal": {
+    "keywords": [ "fingers", "rocknroll", "concert", "band", "custom*" ],
+    "char": null
+  },
   "fu": {
-    "keywords": [ "fuck", "finger", "dislike", "thumbsdown", "disapprove", "no" ],
+    "keywords": [ "fuck", "finger", "dislike", "thumbsdown", "disapprove", "no", "custom*" ],
+    "char": null
+  },
+  "trollface": {
+    "keywords": [ "internet", "meme", "custom*" ],
+    "char": null
+  },
+  "godmode": {
+    "keywords": [ "custom*", "doom" ],
+    "char": null
+  },
+  "goberserk": {
+    "keywords": [ "custom*", "doom", "rage", "bloody", "hurt" ],
+    "char": null
+  },
+  "finnadie": {
+    "keywords": [ "custom*", "doom", "oldschool" ],
+    "char": null
+  },
+  "feelsgood": {
+    "keywords": [ "custom*", "doom", "oldschool" ],
+    "char": null
+  },
+  "rage1": {
+    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "char": null
+  },
+  "rage2": {
+    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "char": null
+  },
+  "rage3": {
+    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "char": null
+  },
+  "rage4": {
+    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "char": null
+  },
+  "suspect": {
+    "keywords": [ "mad", "custom*" ],
+    "char": null
+  },
+  "hurtrealbad": {
+    "keywords": [ "mad", "injured", "doom", "oldschool", "custom*" ],
     "char": null
   }
 }
