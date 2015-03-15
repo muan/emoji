@@ -1,886 +1,3523 @@
 {
-  "smile": ["face", "happy", "joy", "funny", "haha", "laugh", "like"],
-  "grinning": ["face", "smile", "happy", "joy"],
-  "smiley": ["face", "happy", "joy", "haha"],
-  "blush": ["face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy"],
-  "relaxed": ["face", "blush", "massage", "happiness"],
-  "wink": ["face", "happy", "mischievous", "secret"],
-  "heart_eyes": ["face", "love", "like", "affection", "valentines", "infatuation", "crush"],
-  "kissing_heart": ["face", "love", "like", "affection", "valentines", "infatuation"],
-  "kissing_closed_eyes": ["face", "love", "like", "affection", "valentines", "infatuation"],
-  "kissing": ["love", "like", "face", "3", "valentines", "infatuation"],
-  "kissing_smiling_eyes": ["face", "affection", "valentines", "infatuation"],
-  "stuck_out_tongue_winking_eye": ["face", "prank", "childish", "playful", "mischievous", "smile"],
-  "stuck_out_tongue_closed_eyes": ["face", "prank", "playful", "mischievous", "smile"],
-  "stuck_out_tongue": ["face", "prank", "childish", "playful", "mischievous", "smile"],
-  "flushed": ["face", "blush", "shy", "flattered"],
-  "grin": ["face", "happy", "smile", "joy"],
-  "pensive": ["face", "sad", "depressed", "okay", "upset"],
-  "relieved": ["face", "relaxed", "phew", "massage", "happiness"],
-  "unamused": ["indifference", "bored", "straight face", "serious"],
-  "disappointed": ["face", "sad", "upset", "depressed"],
-  "persevere": ["face", "sick", "no", "upset"],
-  "cry": ["face", "tears", "sad", "depressed", "upset"],
-  "joy": ["face", "cry", "tears", "weep", "happy", "haha"],
-  "sob": ["face", "cry", "tears", "sad", "upset", "depressed"],
-  "sleepy": ["face", "tired", "rest", "nap"],
-  "disappointed_relieved": ["face", "phew", "sweat", "nervous"],
-  "cold_sweat": ["face", "nervous"],
-  "sweat_smile": ["face", "hot", "happy", "laugh"],
-  "sweat": ["face", "hot", "sad", "tired", "exercise"],
-  "weary": ["face", "tired", "sleepy", "sad", "frustrated", "upset"],
-  "tired_face": ["sick", "whine", "upset", "frustrated"],
-  "fearful": ["face", "scared", "terrified", "nervous", "oops", "huh"],
-  "scream": ["face", "munch", "scared", "omg"],
-  "angry": ["mad", "face", "annoyed", "frustrated"],
-  "triumph": ["face", "gas", "phew", "proud", "pride"],
-  "confounded": ["face", "confused", "sick", "unwell"],
-  "satisfied": ["haha", "happy", "face", "joy", "glad"],
-  "yum": ["happy", "joy", "tongue", "smile", "face", "silly"],
-  "mask": ["face", "sick", "ill", "disease"],
-  "sunglasses": ["face", "cool", "smile", "summer"],
-  "sleeping": ["face", "tired", "sleepy", "night", "zzz"],
-  "dizzy_face": ["spent", "unconscious", "xox"],
-  "astonished": ["face", "xox", "surprised", "poisoned"],
-  "worried": ["face", "concern", "nervous"],
-  "frowning": ["face", "aw", "what"],
-  "anguished": ["face", "stunned", "nervous"],
-  "smiling_imp": ["devil", "horns"],
-  "imp": ["devil", "angry", "horns"],
-  "open_mouth": ["face", "surprise", "impressed", "wow"],
-  "grimacing": ["face", "grimace", "teeth"],
-  "neutral_face": ["indifference", "meh"],
-  "confused": ["face", "indifference", "huh", "weird", "hmmm"],
-  "hushed": ["face", "woo", "shh"],
-  "no_mouth": ["face", "hellokitty"],
-  "innocent": ["face", "angel", "heaven", "halo"],
-  "smirk": ["face", "smile", "mean", "prank", "smug", "sarcasm"],
-  "expressionless": ["face", "indifferent", "-_-", "meh"],
-  "man_with_gua_pi_mao": ["male", "boy"],
-  "man_with_turban": ["male", "indian", "hinduism", "arabs"],
-  "cop": ["man", "police", "law", "legal", "enforcement", "arrest", "911"],
-  "construction_worker": ["male", "human", "wip", "guy"],
-  "guardsman": ["uk", "gb", "british", "male", "guy", "royal"],
-  "baby": ["child", "boy", "girl", "toddler"],
-  "boy": ["man", "male", "guy", "teenager"],
-  "girl": ["female", "woman", "teenager"],
-  "man": ["mustache", "father", "dad", "guy", "classy", "sir"],
-  "woman": ["female", "girls", "lady"],
-  "older_man": ["human", "male", "men"],
-  "older_woman": ["female", "women", "girl", "lady"],
-  "person_with_blond_hair": ["man", "male", "boy", "blonde", "guy"],
-  "angel": ["heaven", "wings", "halo"],
-  "princess": ["girl", "woman", "female", "blond", "crown", "royal", "queen"],
-  "smile_cat": ["animal", "cats"],
-  "heart_eyes_cat": ["animal", "love", "like", "affection", "cats", "valentines"],
-  "kissing_cat": ["animal", "cats"],
-  "smirk_cat": ["animal", "cats"],
-  "scream_cat": ["animal", "cats", "munch", "scared"],
-  "crying_cat_face": ["animal", "tears", "weep", "sad", "cats", "upset"],
-  "joy_cat": ["animal", "cats", "haha", "happy", "tears"],
-  "pouting_cat": ["animal", "cats"],
-  "smiley_cat": ["animal", "cats", "happy"],
-  "japanese_goblin": ["red", "evil", "mask", "monster", "scary", "creepy"],
-  "see_no_evil": ["monkey", "animal", "nature", "haha"],
-  "hear_no_evil": ["animal", "monkey", "nature"],
-  "speak_no_evil": ["monkey", "animal", "nature", "omg"],
-  "skull": ["dead", "skeleton", "creepy"],
-  "alien": ["UFO", "paul"],
-  "hankey": ["poop", "shitface"],
-  "poop": ["shitface"],
-  "shit": ["poop", "shitface"],
-  "fire": ["hot", "cook", "flame"],
-  "sparkles": ["stars", "shine", "shiny", "cool", "awesome", "good"],
-  "star2": ["night", "sparkle", "awesome", "good"],
-  "dizzy": ["star", "sparkle", "shoot"],
-  "boom": ["bomb", "explode", "explosion"],
-  "collision": ["boom", "bomb", "blown"],
-  "anger": ["angry", "mad"],
-  "sweat_drops": ["water", "drip"],
-  "droplet": ["water", "drip", "faucet"],
-  "zzz": ["sleepy", "tired"],
-  "ear": ["face", "hear", "sound", "listen"],
-  "eyes": ["look", "watch", "stalk", "peek"],
-  "nose": ["smell", "sniff"],
-  "tongue": ["mouth", "playful"],
-  "lips": ["mouth", "kiss"],
-  "+1": ["thumbsup", "yes", "awesome", "good", "agree", "accept"],
-  "thumbsup": ["cool", "hand", "yes", "like"],
-  "-1": ["thumbsdown", "no", "dislike"],
-  "thumbsdown": ["hand", "no", "dislike"],
-  "ok_hand": ["fingers", "limbs", "perfect"],
-  "punch": ["hand", "fist"],
-  "facepunch": ["angry", "violence", "fist", "hit", "attack"],
-  "fist": ["fingers", "hand", "grasp"],
-  "v": ["fingers", "ohyeah", "hand", "peace", "victory", "two"],
-  "wave": ["hands", "gesture", "goodbye", "solong", "farewell", "hello", "palm"],
-  "hand": ["fingers", "stop", "highfive", "palm"],
-  "open_hands": ["fingers", "butterfly"],
-  "point_up": ["hand", "fingers", "direction"],
-  "point_down": ["fingers", "hand", "direction"],
-  "point_right": ["fingers", "hand", "direction"],
-  "point_left": ["direction", "fingers", "hand"],
-  "raised_hands": ["gesture", "hooray", "yea", "celebration"],
-  "pray": ["please", "hope", "wish", "namaste", "highfive"],
-  "point_up_2": ["fingers", "hand", "direction"],
-  "clap": ["hands", "praise", "applause", "congrats", "yay"],
-  "muscle": ["arm", "flex", "hand", "summer"],
-  "walking": ["human", "feet", "steps"],
-  "runner": ["man", "walking", "exercise", "race"],
-  "running": ["man", "walking", "exercise", "fun", "race"],
-  "dancer": ["female", "girl", "woman", "fun"],
-  "couple": ["pair", "people", "human", "love", "date", "dating", "like", "affection", "valentines", "marriage"],
-  "family": ["home", "parents", "child", "mom", "dad", "father", "mother", "people", "human"],
-  "two_men_holding_hands": ["pair", "couple", "love", "like", "bromance", "friendship", "people", "human"],
-  "two_women_holding_hands": ["pair", "friendship", "couple", "love", "like", "female", "people", "human"],
-  "couplekiss": ["pair", "valentines", "love", "like", "dating", "marriage"],
-  "couple_with_heart": ["pair", "love", "like", "affection", "human", "dating", "valentines", "marriage"],
-  "dancers": ["female", "bunny", "women", "girls"],
-  "ok_woman": ["women", "girl", "female", "pink", "human"],
-  "no_good": ["female", "girl", "woman", "nope"],
-  "information_desk_person": ["female", "girl", "woman", "human"],
-  "raised_hand": ["female", "girl", "woman", "ban", "palm"],
-  "massage": ["female", "girl", "woman", "head"],
-  "haircut": ["female", "girl", "woman"],
-  "nail_care": ["beauty", "manicure"],
-  "bride_with_veil": ["couple", "marriage", "wedding"],
-  "person_with_pouting_face": ["female", "girl", "woman"],
-  "person_frowning": ["female", "girl", "woman", "sad", "depressed", "discouraged", "unhappy"],
-  "bow": ["man", "male", "boy"],
-  "tophat": ["magic", "gentleman", "classy"],
-  "crown": ["king", "kod", "leader", "royalty", "lord"],
-  "womans_hat": ["fashion", "accessories", "female", "lady"],
-  "athletic_shoe": ["shoes", "sports"],
-  "shoe": ["accessories", "fashion"],
-  "mans_shoe": ["fashion", "male"],
-  "sandal": ["shoes", "fashion"],
-  "high_heel": ["fashion", "shoes", "female", "pumps"],
-  "boot": ["shoes", "fashion"],
-  "tshirt": ["cloth", "fashion", "casual"],
-  "shirt": ["fashion", "cloth"],
-  "necktie": ["shirt", "suitup", "formal", "fashion", "cloth", "business"],
-  "womans_clothes": ["fashion", "shopping", "female"],
-  "dress": ["clothes", "fashion", "shopping"],
-  "running_shirt_with_sash": ["play", "pageant"],
-  "jeans": ["fashion", "shopping"],
-  "kimono": ["dress", "fashion", "women", "female", "japanese"],
-  "bikini": ["swimming", "female", "woman", "girl", "fashion", "beach", "summer"],
-  "briefcase": ["business", "documents", "work", "law", "legal"],
-  "handbag": ["fashion", "accessory", "accessories"],
-  "pouch": ["bag", "accessories"],
-  "purse": ["fashion", "accessories", "money", "sales"],
-  "eyeglasses": ["fashion", "accessories", "eyesight", "nerd", "dork"],
-  "ribbon": ["decoration", "pink", "girl", "bowtie"],
-  "closed_umbrella": ["weather", "rain", "drizzle"],
-  "lipstick": ["female", "girl", "fashion", "woman"],
-  "yellow_heart": ["love", "like", "affection", "valentines"],
-  "blue_heart": ["love", "like", "affection", "valentines"],
-  "purple_heart": ["love", "like", "affection", "valentines"],
-  "green_heart": ["love", "like", "affection", "valentines"],
-  "heart": ["love", "like", "valentines"],
-  "broken_heart": ["sad", "sorry", "break"],
-  "heartpulse": ["like", "love", "affection", "valentines", "pink"],
-  "heartbeat": ["love", "like", "affection", "valentines", "pink"],
-  "two_hearts": ["love", "like", "affection", "valentines"],
-  "sparkling_heart": ["love", "like", "affection", "valentines"],
-  "revolving_hearts": ["love", "like", "affection", "valentines"],
-  "cupid": ["love", "like", "heart", "affection", "valentines"],
-  "love_letter": ["email", "like", "affection", "envelope", "valentines"],
-  "kiss": ["face", "lips", "love", "like", "affection", "valentines"],
-  "ring": ["wedding", "propose", "marriage", "valentines", "diamond"],
-  "gem": ["blue", "ruby", "diamond"],
-  "bust_in_silhouette": ["user", "person", "human"],
-  "busts_in_silhouette": ["user", "person", "human", "group", "team"],
-  "speech_balloon": ["bubble", "words", "message", "talk", "chatting"],
-  "footprints": ["feet", "tracking", "walking"],
-  "thought_balloon": ["bubble", "cloud", "speech", "thinking"],
-  "dog": ["animal", "friend", "nature", "woof", "puppy", "pet", "faithful"],
-  "wolf": ["animal", "nature", "wild"],
-  "cat": ["animal", "meow", "nature", "pet"],
-  "mouse": ["animal", "nature", "cheese"],
-  "hamster": ["animal", "nature"],
-  "rabbit": ["animal", "nature", "pet"],
-  "frog": ["animal", "nature", "croak"],
-  "tiger": ["animal", "cat", "danger", "wild", "nature", "roar"],
-  "koala": ["animal", "nature"],
-  "bear": ["animal", "nature", "wild"],
-  "pig": ["animal", "oink", "nature"],
-  "pig_nose": ["animal", "oink"],
-  "cow": ["beef", "ox", "animal", "nature", "moo", "milk"],
-  "boar": ["animal", "nature"],
-  "monkey": ["animal", "nature", "banana"],
-  "monkey_face": ["animal", "nature"],
-  "horse": ["animal", "brown", "nature", "unicorn"],
-  "sheep": ["animal", "nature", "wool", "shipit"],
-  "elephant": ["animal", "nature", "nose", "thailand"],
-  "panda_face": ["animal", "nature"],
-  "penguin": ["animal", "nature"],
-  "bird": ["animal", "nature", "fly", "tweet"],
-  "baby_chick": ["animal", "chicken"],
-  "hatched_chick": ["animal", "chicken", "baby"],
-  "hatching_chick": ["animal", "chicken", "egg", "born"],
-  "chicken": ["animal", "cluck", "nature"],
-  "snake": ["animal", "evil", "nature", "hiss"],
-  "turtle": ["animal", "slow", "nature", "tortoise"],
-  "bug": ["insect", "nature", "worm"],
-  "honeybee": ["animal", "insect", "nature"],
-  "bee": ["animal", "insect", "nature"],
-  "ant": ["animal", "insect", "nature"],
-  "beetle": ["insect", "nature"],
-  "snail": ["slow", "animal", "shell"],
-  "octopus": ["animal", "creature", "ocean", "sea", "nature"],
-  "shell": ["nature", "sea", "beach"],
-  "tropical_fish": ["animal", "swim", "ocean"],
-  "fish": ["animal", "food", "nature"],
-  "dolphin": ["animal", "nature", "fish", "sea", "ocean", "flipper", "fins"],
-  "whale": ["animal", "nature", "sea", "ocean"],
-  "whale2": ["animal", "nature", "sea", "ocean"],
-  "cow2": ["beef", "ox", "animal", "nature", "moo", "milk"],
-  "ram": ["animal", "sheep", "nature"],
-  "rat": ["animal", "mouse", "rodent"],
-  "water_buffalo": ["animal", "nature", "ox", "cow"],
-  "tiger2": ["animal", "nature", "roar"],
-  "rabbit2": ["animal", "nature", "pet"],
-  "dragon": ["animal", "myth", "nature", "chinese", "green"],
-  "racehorse": ["animal", "gamble"],
-  "goat": ["animal", "nature"],
-  "rooster": ["animal", "nature", "chicken"],
-  "dog2": ["animal", "nature", "friend", "doge", "pet", "faithful"],
-  "pig2": ["animal", "nature"],
-  "mouse2": ["animal", "nature", "rodent"],
-  "ox": ["animal", "cow", "beef"],
-  "dragon_face": ["animal", "myth", "nature", "chinese", "green"],
-  "blowfish": ["nature", "food", "sea", "ocean"],
-  "crocodile": ["animal", "nature", "reptile"],
-  "camel": ["animal", "nature", "hot", "desert", "hump"],
-  "dromedary_camel": ["animal", "hot", "desert", "hump"],
-  "leopard": ["animal", "nature"],
-  "cat2": ["animal", "meow", "pet", "cats"],
-  "poodle": ["dog", "animal", "101", "nature", "pet"],
-  "paw_prints": ["animal", "dog", "cat", "pet"],
-  "bouquet": ["flowers", "nature"],
-  "cherry_blossom": ["flower", "nature", "plant"],
-  "tulip": ["flowers", "plant", "nature"],
-  "four_leaf_clover": ["vegetable", "plant", "nature", "lucky"],
-  "rose": ["flowers", "valentines", "love"],
-  "sunflower": ["nature", "plant"],
-  "hibiscus": ["plant", "vegetable", "flowers"],
-  "maple_leaf": ["nature", "plant", "vegetable", "canada"],
-  "leaves": ["nature", "plant", "tree", "vegetable", "grass", "lawn"],
-  "fallen_leaf": ["nature", "plant", "vegetable", "leaves"],
-  "herb": ["vegetable", "plant", "medicine", "weed", "grass", "lawn"],
-  "ear_of_rice": ["nature", "plant"],
-  "mushroom": ["plant", "vegetable"],
-  "cactus": ["vegetable", "plant", "nature"],
-  "palm_tree": ["plant", "vegetable", "nature", "summer"],
-  "evergreen_tree": ["plant", "nature"],
-  "deciduous_tree": ["plant", "nature"],
-  "chestnut": ["food", "squirrel"],
-  "seedling": ["plant", "nature", "grass", "lawn"],
-  "blossom": ["nature", "flowers", "yellow"],
-  "globe_with_meridians": ["earth", "international", "world", "internet", "interweb"],
-  "sun_with_face": ["nature", "morning", "sky"],
-  "full_moon_with_face": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "new_moon_with_face": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "new_moon": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "waxing_crescent_moon": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "first_quarter_moon": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "moon": ["nature", "night", "sky", "gray", "twilight", "planet", "space", "evening", "sleep"],
-  "full_moon": ["nature", "yellow", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "waning_gibbous_moon": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "last_quarter_moon": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "waning_crescent_moon": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "last_quarter_moon_with_face": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "first_quarter_moon_with_face": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
-  "crescent_moon": ["night", "sleep", "sky", "evening"],
-  "earth_africa": ["globe", "world", "international"],
-  "earth_americas": ["globe", "world", "USA", "international"],
-  "earth_asia": ["globe", "world", "east", "international"],
-  "volcano": ["photo", "nature", "disaster"],
-  "milky_way": ["photo", "space", "stars"],
-  "stars": ["night", "photo"],
-  "star": ["night", "yellow"],
-  "sunny": ["weather", "nature", "brightness", "summer"],
-  "partly_sunny": ["weather", "nature", "cloudy", "morning"],
-  "cloud": ["weather", "sky"],
-  "zap": ["thunder", "weather", "lightning bolt"],
-  "umbrella": ["rainy", "weather"],
-  "snowflake": ["winter", "season", "cold", "weather", "christmas", "xmas"],
-  "snowman": ["winter", "season", "cold", "weather", "christmas", "xmas", "frozen"],
-  "cyclone": ["weather", "swirl", "blue", "cloud"],
-  "foggy": ["photo", "mountain"],
-  "rainbow": ["nature", "happy", "unicorn", "photo", "sky"],
-  "ocean": ["sea", "water", "wave", "nature", "tsunami", "disaster"],
-  "100": ["score", "perfect", "numbers", "century"],
-  "1234": ["numbers", "blue-square"],
-  "8ball": ["pool", "hobby", "game"],
-  "a": ["red-square", "alphabet", "letter"],
-  "ab": ["red-square", "alphabet"],
-  "abc": ["blue-square", "alphabet"],
-  "abcd": ["blue-square", "alphabet"],
-  "accept": ["ok", "good", "chinese", "kanji", "agree", "yes", "orange-circle"],
-  "aerial_tramway": ["transportation", "vehicle"],
-  "airplane": ["vehicle", "transportation", "flight"],
-  "alarm_clock": ["time", "wake"],
-  "ambulance": ["health", "911", "hospital"],
-  "anchor": ["ship", "ferry"],
-  "clock7": ["time", "late", "early", "schedule"],
-  "clock730": ["time", "late", "early", "schedule"],
-  "clock8": ["time", "late", "early", "schedule"],
-  "clock830": ["time", "late", "early", "schedule"],
-  "clock9": ["time", "late", "early", "schedule"],
-  "clock930": ["time", "late", "early", "schedule"],
-  "closed_book": ["read", "library", "knowledge", "textbook"],
-  "closed_lock_with_key": ["security", "privacy"],
-  "clubs": ["poker", "cards"],
-  "cn": ["china", "chinese", "prc", "flag", "country", "nation", "banner"],
-  "cocktail": ["drink", "drunk", "alcohol", "beverage"],
-  "coffee": ["drink", "beverage", "cafe", "espresso"],
-  "computer": ["tech", "laptop"],
-  "confetti_ball": ["festival", "party", "birthday"],
-  "hash": ["symbol", "blue-square", "twitter"],
-  "headphones": ["music", "score", "gadgets"],
-  "heart_decoration": ["purple-square", "love", "like"],
-  "hearts": ["poker", "cards"],
-  "heavy_check_mark": ["ok", "nike"],
-  "heavy_division_sign": ["divide", "math", "calculation"],
-  "heavy_dollar_sign": ["money", "sales", "payment", "currency"],
-  "heavy_exclamation_mark": ["surprise", "danger", "punctuation", "warning"],
-  "heavy_minus_sign": ["math", "calculation", "subtract", "less"],
-  "heavy_multiplication_x": ["math", "calculation"],
-  "notes": ["music", "score"],
-  "nut_and_bolt": ["handy", "tools"],
-  "o": ["circle", "round"],
-  "o2": ["alphabet", "red-square", "letter"],
-  "octocat": ["animal", "octopus", "github", "ghonly"],
-  "oden": ["food", "japanese"],
-  "office": ["building", "bureau", "work"],
-  "ok": ["good", "agree", "yes", "blue-square"],
-  "on": ["arrow", "words"],
-  "oncoming_automobile": ["car", "vehicle", "transportation"],
-  "oncoming_bus": ["vehicle", "transportation"],
-  "oncoming_police_car": ["vehicle", "law", "legal", "enforcement", "911"],
-  "oncoming_taxi": ["vehicle", "cars", "uber"],
-  "one": ["blue-square", "numbers", "1"],
-  "smoking": ["kills", "tobacco", "cigarette"],
-  "snowboarder": ["sports", "winter"],
-  "soccer": ["sports", "balls", "football", "fifa"],
-  "soon": ["arrow", "words"],
-  "sos": ["help", "red-square", "words", "emergency", "911"],
-  "sound": ["volume", "speaker"],
-  "space_invader": ["game", "arcade", "play"],
-  "spades": ["poker", "cards"],
-  "spaghetti": ["food", "italian", "noodle"],
-  "sparkle": ["stars", "green-square", "awesome", "good", "fireworks"],
-  "sparkler": ["stars", "night", "shine"],
-  "congratulations": ["chinese", "kanji", "japanese", "red-circle"],
-  "heavy_plus_sign": ["math", "calculation"],
-  "open_book": ["read", "library", "knowledge"],
-  "apple": ["fruit", "mac"],
-  "construction": ["wip", "progress", "caution", "warning"],
-  "helicopter": ["transportation", "vehicle"],
-  "open_file_folder": ["documents", "load"],
-  "speaker": ["volume", "sound"],
-  "aquarius": ["sign", "purple-square", "zodiac"],
-  "aries": ["sign", "purple-square", "zodiac"],
-  "convenience_store": ["building", "shopping", "groceries"],
-  "speedboat": ["ship", "transportation", "vehicle", "summer"],
-  "arrow_backward": ["blue-square"],
-  "cookie": ["food", "snack", "oreo", "chocolate", "sweet", "dessert"],
-  "high_brightness": ["sun", "light"],
-  "ophiuchus": ["sign", "purple-square", "constellation"],
-  "squirrel": ["animal", "sherlock", "inspector", "dectective"],
-  "arrow_double_down": ["blue-square"],
-  "cool": ["words", "blue-square"],
-  "orange_book": ["read", "library", "knowledge", "textbook"],
-  "arrow_double_up": ["blue-square"],
-  "hocho": ["knife", "blade", "cutlery"],
-  "outbox_tray": ["inbox", "email"],
-  "arrow_down": ["blue-square"],
-  "copyright": ["ip", "license", "circle", "law", "legal"],
-  "honey_pot": ["bees", "sweet"],
-  "arrow_down_small": ["blue-square"],
-  "corn": ["food", "vegetable", "plant"],
-  "package": ["mail", "gift", "cardboard", "box", "moving"],
-  "station": ["transportation", "vehicle", "public"],
-  "arrow_forward": ["blue-square"],
-  "page_facing_up": ["documents", "office", "paper", "information"],
-  "statue_of_liberty": ["american", "newyork"],
-  "arrow_heading_down": ["blue-square"],
-  "page_with_curl": ["documents", "office", "paper"],
-  "steam_locomotive": ["transportation", "vehicle", "train"],
-  "arrow_heading_up": ["blue-square"],
-  "hospital": ["building", "health", "surgery", "doctor"],
-  "pager": ["bbcall", "oldschool"],
-  "stew": ["food", "meat", "soup"],
-  "arrow_left": ["blue-square", "previous"],
-  "hotel": ["building", "whotel", "accomodation", "checkin"],
-  "straight_ruler": ["stationery", "calculate", "length", "math", "school", "drawing", "architect", "sketch"],
-  "arrow_lower_left": ["blue-square"],
-  "hotsprings": ["bath", "warm", "relax"],
-  "strawberry": ["fruit", "food", "nature"],
-  "arrow_lower_right": ["blue-square"],
-  "credit_card": ["money", "sales", "dollar", "bill", "payment"],
-  "hourglass": ["time", "clock", "oldschool"],
-  "paperclip": ["documents", "stationery"],
-  "arrow_right": ["blue-square", "next"],
-  "hourglass_flowing_sand": ["oldschool", "time", "countdown"],
-  "parking": ["cars", "blue-square", "alphabet", "letter"],
-  "arrow_right_hook": ["blue-square", "return", "rotade", "direction"],
-  "house": ["building", "home"],
-  "part_alternation_mark": ["graph", "presentation", "stats", "business", "economics", "bad"],
-  "arrow_up": ["blue-square", "continue", "top", "direction"],
-  "crossed_flags": ["japanese", "nation", "country", "border"],
-  "house_with_garden": ["home", "plant", "nature"],
-  "arrow_up_down": ["blue-square", "direction", "way"],
-  "hurtrealbad": ["mad", "injured", "doom", "oldschool"],
-  "passport_control": ["custom", "blue-square"],
-  "arrow_up_small": ["blue-square", "triangle", "direction", "point", "forward"],
-  "arrow_upper_left": ["blue-square", "point", "direction"],
-  "ice_cream": ["food", "hot", "dessert"],
-  "peach": ["fruit", "nature", "food"],
-  "arrow_upper_right": ["blue-square", "point", "direction"],
-  "crystal_ball": ["disco", "party"],
-  "icecream": ["food", "hot", "dessert", "summer"],
-  "pear": ["fruit", "nature", "food"],
-  "sunrise": ["morning", "view", "vacation", "photo"],
-  "arrows_clockwise": ["sync", "cycle", "round", "repeat"],
-  "id": ["purple-square", "words"],
-  "pencil": ["stationery", "documents", "paper", "writing", "write"],
-  "sunrise_over_mountains": ["view", "vacation", "photo"],
-  "arrows_counterclockwise": ["blue-square", "sync", "cycle"],
-  "curly_loop": ["scribble", "draw", "shape"],
-  "ideograph_advantage": ["chinese", "kanji", "obtain", "get", "circle"],
-  "pencil2": ["stationery", "write", "paper", "writing"],
-  "surfer": ["sports", "ocean", "sea", "summer"],
-  "art": ["design", "paint", "draw"],
-  "currency_exchange": ["money", "sales", "dollar", "travel"],
-  "sushi": ["food", "fish", "japanese", "rice"],
-  "articulated_lorry": ["vehicle", "cars", "transportation", "express"],
-  "curry": ["food", "spicy", "hot", "indian"],
-  "inbox_tray": ["email", "documents"],
-  "suspect": ["mad", "ghonly"],
-  "custard": ["dessert", "food"],
-  "incoming_envelope": ["email", "inbox"],
-  "performing_arts": ["acting", "theater", "drama"],
-  "suspension_railway": ["vehicle", "transportation"],
-  "customs": ["passport", "border", "blue-square"],
-  "atm": ["money", "sales", "cash", "blue-square", "payment", "bank"],
-  "information_source": ["blue-square", "alphabet", "letter"],
-  "b": ["red-square", "alphabet", "letter"],
-  "interrobang": ["wat", "punctuation", "surprise"],
-  "sweet_potato": ["food", "nature"],
-  "baby_bottle": ["food", "container", "milk"],
-  "dango": ["food", "barbecue", "meat"],
-  "iphone": ["technology", "apple", "gadgets", "dial"],
-  "phone": ["technology", "communication", "dial", "telephone"],
-  "swimmer": ["sports", "exercise", "human", "athlete", "water", "summer"],
-  "dart": ["game", "play", "bar"],
-  "it": ["italy", "flag", "nation", "country", "banner"],
-  "symbols": ["blue-square"],
-  "baby_symbol": ["orange-square", "child"],
-  "dash": ["wind", "air", "fast", "shoo", "fart", "smoke", "puff"],
-  "izakaya_lantern": ["light", "paper", "halloween"],
-  "syringe": ["health", "hospital", "drugs", "blood", "medicine", "needle"],
-  "back": ["arrow", "words", "return"],
-  "date": ["calendar", "schedule"],
-  "jack_o_lantern": ["halloween", "light", "pumpkin", "creepy"],
-  "tada": ["party", "contulations", "birthday"],
-  "baggage_claim": ["blue-square", "airport", "transport"],
-  "de": ["german", "nation", "flag", "country", "banner"],
-  "japan": ["nation", "country", "japanese", "asia"],
-  "pill": ["health", "medicine"],
-  "tanabata_tree": ["plant", "nature", "branch"],
-  "balloon": ["party", "celebration", "birthday"],
-  "japanese_castle": ["photo", "building"],
-  "pineapple": ["fruit", "nature", "food"],
-  "tangerine": ["food", "fruit", "nature"],
-  "ballot_box_with_check": ["ok", "agree", "confirm", "black-square", "vote", "election"],
-  "department_store": ["building", "shopping", "mall"],
-  "pisces": ["purple-square", "sign", "zodiac"],
-  "taurus": ["purple-square", "sign", "zodiac"],
-  "bamboo": ["plant", "nature", "vegetable", "panda"],
-  "diamond_shape_with_a_dot_inside": ["jewel"],
-  "japanese_ogre": ["monster", "red", "mask", "halloween", "scary", "creepy", "devil", "demon"],
-  "pizza": ["food", "party"],
-  "taxi": ["uber", "vehicle", "cars", "transportation"],
-  "banana": ["fruit", "food"],
-  "diamonds": ["poker", "cards"],
-  "tea": ["drink", "bowl", "breakfast", "green", "british"],
-  "bangbang": ["exclamation", "surprise"],
-  "telephone": ["communication", "technology", "dial"],
-  "bank": ["building", "money", "sales", "cash", "business", "enterprise"],
-  "telephone_receiver": ["technology", "communication", "dial"],
-  "bar_chart": ["graph", "presentation", "stats"],
-  "jp": ["japanese", "nation", "flag", "country", "banner"],
-  "telescope": ["stars", "space"],
-  "barber": ["hair", "salon", "style"],
-  "key": ["lock", "door", "password"],
-  "tennis": ["sports", "balls", "green"],
-  "baseball": ["sports", "balls", "MLB"],
-  "do_not_litter": ["trash", "bin", "garbage", "circle"],
-  "keycap_ten": ["numbers", "10", "blue-square"],
-  "police_car": ["vehicle", "cars", "transportation", "law", "legal", "enforcement"],
-  "tent": ["photo", "camp", "outdoors"],
-  "basketball": ["sports", "balls", "NBA"],
-  "bath": ["clean", "shower"],
-  "three": ["3", "numbers", "prime", "blue-square"],
-  "bathtub": ["clean", "shower"],
-  "dollar": ["money", "sales", "bill", "currency"],
-  "post_office": ["building", "email", "communication"],
-  "battery": ["power", "energy", "sustain"],
-  "dolls": ["japanese", "toy", "kimono"],
-  "postal_horn": ["instrument", "music"],
-  "postbox": ["email", "letter", "envelope"],
-  "ticket": ["event", "concert", "pass"],
-  "door": ["house", "entry", "exit"],
-  "potable_water": ["blue-square", "liquid", "restroom", "cleaning", "faucet"],
-  "beer": ["relax", "beverage", "drink", "drunk", "party", "pub", "summer"],
-  "doughnut": ["food", "dessert", "snack", "sweet", "donut"],
-  "beers": ["relax", "beverage", "drink", "drunk", "party", "pub", "summer"],
-  "poultry_leg": ["food", "meat", "drumstick", "bird", "chicken", "turkey"],
-  "koko": ["blue-square", "here", "katakana", "japanese", "destination"],
-  "pound": ["british", "sterling", "money", "sales", "bills", "uk", "england", "currency"],
-  "tm": ["trademark", "brand", "law", "legal"],
-  "beginner": ["badge", "shield"],
-  "kr": ["korea", "nation", "flag", "country", "banner"],
-  "toilet": ["restroom", "wc", "washroom"],
-  "bell": ["sound", "notification", "christmas", "xmas", "chime"],
-  "lantern": ["light", "spooky"],
-  "tokyo_tower": ["photo", "japanese"],
-  "bento": ["food", "japanese", "box"],
-  "large_blue_circle": ["shape", "icon", "button"],
-  "tomato": ["fruit", "vegetable", "nature", "food"],
-  "bicyclist": ["sports", "bike", "exercise", "hipster"],
-  "dvd": ["cd", "disk", "disc"],
-  "large_blue_diamond": ["shape", "jewel"],
-  "bike": ["sports", "bicycle", "exercise", "hipster"],
-  "e-mail": ["communication", "inbox", "email"],
-  "large_orange_diamond": ["shape", "jewel"],
-  "top": ["words", "blue-square"],
-  "pushpin": ["stationery", "mark", "here"],
-  "tractor": ["vehicle", "car", "farming", "agriculture"],
-  "birthday": ["party", "cake", "celebration"],
-  "laughing": ["happy", "joy", "lol"],
-  "put_litter_in_its_place": ["blue-square", "sign", "human", "info"],
-  "traffic_light": ["transportation", "signal"],
-  "black_circle": ["shape", "button", "round"],
-  "question": ["doubt", "confused"],
-  "train": ["transportation", "vehicle", "carriage", "public", "travel"],
-  "black_joker": ["poker", "cards", "game", "play"],
-  "ledger": ["notes", "paper"],
-  "train2": ["transportation", "vehicle"],
-  "black_large_square": ["shape", "icon", "button"],
-  "egg": ["food", "breakfast"],
-  "left_luggage": ["blue-square", "travel"],
-  "tram": ["transportation", "vehicle"],
-  "black_medium_small_square": ["icon", "shape", "button"],
-  "eggplant": ["vegetable", "nature", "food", "aubergine"],
-  "left_right_arrow": ["shape", "direction"],
-  "triangular_flag_on_post": ["mark", "milestone", "place"],
-  "black_medium_square": ["shape", "button", "icon"],
-  "eight": ["8", "blue-square", "numbers"],
-  "leftwards_arrow_with_hook": ["back", "return", "blue-square"],
-  "radio": ["communication", "music", "podcast", "program"],
-  "triangular_ruler": ["stationery", "math", "architect", "sketch"],
-  "black_nib": ["pen", "stationery", "writing", "write"],
-  "eight_pointed_black_star": ["orange-square", "shape", "polygon"],
-  "lemon": ["fruit", "nature"],
-  "radio_button": ["input", "old", "music", "circle"],
-  "trident": ["weapon", "spear"],
-  "black_small_square": ["shape", "icon"],
-  "eight_spoked_asterisk": ["star", "sparkle", "green-square"],
-  "leo": ["sign", "purple-square", "zodiac"],
-  "rage": ["angry", "mad", "hate", "despise"],
-  "black_square_button": ["shape", "input", "frame"],
-  "electric_plug": ["charger", "power"],
-  "rage1": ["angry", "mad", "ghonly", "hate", "despise"],
-  "trolleybus": ["bart", "transportation", "vehicle"],
-  "libra": ["sign", "purple-square", "zodiac"],
-  "rage2": ["angry", "mad", "ghonly", "hate", "despise"],
-  "trollface": ["internet", "meme"],
-  "email": ["inbox", "communication"],
-  "light_rail": ["transportation", "vehicle"],
-  "rage3": ["angry", "mad", "ghonly", "hate", "despise"],
-  "trophy": ["win", "award", "contest", "place", "ftw", "ceremony"],
-  "blue_book": ["read", "library", "knowledge"],
-  "end": ["words", "arrow"],
-  "link": ["rings", "url"],
-  "rage4": ["angry", "mad", "ghonly", "hate", "despise"],
-  "tropical_drink": ["beverage", "cocktail", "summer", "beach"],
-  "blue_car": ["transportation", "vehicle"],
-  "envelope": ["email", "letter", "postal", "communication"],
-  "railway_car": ["transportation", "vehicle"],
-  "envelope_with_arrow": ["email", "communication"],
-  "truck": ["cars", "transportation"],
-  "es": ["spain", "flag", "nation", "country", "banner"],
-  "lock": ["security", "password"],
-  "trumpet": ["music", "brass"],
-  "euro": ["money", "sales", "dollar", "currency"],
-  "lock_with_ink_pen": ["security", "secret"],
-  "boat": ["transportation", "water", "sailing"],
-  "european_castle": ["building", "royalty", "history"],
-  "lollipop": ["food", "snack", "candy", "sweet"],
-  "raising_hand": ["female", "girl", "woman"],
-  "bomb": ["boom", "explode", "explosion"],
-  "european_post_office": ["building", "email"],
-  "loop": ["tape", "cassette"],
-  "book": ["library", "literature"],
-  "loudspeaker": ["volume", "sound"],
-  "ramen": ["food", "japanese", "noodle", "chipsticks"],
-  "tv": ["technology", "program", "oldschool", "show"],
-  "bookmark": ["favorite", "label", "save"],
-  "exclamation": ["surprise", "punctuation", "wow", "warning"],
-  "love_hotel": ["like", "affection", "dating"],
-  "twisted_rightwards_arrows": ["blue-square", "shuffle", "music", "random"],
-  "bookmark_tabs": ["favorite", "save", "order", "tidy"],
-  "recycle": ["arrow", "environment", "garbage", "trash"],
-  "two": ["numbers", "2", "prime", "blue-square"],
-  "books": ["literature", "library"],
-  "low_brightness": ["sun", "afternoon", "warm", "summer"],
-  "red_car": ["transportation", "vehicle"],
-  "m": ["alphabet", "blue-circle", "letter"],
-  "red_circle": ["shape", "error", "danger"],
-  "mag": ["search", "zoom"],
-  "registered": ["alphabet", "circle"],
-  "factory": ["building", "industry", "pollution", "smoke"],
-  "mag_right": ["search", "zoom"],
-  "u5272": ["cut", "divide", "chinese", "kanji", "pink-square"],
-  "mahjong": ["game", "play", "chinese", "kanji"],
-  "u5408": ["japanese", "chinese", "join", "kanji", "red-square"],
-  "bowling": ["sports", "fun", "play"],
-  "mailbox": ["email", "inbox", "communication"],
-  "repeat": ["loop", "record"],
-  "u55b6": ["japanese", "opening hours", "orange-square"],
-  "bowtie": ["face", "formal", "fashion", "suit", "classy"],
-  "fast_forward": ["blue-square", "play", "speed", "continue"],
-  "mailbox_closed": ["email", "communication", "inbox"],
-  "repeat_one": ["blue-square", "loop"],
-  "u6307": ["chinese", "point", "green-square", "kanji"],
-  "fax": ["communication", "technology"],
-  "mailbox_with_mail": ["email", "inbox", "communication"],
-  "restroom": ["blue-square", "toilet", "refresh", "wc"],
-  "u6708": ["chinese", "month", "moon", "japanese", "orange-square", "kanji"],
-  "bread": ["food", "wheat", "breakfast", "toast"],
-  "mailbox_with_no_mail": ["email", "inbox"],
-  "u6709": ["orange-square", "chinese", "have", "kanji"],
-  "feelsgood": ["ghonly", "doom", "oldschool"],
-  "rewind": ["play", "blue-square"],
-  "u6e80": ["full", "chinese", "japanese", "red-square", "kanji"],
-  "bridge_at_night": ["photo", "sanfrancisco"],
-  "feet": ["animal", "tracking", "footprints", "dog", "cat", "paw", "pet"],
-  "u7121": ["nothing", "chinese", "kanji", "japanese", "orange-square"],
-  "ferris_wheel": ["photo", "carnival", "londoneye"],
-  "rice": ["food", "china", "asian"],
-  "u7533": ["chinese", "japanese", "kanji", "orange-square"],
-  "file_folder": ["documents", "business", "office"],
-  "rice_ball": ["food", "japanese"],
-  "u7981": ["kanji", "japanese", "chinese", "forbidden", "limit", "restricted", "red-square"],
-  "finnadie": ["ghonly", "doom", "oldschool"],
-  "rice_cracker": ["food", "japanese"],
-  "u7a7a": ["kanji", "japanese", "chinese", "empty", "sky", "blue-square"],
-  "bulb": ["light", "electricity"],
-  "rice_scene": ["photo", "japan", "asia", "tsukimi"],
-  "uk": ["british", "england", "union jack", "english", "flag", "country", "nation", "banner"],
-  "bullettrain_front": ["transportation", "vehicle", "speed", "fast", "public", "travel"],
-  "fire_engine": ["transportation", "cars", "vehicle"],
-  "bullettrain_side": ["transportation", "vehicle"],
-  "fireworks": ["photo", "festival", "carnival", "congratulations"],
-  "meat_on_bone": ["good", "food", "drumstick"],
-  "rocket": ["launch", "ship", "staffmode", "NASA", "outer space"],
-  "bus": ["car", "vehicle", "transportation"],
-  "mega": ["sound", "speaker", "volume"],
-  "roller_coaster": ["carnival", "playground", "photo", "fun"],
-  "underage": ["18", "drink", "pub", "night", "minor", "circle"],
-  "busstop": ["transportation", "wait"],
-  "melon": ["fruit", "nature", "food"],
-  "memo": ["documents", "stationery", "pencil", "paper", "writing", "legal"],
-  "unlock": ["privacy", "security"],
-  "fish_cake": ["food", "japan", "sea", "beach"],
-  "mens": ["toilet", "restroom", "wc", "blue-square"],
-  "rotating_light": ["police", "ambulance", "911", "emergency", "alert", "error", "pinged", "law", "legal"],
-  "up": ["blue-square", "above", "high"],
-  "fishing_pole_and_fish": ["food", "hobby"],
-  "metal": ["fingers", "rocknroll", "concert", "band"],
-  "round_pushpin": ["stationery", "location", "map", "here"],
-  "us": ["nation", "flag", "american", "country", "banner"],
-  "cake": ["food", "dessert"],
-  "metro": ["transportation", "blue-square", "mrt", "underground", "tube"],
-  "rowboat": ["sports", "hobby", "water", "ship"],
-  "calendar": ["schedule", "date", "planning"],
-  "five": ["5", "numbers", "blue-square", "prime"],
-  "microphone": ["sound", "music", "PA"],
-  "ru": ["russian", "nation", "flag", "country", "banner"],
-  "vertical_traffic_light": ["transportation", "driving"],
-  "calling": ["iphone", "incoming"],
-  "flags": ["fish", "japanese", "koinobori", "carp", "banner"],
-  "microscope": ["laboratory", "experiment", "zoomin", "science"],
-  "rugby_football": ["sports", "team"],
-  "vhs": ["record", "video", "oldschool", "90s", "80s"],
-  "flashlight": ["dark", "camping", "sight", "night"],
-  "vibration_mode": ["orange-square", "phone"],
-  "camera": ["gadgets", "photo"],
-  "floppy_disk": ["oldschool", "technology", "save", "90s"],
-  "minibus": ["vehicle", "car", "transportation"],
-  "video_camera": ["film", "record"],
-  "cancer": ["sign", "zodiac", "purple-square"],
-  "flower_playing_cards": ["game"],
-  "minidisc": ["technology", "record", "data", "disk"],
-  "video_game": ["play", "console", "PS4", "controller"],
-  "candy": ["snack", "dessert", "sweet"],
-  "mobile_phone_off": ["mute", "orange-square", "silence", "quiet"],
-  "sa": ["japanese", "blue-square", "katakana"],
-  "violin": ["music", "instrument", "orchestra", "symphony"],
-  "capital_abcd": ["alphabet", "words", "blue-square"],
-  "money_with_wings": ["dollar", "bills", "payment", "sale"],
-  "sagittarius": ["sign", "zodiac", "purple-square"],
-  "virgo": ["sign", "zodiac", "purple-square"],
-  "capricorn": ["sign", "zodiac", "purple-square"],
-  "football": ["sports", "balls", "NFL"],
-  "moneybag": ["dollar", "payment", "coins", "sale"],
-  "sailboat": ["transportation", "ship", "summer"],
-  "car": ["transportation", "vehicle"],
-  "sake": ["wine", "drink", "drunk", "beverage", "japanese"],
-  "vs": ["words", "orange-square"],
-  "card_index": ["business", "stationery"],
-  "fork_and_knife": ["cutlery", "kitchen"],
-  "carousel_horse": ["photo", "carnival"],
-  "fountain": ["photo", "summer", "water", "fresh"],
-  "monorail": ["transportation", "vehicle"],
-  "santa": ["festival", "man", "male", "xmas", "father christmas"],
-  "four": ["4", "numbers", "blue-square"],
-  "satellite": ["communication", "future", "radio", "space"],
-  "mortar_board": ["school", "college", "degree", "university", "graduation", "cap", "hat", "legal"],
-  "warning": ["exclamation", "wip", "alert", "error", "problem", "issue"],
-  "cd": ["technology", "dvd", "disk", "disc"],
-  "fr": ["banner", "flag", "nation", "france", "french", "country"],
-  "mount_fuji": ["photo", "mountain", "nature", "japanese"],
-  "saxophone": ["music", "instrument", "jazz", "blues"],
-  "watch": ["time", "accessories"],
-  "chart": ["green-square", "graph", "presentation", "stats"],
-  "free": ["blue-square", "words"],
-  "mountain_bicyclist": ["transportation", "sports", "human", "race", "bike"],
-  "school": ["building", "student", "education", "learn", "teach"],
-  "chart_with_downwards_trend": ["graph", "presentation", "stats", "recession", "business", "economics", "money", "sales", "bad", "failure"],
-  "fried_shrimp": ["food", "animal", "appetizer", "summer"],
-  "mountain_cableway": ["transportation", "vehicle"],
-  "school_satchel": ["student", "education", "bag"],
-  "watermelon": ["fruit", "food", "picnic", "summer"],
-  "chart_with_upwards_trend": ["graph", "presenetation", "stats", "recovery", "business", "economics", "money", "sales", "good", "success"],
-  "fries": ["chips", "snack", "fast food"],
-  "mountain_railway": ["transportation", "vehicle"],
-  "scissors": ["stationery", "cut"],
-  "checkered_flag": ["contest", "finishline", "rase", "gokart"],
-  "scorpius": ["sign", "zodiac", "purple-square"],
-  "wavy_dash": ["draw", "line"],
-  "cherries": ["food", "fruit"],
-  "fuelpump": ["gas station", "petroleum"],
-  "movie_camera": ["film", "record"],
-  "waxing_gibbous_moon": ["nature", "night", "sky"],
-  "moyai": ["stone", "easter island"],
-  "scroll": ["documents", "ancient", "history", "paper"],
-  "wc": ["toilet", "restroom", "blue-square"],
-  "seat": ["sit", "airplane", "transport", "bus", "flight"],
-  "children_crossing": ["school", "warning", "danger", "sign", "driving", "yellow-diamond"],
-  "game_die": ["dice", "random", "tabbletop", "play"],
-  "secret": ["privacy", "chinese", "sshh", "kanji", "red-circle"],
-  "wedding": ["love", "like", "affection", "couple", "marriage", "bride", "groom"],
-  "chocolate_bar": ["food", "snack", "dessert", "sweet"],
-  "gb": ["banner", "nation", "flag", "british", "UK", "country", "english"],
-  "musical_keyboard": ["piano", "instrument"],
-  "musical_note": ["score", "tone", "sound"],
-  "church": ["building", "religion", "christ"],
-  "gemini": ["sign", "zodiac", "purple-square"],
-  "musical_score": ["treble", "clef"],
-  "seven": ["7", "numbers", "blue-square", "prime"],
-  "wheelchair": ["blue-square", "disabled"],
-  "cinema": ["blue-square", "record", "film", "movie"],
-  "ghost": ["halloween", "spooky", "scary"],
-  "mute": ["sound", "volume", "silence"],
-  "shaved_ice": ["hot", "dessert", "summer"],
-  "white_check_mark": ["green-square", "ok", "agree", "vote", "election"],
-  "circus_tent": ["festival", "carnival", "party"],
-  "gift": ["present", "birthday", "christmas", "xmas"],
-  "white_circle": ["shape", "round"],
-  "city_sunrise": ["photo", "good morning", "dawn"],
-  "gift_heart": ["love", "valentines"],
-  "name_badge": ["fire", "forbid"],
-  "white_flower": ["japanese", "spring"],
-  "city_sunset": ["photo", "evening", "sky", "buildings"],
-  "neckbeard": ["nerdy", "face"],
-  "ship": ["transportation", "titanic", "deploy"],
-  "white_large_square": ["shape", "icon", "stone", "button"],
-  "cl": ["alphabet", "words", "red-square"],
-  "shipit": ["squirrel", "detective"],
-  "white_medium_small_square": ["shape", "stone", "icon", "button"],
-  "negative_squared_cross_mark": ["x", "green-square", "no", "deny"],
-  "white_medium_square": ["shape", "stone", "icon"],
-  "clapper": ["movie", "film", "record"],
-  "goberserk": ["ghonly", "doom", "rage", "bloody", "hurt"],
-  "white_small_square": ["shape", "icon"],
-  "clipboard": ["stationery", "documents"],
-  "godmode": ["ghonly", "doom"],
-  "new": ["blue-square", "words", "start"],
-  "white_square_button": ["shape", "input"],
-  "clock1": ["time", "late", "early", "schedule"],
-  "golf": ["sports", "business", "flag", "hole"],
-  "shower": ["clean", "water", "bathroom"],
-  "wind_chime": ["nature", "ding"],
-  "clock10": ["time", "late", "early", "schedule"],
-  "grapes": ["fruit", "food", "wine"],
-  "signal_strength": ["blue-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth"],
-  "wine_glass": ["drink", "beverage", "drunk", "alcohol"],
-  "clock1030": ["time", "late", "early", "schedule"],
-  "green_apple": ["fruit", "nature"],
-  "newspaper": ["press", "headline"],
-  "six": ["6", "numbers", "blue-square"],
-  "clock11": ["time", "late", "early", "schedule"],
-  "green_book": ["read", "library", "knowledge"],
-  "ng": ["blue-square", "words", "shape", "icon"],
-  "six_pointed_star": ["purple-square"],
-  "clock1130": ["time", "late", "early", "schedule"],
-  "nine": ["blue-square", "numbers", "9"],
-  "ski": ["sports", "winter", "cold"],
-  "clock12": ["time", "noon", "midnight", "late", "early", "schedule"],
-  "grey_exclamation": ["surprise", "punctuation", "gray", "wow", "warning"],
-  "no_bell": ["sound", "volume", "mute", "quiet", "silent"],
-  "clock1230": ["time", "late", "early", "schedule"],
-  "grey_question": ["doubts", "gray", "huh"],
-  "no_bicycles": ["cyclist", "prohibited", "circle"],
-  "clock130": ["time", "late", "early", "schedule"],
-  "no_entry": ["limit", "security", "privacy", "bad", "denied", "stop", "circle"],
-  "womens": ["purple-square", "woman", "female", "toilet", "loo", "restroom"],
-  "clock2": ["time", "late", "early", "schedule"],
-  "no_entry_sign": ["forbid", "stop", "limit", "denied", "disallow", "circle"],
-  "slot_machine": ["bet", "gamble", "vegas", "fruit machine", "luck", "casino"],
-  "clock230": ["time", "late", "early", "schedule"],
-  "small_blue_diamond": ["shape", "jewel", "gem"],
-  "wrench": ["tools", "diy", "ikea"],
-  "clock3": ["time", "late", "early", "schedule"],
-  "no_mobile_phones": ["iphone", "mute", "circle"],
-  "small_orange_diamond": ["shape", "jewel", "gem"],
-  "x": ["no", "delete", "remove"],
-  "clock330": ["time", "late", "early", "schedule"],
-  "guitar": ["music", "instrument"],
-  "small_red_triangle": ["shape"],
-  "clock4": ["time", "late", "early", "schedule"],
-  "gun": ["violence", "weapon", "pistol", "revolver"],
-  "no_pedestrians": ["rules", "crossing", "walking", "circle"],
-  "small_red_triangle_down": ["shape"],
-  "yen": ["money", "sales", "japanese", "dollar", "currency"],
-  "clock430": ["time", "late", "early", "schedule"],
-  "no_smoking": ["cigarette", "blue-square", "smell", "smoke"],
-  "clock5": ["time", "late", "early", "schedule"],
-  "hamburger": ["meat", "fast food", "beef", "cheeseburger", "mcdonalds", "burger king"],
-  "non-potable_water": ["drink", "faucet", "tap", "circle"],
-  "clock530": ["time", "late", "early", "schedule"],
-  "hammer": ["tools", "verdict", "judge", "done", "law", "legal", "ruling", "gavel"],
-  "zero": ["0", "numbers", "blue-square", "null"],
-  "clock6": ["time", "late", "early", "schedule", "dawn", "dusk"],
-  "notebook": ["stationery", "record", "notes", "paper"],
-  "clock630": ["time", "late", "early", "schedule"],
-  "notebook_with_decorative_cover": ["classroom", "notes", "record", "paper"],
-  "horse_racing": ["animal", "betting", "competition", "gambling"],
-  "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration"],
-  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no"]
+  "100": {
+    "keywords": [ "score", "perfect", "numbers", "century" ],
+    "char": "💯"
+  },
+  "1234": {
+    "keywords": [ "numbers", "blue-square" ],
+    "char": "🔢"
+  },
+  "smile": {
+    "keywords": [ "face", "happy", "joy", "funny", "haha", "laugh", "like" ],
+    "char": "😄"
+  },
+  "grinning": {
+    "keywords": [ "face", "smile", "happy", "joy" ],
+    "char": "😀"
+  },
+  "smiley": {
+    "keywords": [ "face", "happy", "joy", "haha" ],
+    "char": "😃"
+  },
+  "blush": {
+    "keywords": [ "face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy" ],
+    "char": "😊"
+  },
+  "relaxed": {
+    "keywords": [ "face", "blush", "massage", "happiness" ],
+    "char": "☺️"
+  },
+  "wink": {
+    "keywords": [ "face", "happy", "mischievous", "secret" ],
+    "char": "😉"
+  },
+  "heart_eyes": {
+    "keywords": [ "face", "love", "like", "affection", "valentines", "infatuation", "crush" ],
+    "char": "😍"
+  },
+  "kissing_heart": {
+    "keywords": [ "face", "love", "like", "affection", "valentines", "infatuation" ],
+    "char": "😘"
+  },
+  "kissing_closed_eyes": {
+    "keywords": [ "face", "love", "like", "affection", "valentines", "infatuation" ],
+    "char": "😚"
+  },
+  "kissing": {
+    "keywords": [ "love", "like", "face", "3", "valentines", "infatuation" ],
+    "char": "😗"
+  },
+  "kissing_smiling_eyes": {
+    "keywords": [ "face", "affection", "valentines", "infatuation" ],
+    "char": "😙"
+  },
+  "stuck_out_tongue_winking_eye": {
+    "keywords": [ "face", "prank", "childish", "playful", "mischievous", "smile" ],
+    "char": "😜"
+  },
+  "stuck_out_tongue_closed_eyes": {
+    "keywords": [ "face", "prank", "playful", "mischievous", "smile" ],
+    "char": "😝"
+  },
+  "stuck_out_tongue": {
+    "keywords": [ "face", "prank", "childish", "playful", "mischievous", "smile" ],
+    "char": "😛"
+  },
+  "flushed": {
+    "keywords": [ "face", "blush", "shy", "flattered" ],
+    "char": "😳"
+  },
+  "grin": {
+    "keywords": [ "face", "happy", "smile", "joy" ],
+    "char": "😁"
+  },
+  "pensive": {
+    "keywords": [ "face", "sad", "depressed", "okay", "upset" ],
+    "char": "😔"
+  },
+  "relieved": {
+    "keywords": [ "face", "relaxed", "phew", "massage", "happiness" ],
+    "char": "😌"
+  },
+  "unamused": {
+    "keywords": [ "indifference", "bored", "straight face", "serious" ],
+    "char": "😒"
+  },
+  "disappointed": {
+    "keywords": [ "face", "sad", "upset", "depressed" ],
+    "char": "😞"
+  },
+  "persevere": {
+    "keywords": [ "face", "sick", "no", "upset" ],
+    "char": "😣"
+  },
+  "cry": {
+    "keywords": [ "face", "tears", "sad", "depressed", "upset" ],
+    "char": "😢"
+  },
+  "joy": {
+    "keywords": [ "face", "cry", "tears", "weep", "happy", "haha" ],
+    "char": "😂"
+  },
+  "sob": {
+    "keywords": [ "face", "cry", "tears", "sad", "upset", "depressed" ],
+    "char": "😭"
+  },
+  "sleepy": {
+    "keywords": [ "face", "tired", "rest", "nap" ],
+    "char": "😪"
+  },
+  "disappointed_relieved": {
+    "keywords": [ "face", "phew", "sweat", "nervous" ],
+    "char": "😥"
+  },
+  "cold_sweat": {
+    "keywords": [ "face", "nervous" ],
+    "char": "😰"
+  },
+  "sweat_smile": {
+    "keywords": [ "face", "hot", "happy", "laugh" ],
+    "char": "😅"
+  },
+  "sweat": {
+    "keywords": [ "face", "hot", "sad", "tired", "exercise" ],
+    "char": "😓"
+  },
+  "weary": {
+    "keywords": [ "face", "tired", "sleepy", "sad", "frustrated", "upset" ],
+    "char": "😩"
+  },
+  "tired_face": {
+    "keywords": [ "sick", "whine", "upset", "frustrated" ],
+    "char": "😫"
+  },
+  "fearful": {
+    "keywords": [ "face", "scared", "terrified", "nervous", "oops", "huh" ],
+    "char": "😨"
+  },
+  "scream": {
+    "keywords": [ "face", "munch", "scared", "omg" ],
+    "char": "😱"
+  },
+  "angry": {
+    "keywords": [ "mad", "face", "annoyed", "frustrated" ],
+    "char": "😠"
+  },
+  "triumph": {
+    "keywords": [ "face", "gas", "phew", "proud", "pride" ],
+    "char": "😤"
+  },
+  "confounded": {
+    "keywords": [ "face", "confused", "sick", "unwell" ],
+    "char": "😖"
+  },
+  "satisfied": {
+    "keywords": [ "haha", "happy", "face", "joy", "glad" ],
+    "char": null
+  },
+  "yum": {
+    "keywords": [ "happy", "joy", "tongue", "smile", "face", "silly" ],
+    "char": "😋"
+  },
+  "mask": {
+    "keywords": [ "face", "sick", "ill", "disease" ],
+    "char": "😷"
+  },
+  "sunglasses": {
+    "keywords": [ "face", "cool", "smile", "summer" ],
+    "char": "😎"
+  },
+  "sleeping": {
+    "keywords": [ "face", "tired", "sleepy", "night", "zzz" ],
+    "char": "😴"
+  },
+  "dizzy_face": {
+    "keywords": [ "spent", "unconscious", "xox" ],
+    "char": "😵"
+  },
+  "astonished": {
+    "keywords": [ "face", "xox", "surprised", "poisoned" ],
+    "char": "😲"
+  },
+  "worried": {
+    "keywords": [ "face", "concern", "nervous" ],
+    "char": "😟"
+  },
+  "frowning": {
+    "keywords": [ "face", "aw", "what" ],
+    "char": "😦"
+  },
+  "anguished": {
+    "keywords": [ "face", "stunned", "nervous" ],
+    "char": "😧"
+  },
+  "smiling_imp": {
+    "keywords": [ "devil", "horns" ],
+    "char": "😈"
+  },
+  "imp": {
+    "keywords": [ "devil", "angry", "horns" ],
+    "char": "👿"
+  },
+  "open_mouth": {
+    "keywords": [ "face", "surprise", "impressed", "wow" ],
+    "char": "😮"
+  },
+  "grimacing": {
+    "keywords": [ "face", "grimace", "teeth" ],
+    "char": "😬"
+  },
+  "neutral_face": {
+    "keywords": [ "indifference", "meh" ],
+    "char": "😐"
+  },
+  "confused": {
+    "keywords": [ "face", "indifference", "huh", "weird", "hmmm" ],
+    "char": "😕"
+  },
+  "hushed": {
+    "keywords": [ "face", "woo", "shh" ],
+    "char": "😯"
+  },
+  "no_mouth": {
+    "keywords": [ "face", "hellokitty" ],
+    "char": "😶"
+  },
+  "innocent": {
+    "keywords": [ "face", "angel", "heaven", "halo" ],
+    "char": "😇"
+  },
+  "smirk": {
+    "keywords": [ "face", "smile", "mean", "prank", "smug", "sarcasm" ],
+    "char": "😏"
+  },
+  "expressionless": {
+    "keywords": [ "face", "indifferent", "-_-", "meh" ],
+    "char": "😑"
+  },
+  "man_with_gua_pi_mao": {
+    "keywords": [ "male", "boy" ],
+    "char": "👲"
+  },
+  "man_with_turban": {
+    "keywords": [ "male", "indian", "hinduism", "arabs" ],
+    "char": "👳"
+  },
+  "cop": {
+    "keywords": [ "man", "police", "law", "legal", "enforcement", "arrest", "911" ],
+    "char": "👮"
+  },
+  "construction_worker": {
+    "keywords": [ "male", "human", "wip", "guy" ],
+    "char": "👷"
+  },
+  "guardsman": {
+    "keywords": [ "uk", "gb", "british", "male", "guy", "royal" ],
+    "char": "💂"
+  },
+  "baby": {
+    "keywords": [ "child", "boy", "girl", "toddler" ],
+    "char": "👶"
+  },
+  "boy": {
+    "keywords": [ "man", "male", "guy", "teenager" ],
+    "char": "👦"
+  },
+  "girl": {
+    "keywords": [ "female", "woman", "teenager" ],
+    "char": "👧"
+  },
+  "man": {
+    "keywords": [ "mustache", "father", "dad", "guy", "classy", "sir" ],
+    "char": "👨"
+  },
+  "woman": {
+    "keywords": [ "female", "girls", "lady" ],
+    "char": "👩"
+  },
+  "older_man": {
+    "keywords": [ "human", "male", "men" ],
+    "char": "👴"
+  },
+  "older_woman": {
+    "keywords": [ "female", "women", "girl", "lady" ],
+    "char": "👵"
+  },
+  "person_with_blond_hair": {
+    "keywords": [ "man", "male", "boy", "blonde", "guy" ],
+    "char": "👱"
+  },
+  "angel": {
+    "keywords": [ "heaven", "wings", "halo" ],
+    "char": "👼"
+  },
+  "princess": {
+    "keywords": [ "girl", "woman", "female", "blond", "crown", "royal", "queen" ],
+    "char": "👸"
+  },
+  "smile_cat": {
+    "keywords": [ "animal", "cats" ],
+    "char": "😸"
+  },
+  "heart_eyes_cat": {
+    "keywords": [ "animal", "love", "like", "affection", "cats", "valentines" ],
+    "char": "😻"
+  },
+  "kissing_cat": {
+    "keywords": [ "animal", "cats" ],
+    "char": "😽"
+  },
+  "smirk_cat": {
+    "keywords": [ "animal", "cats" ],
+    "char": "😼"
+  },
+  "scream_cat": {
+    "keywords": [ "animal", "cats", "munch", "scared" ],
+    "char": "🙀"
+  },
+  "crying_cat_face": {
+    "keywords": [ "animal", "tears", "weep", "sad", "cats", "upset" ],
+    "char": "😿"
+  },
+  "joy_cat": {
+    "keywords": [ "animal", "cats", "haha", "happy", "tears" ],
+    "char": "😹"
+  },
+  "pouting_cat": {
+    "keywords": [ "animal", "cats" ],
+    "char": "😾"
+  },
+  "smiley_cat": {
+    "keywords": [ "animal", "cats", "happy" ],
+    "char": "😺"
+  },
+  "japanese_goblin": {
+    "keywords": [ "red", "evil", "mask", "monster", "scary", "creepy" ],
+    "char": "👺"
+  },
+  "see_no_evil": {
+    "keywords": [ "monkey", "animal", "nature", "haha" ],
+    "char": "🙈"
+  },
+  "hear_no_evil": {
+    "keywords": [ "animal", "monkey", "nature" ],
+    "char": "🙉"
+  },
+  "speak_no_evil": {
+    "keywords": [ "monkey", "animal", "nature", "omg" ],
+    "char": "🙊"
+  },
+  "skull": {
+    "keywords": [ "dead", "skeleton", "creepy" ],
+    "char": "💀"
+  },
+  "alien": {
+    "keywords": [ "UFO", "paul" ],
+    "char": "👽"
+  },
+  "hankey": {
+    "keywords": [ "poop", "shitface" ],
+    "char": "💩"
+  },
+  "poop": {
+    "keywords": [ "shitface" ],
+    "char": null
+  },
+  "shit": {
+    "keywords": [ "poop", "shitface" ],
+    "char": null
+  },
+  "fire": {
+    "keywords": [ "hot", "cook", "flame" ],
+    "char": "🔥"
+  },
+  "sparkles": {
+    "keywords": [ "stars", "shine", "shiny", "cool", "awesome", "good" ],
+    "char": "✨"
+  },
+  "star2": {
+    "keywords": [ "night", "sparkle", "awesome", "good" ],
+    "char": "🌟"
+  },
+  "dizzy": {
+    "keywords": [ "star", "sparkle", "shoot" ],
+    "char": "💫"
+  },
+  "boom": {
+    "keywords": [ "bomb", "explode", "explosion" ],
+    "char": "💥"
+  },
+  "collision": {
+    "keywords": [ "boom", "bomb", "blown" ],
+    "char": null
+  },
+  "anger": {
+    "keywords": [ "angry", "mad" ],
+    "char": "💢"
+  },
+  "sweat_drops": {
+    "keywords": [ "water", "drip" ],
+    "char": "💦"
+  },
+  "droplet": {
+    "keywords": [ "water", "drip", "faucet" ],
+    "char": "💧"
+  },
+  "zzz": {
+    "keywords": [ "sleepy", "tired" ],
+    "char": "💤"
+  },
+  "ear": {
+    "keywords": [ "face", "hear", "sound", "listen" ],
+    "char": "👂"
+  },
+  "eyes": {
+    "keywords": [ "look", "watch", "stalk", "peek" ],
+    "char": "👀"
+  },
+  "nose": {
+    "keywords": [ "smell", "sniff" ],
+    "char": "👃"
+  },
+  "tongue": {
+    "keywords": [ "mouth", "playful" ],
+    "char": "👅"
+  },
+  "lips": {
+    "keywords": [ "mouth", "kiss" ],
+    "char": "👄"
+  },
+  "+1": {
+    "keywords": [ "thumbsup", "yes", "awesome", "good", "agree", "accept" ],
+    "char": "👍"
+  },
+  "thumbsup": {
+    "keywords": [ "cool", "hand", "yes", "like" ],
+    "char": null
+  },
+  "-1": {
+    "keywords": [ "thumbsdown", "no", "dislike" ],
+    "char": "👎"
+  },
+  "thumbsdown": {
+    "keywords": [ "hand", "no", "dislike" ],
+    "char": null
+  },
+  "ok_hand": {
+    "keywords": [ "fingers", "limbs", "perfect" ],
+    "char": "👌"
+  },
+  "punch": {
+    "keywords": [ "hand", "fist" ],
+    "char": null
+  },
+  "facepunch": {
+    "keywords": [ "angry", "violence", "fist", "hit", "attack" ],
+    "char": "👊"
+  },
+  "fist": {
+    "keywords": [ "fingers", "hand", "grasp" ],
+    "char": "✊"
+  },
+  "v": {
+    "keywords": [ "fingers", "ohyeah", "hand", "peace", "victory", "two" ],
+    "char": "✌️"
+  },
+  "wave": {
+    "keywords": [ "hands", "gesture", "goodbye", "solong", "farewell", "hello", "palm" ],
+    "char": "👋"
+  },
+  "hand": {
+    "keywords": [ "fingers", "stop", "highfive", "palm" ],
+    "char": "✋"
+  },
+  "open_hands": {
+    "keywords": [ "fingers", "butterfly" ],
+    "char": "👐"
+  },
+  "point_up": {
+    "keywords": [ "hand", "fingers", "direction" ],
+    "char": "☝️"
+  },
+  "point_down": {
+    "keywords": [ "fingers", "hand", "direction" ],
+    "char": "👇"
+  },
+  "point_right": {
+    "keywords": [ "fingers", "hand", "direction" ],
+    "char": "👉"
+  },
+  "point_left": {
+    "keywords": [ "direction", "fingers", "hand" ],
+    "char": "👈"
+  },
+  "raised_hands": {
+    "keywords": [ "gesture", "hooray", "yea", "celebration" ],
+    "char": "🙌"
+  },
+  "pray": {
+    "keywords": [ "please", "hope", "wish", "namaste", "highfive" ],
+    "char": "🙏"
+  },
+  "point_up_2": {
+    "keywords": [ "fingers", "hand", "direction" ],
+    "char": "👆"
+  },
+  "clap": {
+    "keywords": [ "hands", "praise", "applause", "congrats", "yay" ],
+    "char": "👏"
+  },
+  "muscle": {
+    "keywords": [ "arm", "flex", "hand", "summer" ],
+    "char": "💪"
+  },
+  "walking": {
+    "keywords": [ "human", "feet", "steps" ],
+    "char": "🚶"
+  },
+  "runner": {
+    "keywords": [ "man", "walking", "exercise", "race" ],
+    "char": "🏃"
+  },
+  "running": {
+    "keywords": [ "man", "walking", "exercise", "fun", "race" ],
+    "char": null
+  },
+  "dancer": {
+    "keywords": [ "female", "girl", "woman", "fun" ],
+    "char": "💃"
+  },
+  "couple": {
+   "keywords": [ "pair", "people", "human", "love", "date", "dating", "like", "affection", "valentines",  "marriage" ],
+    "char": "👫"
+  },
+  "family": {
+    "keywords": [ "home", "parents", "child", "mom", "dad", "father", "mother", "people", "human" ],
+    "char": "👪"
+  },
+  "two_men_holding_hands": {
+    "keywords": [ "pair", "couple", "love", "like", "bromance", "friendship", "people", "human" ],
+    "char": "👬"
+  },
+  "two_women_holding_hands": {
+    "keywords": [ "pair", "friendship", "couple", "love", "like", "female", "people", "human" ],
+    "char": "👭"
+  },
+  "couplekiss": {
+    "keywords": [ "pair", "valentines", "love", "like", "dating", "marriage" ],
+    "char": "💏"
+  },
+  "couple_with_heart": {
+    "keywords": [ "pair", "love", "like", "affection", "human", "dating", "valentines", "marriage" ],
+    "char": "💑"
+  },
+  "dancers": {
+    "keywords": [ "female", "bunny", "women", "girls" ],
+    "char": "👯"
+  },
+  "ok_woman": {
+    "keywords": [ "women", "girl", "female", "pink", "human" ],
+    "char": "🙆"
+  },
+  "no_good": {
+    "keywords": [ "female", "girl", "woman", "nope" ],
+    "char": "🙅"
+  },
+  "information_desk_person": {
+    "keywords": [ "female", "girl", "woman", "human" ],
+    "char": "💁"
+  },
+  "raised_hand": {
+    "keywords": [ "female", "girl", "woman", "ban", "palm" ],
+    "char": null
+  },
+  "massage": {
+    "keywords": [ "female", "girl", "woman", "head" ],
+    "char": "💆"
+  },
+  "haircut": {
+    "keywords": [ "female", "girl", "woman" ],
+    "char": "💇"
+  },
+  "nail_care": {
+    "keywords": [ "beauty", "manicure" ],
+    "char": "💅"
+  },
+  "bride_with_veil": {
+    "keywords": [ "couple", "marriage", "wedding" ],
+    "char": "👰"
+  },
+  "person_with_pouting_face": {
+    "keywords": [ "female", "girl", "woman" ],
+    "char": "🙎"
+  },
+  "person_frowning": {
+    "keywords": [ "female", "girl", "woman", "sad", "depressed", "discouraged", "unhappy" ],
+    "char": "🙍"
+  },
+  "bow": {
+    "keywords": [ "man", "male", "boy" ],
+    "char": "🙇"
+  },
+  "tophat": {
+    "keywords": [ "magic", "gentleman", "classy" ],
+    "char": "🎩"
+  },
+  "crown": {
+    "keywords": [ "king", "kod", "leader", "royalty", "lord" ],
+    "char": "👑"
+  },
+  "womans_hat": {
+    "keywords": [ "fashion", "accessories", "female", "lady" ],
+    "char": "👒"
+  },
+  "athletic_shoe": {
+    "keywords": [ "shoes", "sports" ],
+    "char": "👟"
+  },
+  "shoe": {
+    "keywords": [ "accessories", "fashion" ],
+    "char": null
+  },
+  "mans_shoe": {
+    "keywords": [ "fashion", "male" ],
+    "char": "👞"
+  },
+  "sandal": {
+    "keywords": [ "shoes", "fashion" ],
+    "char": "👡"
+  },
+  "high_heel": {
+    "keywords": [ "fashion", "shoes", "female", "pumps" ],
+    "char": "👠"
+  },
+  "boot": {
+    "keywords": [ "shoes", "fashion" ],
+    "char": "👢"
+  },
+  "tshirt": {
+    "keywords": [ "cloth", "fashion", "casual" ],
+    "char": null
+  },
+  "shirt": {
+    "keywords": [ "fashion", "cloth" ],
+    "char": "👕"
+  },
+  "necktie": {
+    "keywords": [ "shirt", "suitup", "formal", "fashion", "cloth", "business" ],
+    "char": "👔"
+  },
+  "womans_clothes": {
+    "keywords": [ "fashion", "shopping", "female" ],
+    "char": "👚"
+  },
+  "dress": {
+    "keywords": [ "clothes", "fashion", "shopping" ],
+    "char": "👗"
+  },
+  "running_shirt_with_sash": {
+    "keywords": [ "play", "pageant" ],
+    "char": "🎽"
+  },
+  "jeans": {
+    "keywords": [ "fashion", "shopping" ],
+    "char": "👖"
+  },
+  "kimono": {
+    "keywords": [ "dress", "fashion", "women", "female", "japanese" ],
+    "char": "👘"
+  },
+  "bikini": {
+    "keywords": [ "swimming", "female", "woman", "girl", "fashion", "beach", "summer" ],
+    "char": "👙"
+  },
+  "briefcase": {
+    "keywords": [ "business", "documents", "work", "law", "legal" ],
+    "char": "💼"
+  },
+  "handbag": {
+    "keywords": [ "fashion", "accessory", "accessories" ],
+    "char": "👜"
+  },
+  "pouch": {
+    "keywords": [ "bag", "accessories" ],
+    "char": "👝"
+  },
+  "purse": {
+    "keywords": [ "fashion", "accessories", "money", "sales" ],
+    "char": "👛"
+  },
+  "eyeglasses": {
+    "keywords": [ "fashion", "accessories", "eyesight", "nerd", "dork" ],
+    "char": "👓"
+  },
+  "ribbon": {
+    "keywords": [ "decoration", "pink", "girl", "bowtie" ],
+    "char": "🎀"
+  },
+  "closed_umbrella": {
+    "keywords": [ "weather", "rain", "drizzle" ],
+    "char": "🌂"
+  },
+  "lipstick": {
+    "keywords": [ "female", "girl", "fashion", "woman" ],
+    "char": "💄"
+  },
+  "yellow_heart": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💛"
+  },
+  "blue_heart": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💙"
+  },
+  "purple_heart": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💜"
+  },
+  "green_heart": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💚"
+  },
+  "heart": {
+    "keywords": [ "love", "like", "valentines" ],
+    "char": "❤️"
+  },
+  "broken_heart": {
+    "keywords": [ "sad", "sorry", "break" ],
+    "char": "💔"
+  },
+  "heartpulse": {
+    "keywords": [ "like", "love", "affection", "valentines", "pink" ],
+    "char": "💗"
+  },
+  "heartbeat": {
+    "keywords": [ "love", "like", "affection", "valentines", "pink" ],
+    "char": "💓"
+  },
+  "two_hearts": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💕"
+  },
+  "sparkling_heart": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💖"
+  },
+  "revolving_hearts": {
+    "keywords": [ "love", "like", "affection", "valentines" ],
+    "char": "💞"
+  },
+  "cupid": {
+    "keywords": [ "love", "like", "heart", "affection", "valentines" ],
+    "char": "💘"
+  },
+  "love_letter": {
+    "keywords": [ "email", "like", "affection", "envelope", "valentines" ],
+    "char": "💌"
+  },
+  "kiss": {
+    "keywords": [ "face", "lips", "love", "like", "affection", "valentines" ],
+    "char": "💋"
+  },
+  "ring": {
+    "keywords": [ "wedding", "propose", "marriage", "valentines", "diamond" ],
+    "char": "💍"
+  },
+  "gem": {
+    "keywords": [ "blue", "ruby", "diamond" ],
+    "char": "💎"
+  },
+  "bust_in_silhouette": {
+    "keywords": [ "user", "person", "human" ],
+    "char": "👤"
+  },
+  "busts_in_silhouette": {
+    "keywords": [ "user", "person", "human", "group", "team" ],
+    "char": "👥"
+  },
+  "speech_balloon": {
+    "keywords": [ "bubble", "words", "message", "talk", "chatting" ],
+    "char": "💬"
+  },
+  "footprints": {
+    "keywords": [ "feet", "tracking", "walking" ],
+    "char": "👣"
+  },
+  "thought_balloon": {
+    "keywords": [ "bubble", "cloud", "speech", "thinking" ],
+    "char": "💭"
+  },
+  "dog": {
+    "keywords": [ "animal", "friend", "nature", "woof", "puppy", "pet", "faithful" ],
+    "char": "🐶"
+  },
+  "wolf": {
+    "keywords": [ "animal", "nature", "wild" ],
+    "char": "🐺"
+  },
+  "cat": {
+    "keywords": [ "animal", "meow", "nature", "pet" ],
+    "char": "🐱"
+  },
+  "mouse": {
+    "keywords": [ "animal", "nature", "cheese" ],
+    "char": "🐭"
+  },
+  "hamster": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐹"
+  },
+  "rabbit": {
+    "keywords": [ "animal", "nature", "pet" ],
+    "char": "🐰"
+  },
+  "frog": {
+    "keywords": [ "animal", "nature", "croak" ],
+    "char": "🐸"
+  },
+  "tiger": {
+    "keywords": [ "animal", "cat", "danger", "wild", "nature", "roar" ],
+    "char": "🐯"
+  },
+  "koala": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐨"
+  },
+  "bear": {
+    "keywords": [ "animal", "nature", "wild" ],
+    "char": "🐻"
+  },
+  "pig": {
+    "keywords": [ "animal", "oink", "nature" ],
+    "char": "🐷"
+  },
+  "pig_nose": {
+    "keywords": [ "animal", "oink" ],
+    "char": "🐽"
+  },
+  "cow": {
+    "keywords": [ "beef", "ox", "animal", "nature", "moo", "milk" ],
+    "char": "🐮"
+  },
+  "boar": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐗"
+  },
+  "monkey": {
+    "keywords": [ "animal", "nature", "banana" ],
+    "char": "🐒"
+  },
+  "monkey_face": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐵"
+  },
+  "horse": {
+    "keywords": [ "animal", "brown", "nature", "unicorn" ],
+    "char": "🐴"
+  },
+  "sheep": {
+    "keywords": [ "animal", "nature", "wool", "shipit" ],
+    "char": "🐑"
+  },
+  "elephant": {
+    "keywords": [ "animal", "nature", "nose", "thailand" ],
+    "char": "🐘"
+  },
+  "panda_face": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐼"
+  },
+  "penguin": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐧"
+  },
+  "bird": {
+    "keywords": [ "animal", "nature", "fly", "tweet" ],
+    "char": "🐦"
+  },
+  "baby_chick": {
+    "keywords": [ "animal", "chicken" ],
+    "char": "🐤"
+  },
+  "hatched_chick": {
+    "keywords": [ "animal", "chicken", "baby" ],
+    "char": "🐥"
+  },
+  "hatching_chick": {
+    "keywords": [ "animal", "chicken", "egg", "born" ],
+    "char": "🐣"
+  },
+  "chicken": {
+    "keywords": [ "animal", "cluck", "nature" ],
+    "char": "🐔"
+  },
+  "snake": {
+    "keywords": [ "animal", "evil", "nature", "hiss" ],
+    "char": "🐍"
+  },
+  "turtle": {
+    "keywords": [ "animal", "slow", "nature", "tortoise" ],
+    "char": "🐢"
+  },
+  "bug": {
+    "keywords": [ "insect", "nature", "worm" ],
+    "char": "🐛"
+  },
+  "honeybee": {
+    "keywords": [ "animal", "insect", "nature" ],
+    "char": null
+  },
+  "bee": {
+    "keywords": [ "animal", "insect", "nature" ],
+    "char": "🐝"
+  },
+  "ant": {
+    "keywords": [ "animal", "insect", "nature" ],
+    "char": "🐜"
+  },
+  "beetle": {
+    "keywords": [ "insect", "nature" ],
+    "char": "🐞"
+  },
+  "snail": {
+    "keywords": [ "slow", "animal", "shell" ],
+    "char": "🐌"
+  },
+  "octopus": {
+    "keywords": [ "animal", "creature", "ocean", "sea", "nature" ],
+    "char": "🐙"
+  },
+  "shell": {
+    "keywords": [ "nature", "sea", "beach" ],
+    "char": "🐚"
+  },
+  "tropical_fish": {
+    "keywords": [ "animal", "swim", "ocean" ],
+    "char": "🐠"
+  },
+  "fish": {
+    "keywords": [ "animal", "food", "nature" ],
+    "char": "🐟"
+  },
+  "dolphin": {
+    "keywords": [ "animal", "nature", "fish", "sea", "ocean", "flipper", "fins" ],
+    "char": "🐬"
+  },
+  "whale": {
+    "keywords": [ "animal", "nature", "sea", "ocean" ],
+    "char": "🐳"
+  },
+  "whale2": {
+    "keywords": [ "animal", "nature", "sea", "ocean" ],
+    "char": "🐋"
+  },
+  "cow2": {
+    "keywords": [ "beef", "ox", "animal", "nature", "moo", "milk" ],
+    "char": "🐄"
+  },
+  "ram": {
+    "keywords": [ "animal", "sheep", "nature" ],
+    "char": "🐏"
+  },
+  "rat": {
+    "keywords": [ "animal", "mouse", "rodent" ],
+    "char": "🐀"
+  },
+  "water_buffalo": {
+    "keywords": [ "animal", "nature", "ox", "cow" ],
+    "char": "🐃"
+  },
+  "tiger2": {
+    "keywords": [ "animal", "nature", "roar" ],
+    "char": "🐅"
+  },
+  "rabbit2": {
+    "keywords": [ "animal", "nature", "pet" ],
+    "char": "🐇"
+  },
+  "dragon": {
+    "keywords": [ "animal", "myth", "nature", "chinese", "green" ],
+    "char": "🐉"
+  },
+  "racehorse": {
+    "keywords": [ "animal", "gamble" ],
+    "char": "🐎"
+  },
+  "goat": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐐"
+  },
+  "rooster": {
+    "keywords": [ "animal", "nature", "chicken" ],
+    "char": "🐓"
+  },
+  "dog2": {
+    "keywords": [ "animal", "nature", "friend", "doge", "pet", "faithful" ],
+    "char": "🐕"
+  },
+  "pig2": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐖"
+  },
+  "mouse2": {
+    "keywords": [ "animal", "nature", "rodent" ],
+    "char": "🐁"
+  },
+  "ox": {
+    "keywords": [ "animal", "cow", "beef" ],
+    "char": "🐂"
+  },
+  "dragon_face": {
+    "keywords": [ "animal", "myth", "nature", "chinese", "green" ],
+    "char": "🐲"
+  },
+  "blowfish": {
+    "keywords": [ "nature", "food", "sea", "ocean" ],
+    "char": "🐡"
+  },
+  "crocodile": {
+    "keywords": [ "animal", "nature", "reptile" ],
+    "char": "🐊"
+  },
+  "camel": {
+    "keywords": [ "animal", "nature", "hot", "desert", "hump" ],
+    "char": "🐫"
+  },
+  "dromedary_camel": {
+    "keywords": [ "animal", "hot", "desert", "hump" ],
+    "char": "🐪"
+  },
+  "leopard": {
+    "keywords": [ "animal", "nature" ],
+    "char": "🐆"
+  },
+  "cat2": {
+    "keywords": [ "animal", "meow", "pet", "cats" ],
+    "char": "🐈"
+  },
+  "poodle": {
+    "keywords": [ "dog", "animal", "101", "nature", "pet" ],
+    "char": "🐩"
+  },
+  "paw_prints": {
+    "keywords": [ "animal", "dog", "cat", "pet" ],
+    "char": null
+  },
+  "bouquet": {
+    "keywords": [ "flowers", "nature" ],
+    "char": "💐"
+  },
+  "cherry_blossom": {
+    "keywords": [ "flower", "nature", "plant" ],
+    "char": "🌸"
+  },
+  "tulip": {
+    "keywords": [ "flowers", "plant", "nature" ],
+    "char": "🌷"
+  },
+  "four_leaf_clover": {
+    "keywords": [ "vegetable", "plant", "nature", "lucky" ],
+    "char": "🍀"
+  },
+  "rose": {
+    "keywords": [ "flowers", "valentines", "love" ],
+    "char": "🌹"
+  },
+  "sunflower": {
+    "keywords": [ "nature", "plant" ],
+    "char": "🌻"
+  },
+  "hibiscus": {
+    "keywords": [ "plant", "vegetable", "flowers" ],
+    "char": "🌺"
+  },
+  "maple_leaf": {
+    "keywords": [ "nature", "plant", "vegetable", "canada" ],
+    "char": "🍁"
+  },
+  "leaves": {
+    "keywords": [ "nature", "plant", "tree", "vegetable", "grass", "lawn" ],
+    "char": "🍃"
+  },
+  "fallen_leaf": {
+    "keywords": [ "nature", "plant", "vegetable", "leaves" ],
+    "char": "🍂"
+  },
+  "herb": {
+    "keywords": [ "vegetable", "plant", "medicine", "weed", "grass", "lawn" ],
+    "char": "🌿"
+  },
+  "ear_of_rice": {
+    "keywords": [ "nature", "plant" ],
+    "char": "🌾"
+  },
+  "mushroom": {
+    "keywords": [ "plant", "vegetable" ],
+    "char": "🍄"
+  },
+  "cactus": {
+    "keywords": [ "vegetable", "plant", "nature" ],
+    "char": "🌵"
+  },
+  "palm_tree": {
+    "keywords": [ "plant", "vegetable", "nature", "summer" ],
+    "char": "🌴"
+  },
+  "evergreen_tree": {
+    "keywords": [ "plant", "nature" ],
+    "char": "🌲"
+  },
+  "deciduous_tree": {
+    "keywords": [ "plant", "nature" ],
+    "char": "🌳"
+  },
+  "chestnut": {
+    "keywords": [ "food", "squirrel" ],
+    "char": "🌰"
+  },
+  "seedling": {
+    "keywords": [ "plant", "nature", "grass", "lawn" ],
+    "char": "🌱"
+  },
+  "blossom": {
+    "keywords": [ "nature", "flowers", "yellow" ],
+    "char": "🌼"
+  },
+  "globe_with_meridians": {
+    "keywords": [ "earth", "international", "world", "internet", "interweb" ],
+    "char": "🌐"
+  },
+  "sun_with_face": {
+    "keywords": [ "nature", "morning", "sky" ],
+    "char": "🌞"
+  },
+  "full_moon_with_face": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌝"
+  },
+  "new_moon_with_face": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌚"
+  },
+  "new_moon": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌑"
+  },
+  "waxing_crescent_moon": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌒"
+  },
+  "first_quarter_moon": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌓"
+  },
+  "moon": {
+    "keywords": [ "nature", "night", "sky", "gray", "twilight", "planet", "space", "evening", "sleep" ],
+    "char": "🌔"
+  },
+  "full_moon": {
+    "keywords": [ "nature", "yellow", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌕"
+  },
+  "waning_gibbous_moon": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌖"
+  },
+  "last_quarter_moon": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌗"
+  },
+  "waning_crescent_moon": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌘"
+  },
+  "last_quarter_moon_with_face": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌜"
+  },
+  "first_quarter_moon_with_face": {
+    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "char": "🌛"
+  },
+  "crescent_moon": {
+    "keywords": [ "night", "sleep", "sky", "evening" ],
+    "char": "🌙"
+  },
+  "earth_africa": {
+    "keywords": [ "globe", "world", "international" ],
+    "char": "🌍"
+  },
+  "earth_americas": {
+    "keywords": [ "globe", "world", "USA", "international" ],
+    "char": "🌎"
+  },
+  "earth_asia": {
+    "keywords": [ "globe", "world", "east", "international" ],
+    "char": "🌏"
+  },
+  "volcano": {
+    "keywords": [ "photo", "nature", "disaster" ],
+    "char": "🌋"
+  },
+  "milky_way": {
+    "keywords": [ "photo", "space", "stars" ],
+    "char": "🌌"
+  },
+  "stars": {
+    "keywords": [ "night", "photo" ],
+    "char": "🌠"
+  },
+  "star": {
+    "keywords": [ "night", "yellow" ],
+    "char": "⭐"
+  },
+  "sunny": {
+    "keywords": [ "weather", "nature", "brightness", "summer" ],
+    "char": "☀️"
+  },
+  "partly_sunny": {
+    "keywords": [ "weather", "nature", "cloudy", "morning" ],
+    "char": "⛅"
+  },
+  "cloud": {
+    "keywords": [ "weather", "sky" ],
+    "char": "☁️"
+  },
+  "zap": {
+    "keywords": [ "thunder", "weather", "lightning bolt" ],
+    "char": "⚡"
+  },
+  "umbrella": {
+    "keywords": [ "rainy", "weather" ],
+    "char": "☔"
+  },
+  "snowflake": {
+    "keywords": [ "winter", "season", "cold", "weather", "christmas", "xmas" ],
+    "char": "❄️"
+  },
+  "snowman": {
+    "keywords": [ "winter", "season", "cold", "weather", "christmas", "xmas", "frozen" ],
+    "char": "⛄"
+  },
+  "cyclone": {
+    "keywords": [ "weather", "swirl", "blue", "cloud" ],
+    "char": "🌀"
+  },
+  "foggy": {
+    "keywords": [ "photo", "mountain" ],
+    "char": "🌁"
+  },
+  "rainbow": {
+    "keywords": [ "nature", "happy", "unicorn", "photo", "sky" ],
+    "char": "🌈"
+  },
+  "ocean": {
+    "keywords": [ "sea", "water", "wave", "nature", "tsunami", "disaster" ],
+    "char": "🌊"
+  },
+  "8ball": {
+    "keywords": [ "pool", "hobby", "game" ],
+    "char": "🎱"
+  },
+  "a": {
+    "keywords": [ "red-square", "alphabet", "letter" ],
+    "char": "🅰️"
+  },
+  "ab": {
+    "keywords": [ "red-square", "alphabet" ],
+    "char": "🆎"
+  },
+  "abc": {
+    "keywords": [ "blue-square", "alphabet" ],
+    "char": "🔤"
+  },
+  "abcd": {
+    "keywords": [ "blue-square", "alphabet" ],
+    "char": "🔡"
+  },
+  "accept": {
+    "keywords": [ "ok", "good", "chinese", "kanji", "agree", "yes", "orange-circle" ],
+    "char": "🉑"
+  },
+  "aerial_tramway": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚡"
+  },
+  "airplane": {
+    "keywords": [ "vehicle", "transportation", "flight" ],
+    "char": "✈️"
+  },
+  "alarm_clock": {
+    "keywords": [ "time", "wake" ],
+    "char": "⏰"
+  },
+  "ambulance": {
+    "keywords": [ "health", "911", "hospital" ],
+    "char": "🚑"
+  },
+  "anchor": {
+    "keywords": [ "ship", "ferry" ],
+    "char": "⚓"
+  },
+  "clock7": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕖"
+  },
+  "clock730": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕢"
+  },
+  "clock8": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕗"
+  },
+  "clock830": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕣"
+  },
+  "clock9": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕘"
+  },
+  "clock930": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕤"
+  },
+  "closed_book": {
+    "keywords": [ "read", "library", "knowledge", "textbook" ],
+    "char": "📕"
+  },
+  "closed_lock_with_key": {
+    "keywords": [ "security", "privacy" ],
+    "char": "🔐"
+  },
+  "clubs": {
+    "keywords": [ "poker", "cards" ],
+    "char": "♣️"
+  },
+  "cn": {
+    "keywords": [ "china", "chinese", "prc", "flag", "country", "nation", "banner" ],
+    "char": "🇨🇳"
+  },
+  "cocktail": {
+    "keywords": [ "drink", "drunk", "alcohol", "beverage" ],
+    "char": "🍸"
+  },
+  "coffee": {
+    "keywords": [ "drink", "beverage", "cafe", "espresso" ],
+    "char": "☕"
+  },
+  "computer": {
+    "keywords": [ "tech", "laptop" ],
+    "char": "💻"
+  },
+  "confetti_ball": {
+    "keywords": [ "festival", "party", "birthday" ],
+    "char": "🎊"
+  },
+  "hash": {
+    "keywords": [ "symbol", "blue-square", "twitter" ],
+    "char": "#️⃣"
+  },
+  "headphones": {
+    "keywords": [ "music", "score", "gadgets" ],
+    "char": "🎧"
+  },
+  "heart_decoration": {
+    "keywords": [ "purple-square", "love", "like" ],
+    "char": "💟"
+  },
+  "hearts": {
+    "keywords": [ "poker", "cards" ],
+    "char": "♥️"
+  },
+  "heavy_check_mark": {
+    "keywords": [ "ok", "nike" ],
+    "char": "✔️"
+  },
+  "heavy_division_sign": {
+    "keywords": [ "divide", "math", "calculation" ],
+    "char": "➗"
+  },
+  "heavy_dollar_sign": {
+    "keywords": [ "money", "sales", "payment", "currency" ],
+    "char": "💲"
+  },
+  "heavy_exclamation_mark": {
+    "keywords": [ "surprise", "danger", "punctuation", "warning" ],
+    "char": null
+  },
+  "heavy_minus_sign": {
+    "keywords": [ "math", "calculation", "subtract", "less" ],
+    "char": "➖"
+  },
+  "heavy_multiplication_x": {
+    "keywords": [ "math", "calculation" ],
+    "char": "✖️"
+  },
+  "notes": {
+    "keywords": [ "music", "score" ],
+    "char": "🎶"
+  },
+  "nut_and_bolt": {
+    "keywords": [ "handy", "tools" ],
+    "char": "🔩"
+  },
+  "o": {
+    "keywords": [ "circle", "round" ],
+    "char": "⭕"
+  },
+  "o2": {
+    "keywords": [ "alphabet", "red-square", "letter" ],
+    "char": "🅾️"
+  },
+  "octocat": {
+    "keywords": [ "animal", "octopus", "github", "ghonly" ],
+    "char": null
+  },
+  "oden": {
+    "keywords": [ "food", "japanese" ],
+    "char": "🍢"
+  },
+  "office": {
+    "keywords": [ "building", "bureau", "work" ],
+    "char": "🏢"
+  },
+  "ok": {
+    "keywords": [ "good", "agree", "yes", "blue-square" ],
+    "char": "🆗"
+  },
+  "on": {
+    "keywords": [ "arrow", "words" ],
+    "char": "🔛"
+  },
+  "oncoming_automobile": {
+    "keywords": [ "car", "vehicle", "transportation" ],
+    "char": "🚘"
+  },
+  "oncoming_bus": {
+    "keywords": [ "vehicle", "transportation" ],
+    "char": "🚍"
+  },
+  "oncoming_police_car": {
+    "keywords": [ "vehicle", "law", "legal", "enforcement", "911" ],
+    "char": "🚔"
+  },
+  "oncoming_taxi": {
+    "keywords": [ "vehicle", "cars", "uber" ],
+    "char": "🚖"
+  },
+  "one": {
+    "keywords": [ "blue-square", "numbers", "1" ],
+    "char": "1️⃣"
+  },
+  "smoking": {
+    "keywords": [ "kills", "tobacco", "cigarette" ],
+    "char": "🚬"
+  },
+  "snowboarder": {
+    "keywords": [ "sports", "winter" ],
+    "char": "🏂"
+  },
+  "soccer": {
+    "keywords": [ "sports", "balls", "football", "fifa" ],
+    "char": "⚽"
+  },
+  "soon": {
+    "keywords": [ "arrow", "words" ],
+    "char": "🔜"
+  },
+  "sos": {
+    "keywords": [ "help", "red-square", "words", "emergency", "911" ],
+    "char": "🆘"
+  },
+  "sound": {
+    "keywords": [ "volume", "speaker" ],
+    "char": "🔉"
+  },
+  "space_invader": {
+    "keywords": [ "game", "arcade", "play" ],
+    "char": "👾"
+  },
+  "spades": {
+    "keywords": [ "poker", "cards" ],
+    "char": "♠️"
+  },
+  "spaghetti": {
+    "keywords": [ "food", "italian", "noodle" ],
+    "char": "🍝"
+  },
+  "sparkle": {
+    "keywords": [ "stars", "green-square", "awesome", "good", "fireworks" ],
+    "char": "❇️"
+  },
+  "sparkler": {
+    "keywords": [ "stars", "night", "shine" ],
+    "char": "🎇"
+  },
+  "congratulations": {
+    "keywords": [ "chinese", "kanji", "japanese", "red-circle" ],
+    "char": "㊗️"
+  },
+  "heavy_plus_sign": {
+    "keywords": [ "math", "calculation" ],
+    "char": "➕"
+  },
+  "open_book": {
+    "keywords": [ "read", "library", "knowledge" ],
+    "char": null
+  },
+  "apple": {
+    "keywords": [ "fruit", "mac" ],
+    "char": "🍎"
+  },
+  "construction": {
+    "keywords": [ "wip", "progress", "caution", "warning" ],
+    "char": "🚧"
+  },
+  "helicopter": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚁"
+  },
+  "open_file_folder": {
+    "keywords": [ "documents", "load" ],
+    "char": "📂"
+  },
+  "speaker": {
+    "keywords": [ "volume", "sound" ],
+    "char": "🔈"
+  },
+  "aquarius": {
+    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "char": "♒"
+  },
+  "aries": {
+    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "char": "♈"
+  },
+  "convenience_store": {
+    "keywords": [ "building", "shopping", "groceries" ],
+    "char": "🏪"
+  },
+  "speedboat": {
+    "keywords": [ "ship", "transportation", "vehicle", "summer" ],
+    "char": "🚤"
+  },
+  "arrow_backward": {
+  "keywords": [ "blue-square" ], "char": "◀️"
+},
+  "cookie": {
+    "keywords": [ "food", "snack", "oreo", "chocolate", "sweet", "dessert" ],
+    "char": "🍪"
+  },
+  "high_brightness": {
+    "keywords": [ "sun", "light" ],
+    "char": "🔆"
+  },
+  "ophiuchus": {
+    "keywords": [ "sign", "purple-square", "constellation" ],
+    "char": "⛎"
+  },
+  "squirrel": {
+    "keywords": [ "animal", "sherlock", "inspector", "dectective" ],
+    "char": null
+  },
+  "arrow_double_down": {
+  "keywords": [ "blue-square" ], "char": "⏬"
+},
+  "cool": {
+    "keywords": [ "words", "blue-square" ],
+    "char": "🆒"
+  },
+  "orange_book": {
+    "keywords": [ "read", "library", "knowledge", "textbook" ],
+    "char": "📙"
+  },
+  "arrow_double_up": {
+  "keywords": [ "blue-square" ], "char": "⏫"
+},
+  "hocho": {
+    "keywords": [ "knife", "blade", "cutlery" ],
+    "char": "🔪"
+  },
+  "outbox_tray": {
+    "keywords": [ "inbox", "email" ],
+    "char": "📤"
+  },
+  "arrow_down": {
+  "keywords": [ "blue-square" ], "char": "⬇️"
+},
+  "copyright": {
+    "keywords": [ "ip", "license", "circle", "law", "legal" ],
+    "char": "©️"
+  },
+  "honey_pot": {
+    "keywords": [ "bees", "sweet" ],
+    "char": "🍯"
+  },
+  "arrow_down_small": {
+  "keywords": [ "blue-square" ], "char": "🔽"
+},
+  "corn": {
+    "keywords": [ "food", "vegetable", "plant" ],
+    "char": "🌽"
+  },
+  "package": {
+    "keywords": [ "mail", "gift", "cardboard", "box", "moving" ],
+    "char": "📦"
+  },
+  "station": {
+    "keywords": [ "transportation", "vehicle", "public" ],
+    "char": "🚉"
+  },
+  "arrow_forward": {
+  "keywords": [ "blue-square" ], "char": "▶️"
+},
+  "page_facing_up": {
+    "keywords": [ "documents", "office", "paper", "information" ],
+    "char": "📄"
+  },
+  "statue_of_liberty": {
+    "keywords": [ "american", "newyork" ],
+    "char": "🗽"
+  },
+  "arrow_heading_down": {
+  "keywords": [ "blue-square" ], "char": "⤵️"
+},
+  "page_with_curl": {
+    "keywords": [ "documents", "office", "paper" ],
+    "char": "📃"
+  },
+  "steam_locomotive": {
+    "keywords": [ "transportation", "vehicle", "train" ],
+    "char": "🚂"
+  },
+  "arrow_heading_up": {
+  "keywords": [ "blue-square" ], "char": "⤴️"
+},
+  "hospital": {
+    "keywords": [ "building", "health", "surgery", "doctor" ],
+    "char": "🏥"
+  },
+  "pager": {
+    "keywords": [ "bbcall", "oldschool" ],
+    "char": "📟"
+  },
+  "stew": {
+    "keywords": [ "food", "meat", "soup" ],
+    "char": "🍲"
+  },
+  "arrow_left": {
+    "keywords": [ "blue-square", "previous" ],
+    "char": "⬅️"
+  },
+  "hotel": {
+    "keywords": [ "building", "whotel", "accomodation", "checkin" ],
+    "char": "🏨"
+  },
+  "straight_ruler": {
+    "keywords": [ "stationery", "calculate", "length", "math", "school", "drawing", "architect", "sketch" ],
+    "char": "📏"
+  },
+  "arrow_lower_left": {
+  "keywords": [ "blue-square" ], "char": "↙️"
+},
+  "hotsprings": {
+    "keywords": [ "bath", "warm", "relax" ],
+    "char": "♨️"
+  },
+  "strawberry": {
+    "keywords": [ "fruit", "food", "nature" ],
+    "char": "🍓"
+  },
+  "arrow_lower_right": {
+  "keywords": [ "blue-square" ], "char": "↘️"
+},
+  "credit_card": {
+    "keywords": [ "money", "sales", "dollar", "bill", "payment" ],
+    "char": "💳"
+  },
+  "hourglass": {
+    "keywords": [ "time", "clock", "oldschool" ],
+    "char": "⌛"
+  },
+  "paperclip": {
+    "keywords": [ "documents", "stationery" ],
+    "char": "📎"
+  },
+  "arrow_right": {
+    "keywords": [ "blue-square", "next" ],
+    "char": "➡️"
+  },
+  "hourglass_flowing_sand": {
+    "keywords": [ "oldschool", "time", "countdown" ],
+    "char": "⏳"
+  },
+  "parking": {
+    "keywords": [ "cars", "blue-square", "alphabet", "letter" ],
+    "char": "🅿️"
+  },
+  "arrow_right_hook": {
+    "keywords": [ "blue-square", "return", "rotade", "direction" ],
+    "char": "↪️"
+  },
+  "house": {
+    "keywords": [ "building", "home" ],
+    "char": "🏠"
+  },
+  "part_alternation_mark": {
+    "keywords": [ "graph", "presentation", "stats", "business", "economics", "bad" ],
+    "char": "〽️"
+  },
+  "arrow_up": {
+    "keywords": [ "blue-square", "continue", "top", "direction" ],
+    "char": "⬆️"
+  },
+  "crossed_flags": {
+    "keywords": [ "japanese", "nation", "country", "border" ],
+    "char": "🎌"
+  },
+  "house_with_garden": {
+    "keywords": [ "home", "plant", "nature" ],
+    "char": "🏡"
+  },
+  "arrow_up_down": {
+    "keywords": [ "blue-square", "direction", "way" ],
+    "char": "↕️"
+  },
+  "hurtrealbad": {
+    "keywords": [ "mad", "injured", "doom", "oldschool" ],
+    "char": null
+  },
+  "passport_control": {
+    "keywords": [ "custom", "blue-square" ],
+    "char": "🛂"
+  },
+  "arrow_up_small": {
+    "keywords": [ "blue-square", "triangle", "direction", "point", "forward" ],
+    "char": "🔼"
+  },
+  "arrow_upper_left": {
+    "keywords": [ "blue-square", "point", "direction" ],
+    "char": "↖️"
+  },
+  "ice_cream": {
+    "keywords": [ "food", "hot", "dessert" ],
+    "char": "🍨"
+  },
+  "peach": {
+    "keywords": [ "fruit", "nature", "food" ],
+    "char": "🍑"
+  },
+  "arrow_upper_right": {
+    "keywords": [ "blue-square", "point", "direction" ],
+    "char": "↗️"
+  },
+  "crystal_ball": {
+    "keywords": [ "disco", "party" ],
+    "char": "🔮"
+  },
+  "icecream": {
+    "keywords": [ "food", "hot", "dessert", "summer" ],
+    "char": "🍦"
+  },
+  "pear": {
+    "keywords": [ "fruit", "nature", "food" ],
+    "char": "🍐"
+  },
+  "sunrise": {
+    "keywords": [ "morning", "view", "vacation", "photo" ],
+    "char": "🌅"
+  },
+  "arrows_clockwise": {
+    "keywords": [ "sync", "cycle", "round", "repeat" ],
+    "char": "🔃"
+  },
+  "id": {
+    "keywords": [ "purple-square", "words" ],
+    "char": "🆔"
+  },
+  "pencil": {
+    "keywords": [ "stationery", "documents", "paper", "writing", "write" ],
+    "char": null
+  },
+  "sunrise_over_mountains": {
+    "keywords": [ "view", "vacation", "photo" ],
+    "char": "🌄"
+  },
+  "arrows_counterclockwise": {
+    "keywords": [ "blue-square", "sync", "cycle" ],
+    "char": "🔄"
+  },
+  "curly_loop": {
+    "keywords": [ "scribble", "draw", "shape" ],
+    "char": "➰"
+  },
+  "ideograph_advantage": {
+    "keywords": [ "chinese", "kanji", "obtain", "get", "circle" ],
+    "char": "🉐"
+  },
+  "pencil2": {
+    "keywords": [ "stationery", "write", "paper", "writing" ],
+    "char": "✏️"
+  },
+  "surfer": {
+    "keywords": [ "sports", "ocean", "sea", "summer" ],
+    "char": "🏄"
+  },
+  "art": {
+    "keywords": [ "design", "paint", "draw" ],
+    "char": "🎨"
+  },
+  "currency_exchange": {
+    "keywords": [ "money", "sales", "dollar", "travel" ],
+    "char": "💱"
+  },
+  "sushi": {
+    "keywords": [ "food", "fish", "japanese", "rice" ],
+    "char": "🍣"
+  },
+  "articulated_lorry": {
+    "keywords": [ "vehicle", "cars", "transportation", "express" ],
+    "char": "🚛"
+  },
+  "curry": {
+    "keywords": [ "food", "spicy", "hot", "indian" ],
+    "char": "🍛"
+  },
+  "inbox_tray": {
+    "keywords": [ "email", "documents" ],
+    "char": "📥"
+  },
+  "suspect": {
+    "keywords": [ "mad", "ghonly" ],
+    "char": null
+  },
+  "custard": {
+    "keywords": [ "dessert", "food" ],
+    "char": "🍮"
+  },
+  "incoming_envelope": {
+    "keywords": [ "email", "inbox" ],
+    "char": "📨"
+  },
+  "performing_arts": {
+    "keywords": [ "acting", "theater", "drama" ],
+    "char": "🎭"
+  },
+  "suspension_railway": {
+    "keywords": [ "vehicle", "transportation" ],
+    "char": "🚟"
+  },
+  "customs": {
+    "keywords": [ "passport", "border", "blue-square" ],
+    "char": "🛃"
+  },
+  "atm": {
+    "keywords": [ "money", "sales", "cash", "blue-square", "payment", "bank" ],
+    "char": "🏧"
+  },
+  "information_source": {
+    "keywords": [ "blue-square", "alphabet", "letter" ],
+    "char": "ℹ️"
+  },
+  "b": {
+    "keywords": [ "red-square", "alphabet", "letter" ],
+    "char": "🅱️"
+  },
+  "interrobang": {
+    "keywords": [ "wat", "punctuation", "surprise" ],
+    "char": "⁉️"
+  },
+  "sweet_potato": {
+    "keywords": [ "food", "nature" ],
+    "char": "🍠"
+  },
+  "baby_bottle": {
+    "keywords": [ "food", "container", "milk" ],
+    "char": "🍼"
+  },
+  "dango": {
+    "keywords": [ "food", "barbecue", "meat" ],
+    "char": "🍡"
+  },
+  "iphone": {
+    "keywords": [ "technology", "apple", "gadgets", "dial" ],
+    "char": "📱"
+  },
+  "phone": {
+    "keywords": [ "technology", "communication", "dial", "telephone" ],
+    "char": "☎️"
+  },
+  "swimmer": {
+    "keywords": [ "sports", "exercise", "human", "athlete", "water", "summer" ],
+    "char": "🏊"
+  },
+  "dart": {
+    "keywords": [ "game", "play", "bar" ],
+    "char": "🎯"
+  },
+  "it": {
+    "keywords": [ "italy", "flag", "nation", "country", "banner" ],
+    "char": "🇮🇹"
+  },
+  "symbols": {
+  "keywords": [ "blue-square" ], "char": "🔣"
+},
+  "baby_symbol": {
+    "keywords": [ "orange-square", "child" ],
+    "char": "🚼"
+  },
+  "dash": {
+    "keywords": [ "wind", "air", "fast", "shoo", "fart", "smoke", "puff" ],
+    "char": "💨"
+  },
+  "izakaya_lantern": {
+    "keywords": [ "light", "paper", "halloween" ],
+    "char": "🏮"
+  },
+  "syringe": {
+    "keywords": [ "health", "hospital", "drugs", "blood", "medicine", "needle" ],
+    "char": "💉"
+  },
+  "back": {
+    "keywords": [ "arrow", "words", "return" ],
+    "char": "🔙"
+  },
+  "date": {
+    "keywords": [ "calendar", "schedule" ],
+    "char": "📅"
+  },
+  "jack_o_lantern": {
+    "keywords": [ "halloween", "light", "pumpkin", "creepy" ],
+    "char": "🎃"
+  },
+  "tada": {
+    "keywords": [ "party", "contulations", "birthday" ],
+    "char": "🎉"
+  },
+  "baggage_claim": {
+    "keywords": [ "blue-square", "airport", "transport" ],
+    "char": "🛄"
+  },
+  "de": {
+    "keywords": [ "german", "nation", "flag", "country", "banner" ],
+    "char": "🇩🇪"
+  },
+  "japan": {
+    "keywords": [ "nation", "country", "japanese", "asia" ],
+    "char": "🗾"
+  },
+  "pill": {
+    "keywords": [ "health", "medicine" ],
+    "char": "💊"
+  },
+  "tanabata_tree": {
+    "keywords": [ "plant", "nature", "branch" ],
+    "char": "🎋"
+  },
+  "balloon": {
+    "keywords": [ "party", "celebration", "birthday" ],
+    "char": "🎈"
+  },
+  "japanese_castle": {
+    "keywords": [ "photo", "building" ],
+    "char": "🏯"
+  },
+  "pineapple": {
+    "keywords": [ "fruit", "nature", "food" ],
+    "char": "🍍"
+  },
+  "tangerine": {
+    "keywords": [ "food", "fruit", "nature" ],
+    "char": "🍊"
+  },
+  "ballot_box_with_check": {
+    "keywords": [ "ok", "agree", "confirm", "black-square", "vote", "election" ],
+    "char": "☑️"
+  },
+  "department_store": {
+    "keywords": [ "building", "shopping", "mall" ],
+    "char": "🏬"
+  },
+  "pisces": {
+    "keywords": [ "purple-square", "sign", "zodiac" ],
+    "char": "♓"
+  },
+  "taurus": {
+    "keywords": [ "purple-square", "sign", "zodiac" ],
+    "char": "♉"
+  },
+  "bamboo": {
+    "keywords": [ "plant", "nature", "vegetable", "panda" ],
+    "char": "🎍"
+  },
+  "diamond_shape_with_a_dot_inside": {
+  "keywords": [ "jewel" ], "char": "💠"
+},
+  "japanese_ogre": {
+    "keywords": [ "monster", "red", "mask", "halloween", "scary", "creepy", "devil", "demon" ],
+    "char": "👹"
+  },
+  "pizza": {
+    "keywords": [ "food", "party" ],
+    "char": "🍕"
+  },
+  "taxi": {
+    "keywords": [ "uber", "vehicle", "cars", "transportation" ],
+    "char": "🚕"
+  },
+  "banana": {
+    "keywords": [ "fruit", "food" ],
+    "char": "🍌"
+  },
+  "diamonds": {
+    "keywords": [ "poker", "cards" ],
+    "char": "♦️"
+  },
+  "tea": {
+    "keywords": [ "drink", "bowl", "breakfast", "green", "british" ],
+    "char": "🍵"
+  },
+  "bangbang": {
+    "keywords": [ "exclamation", "surprise" ],
+    "char": "‼️"
+  },
+  "telephone": {
+    "keywords": [ "communication", "technology", "dial" ],
+    "char": null
+  },
+  "bank": {
+    "keywords": [ "building", "money", "sales", "cash", "business", "enterprise" ],
+    "char": "🏦"
+  },
+  "telephone_receiver": {
+    "keywords": [ "technology", "communication", "dial" ],
+    "char": "📞"
+  },
+  "bar_chart": {
+    "keywords": [ "graph", "presentation", "stats" ],
+    "char": "📊"
+  },
+  "jp": {
+    "keywords": [ "japanese", "nation", "flag", "country", "banner" ],
+    "char": "🇯🇵"
+  },
+  "telescope": {
+    "keywords": [ "stars", "space" ],
+    "char": "🔭"
+  },
+  "barber": {
+    "keywords": [ "hair", "salon", "style" ],
+    "char": "💈"
+  },
+  "key": {
+    "keywords": [ "lock", "door", "password" ],
+    "char": "🔑"
+  },
+  "tennis": {
+    "keywords": [ "sports", "balls", "green" ],
+    "char": "🎾"
+  },
+  "baseball": {
+    "keywords": [ "sports", "balls", "MLB" ],
+    "char": "⚾️"
+  },
+  "do_not_litter": {
+    "keywords": [ "trash", "bin", "garbage", "circle" ],
+    "char": "🚯"
+  },
+  "keycap_ten": {
+    "keywords": [ "numbers", "10", "blue-square" ],
+    "char": "🔟"
+  },
+  "police_car": {
+    "keywords": [ "vehicle", "cars", "transportation", "law", "legal", "enforcement" ],
+    "char": "🚓"
+  },
+  "tent": {
+    "keywords": [ "photo", "camp", "outdoors" ],
+    "char": "⛺"
+  },
+  "basketball": {
+    "keywords": [ "sports", "balls", "NBA" ],
+    "char": "🏀"
+  },
+  "bath": {
+    "keywords": [ "clean", "shower" ],
+    "char": "🛀"
+  },
+  "three": {
+    "keywords": [ "3", "numbers", "prime", "blue-square" ],
+    "char": "3️⃣"
+  },
+  "bathtub": {
+    "keywords": [ "clean", "shower" ],
+    "char": "🛁"
+  },
+  "dollar": {
+    "keywords": [ "money", "sales", "bill", "currency" ],
+    "char": "💵"
+  },
+  "post_office": {
+    "keywords": [ "building", "email", "communication" ],
+    "char": "🏣"
+  },
+  "battery": {
+    "keywords": [ "power", "energy", "sustain" ],
+    "char": "🔋"
+  },
+  "dolls": {
+    "keywords": [ "japanese", "toy", "kimono" ],
+    "char": "🎎"
+  },
+  "postal_horn": {
+    "keywords": [ "instrument", "music" ],
+    "char": "📯"
+  },
+  "postbox": {
+    "keywords": [ "email", "letter", "envelope" ],
+    "char": "📮"
+  },
+  "ticket": {
+    "keywords": [ "event", "concert", "pass" ],
+    "char": "🎫"
+  },
+  "door": {
+    "keywords": [ "house", "entry", "exit" ],
+    "char": "🚪"
+  },
+  "potable_water": {
+    "keywords": [ "blue-square", "liquid", "restroom", "cleaning", "faucet" ],
+    "char": "🚰"
+  },
+  "beer": {
+    "keywords": [ "relax", "beverage", "drink", "drunk", "party", "pub", "summer" ],
+    "char": "🍺"
+  },
+  "doughnut": {
+    "keywords": [ "food", "dessert", "snack", "sweet", "donut" ],
+    "char": "🍩"
+  },
+  "beers": {
+    "keywords": [ "relax", "beverage", "drink", "drunk", "party", "pub", "summer" ],
+    "char": "🍻"
+  },
+  "poultry_leg": {
+    "keywords": [ "food", "meat", "drumstick", "bird", "chicken", "turkey" ],
+    "char": "🍗"
+  },
+  "koko": {
+    "keywords": [ "blue-square", "here", "katakana", "japanese", "destination" ],
+    "char": "🈁"
+  },
+  "pound": {
+    "keywords": [ "british", "sterling", "money", "sales", "bills", "uk", "england", "currency" ],
+    "char": "💷"
+  },
+  "tm": {
+    "keywords": [ "trademark", "brand", "law", "legal" ],
+    "char": "™️"
+  },
+  "beginner": {
+    "keywords": [ "badge", "shield" ],
+    "char": "🔰"
+  },
+  "kr": {
+    "keywords": [ "korea", "nation", "flag", "country", "banner" ],
+    "char": "🇰🇷"
+  },
+  "toilet": {
+    "keywords": [ "restroom", "wc", "washroom" ],
+    "char": "🚽"
+  },
+  "bell": {
+    "keywords": [ "sound", "notification", "christmas", "xmas", "chime" ],
+    "char": "🔔"
+  },
+  "lantern": {
+    "keywords": [ "light", "spooky" ],
+    "char": null
+  },
+  "tokyo_tower": {
+    "keywords": [ "photo", "japanese" ],
+    "char": "🗼"
+  },
+  "bento": {
+    "keywords": [ "food", "japanese", "box" ],
+    "char": "🍱"
+  },
+  "large_blue_circle": {
+    "keywords": [ "shape", "icon", "button" ],
+    "char": "🔵"
+  },
+  "tomato": {
+    "keywords": [ "fruit", "vegetable", "nature", "food" ],
+    "char": "🍅"
+  },
+  "bicyclist": {
+    "keywords": [ "sports", "bike", "exercise", "hipster" ],
+    "char": "🚴"
+  },
+  "dvd": {
+    "keywords": [ "cd", "disk", "disc" ],
+    "char": "📀"
+  },
+  "large_blue_diamond": {
+    "keywords": [ "shape", "jewel" ],
+    "char": "🔷"
+  },
+  "bike": {
+    "keywords": [ "sports", "bicycle", "exercise", "hipster" ],
+    "char": "🚲"
+  },
+  "e-mail": {
+    "keywords": [ "communication", "inbox", "email" ],
+    "char": "📧"
+  },
+  "large_orange_diamond": {
+    "keywords": [ "shape", "jewel" ],
+    "char": "🔶"
+  },
+  "top": {
+    "keywords": [ "words", "blue-square" ],
+    "char": "🔝"
+  },
+  "pushpin": {
+    "keywords": [ "stationery", "mark", "here" ],
+    "char": "📌"
+  },
+  "tractor": {
+    "keywords": [ "vehicle", "car", "farming", "agriculture" ],
+    "char": "🚜"
+  },
+  "birthday": {
+    "keywords": [ "party", "cake", "celebration" ],
+    "char": "🎂"
+  },
+  "laughing": {
+    "keywords": [ "happy", "joy", "lol" ],
+    "char": "😆"
+  },
+  "put_litter_in_its_place": {
+    "keywords": [ "blue-square", "sign", "human", "info" ],
+    "char": "🚮"
+  },
+  "traffic_light": {
+    "keywords": [ "transportation", "signal" ],
+    "char": "🚥"
+  },
+  "black_circle": {
+    "keywords": [ "shape", "button", "round" ],
+    "char": "⚫"
+  },
+  "question": {
+    "keywords": [ "doubt", "confused" ],
+    "char": "❓"
+  },
+  "train": {
+    "keywords": [ "transportation", "vehicle", "carriage", "public", "travel" ],
+    "char": "🚋"
+  },
+  "black_joker": {
+    "keywords": [ "poker", "cards", "game", "play" ],
+    "char": "🃏"
+  },
+  "ledger": {
+    "keywords": [ "notes", "paper" ],
+    "char": "📒"
+  },
+  "train2": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚆"
+  },
+  "black_large_square": {
+    "keywords": [ "shape", "icon", "button" ],
+    "char": "⬛"
+  },
+  "egg": {
+    "keywords": [ "food", "breakfast" ],
+    "char": "🍳"
+  },
+  "left_luggage": {
+    "keywords": [ "blue-square", "travel" ],
+    "char": "🛅"
+  },
+  "tram": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚊"
+  },
+  "black_medium_small_square": {
+    "keywords": [ "icon", "shape", "button" ],
+    "char": "◾"
+  },
+  "eggplant": {
+    "keywords": [ "vegetable", "nature", "food", "aubergine" ],
+    "char": "🍆"
+  },
+  "left_right_arrow": {
+    "keywords": [ "shape", "direction" ],
+    "char": "↔️"
+  },
+  "triangular_flag_on_post": {
+    "keywords": [ "mark", "milestone", "place" ],
+    "char": "🚩"
+  },
+  "black_medium_square": {
+    "keywords": [ "shape", "button", "icon" ],
+    "char": "◼️"
+  },
+  "eight": {
+    "keywords": [ "8", "blue-square", "numbers" ],
+    "char": "8️⃣"
+  },
+  "leftwards_arrow_with_hook": {
+    "keywords": [ "back", "return", "blue-square" ],
+    "char": "↩️"
+  },
+  "radio": {
+    "keywords": [ "communication", "music", "podcast", "program" ],
+    "char": "📻"
+  },
+  "triangular_ruler": {
+    "keywords": [ "stationery", "math", "architect", "sketch" ],
+    "char": "📐"
+  },
+  "black_nib": {
+    "keywords": [ "pen", "stationery", "writing", "write" ],
+    "char": "✒️"
+  },
+  "eight_pointed_black_star": {
+    "keywords": [ "orange-square", "shape", "polygon" ],
+    "char": "✴️"
+  },
+  "lemon": {
+    "keywords": [ "fruit", "nature" ],
+    "char": "🍋"
+  },
+  "radio_button": {
+    "keywords": [ "input", "old", "music", "circle" ],
+    "char": "🔘"
+  },
+  "trident": {
+    "keywords": [ "weapon", "spear" ],
+    "char": "🔱"
+  },
+  "black_small_square": {
+    "keywords": [ "shape", "icon" ],
+    "char": "▪️"
+  },
+  "eight_spoked_asterisk": {
+    "keywords": [ "star", "sparkle", "green-square" ],
+    "char": "✳️"
+  },
+  "leo": {
+    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "char": "♌"
+  },
+  "rage": {
+    "keywords": [ "angry", "mad", "hate", "despise" ],
+    "char": "😡"
+  },
+  "black_square_button": {
+    "keywords": [ "shape", "input", "frame" ],
+    "char": "🔲"
+  },
+  "electric_plug": {
+    "keywords": [ "charger", "power" ],
+    "char": "🔌"
+  },
+  "rage1": {
+    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
+    "char": null
+  },
+  "trolleybus": {
+    "keywords": [ "bart", "transportation", "vehicle" ],
+    "char": "🚎"
+  },
+  "libra": {
+    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "char": "♎"
+  },
+  "rage2": {
+    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
+    "char": null
+  },
+  "trollface": {
+    "keywords": [ "internet", "meme" ],
+    "char": null
+  },
+  "email": {
+    "keywords": [ "inbox", "communication" ],
+    "char": "✉️"
+  },
+  "light_rail": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚈"
+  },
+  "rage3": {
+    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
+    "char": null
+  },
+  "trophy": {
+    "keywords": [ "win", "award", "contest", "place", "ftw", "ceremony" ],
+    "char": "🏆"
+  },
+  "blue_book": {
+    "keywords": [ "read", "library", "knowledge" ],
+    "char": "📘"
+  },
+  "end": {
+    "keywords": [ "words", "arrow" ],
+    "char": "🔚"
+  },
+  "link": {
+    "keywords": [ "rings", "url" ],
+    "char": "🔗"
+  },
+  "rage4": {
+    "keywords": [ "angry", "mad", "ghonly", "hate", "despise" ],
+    "char": null
+  },
+  "tropical_drink": {
+    "keywords": [ "beverage", "cocktail", "summer", "beach" ],
+    "char": "🍹"
+  },
+  "blue_car": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚙"
+  },
+  "envelope": {
+    "keywords": [ "email", "letter", "postal", "communication" ],
+    "char": null
+  },
+  "railway_car": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚃"
+  },
+  "envelope_with_arrow": {
+    "keywords": [ "email", "communication" ],
+    "char": "📩"
+  },
+  "truck": {
+    "keywords": [ "cars", "transportation" ],
+    "char": "🚚"
+  },
+  "es": {
+    "keywords": [ "spain", "flag", "nation", "country", "banner" ],
+    "char": "🇪🇸"
+  },
+  "lock": {
+    "keywords": [ "security", "password" ],
+    "char": "🔒"
+  },
+  "trumpet": {
+    "keywords": [ "music", "brass" ],
+    "char": "🎺"
+  },
+  "euro": {
+    "keywords": [ "money", "sales", "dollar", "currency" ],
+    "char": "💶"
+  },
+  "lock_with_ink_pen": {
+    "keywords": [ "security", "secret" ],
+    "char": "🔏"
+  },
+  "boat": {
+    "keywords": [ "transportation", "water", "sailing" ],
+    "char": "⛵"
+  },
+  "european_castle": {
+    "keywords": [ "building", "royalty", "history" ],
+    "char": "🏰"
+  },
+  "lollipop": {
+    "keywords": [ "food", "snack", "candy", "sweet" ],
+    "char": "🍭"
+  },
+  "raising_hand": {
+    "keywords": [ "female", "girl", "woman" ],
+    "char": "🙋"
+  },
+  "bomb": {
+    "keywords": [ "boom", "explode", "explosion" ],
+    "char": "💣"
+  },
+  "european_post_office": {
+    "keywords": [ "building", "email" ],
+    "char": "🏤"
+  },
+  "loop": {
+    "keywords": [ "tape", "cassette" ],
+    "char": "➿"
+  },
+  "book": {
+    "keywords": [ "library", "literature" ],
+    "char": "📖"
+  },
+  "loudspeaker": {
+    "keywords": [ "volume", "sound" ],
+    "char": "📢"
+  },
+  "ramen": {
+    "keywords": [ "food", "japanese", "noodle", "chipsticks" ],
+    "char": "🍜"
+  },
+  "tv": {
+    "keywords": [ "technology", "program", "oldschool", "show" ],
+    "char": "📺"
+  },
+  "bookmark": {
+    "keywords": [ "favorite", "label", "save" ],
+    "char": "🔖"
+  },
+  "exclamation": {
+    "keywords": [ "surprise", "punctuation", "wow", "warning" ],
+    "char": "❗"
+  },
+  "love_hotel": {
+    "keywords": [ "like", "affection", "dating" ],
+    "char": "🏩"
+  },
+  "twisted_rightwards_arrows": {
+    "keywords": [ "blue-square", "shuffle", "music", "random" ],
+    "char": "🔀"
+  },
+  "bookmark_tabs": {
+    "keywords": [ "favorite", "save", "order", "tidy" ],
+    "char": "📑"
+  },
+  "recycle": {
+    "keywords": [ "arrow", "environment", "garbage", "trash" ],
+    "char": "♻️"
+  },
+  "two": {
+    "keywords": [ "numbers", "2", "prime", "blue-square" ],
+    "char": "2️⃣"
+  },
+  "books": {
+    "keywords": [ "literature", "library" ],
+    "char": "📚"
+  },
+  "low_brightness": {
+    "keywords": [ "sun", "afternoon", "warm", "summer" ],
+    "char": "🔅"
+  },
+  "red_car": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": null
+  },
+  "m": {
+    "keywords": [ "alphabet", "blue-circle", "letter" ],
+    "char": "Ⓜ️"
+  },
+  "red_circle": {
+    "keywords": [ "shape", "error", "danger" ],
+    "char": "🔴"
+  },
+  "mag": {
+    "keywords": [ "search", "zoom" ],
+    "char": "🔍"
+  },
+  "registered": {
+    "keywords": [ "alphabet", "circle" ],
+    "char": "®️"
+  },
+  "factory": {
+    "keywords": [ "building", "industry", "pollution", "smoke" ],
+    "char": "🏭"
+  },
+  "mag_right": {
+    "keywords": [ "search", "zoom" ],
+    "char": "🔎"
+  },
+  "u5272": {
+    "keywords": [ "cut", "divide", "chinese", "kanji", "pink-square" ],
+    "char": "🈹"
+  },
+  "mahjong": {
+    "keywords": [ "game", "play", "chinese", "kanji" ],
+    "char": "🀄"
+  },
+  "u5408": {
+    "keywords": [ "japanese", "chinese", "join", "kanji", "red-square" ],
+    "char": "🈴"
+  },
+  "bowling": {
+    "keywords": [ "sports", "fun", "play" ],
+    "char": "🎳"
+  },
+  "mailbox": {
+    "keywords": [ "email", "inbox", "communication" ],
+    "char": "📫"
+  },
+  "repeat": {
+    "keywords": [ "loop", "record" ],
+    "char": "🔁"
+  },
+  "u55b6": {
+    "keywords": [ "japanese", "opening hours", "orange-square" ],
+    "char": "🈺"
+  },
+  "bowtie": {
+    "keywords": [ "face", "formal", "fashion", "suit", "classy" ],
+    "char": null
+  },
+  "fast_forward": {
+    "keywords": [ "blue-square", "play", "speed", "continue" ],
+    "char": "⏩"
+  },
+  "mailbox_closed": {
+    "keywords": [ "email", "communication", "inbox" ],
+    "char": "📪"
+  },
+  "repeat_one": {
+    "keywords": [ "blue-square", "loop" ],
+    "char": "🔂"
+  },
+  "u6307": {
+    "keywords": [ "chinese", "point", "green-square", "kanji" ],
+    "char": "🈯"
+  },
+  "fax": {
+    "keywords": [ "communication", "technology" ],
+    "char": "📠"
+  },
+  "mailbox_with_mail": {
+    "keywords": [ "email", "inbox", "communication" ],
+    "char": "📬"
+  },
+  "restroom": {
+    "keywords": [ "blue-square", "toilet", "refresh", "wc" ],
+    "char": "🚻"
+  },
+  "u6708": {
+    "keywords": [ "chinese", "month", "moon", "japanese", "orange-square", "kanji" ],
+    "char": "🈷️"
+  },
+  "bread": {
+    "keywords": [ "food", "wheat", "breakfast", "toast" ],
+    "char": "🍞"
+  },
+  "mailbox_with_no_mail": {
+    "keywords": [ "email", "inbox" ],
+    "char": "📭"
+  },
+  "u6709": {
+    "keywords": [ "orange-square", "chinese", "have", "kanji" ],
+    "char": "🈶"
+  },
+  "feelsgood": {
+    "keywords": [ "ghonly", "doom", "oldschool" ],
+    "char": null
+  },
+  "rewind": {
+    "keywords": [ "play", "blue-square" ],
+    "char": "⏪"
+  },
+  "u6e80": {
+    "keywords": [ "full", "chinese", "japanese", "red-square", "kanji" ],
+    "char": "🈵"
+  },
+  "bridge_at_night": {
+    "keywords": [ "photo", "sanfrancisco" ],
+    "char": "🌉"
+  },
+  "feet": {
+    "keywords": [ "animal", "tracking", "footprints", "dog", "cat", "paw", "pet" ],
+    "char": "🐾"
+  },
+  "u7121": {
+    "keywords": [ "nothing", "chinese", "kanji", "japanese", "orange-square" ],
+    "char": "🈚"
+  },
+  "ferris_wheel": {
+    "keywords": [ "photo", "carnival", "londoneye" ],
+    "char": "🎡"
+  },
+  "rice": {
+    "keywords": [ "food", "china", "asian" ],
+    "char": "🍚"
+  },
+  "u7533": {
+    "keywords": [ "chinese", "japanese", "kanji", "orange-square" ],
+    "char": "🈸"
+  },
+  "file_folder": {
+    "keywords": [ "documents", "business", "office" ],
+    "char": "📁"
+  },
+  "rice_ball": {
+    "keywords": [ "food", "japanese" ],
+    "char": "🍙"
+  },
+  "u7981": {
+    "keywords": [ "kanji", "japanese", "chinese", "forbidden", "limit", "restricted", "red-square" ],
+    "char": "🈲"
+  },
+  "finnadie": {
+    "keywords": [ "ghonly", "doom", "oldschool" ],
+    "char": null
+  },
+  "rice_cracker": {
+    "keywords": [ "food", "japanese" ],
+    "char": "🍘"
+  },
+  "u7a7a": {
+    "keywords": [ "kanji", "japanese", "chinese", "empty", "sky", "blue-square" ],
+    "char": "🈳"
+  },
+  "bulb": {
+    "keywords": [ "light", "electricity" ],
+    "char": "💡"
+  },
+  "rice_scene": {
+    "keywords": [ "photo", "japan", "asia", "tsukimi" ],
+    "char": "🎑"
+  },
+  "uk": {
+    "keywords": [ "british", "england", "union jack", "english", "flag", "country", "nation", "banner" ],
+    "char": null
+  },
+  "bullettrain_front": {
+    "keywords": [ "transportation", "vehicle", "speed", "fast", "public", "travel" ],
+    "char": "🚅"
+  },
+  "fire_engine": {
+    "keywords": [ "transportation", "cars", "vehicle" ],
+    "char": "🚒"
+  },
+  "bullettrain_side": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚄"
+  },
+  "fireworks": {
+    "keywords": [ "photo", "festival", "carnival", "congratulations" ],
+    "char": "🎆"
+  },
+  "meat_on_bone": {
+    "keywords": [ "good", "food", "drumstick" ],
+    "char": "🍖"
+  },
+  "rocket": {
+    "keywords": [ "launch", "ship", "staffmode", "NASA", "outer space" ],
+    "char": "🚀"
+  },
+  "bus": {
+    "keywords": [ "car", "vehicle", "transportation" ],
+    "char": "🚌"
+  },
+  "mega": {
+    "keywords": [ "sound", "speaker", "volume" ],
+    "char": "📣"
+  },
+  "roller_coaster": {
+    "keywords": [ "carnival", "playground", "photo", "fun" ],
+    "char": "🎢"
+  },
+  "underage": {
+    "keywords": [ "18", "drink", "pub", "night", "minor", "circle" ],
+    "char": "🔞"
+  },
+  "busstop": {
+    "keywords": [ "transportation", "wait" ],
+    "char": "🚏"
+  },
+  "melon": {
+    "keywords": [ "fruit", "nature", "food" ],
+    "char": "🍈"
+  },
+  "memo": {
+    "keywords": [ "documents", "stationery", "pencil", "paper", "writing", "legal" ],
+    "char": "📝"
+  },
+  "unlock": {
+    "keywords": [ "privacy", "security" ],
+    "char": "🔓"
+  },
+  "fish_cake": {
+    "keywords": [ "food", "japan", "sea", "beach" ],
+    "char": "🍥"
+  },
+  "mens": {
+    "keywords": [ "toilet", "restroom", "wc", "blue-square" ],
+    "char": "🚹"
+  },
+  "rotating_light": {
+    "keywords": [ "police", "ambulance", "911", "emergency", "alert", "error", "pinged", "law", "legal" ],
+    "char": "🚨"
+  },
+  "up": {
+    "keywords": [ "blue-square", "above", "high" ],
+    "char": "🆙"
+  },
+  "fishing_pole_and_fish": {
+    "keywords": [ "food", "hobby" ],
+    "char": "🎣"
+  },
+  "metal": {
+    "keywords": [ "fingers", "rocknroll", "concert", "band" ],
+    "char": null
+  },
+  "round_pushpin": {
+    "keywords": [ "stationery", "location", "map", "here" ],
+    "char": "📍"
+  },
+  "us": {
+    "keywords": [ "nation", "flag", "american", "country", "banner" ],
+    "char": "🇺🇸"
+  },
+  "cake": {
+    "keywords": [ "food", "dessert" ],
+    "char": "🍰"
+  },
+  "metro": {
+    "keywords": [ "transportation", "blue-square", "mrt", "underground", "tube" ],
+    "char": "🚇"
+  },
+  "rowboat": {
+    "keywords": [ "sports", "hobby", "water", "ship" ],
+    "char": "🚣"
+  },
+  "calendar": {
+    "keywords": [ "schedule", "date", "planning" ],
+    "char": "📆"
+  },
+  "five": {
+    "keywords": [ "5", "numbers", "blue-square", "prime" ],
+    "char": "5️⃣"
+  },
+  "microphone": {
+    "keywords": [ "sound", "music", "PA" ],
+    "char": "🎤"
+  },
+  "ru": {
+    "keywords": [ "russian", "nation", "flag", "country", "banner" ],
+    "char": "🇷🇺"
+  },
+  "vertical_traffic_light": {
+    "keywords": [ "transportation", "driving" ],
+    "char": "🚦"
+  },
+  "calling": {
+    "keywords": [ "iphone", "incoming" ],
+    "char": "📲"
+  },
+  "flags": {
+    "keywords": [ "fish", "japanese", "koinobori", "carp", "banner" ],
+    "char": "🎏"
+  },
+  "microscope": {
+    "keywords": [ "laboratory", "experiment", "zoomin", "science" ],
+    "char": "🔬"
+  },
+  "rugby_football": {
+    "keywords": [ "sports", "team" ],
+    "char": "🏉"
+  },
+  "vhs": {
+    "keywords": [ "record", "video", "oldschool", "90s", "80s" ],
+    "char": "📼"
+  },
+  "flashlight": {
+    "keywords": [ "dark", "camping", "sight", "night" ],
+    "char": "🔦"
+  },
+  "vibration_mode": {
+    "keywords": [ "orange-square", "phone" ],
+    "char": "📳"
+  },
+  "camera": {
+    "keywords": [ "gadgets", "photo" ],
+    "char": "📷"
+  },
+  "floppy_disk": {
+    "keywords": [ "oldschool", "technology", "save", "90s" ],
+    "char": "💾"
+  },
+  "minibus": {
+    "keywords": [ "vehicle", "car", "transportation" ],
+    "char": "🚐"
+  },
+  "video_camera": {
+    "keywords": [ "film", "record" ],
+    "char": "📹"
+  },
+  "cancer": {
+    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "char": "♋"
+  },
+  "flower_playing_cards": {
+  "keywords": [ "game" ], "char": "🎴"
+},
+  "minidisc": {
+    "keywords": [ "technology", "record", "data", "disk" ],
+    "char": "💽"
+  },
+  "video_game": {
+    "keywords": [ "play", "console", "PS4", "controller" ],
+    "char": "🎮"
+  },
+  "candy": {
+    "keywords": [ "snack", "dessert", "sweet" ],
+    "char": "🍬"
+  },
+  "mobile_phone_off": {
+    "keywords": [ "mute", "orange-square", "silence", "quiet" ],
+    "char": "📴"
+  },
+  "sa": {
+    "keywords": [ "japanese", "blue-square", "katakana" ],
+    "char": "🈂️"
+  },
+  "violin": {
+    "keywords": [ "music", "instrument", "orchestra", "symphony" ],
+    "char": "🎻"
+  },
+  "capital_abcd": {
+    "keywords": [ "alphabet", "words", "blue-square" ],
+    "char": "🔠"
+  },
+  "money_with_wings": {
+    "keywords": [ "dollar", "bills", "payment", "sale" ],
+    "char": "💸"
+  },
+  "sagittarius": {
+    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "char": "♐"
+  },
+  "virgo": {
+    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "char": "♍"
+  },
+  "capricorn": {
+    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "char": "♑"
+  },
+  "football": {
+    "keywords": [ "sports", "balls", "NFL" ],
+    "char": "🏈"
+  },
+  "moneybag": {
+    "keywords": [ "dollar", "payment", "coins", "sale" ],
+    "char": "💰"
+  },
+  "sailboat": {
+    "keywords": [ "transportation", "ship", "summer" ],
+    "char": null
+  },
+  "car": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚗"
+  },
+  "sake": {
+    "keywords": [ "wine", "drink", "drunk", "beverage", "japanese" ],
+    "char": "🍶"
+  },
+  "vs": {
+    "keywords": [ "words", "orange-square" ],
+    "char": "🆚"
+  },
+  "card_index": {
+    "keywords": [ "business", "stationery" ],
+    "char": "📇"
+  },
+  "fork_and_knife": {
+    "keywords": [ "cutlery", "kitchen" ],
+    "char": "🍴"
+  },
+  "carousel_horse": {
+    "keywords": [ "photo", "carnival" ],
+    "char": "🎠"
+  },
+  "fountain": {
+    "keywords": [ "photo", "summer", "water", "fresh" ],
+    "char": "⛲"
+  },
+  "monorail": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚝"
+  },
+  "santa": {
+    "keywords": [ "festival", "man", "male", "xmas", "father christmas" ],
+    "char": "🎅"
+  },
+  "four": {
+    "keywords": [ "4", "numbers", "blue-square" ],
+    "char": "4️⃣"
+  },
+  "satellite": {
+    "keywords": [ "communication", "future", "radio", "space" ],
+    "char": "📡"
+  },
+  "mortar_board": {
+    "keywords": [ "school", "college", "degree", "university", "graduation", "cap", "hat", "legal" ],
+    "char": "🎓"
+  },
+  "warning": {
+    "keywords": [ "exclamation", "wip", "alert", "error", "problem", "issue" ],
+    "char": "⚠️"
+  },
+  "cd": {
+    "keywords": [ "technology", "dvd", "disk", "disc" ],
+    "char": "💿"
+  },
+  "fr": {
+    "keywords": [ "banner", "flag", "nation", "france", "french", "country" ],
+    "char": "🇫🇷"
+  },
+  "mount_fuji": {
+    "keywords": [ "photo", "mountain", "nature", "japanese" ],
+    "char": "🗻"
+  },
+  "saxophone": {
+    "keywords": [ "music", "instrument", "jazz", "blues" ],
+    "char": "🎷"
+  },
+  "watch": {
+    "keywords": [ "time", "accessories" ],
+    "char": "⌚"
+  },
+  "chart": {
+    "keywords": [ "green-square", "graph", "presentation", "stats" ],
+    "char": "💹"
+  },
+  "free": {
+    "keywords": [ "blue-square", "words" ],
+    "char": "🆓"
+  },
+  "mountain_bicyclist": {
+    "keywords": [ "transportation", "sports", "human", "race", "bike" ],
+    "char": "🚵"
+  },
+  "school": {
+    "keywords": [ "building", "student", "education", "learn", "teach" ],
+    "char": "🏫"
+  },
+  "chart_with_downwards_trend": {
+   "keywords": [ "graph", "presentation", "stats", "recession", "business", "economics", "money", "sales", "bad",  "failure" ],
+    "char": "📉"
+  },
+  "fried_shrimp": {
+    "keywords": [ "food", "animal", "appetizer", "summer" ],
+    "char": "🍤"
+  },
+  "mountain_cableway": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚠"
+  },
+  "school_satchel": {
+    "keywords": [ "student", "education", "bag" ],
+    "char": "🎒"
+  },
+  "watermelon": {
+    "keywords": [ "fruit", "food", "picnic", "summer" ],
+    "char": "🍉"
+  },
+  "chart_with_upwards_trend": {
+   "keywords": [ "graph", "presenetation", "stats", "recovery", "business", "economics", "money", "sales",  "good", "success" ],
+    "char": "📈"
+  },
+  "fries": {
+    "keywords": [ "chips", "snack", "fast food" ],
+    "char": "🍟"
+  },
+  "mountain_railway": {
+    "keywords": [ "transportation", "vehicle" ],
+    "char": "🚞"
+  },
+  "scissors": {
+    "keywords": [ "stationery", "cut" ],
+    "char": "✂️"
+  },
+  "checkered_flag": {
+    "keywords": [ "contest", "finishline", "rase", "gokart" ],
+    "char": "🏁"
+  },
+  "scorpius": {
+    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "char": "♏"
+  },
+  "wavy_dash": {
+    "keywords": [ "draw", "line" ],
+    "char": "〰️"
+  },
+  "cherries": {
+    "keywords": [ "food", "fruit" ],
+    "char": "🍒"
+  },
+  "fuelpump": {
+    "keywords": [ "gas station", "petroleum" ],
+    "char": "⛽"
+  },
+  "movie_camera": {
+    "keywords": [ "film", "record" ],
+    "char": "🎥"
+  },
+  "waxing_gibbous_moon": {
+    "keywords": [ "nature", "night", "sky" ],
+    "char": null
+  },
+  "moyai": {
+    "keywords": [ "stone", "easter island" ],
+    "char": "🗿"
+  },
+  "scroll": {
+    "keywords": [ "documents", "ancient", "history", "paper" ],
+    "char": "📜"
+  },
+  "wc": {
+    "keywords": [ "toilet", "restroom", "blue-square" ],
+    "char": "🚾"
+  },
+  "seat": {
+    "keywords": [ "sit", "airplane", "transport", "bus", "flight" ],
+    "char": "💺"
+  },
+  "children_crossing": {
+    "keywords": [ "school", "warning", "danger", "sign", "driving", "yellow-diamond" ],
+    "char": "🚸"
+  },
+  "game_die": {
+    "keywords": [ "dice", "random", "tabbletop", "play" ],
+    "char": "🎲"
+  },
+  "secret": {
+    "keywords": [ "privacy", "chinese", "sshh", "kanji", "red-circle" ],
+    "char": "㊙️"
+  },
+  "wedding": {
+    "keywords": [ "love", "like", "affection", "couple", "marriage", "bride", "groom" ],
+    "char": "💒"
+  },
+  "chocolate_bar": {
+    "keywords": [ "food", "snack", "dessert", "sweet" ],
+    "char": "🍫"
+  },
+  "gb": {
+    "keywords": [ "banner", "nation", "flag", "british", "UK", "country", "english" ],
+    "char": "🇬🇧"
+  },
+  "musical_keyboard": {
+    "keywords": [ "piano", "instrument" ],
+    "char": "🎹"
+  },
+  "musical_note": {
+    "keywords": [ "score", "tone", "sound" ],
+    "char": "🎵"
+  },
+  "church": {
+    "keywords": [ "building", "religion", "christ" ],
+    "char": "⛪"
+  },
+  "gemini": {
+    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "char": "♊"
+  },
+  "musical_score": {
+    "keywords": [ "treble", "clef" ],
+    "char": "🎼"
+  },
+  "seven": {
+    "keywords": [ "7", "numbers", "blue-square", "prime" ],
+    "char": "7️⃣"
+  },
+  "wheelchair": {
+    "keywords": [ "blue-square", "disabled" ],
+    "char": "♿"
+  },
+  "cinema": {
+    "keywords": [ "blue-square", "record", "film", "movie" ],
+    "char": "🎦"
+  },
+  "ghost": {
+    "keywords": [ "halloween", "spooky", "scary" ],
+    "char": "👻"
+  },
+  "mute": {
+    "keywords": [ "sound", "volume", "silence" ],
+    "char": "🔇"
+  },
+  "shaved_ice": {
+    "keywords": [ "hot", "dessert", "summer" ],
+    "char": "🍧"
+  },
+  "white_check_mark": {
+    "keywords": [ "green-square", "ok", "agree", "vote", "election" ],
+    "char": "✅"
+  },
+  "circus_tent": {
+    "keywords": [ "festival", "carnival", "party" ],
+    "char": "🎪"
+  },
+  "gift": {
+    "keywords": [ "present", "birthday", "christmas", "xmas" ],
+    "char": "🎁"
+  },
+  "white_circle": {
+    "keywords": [ "shape", "round" ],
+    "char": "⚪"
+  },
+  "city_sunrise": {
+    "keywords": [ "photo", "good morning", "dawn" ],
+    "char": "🌇"
+  },
+  "gift_heart": {
+    "keywords": [ "love", "valentines" ],
+    "char": "💝"
+  },
+  "name_badge": {
+    "keywords": [ "fire", "forbid" ],
+    "char": "📛"
+  },
+  "white_flower": {
+    "keywords": [ "japanese", "spring" ],
+    "char": "💮"
+  },
+  "city_sunset": {
+    "keywords": [ "photo", "evening", "sky", "buildings" ],
+    "char": "🌆"
+  },
+  "neckbeard": {
+    "keywords": [ "nerdy", "face" ],
+    "char": null
+  },
+  "ship": {
+    "keywords": [ "transportation", "titanic", "deploy" ],
+    "char": "🚢"
+  },
+  "white_large_square": {
+    "keywords": [ "shape", "icon", "stone", "button" ],
+    "char": "⬜"
+  },
+  "cl": {
+    "keywords": [ "alphabet", "words", "red-square" ],
+    "char": "🆑"
+  },
+  "shipit": {
+    "keywords": [ "squirrel", "detective" ],
+    "char": null
+  },
+  "white_medium_small_square": {
+    "keywords": [ "shape", "stone", "icon", "button" ],
+    "char": "◽"
+  },
+  "negative_squared_cross_mark": {
+    "keywords": [ "x", "green-square", "no", "deny" ],
+    "char": "❎"
+  },
+  "white_medium_square": {
+    "keywords": [ "shape", "stone", "icon" ],
+    "char": "◻️"
+  },
+  "clapper": {
+    "keywords": [ "movie", "film", "record" ],
+    "char": "🎬"
+  },
+  "goberserk": {
+    "keywords": [ "ghonly", "doom", "rage", "bloody", "hurt" ],
+    "char": null
+  },
+  "white_small_square": {
+    "keywords": [ "shape", "icon" ],
+    "char": "▫️"
+  },
+  "clipboard": {
+    "keywords": [ "stationery", "documents" ],
+    "char": "📋"
+  },
+  "godmode": {
+    "keywords": [ "ghonly", "doom" ],
+    "char": null
+  },
+  "new": {
+    "keywords": [ "blue-square", "words", "start" ],
+    "char": "🆕"
+  },
+  "white_square_button": {
+    "keywords": [ "shape", "input" ],
+    "char": "🔳"
+  },
+  "clock1": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕐"
+  },
+  "golf": {
+    "keywords": [ "sports", "business", "flag", "hole" ],
+    "char": "⛳"
+  },
+  "shower": {
+    "keywords": [ "clean", "water", "bathroom" ],
+    "char": "🚿"
+  },
+  "wind_chime": {
+    "keywords": [ "nature", "ding" ],
+    "char": "🎐"
+  },
+  "clock10": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕙"
+  },
+  "grapes": {
+    "keywords": [ "fruit", "food", "wine" ],
+    "char": "🍇"
+  },
+  "signal_strength": {
+    "keywords": [ "blue-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth" ],
+    "char": "📶"
+  },
+  "wine_glass": {
+    "keywords": [ "drink", "beverage", "drunk", "alcohol" ],
+    "char": "🍷"
+  },
+  "clock1030": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕥"
+  },
+  "green_apple": {
+    "keywords": [ "fruit", "nature" ],
+    "char": "🍏"
+  },
+  "newspaper": {
+    "keywords": [ "press", "headline" ],
+    "char": "📰"
+  },
+  "six": {
+    "keywords": [ "6", "numbers", "blue-square" ],
+    "char": "6️⃣"
+  },
+  "clock11": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕚"
+  },
+  "green_book": {
+    "keywords": [ "read", "library", "knowledge" ],
+    "char": "📗"
+  },
+  "ng": {
+    "keywords": [ "blue-square", "words", "shape", "icon" ],
+    "char": "🆖"
+  },
+  "six_pointed_star": {
+    "keywords": [ "purple-square" ],
+    "char": "🔯"
+  },
+  "clock1130": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕦"
+  },
+  "nine": {
+    "keywords": [ "blue-square", "numbers", "9" ],
+    "char": "9️⃣"
+  },
+  "ski": {
+    "keywords": [ "sports", "winter", "cold" ],
+    "char": "🎿"
+  },
+  "clock12": {
+    "keywords": [ "time", "noon", "midnight", "late", "early", "schedule" ],
+    "char": "🕛"
+  },
+  "grey_exclamation": {
+    "keywords": [ "surprise", "punctuation", "gray", "wow", "warning" ],
+    "char": "❕"
+  },
+  "no_bell": {
+    "keywords": [ "sound", "volume", "mute", "quiet", "silent" ],
+    "char": "🔕"
+  },
+  "clock1230": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕧"
+  },
+  "grey_question": {
+    "keywords": [ "doubts", "gray", "huh" ],
+    "char": "❔"
+  },
+  "no_bicycles": {
+    "keywords": [ "cyclist", "prohibited", "circle" ],
+    "char": "🚳"
+  },
+  "clock130": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕜"
+  },
+  "no_entry": {
+    "keywords": [ "limit", "security", "privacy", "bad", "denied", "stop", "circle" ],
+    "char": "⛔"
+  },
+  "womens": {
+    "keywords": [ "purple-square", "woman", "female", "toilet", "loo", "restroom" ],
+    "char": "🚺"
+  },
+  "clock2": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕑"
+  },
+  "no_entry_sign": {
+    "keywords": [ "forbid", "stop", "limit", "denied", "disallow", "circle" ],
+    "char": "🚫"
+  },
+  "slot_machine": {
+    "keywords": [ "bet", "gamble", "vegas", "fruit machine", "luck", "casino" ],
+    "char": "🎰"
+  },
+  "clock230": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕝"
+  },
+  "small_blue_diamond": {
+    "keywords": [ "shape", "jewel", "gem" ],
+    "char": "🔹"
+  },
+  "wrench": {
+    "keywords": [ "tools", "diy", "ikea" ],
+    "char": "🔧"
+  },
+  "clock3": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕒"
+  },
+  "no_mobile_phones": {
+    "keywords": [ "iphone", "mute", "circle" ],
+    "char": "📵"
+  },
+  "small_orange_diamond": {
+    "keywords": [ "shape", "jewel", "gem" ],
+    "char": "🔸"
+  },
+  "x": {
+    "keywords": [ "no", "delete", "remove" ],
+    "char": "❌"
+  },
+  "clock330": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕞"
+  },
+  "guitar": {
+    "keywords": [ "music", "instrument" ],
+    "char": "🎸"
+  },
+  "small_red_triangle": {
+  "keywords": [ "shape" ], "char": "🔺"
+},
+  "clock4": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕓"
+  },
+  "gun": {
+    "keywords": [ "violence", "weapon", "pistol", "revolver" ],
+    "char": "🔫"
+  },
+  "no_pedestrians": {
+    "keywords": [ "rules", "crossing", "walking", "circle" ],
+    "char": "🚷"
+  },
+  "small_red_triangle_down": {
+  "keywords": [ "shape" ], "char": "🔻"
+},
+  "yen": {
+    "keywords": [ "money", "sales", "japanese", "dollar", "currency" ],
+    "char": "💴"
+  },
+  "clock430": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕟"
+  },
+  "no_smoking": {
+    "keywords": [ "cigarette", "blue-square", "smell", "smoke" ],
+    "char": "🚭"
+  },
+  "clock5": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕔"
+  },
+  "hamburger": {
+    "keywords": [ "meat", "fast food", "beef", "cheeseburger", "mcdonalds", "burger king" ],
+    "char": "🍔"
+  },
+  "non-potable_water": {
+    "keywords": [ "drink", "faucet", "tap", "circle" ],
+    "char": "🚱"
+  },
+  "clock530": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕠"
+  },
+  "hammer": {
+    "keywords": [ "tools", "verdict", "judge", "done", "law", "legal", "ruling", "gavel" ],
+    "char": "🔨"
+  },
+  "zero": {
+    "keywords": [ "0", "numbers", "blue-square", "null" ],
+    "char": "0️⃣"
+  },
+  "clock6": {
+    "keywords": [ "time", "late", "early", "schedule", "dawn", "dusk" ],
+    "char": "🕕"
+  },
+  "notebook": {
+    "keywords": [ "stationery", "record", "notes", "paper" ],
+    "char": "📓"
+  },
+  "clock630": {
+    "keywords": [ "time", "late", "early", "schedule" ],
+    "char": "🕡"
+  },
+  "notebook_with_decorative_cover": {
+    "keywords": [ "classroom", "notes", "record", "paper" ],
+    "char": "📔"
+  },
+  "horse_racing": {
+    "keywords": [ "animal", "betting", "competition", "gambling" ],
+    "char": "🏇"
+  },
+  "christmas_tree": {
+    "keywords": [ "festival", "vacation", "december", "xmas", "celebration" ],
+    "char": "🎄"
+  },
+  "fu": {
+    "keywords": [ "fuck", "finger", "dislike", "thumbsdown", "disapprove", "no" ],
+    "char": null
+  }
 }

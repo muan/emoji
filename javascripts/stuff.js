@@ -37,8 +37,11 @@ focusOnSearch = function(e) {
 $.getJSON('emojis.json', function(emojis) {
   var container;
   container = $('.emojis-container');
-  $.each(emojis, function(name, keywords) {
-    return container.append("<li class='result emoji-wrapper' data-clipboard-text=':" + name + ":'> <div class='emoji s_" + (name.replace(/\+/, '')) + "' title='" + name + "'>" + name + "</div> <input type='text' class='autofocus plain emoji-code' value=':" + name + ":' /> <span class='keywords'>" + name + " " + keywords + "</span> </li>");
+  Object.keys(emojis).forEach(function(key) {
+    var charHTML, emoji;
+    emoji = emojis[key];
+    charHTML = emoji["char"] ? "<div class='native-emoji' title='" + key + "'>" + emoji["char"] + "</div>" : "<div class='emoji s_" + (key.replace(/\+/, '')) + "' title='" + key + "'>" + key + "</div>";
+    return container.append("<li class='result emoji-wrapper' data-clipboard-text=':" + key + ":'> " + charHTML + " <input type='text' class='autofocus plain emoji-code' value=':" + key + ":' /> <span class='keywords'>" + key + " " + emoji["keywords"] + "</span> </li>");
   });
   return $(document).trigger('emoji:ready');
 });
