@@ -1,3427 +1,3442 @@
 {
   "100": {
-    "keywords": [ "score", "perfect", "numbers", "century" ],
+    "keywords": ["score", "perfect", "numbers", "century"],
     "char": "💯"
   },
   "1234": {
-    "keywords": [ "numbers", "blue-square" ],
+    "keywords": ["numbers", "blue-square"],
     "char": "🔢"
   },
   "smile": {
-    "keywords": [ "face", "happy", "joy", "funny", "haha", "laugh", "like" ],
+    "keywords": ["face", "happy", "joy", "funny", "haha", "laugh", "like"],
     "char": "😄"
   },
   "grinning": {
-    "keywords": [ "face", "smile", "happy", "joy" ],
+    "keywords": ["face", "smile", "happy", "joy"],
     "char": "😀"
   },
   "smiley": {
-    "keywords": [ "face", "happy", "joy", "haha" ],
+    "keywords": ["face", "happy", "joy", "haha"],
     "char": "😃"
   },
   "blush": {
-    "keywords": [ "face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy" ],
+    "keywords": ["face", "smile", "happy", "flushed", "crush", "embarrassed", "shy", "joy"],
     "char": "😊"
   },
   "relaxed": {
-    "keywords": [ "face", "blush", "massage", "happiness" ],
+    "keywords": ["face", "blush", "massage", "happiness"],
     "char": "☺️"
   },
   "wink": {
-    "keywords": [ "face", "happy", "mischievous", "secret" ],
+    "keywords": ["face", "happy", "mischievous", "secret"],
     "char": "😉"
   },
   "heart_eyes": {
-    "keywords": [ "face", "love", "like", "affection", "valentines", "infatuation", "crush" ],
+    "keywords": ["face", "love", "like", "affection", "valentines", "infatuation", "crush"],
     "char": "😍"
   },
   "kissing_heart": {
-    "keywords": [ "face", "love", "like", "affection", "valentines", "infatuation" ],
+    "keywords": ["face", "love", "like", "affection", "valentines", "infatuation"],
     "char": "😘"
   },
   "kissing_closed_eyes": {
-    "keywords": [ "face", "love", "like", "affection", "valentines", "infatuation" ],
+    "keywords": ["face", "love", "like", "affection", "valentines", "infatuation"],
     "char": "😚"
   },
   "kissing": {
-    "keywords": [ "love", "like", "face", "3", "valentines", "infatuation" ],
+    "keywords": ["love", "like", "face", "3", "valentines", "infatuation"],
     "char": "😗"
   },
   "kissing_smiling_eyes": {
-    "keywords": [ "face", "affection", "valentines", "infatuation" ],
+    "keywords": ["face", "affection", "valentines", "infatuation"],
     "char": "😙"
   },
   "stuck_out_tongue_winking_eye": {
-    "keywords": [ "face", "prank", "childish", "playful", "mischievous", "smile" ],
+    "keywords": ["face", "prank", "childish", "playful", "mischievous", "smile"],
     "char": "😜"
   },
   "stuck_out_tongue_closed_eyes": {
-    "keywords": [ "face", "prank", "playful", "mischievous", "smile" ],
+    "keywords": ["face", "prank", "playful", "mischievous", "smile"],
     "char": "😝"
   },
   "stuck_out_tongue": {
-    "keywords": [ "face", "prank", "childish", "playful", "mischievous", "smile" ],
+    "keywords": ["face", "prank", "childish", "playful", "mischievous", "smile"],
     "char": "😛"
   },
   "flushed": {
-    "keywords": [ "face", "blush", "shy", "flattered" ],
+    "keywords": ["face", "blush", "shy", "flattered"],
     "char": "😳"
   },
   "grin": {
-    "keywords": [ "face", "happy", "smile", "joy" ],
+    "keywords": ["face", "happy", "smile", "joy"],
     "char": "😁"
   },
   "pensive": {
-    "keywords": [ "face", "sad", "depressed", "okay", "upset" ],
+    "keywords": ["face", "sad", "depressed", "okay", "upset"],
     "char": "😔"
   },
   "relieved": {
-    "keywords": [ "face", "relaxed", "phew", "massage", "happiness" ],
+    "keywords": ["face", "relaxed", "phew", "massage", "happiness"],
     "char": "😌"
   },
   "unamused": {
-    "keywords": [ "indifference", "bored", "straight face", "serious" ],
+    "keywords": ["indifference", "bored", "straight face", "serious"],
     "char": "😒"
   },
   "disappointed": {
-    "keywords": [ "face", "sad", "upset", "depressed" ],
+    "keywords": ["face", "sad", "upset", "depressed"],
     "char": "😞"
   },
   "persevere": {
-    "keywords": [ "face", "sick", "no", "upset" ],
+    "keywords": ["face", "sick", "no", "upset"],
     "char": "😣"
   },
   "cry": {
-    "keywords": [ "face", "tears", "sad", "depressed", "upset" ],
+    "keywords": ["face", "tears", "sad", "depressed", "upset"],
     "char": "😢"
   },
   "joy": {
-    "keywords": [ "face", "cry", "tears", "weep", "happy", "haha" ],
+    "keywords": ["face", "cry", "tears", "weep", "happy", "haha"],
     "char": "😂"
   },
   "sob": {
-    "keywords": [ "face", "cry", "tears", "sad", "upset", "depressed" ],
+    "keywords": ["face", "cry", "tears", "sad", "upset", "depressed"],
     "char": "😭"
   },
   "sleepy": {
-    "keywords": [ "face", "tired", "rest", "nap" ],
+    "keywords": ["face", "tired", "rest", "nap"],
     "char": "😪"
   },
   "disappointed_relieved": {
-    "keywords": [ "face", "phew", "sweat", "nervous" ],
+    "keywords": ["face", "phew", "sweat", "nervous"],
     "char": "😥"
   },
   "cold_sweat": {
-    "keywords": [ "face", "nervous" ],
+    "keywords": ["face", "nervous"],
     "char": "😰"
   },
   "sweat_smile": {
-    "keywords": [ "face", "hot", "happy", "laugh" ],
+    "keywords": ["face", "hot", "happy", "laugh"],
     "char": "😅"
   },
   "sweat": {
-    "keywords": [ "face", "hot", "sad", "tired", "exercise" ],
+    "keywords": ["face", "hot", "sad", "tired", "exercise"],
     "char": "😓"
   },
   "weary": {
-    "keywords": [ "face", "tired", "sleepy", "sad", "frustrated", "upset" ],
+    "keywords": ["face", "tired", "sleepy", "sad", "frustrated", "upset"],
     "char": "😩"
   },
   "tired_face": {
-    "keywords": [ "sick", "whine", "upset", "frustrated" ],
+    "keywords": ["sick", "whine", "upset", "frustrated"],
     "char": "😫"
   },
   "fearful": {
-    "keywords": [ "face", "scared", "terrified", "nervous", "oops", "huh" ],
+    "keywords": ["face", "scared", "terrified", "nervous", "oops", "huh"],
     "char": "😨"
   },
   "scream": {
-    "keywords": [ "face", "munch", "scared", "omg" ],
+    "keywords": ["face", "munch", "scared", "omg"],
     "char": "😱"
   },
   "angry": {
-    "keywords": [ "mad", "face", "annoyed", "frustrated" ],
+    "keywords": ["mad", "face", "annoyed", "frustrated"],
     "char": "😠"
   },
   "triumph": {
-    "keywords": [ "face", "gas", "phew", "proud", "pride" ],
+    "keywords": ["face", "gas", "phew", "proud", "pride"],
     "char": "😤"
   },
   "confounded": {
-    "keywords": [ "face", "confused", "sick", "unwell" ],
+    "keywords": ["face", "confused", "sick", "unwell"],
     "char": "😖"
   },
   "yum": {
-    "keywords": [ "happy", "joy", "tongue", "smile", "face", "silly" ],
+    "keywords": ["happy", "joy", "tongue", "smile", "face", "silly"],
     "char": "😋"
   },
   "mask": {
-    "keywords": [ "face", "sick", "ill", "disease" ],
+    "keywords": ["face", "sick", "ill", "disease"],
     "char": "😷"
   },
   "sunglasses": {
-    "keywords": [ "face", "cool", "smile", "summer" ],
+    "keywords": ["face", "cool", "smile", "summer"],
     "char": "😎"
   },
   "sleeping": {
-    "keywords": [ "face", "tired", "sleepy", "night", "zzz" ],
+    "keywords": ["face", "tired", "sleepy", "night", "zzz"],
     "char": "😴"
   },
   "dizzy_face": {
-    "keywords": [ "spent", "unconscious", "xox" ],
+    "keywords": ["spent", "unconscious", "xox"],
     "char": "😵"
   },
   "astonished": {
-    "keywords": [ "face", "xox", "surprised", "poisoned" ],
+    "keywords": ["face", "xox", "surprised", "poisoned"],
     "char": "😲"
   },
   "worried": {
-    "keywords": [ "face", "concern", "nervous" ],
+    "keywords": ["face", "concern", "nervous"],
     "char": "😟"
   },
   "frowning": {
-    "keywords": [ "face", "aw", "what" ],
+    "keywords": ["face", "aw", "what"],
     "char": "😦"
   },
   "anguished": {
-    "keywords": [ "face", "stunned", "nervous" ],
+    "keywords": ["face", "stunned", "nervous"],
     "char": "😧"
   },
   "smiling_imp": {
-    "keywords": [ "devil", "horns" ],
+    "keywords": ["devil", "horns"],
     "char": "😈"
   },
   "imp": {
-    "keywords": [ "devil", "angry", "horns" ],
+    "keywords": ["devil", "angry", "horns"],
     "char": "👿"
   },
   "open_mouth": {
-    "keywords": [ "face", "surprise", "impressed", "wow" ],
+    "keywords": ["face", "surprise", "impressed", "wow"],
     "char": "😮"
   },
   "grimacing": {
-    "keywords": [ "face", "grimace", "teeth" ],
+    "keywords": ["face", "grimace", "teeth"],
     "char": "😬"
   },
   "neutral_face": {
-    "keywords": [ "indifference", "meh" ],
+    "keywords": ["indifference", "meh"],
     "char": "😐"
   },
   "confused": {
-    "keywords": [ "face", "indifference", "huh", "weird", "hmmm" ],
+    "keywords": ["face", "indifference", "huh", "weird", "hmmm"],
     "char": "😕"
   },
   "hushed": {
-    "keywords": [ "face", "woo", "shh" ],
+    "keywords": ["face", "woo", "shh"],
     "char": "😯"
   },
   "no_mouth": {
-    "keywords": [ "face", "hellokitty" ],
+    "keywords": ["face", "hellokitty"],
     "char": "😶"
   },
   "innocent": {
-    "keywords": [ "face", "angel", "heaven", "halo" ],
+    "keywords": ["face", "angel", "heaven", "halo"],
     "char": "😇"
   },
   "smirk": {
-    "keywords": [ "face", "smile", "mean", "prank", "smug", "sarcasm" ],
+    "keywords": ["face", "smile", "mean", "prank", "smug", "sarcasm"],
     "char": "😏"
   },
   "expressionless": {
-    "keywords": [ "face", "indifferent", "-_-", "meh" ],
+    "keywords": ["face", "indifferent", "-_-", "meh"],
     "char": "😑"
   },
   "man_with_gua_pi_mao": {
-    "keywords": [ "male", "boy" ],
+    "keywords": ["male", "boy"],
     "char": "👲"
   },
   "man_with_turban": {
-    "keywords": [ "male", "indian", "hinduism", "arabs" ],
+    "keywords": ["male", "indian", "hinduism", "arabs"],
     "char": "👳"
   },
   "cop": {
-    "keywords": [ "man", "police", "law", "legal", "enforcement", "arrest", "911" ],
+    "keywords": ["man", "police", "law", "legal", "enforcement", "arrest", "911"],
     "char": "👮"
   },
   "construction_worker": {
-    "keywords": [ "male", "human", "wip", "guy" ],
+    "keywords": ["male", "human", "wip", "guy"],
     "char": "👷"
   },
   "guardsman": {
-    "keywords": [ "uk", "gb", "british", "male", "guy", "royal" ],
+    "keywords": ["uk", "gb", "british", "male", "guy", "royal"],
     "char": "💂"
   },
   "baby": {
-    "keywords": [ "child", "boy", "girl", "toddler" ],
+    "keywords": ["child", "boy", "girl", "toddler"],
     "char": "👶"
   },
   "boy": {
-    "keywords": [ "man", "male", "guy", "teenager" ],
+    "keywords": ["man", "male", "guy", "teenager"],
     "char": "👦"
   },
   "girl": {
-    "keywords": [ "female", "woman", "teenager" ],
+    "keywords": ["female", "woman", "teenager"],
     "char": "👧"
   },
   "man": {
-    "keywords": [ "mustache", "father", "dad", "guy", "classy", "sir" ],
+    "keywords": ["mustache", "father", "dad", "guy", "classy", "sir"],
     "char": "👨"
   },
   "woman": {
-    "keywords": [ "female", "girls", "lady" ],
+    "keywords": ["female", "girls", "lady"],
     "char": "👩"
   },
   "older_man": {
-    "keywords": [ "human", "male", "men" ],
+    "keywords": ["human", "male", "men"],
     "char": "👴"
   },
   "older_woman": {
-    "keywords": [ "female", "women", "girl", "lady" ],
+    "keywords": ["female", "women", "girl", "lady"],
     "char": "👵"
   },
   "person_with_blond_hair": {
-    "keywords": [ "man", "male", "boy", "blonde", "guy" ],
+    "keywords": ["man", "male", "boy", "blonde", "guy"],
     "char": "👱"
   },
   "angel": {
-    "keywords": [ "heaven", "wings", "halo" ],
+    "keywords": ["heaven", "wings", "halo"],
     "char": "👼"
   },
   "princess": {
-    "keywords": [ "girl", "woman", "female", "blond", "crown", "royal", "queen" ],
+    "keywords": ["girl", "woman", "female", "blond", "crown", "royal", "queen"],
     "char": "👸"
   },
   "smile_cat": {
-    "keywords": [ "animal", "cats" ],
+    "keywords": ["animal", "cats"],
     "char": "😸"
   },
   "heart_eyes_cat": {
-    "keywords": [ "animal", "love", "like", "affection", "cats", "valentines" ],
+    "keywords": ["animal", "love", "like", "affection", "cats", "valentines"],
     "char": "😻"
   },
   "kissing_cat": {
-    "keywords": [ "animal", "cats" ],
+    "keywords": ["animal", "cats"],
     "char": "😽"
   },
   "smirk_cat": {
-    "keywords": [ "animal", "cats" ],
+    "keywords": ["animal", "cats"],
     "char": "😼"
   },
   "scream_cat": {
-    "keywords": [ "animal", "cats", "munch", "scared" ],
+    "keywords": ["animal", "cats", "munch", "scared"],
     "char": "🙀"
   },
   "crying_cat_face": {
-    "keywords": [ "animal", "tears", "weep", "sad", "cats", "upset" ],
+    "keywords": ["animal", "tears", "weep", "sad", "cats", "upset"],
     "char": "😿"
   },
   "joy_cat": {
-    "keywords": [ "animal", "cats", "haha", "happy", "tears" ],
+    "keywords": ["animal", "cats", "haha", "happy", "tears"],
     "char": "😹"
   },
   "pouting_cat": {
-    "keywords": [ "animal", "cats" ],
+    "keywords": ["animal", "cats"],
     "char": "😾"
   },
   "smiley_cat": {
-    "keywords": [ "animal", "cats", "happy" ],
+    "keywords": ["animal", "cats", "happy"],
     "char": "😺"
   },
   "japanese_goblin": {
-    "keywords": [ "red", "evil", "mask", "monster", "scary", "creepy" ],
+    "keywords": ["red", "evil", "mask", "monster", "scary", "creepy"],
     "char": "👺"
   },
   "see_no_evil": {
-    "keywords": [ "monkey", "animal", "nature", "haha" ],
+    "keywords": ["monkey", "animal", "nature", "haha"],
     "char": "🙈"
   },
   "hear_no_evil": {
-    "keywords": [ "animal", "monkey", "nature" ],
+    "keywords": ["animal", "monkey", "nature"],
     "char": "🙉"
   },
   "speak_no_evil": {
-    "keywords": [ "monkey", "animal", "nature", "omg" ],
+    "keywords": ["monkey", "animal", "nature", "omg"],
     "char": "🙊"
   },
   "skull": {
-    "keywords": [ "dead", "skeleton", "creepy" ],
+    "keywords": ["dead", "skeleton", "creepy"],
     "char": "💀"
   },
   "alien": {
-    "keywords": [ "UFO", "paul" ],
+    "keywords": ["UFO", "paul"],
     "char": "👽"
   },
   "hankey": {
-    "keywords": [ "poop", "shitface" ],
+    "keywords": ["poop", "shitface"],
     "char": "💩"
   },
   "fire": {
-    "keywords": [ "hot", "cook", "flame" ],
+    "keywords": ["hot", "cook", "flame"],
     "char": "🔥"
   },
   "sparkles": {
-    "keywords": [ "stars", "shine", "shiny", "cool", "awesome", "good" ],
+    "keywords": ["stars", "shine", "shiny", "cool", "awesome", "good"],
     "char": "✨"
   },
   "star2": {
-    "keywords": [ "night", "sparkle", "awesome", "good" ],
+    "keywords": ["night", "sparkle", "awesome", "good"],
     "char": "🌟"
   },
   "dizzy": {
-    "keywords": [ "star", "sparkle", "shoot" ],
+    "keywords": ["star", "sparkle", "shoot"],
     "char": "💫"
   },
   "boom": {
-    "keywords": [ "bomb", "explode", "explosion", "collision", "blown" ],
+    "keywords": ["bomb", "explode", "explosion", "collision", "blown"],
     "char": "💥"
   },
   "anger": {
-    "keywords": [ "angry", "mad" ],
+    "keywords": ["angry", "mad"],
     "char": "💢"
   },
   "sweat_drops": {
-    "keywords": [ "water", "drip" ],
+    "keywords": ["water", "drip"],
     "char": "💦"
   },
   "droplet": {
-    "keywords": [ "water", "drip", "faucet" ],
+    "keywords": ["water", "drip", "faucet"],
     "char": "💧"
   },
   "zzz": {
-    "keywords": [ "sleepy", "tired" ],
+    "keywords": ["sleepy", "tired"],
     "char": "💤"
   },
   "ear": {
-    "keywords": [ "face", "hear", "sound", "listen" ],
+    "keywords": ["face", "hear", "sound", "listen"],
     "char": "👂"
   },
   "eyes": {
-    "keywords": [ "look", "watch", "stalk", "peek" ],
+    "keywords": ["look", "watch", "stalk", "peek"],
     "char": "👀"
   },
   "nose": {
-    "keywords": [ "smell", "sniff" ],
+    "keywords": ["smell", "sniff"],
     "char": "👃"
   },
   "tongue": {
-    "keywords": [ "mouth", "playful" ],
+    "keywords": ["mouth", "playful"],
     "char": "👅"
   },
   "lips": {
-    "keywords": [ "mouth", "kiss" ],
+    "keywords": ["mouth", "kiss"],
     "char": "👄"
   },
   "+1": {
-    "keywords": [ "thumbsup", "yes", "awesome", "good", "agree", "accept", "cool", "hand", "like" ],
+    "keywords": ["thumbsup", "yes", "awesome", "good", "agree", "accept", "cool", "hand", "like"],
     "char": "👍"
   },
   "-1": {
-    "keywords": [ "thumbsdown", "no", "dislike", "hand" ],
+    "keywords": ["thumbsdown", "no", "dislike", "hand"],
     "char": "👎"
   },
   "ok_hand": {
-    "keywords": [ "fingers", "limbs", "perfect" ],
+    "keywords": ["fingers", "limbs", "perfect"],
     "char": "👌"
   },
   "facepunch": {
-    "keywords": [ "angry", "violence", "fist", "hit", "attack", "hand" ],
+    "keywords": ["angry", "violence", "fist", "hit", "attack", "hand"],
     "char": "👊"
   },
   "fist": {
-    "keywords": [ "fingers", "hand", "grasp" ],
+    "keywords": ["fingers", "hand", "grasp"],
     "char": "✊"
   },
   "v": {
-    "keywords": [ "fingers", "ohyeah", "hand", "peace", "victory", "two" ],
+    "keywords": ["fingers", "ohyeah", "hand", "peace", "victory", "two"],
     "char": "✌️"
   },
   "wave": {
-    "keywords": [ "hands", "gesture", "goodbye", "solong", "farewell", "hello", "palm" ],
+    "keywords": ["hands", "gesture", "goodbye", "solong", "farewell", "hello", "palm"],
     "char": "👋"
   },
   "hand": {
-    "keywords": [ "fingers", "stop", "highfive", "palm", "ban", "raised_hand" ],
+    "keywords": ["fingers", "stop", "highfive", "palm", "ban", "raised_hand"],
     "char": "✋"
   },
   "open_hands": {
-    "keywords": [ "fingers", "butterfly" ],
+    "keywords": ["fingers", "butterfly"],
     "char": "👐"
   },
   "point_up": {
-    "keywords": [ "hand", "fingers", "direction" ],
+    "keywords": ["hand", "fingers", "direction"],
     "char": "☝️"
   },
   "point_down": {
-    "keywords": [ "fingers", "hand", "direction" ],
+    "keywords": ["fingers", "hand", "direction"],
     "char": "👇"
   },
   "point_right": {
-    "keywords": [ "fingers", "hand", "direction" ],
+    "keywords": ["fingers", "hand", "direction"],
     "char": "👉"
   },
   "point_left": {
-    "keywords": [ "direction", "fingers", "hand" ],
+    "keywords": ["direction", "fingers", "hand"],
     "char": "👈"
   },
   "raised_hands": {
-    "keywords": [ "gesture", "hooray", "yea", "celebration" ],
+    "keywords": ["gesture", "hooray", "yea", "celebration"],
     "char": "🙌"
   },
   "pray": {
-    "keywords": [ "please", "hope", "wish", "namaste", "highfive" ],
+    "keywords": ["please", "hope", "wish", "namaste", "highfive"],
     "char": "🙏"
   },
   "point_up_2": {
-    "keywords": [ "fingers", "hand", "direction" ],
+    "keywords": ["fingers", "hand", "direction"],
     "char": "👆"
   },
   "clap": {
-    "keywords": [ "hands", "praise", "applause", "congrats", "yay" ],
+    "keywords": ["hands", "praise", "applause", "congrats", "yay"],
     "char": "👏"
   },
   "muscle": {
-    "keywords": [ "arm", "flex", "hand", "summer" ],
+    "keywords": ["arm", "flex", "hand", "summer"],
     "char": "💪"
   },
   "walking": {
-    "keywords": [ "human", "feet", "steps" ],
+    "keywords": ["human", "feet", "steps"],
     "char": "🚶"
   },
   "runner": {
-    "keywords": [ "man", "walking", "exercise", "race", "running" ],
+    "keywords": ["man", "walking", "exercise", "race", "running"],
     "char": "🏃"
   },
   "dancer": {
-    "keywords": [ "female", "girl", "woman", "fun" ],
+    "keywords": ["female", "girl", "woman", "fun"],
     "char": "💃"
   },
   "couple": {
-   "keywords": [ "pair", "people", "human", "love", "date", "dating", "like", "affection", "valentines",  "marriage" ],
+    "keywords": ["pair", "people", "human", "love", "date", "dating", "like", "affection", "valentines", "marriage"],
     "char": "👫"
   },
   "family": {
-    "keywords": [ "home", "parents", "child", "mom", "dad", "father", "mother", "people", "human" ],
+    "keywords": ["home", "parents", "child", "mom", "dad", "father", "mother", "people", "human"],
     "char": "👪"
   },
   "two_men_holding_hands": {
-    "keywords": [ "pair", "couple", "love", "like", "bromance", "friendship", "people", "human" ],
+    "keywords": ["pair", "couple", "love", "like", "bromance", "friendship", "people", "human"],
     "char": "👬"
   },
   "two_women_holding_hands": {
-    "keywords": [ "pair", "friendship", "couple", "love", "like", "female", "people", "human" ],
+    "keywords": ["pair", "friendship", "couple", "love", "like", "female", "people", "human"],
     "char": "👭"
   },
   "couplekiss": {
-    "keywords": [ "pair", "valentines", "love", "like", "dating", "marriage" ],
+    "keywords": ["pair", "valentines", "love", "like", "dating", "marriage"],
     "char": "💏"
   },
   "couple_with_heart": {
-    "keywords": [ "pair", "love", "like", "affection", "human", "dating", "valentines", "marriage" ],
+    "keywords": ["pair", "love", "like", "affection", "human", "dating", "valentines", "marriage"],
     "char": "💑"
   },
   "dancers": {
-    "keywords": [ "female", "bunny", "women", "girls" ],
+    "keywords": ["female", "bunny", "women", "girls"],
     "char": "👯"
   },
   "ok_woman": {
-    "keywords": [ "women", "girl", "female", "pink", "human" ],
+    "keywords": ["women", "girl", "female", "pink", "human"],
     "char": "🙆"
   },
   "no_good": {
-    "keywords": [ "female", "girl", "woman", "nope" ],
+    "keywords": ["female", "girl", "woman", "nope"],
     "char": "🙅"
   },
   "information_desk_person": {
-    "keywords": [ "female", "girl", "woman", "human" ],
+    "keywords": ["female", "girl", "woman", "human"],
     "char": "💁"
   },
   "massage": {
-    "keywords": [ "female", "girl", "woman", "head" ],
+    "keywords": ["female", "girl", "woman", "head"],
     "char": "💆"
   },
   "haircut": {
-    "keywords": [ "female", "girl", "woman" ],
+    "keywords": ["female", "girl", "woman"],
     "char": "💇"
   },
   "nail_care": {
-    "keywords": [ "beauty", "manicure" ],
+    "keywords": ["beauty", "manicure"],
     "char": "💅"
   },
   "bride_with_veil": {
-    "keywords": [ "couple", "marriage", "wedding" ],
+    "keywords": ["couple", "marriage", "wedding"],
     "char": "👰"
   },
   "person_with_pouting_face": {
-    "keywords": [ "female", "girl", "woman" ],
+    "keywords": ["female", "girl", "woman"],
     "char": "🙎"
   },
   "person_frowning": {
-    "keywords": [ "female", "girl", "woman", "sad", "depressed", "discouraged", "unhappy" ],
+    "keywords": ["female", "girl", "woman", "sad", "depressed", "discouraged", "unhappy"],
     "char": "🙍"
   },
   "bow": {
-    "keywords": [ "man", "male", "boy" ],
+    "keywords": ["man", "male", "boy"],
     "char": "🙇"
   },
   "tophat": {
-    "keywords": [ "magic", "gentleman", "classy" ],
+    "keywords": ["magic", "gentleman", "classy"],
     "char": "🎩"
   },
   "crown": {
-    "keywords": [ "king", "kod", "leader", "royalty", "lord" ],
+    "keywords": ["king", "kod", "leader", "royalty", "lord"],
     "char": "👑"
   },
   "womans_hat": {
-    "keywords": [ "fashion", "accessories", "female", "lady" ],
+    "keywords": ["fashion", "accessories", "female", "lady"],
     "char": "👒"
   },
   "athletic_shoe": {
-    "keywords": [ "shoes", "sports" ],
+    "keywords": ["shoes", "sports"],
     "char": "👟"
   },
   "mans_shoe": {
-    "keywords": [ "fashion", "male" ],
+    "keywords": ["fashion", "male"],
     "char": "👞"
   },
   "sandal": {
-    "keywords": [ "shoes", "fashion" ],
+    "keywords": ["shoes", "fashion"],
     "char": "👡"
   },
   "high_heel": {
-    "keywords": [ "fashion", "shoes", "female", "pumps" ],
+    "keywords": ["fashion", "shoes", "female", "pumps"],
     "char": "👠"
   },
   "boot": {
-    "keywords": [ "shoes", "fashion" ],
+    "keywords": ["shoes", "fashion"],
     "char": "👢"
   },
   "shirt": {
-    "keywords": [ "fashion", "cloth", "casual", "tshirt" ],
+    "keywords": ["fashion", "cloth", "casual", "tshirt"],
     "char": "👕"
   },
   "necktie": {
-    "keywords": [ "shirt", "suitup", "formal", "fashion", "cloth", "business" ],
+    "keywords": ["shirt", "suitup", "formal", "fashion", "cloth", "business"],
     "char": "👔"
   },
   "womans_clothes": {
-    "keywords": [ "fashion", "shopping", "female" ],
+    "keywords": ["fashion", "shopping", "female"],
     "char": "👚"
   },
   "dress": {
-    "keywords": [ "clothes", "fashion", "shopping" ],
+    "keywords": ["clothes", "fashion", "shopping"],
     "char": "👗"
   },
   "running_shirt_with_sash": {
-    "keywords": [ "play", "pageant" ],
+    "keywords": ["play", "pageant"],
     "char": "🎽"
   },
   "jeans": {
-    "keywords": [ "fashion", "shopping" ],
+    "keywords": ["fashion", "shopping"],
     "char": "👖"
   },
   "kimono": {
-    "keywords": [ "dress", "fashion", "women", "female", "japanese" ],
+    "keywords": ["dress", "fashion", "women", "female", "japanese"],
     "char": "👘"
   },
   "bikini": {
-    "keywords": [ "swimming", "female", "woman", "girl", "fashion", "beach", "summer" ],
+    "keywords": ["swimming", "female", "woman", "girl", "fashion", "beach", "summer"],
     "char": "👙"
   },
   "briefcase": {
-    "keywords": [ "business", "documents", "work", "law", "legal" ],
+    "keywords": ["business", "documents", "work", "law", "legal"],
     "char": "💼"
   },
   "handbag": {
-    "keywords": [ "fashion", "accessory", "accessories" ],
+    "keywords": ["fashion", "accessory", "accessories"],
     "char": "👜"
   },
   "pouch": {
-    "keywords": [ "bag", "accessories" ],
+    "keywords": ["bag", "accessories"],
     "char": "👝"
   },
   "purse": {
-    "keywords": [ "fashion", "accessories", "money", "sales" ],
+    "keywords": ["fashion", "accessories", "money", "sales"],
     "char": "👛"
   },
   "eyeglasses": {
-    "keywords": [ "fashion", "accessories", "eyesight", "nerd", "dork" ],
+    "keywords": ["fashion", "accessories", "eyesight", "nerd", "dork"],
     "char": "👓"
   },
   "ribbon": {
-    "keywords": [ "decoration", "pink", "girl", "bowtie" ],
+    "keywords": ["decoration", "pink", "girl", "bowtie"],
     "char": "🎀"
   },
   "closed_umbrella": {
-    "keywords": [ "weather", "rain", "drizzle" ],
+    "keywords": ["weather", "rain", "drizzle"],
     "char": "🌂"
   },
   "lipstick": {
-    "keywords": [ "female", "girl", "fashion", "woman" ],
+    "keywords": ["female", "girl", "fashion", "woman"],
     "char": "💄"
   },
   "yellow_heart": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💛"
   },
   "blue_heart": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💙"
   },
   "purple_heart": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💜"
   },
   "green_heart": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💚"
   },
   "heart": {
-    "keywords": [ "love", "like", "valentines" ],
+    "keywords": ["love", "like", "valentines"],
     "char": "❤️"
   },
   "broken_heart": {
-    "keywords": [ "sad", "sorry", "break" ],
+    "keywords": ["sad", "sorry", "break"],
     "char": "💔"
   },
   "heartpulse": {
-    "keywords": [ "like", "love", "affection", "valentines", "pink" ],
+    "keywords": ["like", "love", "affection", "valentines", "pink"],
     "char": "💗"
   },
   "heartbeat": {
-    "keywords": [ "love", "like", "affection", "valentines", "pink" ],
+    "keywords": ["love", "like", "affection", "valentines", "pink"],
     "char": "💓"
   },
   "two_hearts": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💕"
   },
   "sparkling_heart": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💖"
   },
   "revolving_hearts": {
-    "keywords": [ "love", "like", "affection", "valentines" ],
+    "keywords": ["love", "like", "affection", "valentines"],
     "char": "💞"
   },
   "cupid": {
-    "keywords": [ "love", "like", "heart", "affection", "valentines" ],
+    "keywords": ["love", "like", "heart", "affection", "valentines"],
     "char": "💘"
   },
   "love_letter": {
-    "keywords": [ "email", "like", "affection", "envelope", "valentines" ],
+    "keywords": ["email", "like", "affection", "envelope", "valentines"],
     "char": "💌"
   },
   "kiss": {
-    "keywords": [ "face", "lips", "love", "like", "affection", "valentines" ],
+    "keywords": ["face", "lips", "love", "like", "affection", "valentines"],
     "char": "💋"
   },
   "ring": {
-    "keywords": [ "wedding", "propose", "marriage", "valentines", "diamond" ],
+    "keywords": ["wedding", "propose", "marriage", "valentines", "diamond"],
     "char": "💍"
   },
   "gem": {
-    "keywords": [ "blue", "ruby", "diamond" ],
+    "keywords": ["blue", "ruby", "diamond"],
     "char": "💎"
   },
   "bust_in_silhouette": {
-    "keywords": [ "user", "person", "human" ],
+    "keywords": ["user", "person", "human"],
     "char": "👤"
   },
   "busts_in_silhouette": {
-    "keywords": [ "user", "person", "human", "group", "team" ],
+    "keywords": ["user", "person", "human", "group", "team"],
     "char": "👥"
   },
   "speech_balloon": {
-    "keywords": [ "bubble", "words", "message", "talk", "chatting" ],
+    "keywords": ["bubble", "words", "message", "talk", "chatting"],
     "char": "💬"
   },
   "footprints": {
-    "keywords": [ "feet", "tracking", "walking" ],
+    "keywords": ["feet", "tracking", "walking"],
     "char": "👣"
   },
   "thought_balloon": {
-    "keywords": [ "bubble", "cloud", "speech", "thinking" ],
+    "keywords": ["bubble", "cloud", "speech", "thinking"],
     "char": "💭"
   },
   "dog": {
-    "keywords": [ "animal", "friend", "nature", "woof", "puppy", "pet", "faithful" ],
+    "keywords": ["animal", "friend", "nature", "woof", "puppy", "pet", "faithful"],
     "char": "🐶"
   },
   "wolf": {
-    "keywords": [ "animal", "nature", "wild" ],
+    "keywords": ["animal", "nature", "wild"],
     "char": "🐺"
   },
   "cat": {
-    "keywords": [ "animal", "meow", "nature", "pet" ],
+    "keywords": ["animal", "meow", "nature", "pet"],
     "char": "🐱"
   },
   "mouse": {
-    "keywords": [ "animal", "nature", "cheese" ],
+    "keywords": ["animal", "nature", "cheese"],
     "char": "🐭"
   },
   "hamster": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐹"
   },
   "rabbit": {
-    "keywords": [ "animal", "nature", "pet" ],
+    "keywords": ["animal", "nature", "pet"],
     "char": "🐰"
   },
   "frog": {
-    "keywords": [ "animal", "nature", "croak" ],
+    "keywords": ["animal", "nature", "croak"],
     "char": "🐸"
   },
   "tiger": {
-    "keywords": [ "animal", "cat", "danger", "wild", "nature", "roar" ],
+    "keywords": ["animal", "cat", "danger", "wild", "nature", "roar"],
     "char": "🐯"
   },
   "koala": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐨"
   },
   "bear": {
-    "keywords": [ "animal", "nature", "wild" ],
+    "keywords": ["animal", "nature", "wild"],
     "char": "🐻"
   },
   "pig": {
-    "keywords": [ "animal", "oink", "nature" ],
+    "keywords": ["animal", "oink", "nature"],
     "char": "🐷"
   },
   "pig_nose": {
-    "keywords": [ "animal", "oink" ],
+    "keywords": ["animal", "oink"],
     "char": "🐽"
   },
   "cow": {
-    "keywords": [ "beef", "ox", "animal", "nature", "moo", "milk" ],
+    "keywords": ["beef", "ox", "animal", "nature", "moo", "milk"],
     "char": "🐮"
   },
   "boar": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐗"
   },
   "monkey": {
-    "keywords": [ "animal", "nature", "banana" ],
+    "keywords": ["animal", "nature", "banana"],
     "char": "🐒"
   },
   "monkey_face": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐵"
   },
   "horse": {
-    "keywords": [ "animal", "brown", "nature", "unicorn" ],
+    "keywords": ["animal", "brown", "nature", "unicorn"],
     "char": "🐴"
   },
   "sheep": {
-    "keywords": [ "animal", "nature", "wool", "shipit" ],
+    "keywords": ["animal", "nature", "wool", "shipit"],
     "char": "🐑"
   },
   "elephant": {
-    "keywords": [ "animal", "nature", "nose", "thailand" ],
+    "keywords": ["animal", "nature", "nose", "thailand"],
     "char": "🐘"
   },
   "panda_face": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐼"
   },
   "penguin": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐧"
   },
   "bird": {
-    "keywords": [ "animal", "nature", "fly", "tweet" ],
+    "keywords": ["animal", "nature", "fly", "tweet"],
     "char": "🐦"
   },
   "baby_chick": {
-    "keywords": [ "animal", "chicken" ],
+    "keywords": ["animal", "chicken"],
     "char": "🐤"
   },
   "hatched_chick": {
-    "keywords": [ "animal", "chicken", "baby" ],
+    "keywords": ["animal", "chicken", "baby"],
     "char": "🐥"
   },
   "hatching_chick": {
-    "keywords": [ "animal", "chicken", "egg", "born" ],
+    "keywords": ["animal", "chicken", "egg", "born"],
     "char": "🐣"
   },
   "chicken": {
-    "keywords": [ "animal", "cluck", "nature" ],
+    "keywords": ["animal", "cluck", "nature"],
     "char": "🐔"
   },
   "snake": {
-    "keywords": [ "animal", "evil", "nature", "hiss" ],
+    "keywords": ["animal", "evil", "nature", "hiss"],
     "char": "🐍"
   },
   "turtle": {
-    "keywords": [ "animal", "slow", "nature", "tortoise" ],
+    "keywords": ["animal", "slow", "nature", "tortoise"],
     "char": "🐢"
   },
   "bug": {
-    "keywords": [ "insect", "nature", "worm" ],
+    "keywords": ["insect", "nature", "worm"],
     "char": "🐛"
   },
   "bee": {
-    "keywords": [ "animal", "insect", "nature" ],
+    "keywords": ["animal", "insect", "nature"],
     "char": "🐝"
   },
   "ant": {
-    "keywords": [ "animal", "insect", "nature" ],
+    "keywords": ["animal", "insect", "nature"],
     "char": "🐜"
   },
   "beetle": {
-    "keywords": [ "insect", "nature" ],
+    "keywords": ["insect", "nature"],
     "char": "🐞"
   },
   "snail": {
-    "keywords": [ "slow", "animal", "shell" ],
+    "keywords": ["slow", "animal", "shell"],
     "char": "🐌"
   },
   "octopus": {
-    "keywords": [ "animal", "creature", "ocean", "sea", "nature" ],
+    "keywords": ["animal", "creature", "ocean", "sea", "nature"],
     "char": "🐙"
   },
   "shell": {
-    "keywords": [ "nature", "sea", "beach" ],
+    "keywords": ["nature", "sea", "beach"],
     "char": "🐚"
   },
   "tropical_fish": {
-    "keywords": [ "animal", "swim", "ocean" ],
+    "keywords": ["animal", "swim", "ocean"],
     "char": "🐠"
   },
   "fish": {
-    "keywords": [ "animal", "food", "nature" ],
+    "keywords": ["animal", "food", "nature"],
     "char": "🐟"
   },
   "dolphin": {
-    "keywords": [ "animal", "nature", "fish", "sea", "ocean", "flipper", "fins" ],
+    "keywords": ["animal", "nature", "fish", "sea", "ocean", "flipper", "fins"],
     "char": "🐬"
   },
   "whale": {
-    "keywords": [ "animal", "nature", "sea", "ocean" ],
+    "keywords": ["animal", "nature", "sea", "ocean"],
     "char": "🐳"
   },
   "whale2": {
-    "keywords": [ "animal", "nature", "sea", "ocean" ],
+    "keywords": ["animal", "nature", "sea", "ocean"],
     "char": "🐋"
   },
   "cow2": {
-    "keywords": [ "beef", "ox", "animal", "nature", "moo", "milk" ],
+    "keywords": ["beef", "ox", "animal", "nature", "moo", "milk"],
     "char": "🐄"
   },
   "ram": {
-    "keywords": [ "animal", "sheep", "nature" ],
+    "keywords": ["animal", "sheep", "nature"],
     "char": "🐏"
   },
   "rat": {
-    "keywords": [ "animal", "mouse", "rodent" ],
+    "keywords": ["animal", "mouse", "rodent"],
     "char": "🐀"
   },
   "water_buffalo": {
-    "keywords": [ "animal", "nature", "ox", "cow" ],
+    "keywords": ["animal", "nature", "ox", "cow"],
     "char": "🐃"
   },
   "tiger2": {
-    "keywords": [ "animal", "nature", "roar" ],
+    "keywords": ["animal", "nature", "roar"],
     "char": "🐅"
   },
   "rabbit2": {
-    "keywords": [ "animal", "nature", "pet" ],
+    "keywords": ["animal", "nature", "pet"],
     "char": "🐇"
   },
   "dragon": {
-    "keywords": [ "animal", "myth", "nature", "chinese", "green" ],
+    "keywords": ["animal", "myth", "nature", "chinese", "green"],
     "char": "🐉"
   },
   "racehorse": {
-    "keywords": [ "animal", "gamble" ],
+    "keywords": ["animal", "gamble"],
     "char": "🐎"
   },
   "goat": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐐"
   },
   "rooster": {
-    "keywords": [ "animal", "nature", "chicken" ],
+    "keywords": ["animal", "nature", "chicken"],
     "char": "🐓"
   },
   "dog2": {
-    "keywords": [ "animal", "nature", "friend", "doge", "pet", "faithful" ],
+    "keywords": ["animal", "nature", "friend", "doge", "pet", "faithful"],
     "char": "🐕"
   },
   "pig2": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐖"
   },
   "mouse2": {
-    "keywords": [ "animal", "nature", "rodent" ],
+    "keywords": ["animal", "nature", "rodent"],
     "char": "🐁"
   },
   "ox": {
-    "keywords": [ "animal", "cow", "beef" ],
+    "keywords": ["animal", "cow", "beef"],
     "char": "🐂"
   },
   "dragon_face": {
-    "keywords": [ "animal", "myth", "nature", "chinese", "green" ],
+    "keywords": ["animal", "myth", "nature", "chinese", "green"],
     "char": "🐲"
   },
   "blowfish": {
-    "keywords": [ "nature", "food", "sea", "ocean" ],
+    "keywords": ["nature", "food", "sea", "ocean"],
     "char": "🐡"
   },
   "crocodile": {
-    "keywords": [ "animal", "nature", "reptile" ],
+    "keywords": ["animal", "nature", "reptile"],
     "char": "🐊"
   },
   "camel": {
-    "keywords": [ "animal", "nature", "hot", "desert", "hump" ],
+    "keywords": ["animal", "nature", "hot", "desert", "hump"],
     "char": "🐫"
   },
   "dromedary_camel": {
-    "keywords": [ "animal", "hot", "desert", "hump" ],
+    "keywords": ["animal", "hot", "desert", "hump"],
     "char": "🐪"
   },
   "leopard": {
-    "keywords": [ "animal", "nature" ],
+    "keywords": ["animal", "nature"],
     "char": "🐆"
   },
   "cat2": {
-    "keywords": [ "animal", "meow", "pet", "cats" ],
+    "keywords": ["animal", "meow", "pet", "cats"],
     "char": "🐈"
   },
   "poodle": {
-    "keywords": [ "dog", "animal", "101", "nature", "pet" ],
+    "keywords": ["dog", "animal", "101", "nature", "pet"],
     "char": "🐩"
   },
   "bouquet": {
-    "keywords": [ "flowers", "nature" ],
+    "keywords": ["flowers", "nature"],
     "char": "💐"
   },
   "cherry_blossom": {
-    "keywords": [ "flower", "nature", "plant" ],
+    "keywords": ["flower", "nature", "plant"],
     "char": "🌸"
   },
   "tulip": {
-    "keywords": [ "flowers", "plant", "nature" ],
+    "keywords": ["flowers", "plant", "nature"],
     "char": "🌷"
   },
   "four_leaf_clover": {
-    "keywords": [ "vegetable", "plant", "nature", "lucky" ],
+    "keywords": ["vegetable", "plant", "nature", "lucky"],
     "char": "🍀"
   },
   "rose": {
-    "keywords": [ "flowers", "valentines", "love" ],
+    "keywords": ["flowers", "valentines", "love"],
     "char": "🌹"
   },
   "sunflower": {
-    "keywords": [ "nature", "plant" ],
+    "keywords": ["nature", "plant"],
     "char": "🌻"
   },
   "hibiscus": {
-    "keywords": [ "plant", "vegetable", "flowers" ],
+    "keywords": ["plant", "vegetable", "flowers"],
     "char": "🌺"
   },
   "maple_leaf": {
-    "keywords": [ "nature", "plant", "vegetable", "canada" ],
+    "keywords": ["nature", "plant", "vegetable", "canada"],
     "char": "🍁"
   },
   "leaves": {
-    "keywords": [ "nature", "plant", "tree", "vegetable", "grass", "lawn" ],
+    "keywords": ["nature", "plant", "tree", "vegetable", "grass", "lawn"],
     "char": "🍃"
   },
   "fallen_leaf": {
-    "keywords": [ "nature", "plant", "vegetable", "leaves" ],
+    "keywords": ["nature", "plant", "vegetable", "leaves"],
     "char": "🍂"
   },
   "herb": {
-    "keywords": [ "vegetable", "plant", "medicine", "weed", "grass", "lawn" ],
+    "keywords": ["vegetable", "plant", "medicine", "weed", "grass", "lawn"],
     "char": "🌿"
   },
   "ear_of_rice": {
-    "keywords": [ "nature", "plant" ],
+    "keywords": ["nature", "plant"],
     "char": "🌾"
   },
   "mushroom": {
-    "keywords": [ "plant", "vegetable" ],
+    "keywords": ["plant", "vegetable"],
     "char": "🍄"
   },
   "cactus": {
-    "keywords": [ "vegetable", "plant", "nature" ],
+    "keywords": ["vegetable", "plant", "nature"],
     "char": "🌵"
   },
   "palm_tree": {
-    "keywords": [ "plant", "vegetable", "nature", "summer" ],
+    "keywords": ["plant", "vegetable", "nature", "summer"],
     "char": "🌴"
   },
   "evergreen_tree": {
-    "keywords": [ "plant", "nature" ],
+    "keywords": ["plant", "nature"],
     "char": "🌲"
   },
   "deciduous_tree": {
-    "keywords": [ "plant", "nature" ],
+    "keywords": ["plant", "nature"],
     "char": "🌳"
   },
   "chestnut": {
-    "keywords": [ "food", "squirrel" ],
+    "keywords": ["food", "squirrel"],
     "char": "🌰"
   },
   "seedling": {
-    "keywords": [ "plant", "nature", "grass", "lawn" ],
+    "keywords": ["plant", "nature", "grass", "lawn"],
     "char": "🌱"
   },
   "blossom": {
-    "keywords": [ "nature", "flowers", "yellow" ],
+    "keywords": ["nature", "flowers", "yellow"],
     "char": "🌼"
   },
   "globe_with_meridians": {
-    "keywords": [ "earth", "international", "world", "internet", "interweb" ],
+    "keywords": ["earth", "international", "world", "internet", "interweb"],
     "char": "🌐"
   },
   "sun_with_face": {
-    "keywords": [ "nature", "morning", "sky" ],
+    "keywords": ["nature", "morning", "sky"],
     "char": "🌞"
   },
   "full_moon_with_face": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌝"
   },
   "new_moon_with_face": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌚"
   },
   "new_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌑"
   },
   "waxing_crescent_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌒"
   },
   "first_quarter_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌓"
   },
   "moon": {
-    "keywords": [ "nature", "night", "sky", "gray", "twilight", "planet", "space", "evening", "sleep" ],
+    "keywords": ["nature", "night", "sky", "gray", "twilight", "planet", "space", "evening", "sleep"],
     "char": "🌔"
   },
   "full_moon": {
-    "keywords": [ "nature", "yellow", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "yellow", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌕"
   },
   "waning_gibbous_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep", "waxing_gibbous_moon" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep", "waxing_gibbous_moon"],
     "char": "🌖"
   },
   "last_quarter_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌗"
   },
   "waning_crescent_moon": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌘"
   },
   "last_quarter_moon_with_face": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌜"
   },
   "first_quarter_moon_with_face": {
-    "keywords": [ "nature", "twilight", "planet", "space", "night", "evening", "sleep" ],
+    "keywords": ["nature", "twilight", "planet", "space", "night", "evening", "sleep"],
     "char": "🌛"
   },
   "crescent_moon": {
-    "keywords": [ "night", "sleep", "sky", "evening" ],
+    "keywords": ["night", "sleep", "sky", "evening"],
     "char": "🌙"
   },
   "earth_africa": {
-    "keywords": [ "globe", "world", "international" ],
+    "keywords": ["globe", "world", "international"],
     "char": "🌍"
   },
   "earth_americas": {
-    "keywords": [ "globe", "world", "USA", "international" ],
+    "keywords": ["globe", "world", "USA", "international"],
     "char": "🌎"
   },
   "earth_asia": {
-    "keywords": [ "globe", "world", "east", "international" ],
+    "keywords": ["globe", "world", "east", "international"],
     "char": "🌏"
   },
   "volcano": {
-    "keywords": [ "photo", "nature", "disaster" ],
+    "keywords": ["photo", "nature", "disaster"],
     "char": "🌋"
   },
   "milky_way": {
-    "keywords": [ "photo", "space", "stars" ],
+    "keywords": ["photo", "space", "stars"],
     "char": "🌌"
   },
   "stars": {
-    "keywords": [ "night", "photo" ],
+    "keywords": ["night", "photo"],
     "char": "🌠"
   },
   "star": {
-    "keywords": [ "night", "yellow" ],
+    "keywords": ["night", "yellow"],
     "char": "⭐"
   },
   "sunny": {
-    "keywords": [ "weather", "nature", "brightness", "summer" ],
+    "keywords": ["weather", "nature", "brightness", "summer"],
     "char": "☀️"
   },
   "partly_sunny": {
-    "keywords": [ "weather", "nature", "cloudy", "morning" ],
+    "keywords": ["weather", "nature", "cloudy", "morning"],
     "char": "⛅"
   },
   "cloud": {
-    "keywords": [ "weather", "sky" ],
+    "keywords": ["weather", "sky"],
     "char": "☁️"
   },
   "zap": {
-    "keywords": [ "thunder", "weather", "lightning bolt" ],
+    "keywords": ["thunder", "weather", "lightning bolt"],
     "char": "⚡"
   },
   "umbrella": {
-    "keywords": [ "rainy", "weather" ],
+    "keywords": ["rainy", "weather"],
     "char": "☔"
   },
   "snowflake": {
-    "keywords": [ "winter", "season", "cold", "weather", "christmas", "xmas" ],
+    "keywords": ["winter", "season", "cold", "weather", "christmas", "xmas"],
     "char": "❄️"
   },
   "snowman": {
-    "keywords": [ "winter", "season", "cold", "weather", "christmas", "xmas", "frozen" ],
+    "keywords": ["winter", "season", "cold", "weather", "christmas", "xmas", "frozen"],
     "char": "⛄"
   },
   "cyclone": {
-    "keywords": [ "weather", "swirl", "blue", "cloud" ],
+    "keywords": ["weather", "swirl", "blue", "cloud"],
     "char": "🌀"
   },
   "foggy": {
-    "keywords": [ "photo", "mountain" ],
+    "keywords": ["photo", "mountain"],
     "char": "🌁"
   },
   "rainbow": {
-    "keywords": [ "nature", "happy", "unicorn", "photo", "sky" ],
+    "keywords": ["nature", "happy", "unicorn", "photo", "sky"],
     "char": "🌈"
   },
   "ocean": {
-    "keywords": [ "sea", "water", "wave", "nature", "tsunami", "disaster" ],
+    "keywords": ["sea", "water", "wave", "nature", "tsunami", "disaster"],
     "char": "🌊"
   },
   "8ball": {
-    "keywords": [ "pool", "hobby", "game" ],
+    "keywords": ["pool", "hobby", "game"],
     "char": "🎱"
   },
   "a": {
-    "keywords": [ "red-square", "alphabet", "letter" ],
+    "keywords": ["red-square", "alphabet", "letter"],
     "char": "🅰️"
   },
   "ab": {
-    "keywords": [ "red-square", "alphabet" ],
+    "keywords": ["red-square", "alphabet"],
     "char": "🆎"
   },
   "abc": {
-    "keywords": [ "blue-square", "alphabet" ],
+    "keywords": ["blue-square", "alphabet"],
     "char": "🔤"
   },
   "abcd": {
-    "keywords": [ "blue-square", "alphabet" ],
+    "keywords": ["blue-square", "alphabet"],
     "char": "🔡"
   },
   "accept": {
-    "keywords": [ "ok", "good", "chinese", "kanji", "agree", "yes", "orange-circle" ],
+    "keywords": ["ok", "good", "chinese", "kanji", "agree", "yes", "orange-circle"],
     "char": "🉑"
   },
   "aerial_tramway": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚡"
   },
   "airplane": {
-    "keywords": [ "vehicle", "transportation", "flight" ],
+    "keywords": ["vehicle", "transportation", "flight"],
     "char": "✈️"
   },
   "alarm_clock": {
-    "keywords": [ "time", "wake" ],
+    "keywords": ["time", "wake"],
     "char": "⏰"
   },
   "ambulance": {
-    "keywords": [ "health", "911", "hospital" ],
+    "keywords": ["health", "911", "hospital"],
     "char": "🚑"
   },
   "anchor": {
-    "keywords": [ "ship", "ferry" ],
+    "keywords": ["ship", "ferry"],
     "char": "⚓"
   },
   "clock7": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕖"
   },
   "clock730": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕢"
   },
   "clock8": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕗"
   },
   "clock830": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕣"
   },
   "clock9": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕘"
   },
   "clock930": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕤"
   },
   "closed_book": {
-    "keywords": [ "read", "library", "knowledge", "textbook" ],
+    "keywords": ["read", "library", "knowledge", "textbook"],
     "char": "📕"
   },
   "closed_lock_with_key": {
-    "keywords": [ "security", "privacy" ],
+    "keywords": ["security", "privacy"],
     "char": "🔐"
   },
   "clubs": {
-    "keywords": [ "poker", "cards" ],
+    "keywords": ["poker", "cards"],
     "char": "♣️"
   },
   "cn": {
-    "keywords": [ "china", "chinese", "prc", "flag", "country", "nation", "banner" ],
+    "keywords": ["china", "chinese", "prc", "flag", "country", "nation", "banner"],
     "char": "🇨🇳"
   },
   "cocktail": {
-    "keywords": [ "drink", "drunk", "alcohol", "beverage" ],
+    "keywords": ["drink", "drunk", "alcohol", "beverage"],
     "char": "🍸"
   },
   "coffee": {
-    "keywords": [ "drink", "beverage", "cafe", "espresso" ],
+    "keywords": ["drink", "beverage", "cafe", "espresso"],
     "char": "☕"
   },
   "computer": {
-    "keywords": [ "tech", "laptop" ],
+    "keywords": ["tech", "laptop"],
     "char": "💻"
   },
   "confetti_ball": {
-    "keywords": [ "festival", "party", "birthday" ],
+    "keywords": ["festival", "party", "birthday"],
     "char": "🎊"
   },
   "hash": {
-    "keywords": [ "symbol", "blue-square", "twitter" ],
+    "keywords": ["symbol", "blue-square", "twitter"],
     "char": "#️⃣"
   },
   "headphones": {
-    "keywords": [ "music", "score", "gadgets" ],
+    "keywords": ["music", "score", "gadgets"],
     "char": "🎧"
   },
   "heart_decoration": {
-    "keywords": [ "purple-square", "love", "like" ],
+    "keywords": ["purple-square", "love", "like"],
     "char": "💟"
   },
   "hearts": {
-    "keywords": [ "poker", "cards" ],
+    "keywords": ["poker", "cards"],
     "char": "♥️"
   },
   "heavy_check_mark": {
-    "keywords": [ "ok", "nike" ],
+    "keywords": ["ok", "nike"],
     "char": "✔️"
   },
   "heavy_division_sign": {
-    "keywords": [ "divide", "math", "calculation" ],
+    "keywords": ["divide", "math", "calculation"],
     "char": "➗"
   },
   "heavy_dollar_sign": {
-    "keywords": [ "money", "sales", "payment", "currency" ],
+    "keywords": ["money", "sales", "payment", "currency"],
     "char": "💲"
   },
   "heavy_minus_sign": {
-    "keywords": [ "math", "calculation", "subtract", "less" ],
+    "keywords": ["math", "calculation", "subtract", "less"],
     "char": "➖"
   },
   "heavy_multiplication_x": {
-    "keywords": [ "math", "calculation" ],
+    "keywords": ["math", "calculation"],
     "char": "✖️"
   },
   "notes": {
-    "keywords": [ "music", "score" ],
+    "keywords": ["music", "score"],
     "char": "🎶"
   },
   "nut_and_bolt": {
-    "keywords": [ "handy", "tools" ],
+    "keywords": ["handy", "tools"],
     "char": "🔩"
   },
   "o": {
-    "keywords": [ "circle", "round" ],
+    "keywords": ["circle", "round"],
     "char": "⭕"
   },
   "o2": {
-    "keywords": [ "alphabet", "red-square", "letter" ],
+    "keywords": ["alphabet", "red-square", "letter"],
     "char": "🅾️"
   },
   "oden": {
-    "keywords": [ "food", "japanese" ],
+    "keywords": ["food", "japanese"],
     "char": "🍢"
   },
   "office": {
-    "keywords": [ "building", "bureau", "work" ],
+    "keywords": ["building", "bureau", "work"],
     "char": "🏢"
   },
   "ok": {
-    "keywords": [ "good", "agree", "yes", "blue-square" ],
+    "keywords": ["good", "agree", "yes", "blue-square"],
     "char": "🆗"
   },
   "on": {
-    "keywords": [ "arrow", "words" ],
+    "keywords": ["arrow", "words"],
     "char": "🔛"
   },
   "oncoming_automobile": {
-    "keywords": [ "car", "vehicle", "transportation" ],
+    "keywords": ["car", "vehicle", "transportation"],
     "char": "🚘"
   },
   "oncoming_bus": {
-    "keywords": [ "vehicle", "transportation" ],
+    "keywords": ["vehicle", "transportation"],
     "char": "🚍"
   },
   "oncoming_police_car": {
-    "keywords": [ "vehicle", "law", "legal", "enforcement", "911" ],
+    "keywords": ["vehicle", "law", "legal", "enforcement", "911"],
     "char": "🚔"
   },
   "oncoming_taxi": {
-    "keywords": [ "vehicle", "cars", "uber" ],
+    "keywords": ["vehicle", "cars", "uber"],
     "char": "🚖"
   },
   "one": {
-    "keywords": [ "blue-square", "numbers", "1" ],
+    "keywords": ["blue-square", "numbers", "1"],
     "char": "1️⃣"
   },
   "smoking": {
-    "keywords": [ "kills", "tobacco", "cigarette" ],
+    "keywords": ["kills", "tobacco", "cigarette"],
     "char": "🚬"
   },
   "snowboarder": {
-    "keywords": [ "sports", "winter" ],
+    "keywords": ["sports", "winter"],
     "char": "🏂"
   },
   "soccer": {
-    "keywords": [ "sports", "balls", "football", "fifa" ],
+    "keywords": ["sports", "balls", "football", "fifa"],
     "char": "⚽"
   },
   "soon": {
-    "keywords": [ "arrow", "words" ],
+    "keywords": ["arrow", "words"],
     "char": "🔜"
   },
   "sos": {
-    "keywords": [ "help", "red-square", "words", "emergency", "911" ],
+    "keywords": ["help", "red-square", "words", "emergency", "911"],
     "char": "🆘"
   },
   "sound": {
-    "keywords": [ "volume", "speaker" ],
+    "keywords": ["volume", "speaker"],
     "char": "🔉"
   },
   "space_invader": {
-    "keywords": [ "game", "arcade", "play" ],
+    "keywords": ["game", "arcade", "play"],
     "char": "👾"
   },
   "spades": {
-    "keywords": [ "poker", "cards" ],
+    "keywords": ["poker", "cards"],
     "char": "♠️"
   },
   "spaghetti": {
-    "keywords": [ "food", "italian", "noodle" ],
+    "keywords": ["food", "italian", "noodle"],
     "char": "🍝"
   },
   "sparkle": {
-    "keywords": [ "stars", "green-square", "awesome", "good", "fireworks" ],
+    "keywords": ["stars", "green-square", "awesome", "good", "fireworks"],
     "char": "❇️"
   },
   "sparkler": {
-    "keywords": [ "stars", "night", "shine" ],
+    "keywords": ["stars", "night", "shine"],
     "char": "🎇"
   },
   "congratulations": {
-    "keywords": [ "chinese", "kanji", "japanese", "red-circle" ],
+    "keywords": ["chinese", "kanji", "japanese", "red-circle"],
     "char": "㊗️"
   },
   "heavy_plus_sign": {
-    "keywords": [ "math", "calculation" ],
+    "keywords": ["math", "calculation"],
     "char": "➕"
   },
   "apple": {
-    "keywords": [ "fruit", "mac" ],
+    "keywords": ["fruit", "mac"],
     "char": "🍎"
   },
   "construction": {
-    "keywords": [ "wip", "progress", "caution", "warning" ],
+    "keywords": ["wip", "progress", "caution", "warning"],
     "char": "🚧"
   },
   "helicopter": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚁"
   },
   "open_file_folder": {
-    "keywords": [ "documents", "load" ],
+    "keywords": ["documents", "load"],
     "char": "📂"
   },
   "speaker": {
-    "keywords": [ "volume", "sound" ],
+    "keywords": ["volume", "sound"],
     "char": "🔈"
   },
   "aquarius": {
-    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "keywords": ["sign", "purple-square", "zodiac"],
     "char": "♒"
   },
   "aries": {
-    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "keywords": ["sign", "purple-square", "zodiac"],
     "char": "♈"
   },
   "convenience_store": {
-    "keywords": [ "building", "shopping", "groceries" ],
+    "keywords": ["building", "shopping", "groceries"],
     "char": "🏪"
   },
   "speedboat": {
-    "keywords": [ "ship", "transportation", "vehicle", "summer" ],
+    "keywords": ["ship", "transportation", "vehicle", "summer"],
     "char": "🚤"
   },
   "arrow_backward": {
-  "keywords": [ "blue-square" ], "char": "◀️"
-},
+    "keywords": ["blue-square"],
+    "char": "◀️"
+  },
   "cookie": {
-    "keywords": [ "food", "snack", "oreo", "chocolate", "sweet", "dessert" ],
+    "keywords": ["food", "snack", "oreo", "chocolate", "sweet", "dessert"],
     "char": "🍪"
   },
   "high_brightness": {
-    "keywords": [ "sun", "light" ],
+    "keywords": ["sun", "light"],
     "char": "🔆"
   },
   "ophiuchus": {
-    "keywords": [ "sign", "purple-square", "constellation" ],
+    "keywords": ["sign", "purple-square", "constellation"],
     "char": "⛎"
   },
   "arrow_double_down": {
-  "keywords": [ "blue-square" ], "char": "⏬"
-},
+    "keywords": ["blue-square"],
+    "char": "⏬"
+  },
   "cool": {
-    "keywords": [ "words", "blue-square" ],
+    "keywords": ["words", "blue-square"],
     "char": "🆒"
   },
   "orange_book": {
-    "keywords": [ "read", "library", "knowledge", "textbook" ],
+    "keywords": ["read", "library", "knowledge", "textbook"],
     "char": "📙"
   },
   "arrow_double_up": {
-  "keywords": [ "blue-square" ], "char": "⏫"
-},
+    "keywords": ["blue-square"],
+    "char": "⏫"
+  },
   "hocho": {
-    "keywords": [ "knife", "blade", "cutlery" ],
+    "keywords": ["knife", "blade", "cutlery"],
     "char": "🔪"
   },
   "outbox_tray": {
-    "keywords": [ "inbox", "email" ],
+    "keywords": ["inbox", "email"],
     "char": "📤"
   },
   "arrow_down": {
-  "keywords": [ "blue-square" ], "char": "⬇️"
-},
+    "keywords": ["blue-square"],
+    "char": "⬇️"
+  },
   "copyright": {
-    "keywords": [ "ip", "license", "circle", "law", "legal" ],
+    "keywords": ["ip", "license", "circle", "law", "legal"],
     "char": "©️"
   },
   "honey_pot": {
-    "keywords": [ "bees", "sweet" ],
+    "keywords": ["bees", "sweet"],
     "char": "🍯"
   },
   "arrow_down_small": {
-  "keywords": [ "blue-square" ], "char": "🔽"
-},
+    "keywords": ["blue-square"],
+    "char": "🔽"
+  },
   "corn": {
-    "keywords": [ "food", "vegetable", "plant" ],
+    "keywords": ["food", "vegetable", "plant"],
     "char": "🌽"
   },
   "package": {
-    "keywords": [ "mail", "gift", "cardboard", "box", "moving" ],
+    "keywords": ["mail", "gift", "cardboard", "box", "moving"],
     "char": "📦"
   },
   "station": {
-    "keywords": [ "transportation", "vehicle", "public" ],
+    "keywords": ["transportation", "vehicle", "public"],
     "char": "🚉"
   },
   "arrow_forward": {
-  "keywords": [ "blue-square" ], "char": "▶️"
-},
+    "keywords": ["blue-square"],
+    "char": "▶️"
+  },
   "page_facing_up": {
-    "keywords": [ "documents", "office", "paper", "information" ],
+    "keywords": ["documents", "office", "paper", "information"],
     "char": "📄"
   },
   "statue_of_liberty": {
-    "keywords": [ "american", "newyork" ],
+    "keywords": ["american", "newyork"],
     "char": "🗽"
   },
   "arrow_heading_down": {
-  "keywords": [ "blue-square" ], "char": "⤵️"
-},
+    "keywords": ["blue-square"],
+    "char": "⤵️"
+  },
   "page_with_curl": {
-    "keywords": [ "documents", "office", "paper" ],
+    "keywords": ["documents", "office", "paper"],
     "char": "📃"
   },
   "steam_locomotive": {
-    "keywords": [ "transportation", "vehicle", "train" ],
+    "keywords": ["transportation", "vehicle", "train"],
     "char": "🚂"
   },
   "arrow_heading_up": {
-  "keywords": [ "blue-square" ], "char": "⤴️"
-},
+    "keywords": ["blue-square"],
+    "char": "⤴️"
+  },
   "hospital": {
-    "keywords": [ "building", "health", "surgery", "doctor" ],
+    "keywords": ["building", "health", "surgery", "doctor"],
     "char": "🏥"
   },
   "pager": {
-    "keywords": [ "bbcall", "oldschool" ],
+    "keywords": ["bbcall", "oldschool"],
     "char": "📟"
   },
   "stew": {
-    "keywords": [ "food", "meat", "soup" ],
+    "keywords": ["food", "meat", "soup"],
     "char": "🍲"
   },
   "arrow_left": {
-    "keywords": [ "blue-square", "previous" ],
+    "keywords": ["blue-square", "previous"],
     "char": "⬅️"
   },
   "hotel": {
-    "keywords": [ "building", "whotel", "accomodation", "checkin" ],
+    "keywords": ["building", "whotel", "accomodation", "checkin"],
     "char": "🏨"
   },
   "straight_ruler": {
-    "keywords": [ "stationery", "calculate", "length", "math", "school", "drawing", "architect", "sketch" ],
+    "keywords": ["stationery", "calculate", "length", "math", "school", "drawing", "architect", "sketch"],
     "char": "📏"
   },
   "arrow_lower_left": {
-  "keywords": [ "blue-square" ], "char": "↙️"
-},
+    "keywords": ["blue-square"],
+    "char": "↙️"
+  },
   "hotsprings": {
-    "keywords": [ "bath", "warm", "relax" ],
+    "keywords": ["bath", "warm", "relax"],
     "char": "♨️"
   },
   "strawberry": {
-    "keywords": [ "fruit", "food", "nature" ],
+    "keywords": ["fruit", "food", "nature"],
     "char": "🍓"
   },
   "arrow_lower_right": {
-  "keywords": [ "blue-square" ], "char": "↘️"
-},
+    "keywords": ["blue-square"],
+    "char": "↘️"
+  },
   "credit_card": {
-    "keywords": [ "money", "sales", "dollar", "bill", "payment" ],
+    "keywords": ["money", "sales", "dollar", "bill", "payment"],
     "char": "💳"
   },
   "hourglass": {
-    "keywords": [ "time", "clock", "oldschool" ],
+    "keywords": ["time", "clock", "oldschool"],
     "char": "⌛"
   },
   "paperclip": {
-    "keywords": [ "documents", "stationery" ],
+    "keywords": ["documents", "stationery"],
     "char": "📎"
   },
   "arrow_right": {
-    "keywords": [ "blue-square", "next" ],
+    "keywords": ["blue-square", "next"],
     "char": "➡️"
   },
   "hourglass_flowing_sand": {
-    "keywords": [ "oldschool", "time", "countdown" ],
+    "keywords": ["oldschool", "time", "countdown"],
     "char": "⏳"
   },
   "parking": {
-    "keywords": [ "cars", "blue-square", "alphabet", "letter" ],
+    "keywords": ["cars", "blue-square", "alphabet", "letter"],
     "char": "🅿️"
   },
   "arrow_right_hook": {
-    "keywords": [ "blue-square", "return", "rotade", "direction" ],
+    "keywords": ["blue-square", "return", "rotade", "direction"],
     "char": "↪️"
   },
   "house": {
-    "keywords": [ "building", "home" ],
+    "keywords": ["building", "home"],
     "char": "🏠"
   },
   "part_alternation_mark": {
-    "keywords": [ "graph", "presentation", "stats", "business", "economics", "bad" ],
+    "keywords": ["graph", "presentation", "stats", "business", "economics", "bad"],
     "char": "〽️"
   },
   "arrow_up": {
-    "keywords": [ "blue-square", "continue", "top", "direction" ],
+    "keywords": ["blue-square", "continue", "top", "direction"],
     "char": "⬆️"
   },
   "crossed_flags": {
-    "keywords": [ "japanese", "nation", "country", "border" ],
+    "keywords": ["japanese", "nation", "country", "border"],
     "char": "🎌"
   },
   "house_with_garden": {
-    "keywords": [ "home", "plant", "nature" ],
+    "keywords": ["home", "plant", "nature"],
     "char": "🏡"
   },
   "arrow_up_down": {
-    "keywords": [ "blue-square", "direction", "way" ],
+    "keywords": ["blue-square", "direction", "way"],
     "char": "↕️"
   },
   "passport_control": {
-    "keywords": [ "custom", "blue-square" ],
+    "keywords": ["custom", "blue-square"],
     "char": "🛂"
   },
   "arrow_up_small": {
-    "keywords": [ "blue-square", "triangle", "direction", "point", "forward" ],
+    "keywords": ["blue-square", "triangle", "direction", "point", "forward"],
     "char": "🔼"
   },
   "arrow_upper_left": {
-    "keywords": [ "blue-square", "point", "direction" ],
+    "keywords": ["blue-square", "point", "direction"],
     "char": "↖️"
   },
   "ice_cream": {
-    "keywords": [ "food", "hot", "dessert" ],
+    "keywords": ["food", "hot", "dessert"],
     "char": "🍨"
   },
   "peach": {
-    "keywords": [ "fruit", "nature", "food" ],
+    "keywords": ["fruit", "nature", "food"],
     "char": "🍑"
   },
   "arrow_upper_right": {
-    "keywords": [ "blue-square", "point", "direction" ],
+    "keywords": ["blue-square", "point", "direction"],
     "char": "↗️"
   },
   "crystal_ball": {
-    "keywords": [ "disco", "party" ],
+    "keywords": ["disco", "party"],
     "char": "🔮"
   },
   "icecream": {
-    "keywords": [ "food", "hot", "dessert", "summer" ],
+    "keywords": ["food", "hot", "dessert", "summer"],
     "char": "🍦"
   },
   "pear": {
-    "keywords": [ "fruit", "nature", "food" ],
+    "keywords": ["fruit", "nature", "food"],
     "char": "🍐"
   },
   "sunrise": {
-    "keywords": [ "morning", "view", "vacation", "photo" ],
+    "keywords": ["morning", "view", "vacation", "photo"],
     "char": "🌅"
   },
   "arrows_clockwise": {
-    "keywords": [ "sync", "cycle", "round", "repeat" ],
+    "keywords": ["sync", "cycle", "round", "repeat"],
     "char": "🔃"
   },
   "id": {
-    "keywords": [ "purple-square", "words" ],
+    "keywords": ["purple-square", "words"],
     "char": "🆔"
   },
   "sunrise_over_mountains": {
-    "keywords": [ "view", "vacation", "photo" ],
+    "keywords": ["view", "vacation", "photo"],
     "char": "🌄"
   },
   "arrows_counterclockwise": {
-    "keywords": [ "blue-square", "sync", "cycle" ],
+    "keywords": ["blue-square", "sync", "cycle"],
     "char": "🔄"
   },
   "curly_loop": {
-    "keywords": [ "scribble", "draw", "shape" ],
+    "keywords": ["scribble", "draw", "shape"],
     "char": "➰"
   },
   "ideograph_advantage": {
-    "keywords": [ "chinese", "kanji", "obtain", "get", "circle" ],
+    "keywords": ["chinese", "kanji", "obtain", "get", "circle"],
     "char": "🉐"
   },
   "pencil2": {
-    "keywords": [ "stationery", "write", "paper", "writing" ],
+    "keywords": ["stationery", "write", "paper", "writing"],
     "char": "✏️"
   },
   "surfer": {
-    "keywords": [ "sports", "ocean", "sea", "summer" ],
+    "keywords": ["sports", "ocean", "sea", "summer"],
     "char": "🏄"
   },
   "art": {
-    "keywords": [ "design", "paint", "draw" ],
+    "keywords": ["design", "paint", "draw"],
     "char": "🎨"
   },
   "currency_exchange": {
-    "keywords": [ "money", "sales", "dollar", "travel" ],
+    "keywords": ["money", "sales", "dollar", "travel"],
     "char": "💱"
   },
   "sushi": {
-    "keywords": [ "food", "fish", "japanese", "rice" ],
+    "keywords": ["food", "fish", "japanese", "rice"],
     "char": "🍣"
   },
   "articulated_lorry": {
-    "keywords": [ "vehicle", "cars", "transportation", "express" ],
+    "keywords": ["vehicle", "cars", "transportation", "express"],
     "char": "🚛"
   },
   "curry": {
-    "keywords": [ "food", "spicy", "hot", "indian" ],
+    "keywords": ["food", "spicy", "hot", "indian"],
     "char": "🍛"
   },
   "inbox_tray": {
-    "keywords": [ "email", "documents" ],
+    "keywords": ["email", "documents"],
     "char": "📥"
   },
   "custard": {
-    "keywords": [ "dessert", "food" ],
+    "keywords": ["dessert", "food"],
     "char": "🍮"
   },
   "incoming_envelope": {
-    "keywords": [ "email", "inbox" ],
+    "keywords": ["email", "inbox"],
     "char": "📨"
   },
   "performing_arts": {
-    "keywords": [ "acting", "theater", "drama" ],
+    "keywords": ["acting", "theater", "drama"],
     "char": "🎭"
   },
   "suspension_railway": {
-    "keywords": [ "vehicle", "transportation" ],
+    "keywords": ["vehicle", "transportation"],
     "char": "🚟"
   },
   "customs": {
-    "keywords": [ "passport", "border", "blue-square" ],
+    "keywords": ["passport", "border", "blue-square"],
     "char": "🛃"
   },
   "atm": {
-    "keywords": [ "money", "sales", "cash", "blue-square", "payment", "bank" ],
+    "keywords": ["money", "sales", "cash", "blue-square", "payment", "bank"],
     "char": "🏧"
   },
   "information_source": {
-    "keywords": [ "blue-square", "alphabet", "letter" ],
+    "keywords": ["blue-square", "alphabet", "letter"],
     "char": "ℹ️"
   },
   "b": {
-    "keywords": [ "red-square", "alphabet", "letter" ],
+    "keywords": ["red-square", "alphabet", "letter"],
     "char": "🅱️"
   },
   "interrobang": {
-    "keywords": [ "wat", "punctuation", "surprise" ],
+    "keywords": ["wat", "punctuation", "surprise"],
     "char": "⁉️"
   },
   "sweet_potato": {
-    "keywords": [ "food", "nature" ],
+    "keywords": ["food", "nature"],
     "char": "🍠"
   },
   "baby_bottle": {
-    "keywords": [ "food", "container", "milk" ],
+    "keywords": ["food", "container", "milk"],
     "char": "🍼"
   },
   "dango": {
-    "keywords": [ "food", "barbecue", "meat" ],
+    "keywords": ["food", "barbecue", "meat"],
     "char": "🍡"
   },
   "iphone": {
-    "keywords": [ "technology", "apple", "gadgets", "dial" ],
+    "keywords": ["technology", "apple", "gadgets", "dial"],
     "char": "📱"
   },
   "phone": {
-    "keywords": [ "technology", "communication", "dial", "telephone" ],
+    "keywords": ["technology", "communication", "dial", "telephone"],
     "char": "☎️"
   },
   "swimmer": {
-    "keywords": [ "sports", "exercise", "human", "athlete", "water", "summer" ],
+    "keywords": ["sports", "exercise", "human", "athlete", "water", "summer"],
     "char": "🏊"
   },
   "dart": {
-    "keywords": [ "game", "play", "bar" ],
+    "keywords": ["game", "play", "bar"],
     "char": "🎯"
   },
   "it": {
-    "keywords": [ "italy", "flag", "nation", "country", "banner" ],
+    "keywords": ["italy", "flag", "nation", "country", "banner"],
     "char": "🇮🇹"
   },
   "symbols": {
-  "keywords": [ "blue-square" ], "char": "🔣"
-},
+    "keywords": ["blue-square"],
+    "char": "🔣"
+  },
   "baby_symbol": {
-    "keywords": [ "orange-square", "child" ],
+    "keywords": ["orange-square", "child"],
     "char": "🚼"
   },
   "dash": {
-    "keywords": [ "wind", "air", "fast", "shoo", "fart", "smoke", "puff" ],
+    "keywords": ["wind", "air", "fast", "shoo", "fart", "smoke", "puff"],
     "char": "💨"
   },
   "izakaya_lantern": {
-    "keywords": [ "light", "paper", "halloween", "spooky" ],
+    "keywords": ["light", "paper", "halloween", "spooky"],
     "char": "🏮"
   },
   "syringe": {
-    "keywords": [ "health", "hospital", "drugs", "blood", "medicine", "needle" ],
+    "keywords": ["health", "hospital", "drugs", "blood", "medicine", "needle"],
     "char": "💉"
   },
   "back": {
-    "keywords": [ "arrow", "words", "return" ],
+    "keywords": ["arrow", "words", "return"],
     "char": "🔙"
   },
   "date": {
-    "keywords": [ "calendar", "schedule" ],
+    "keywords": ["calendar", "schedule"],
     "char": "📅"
   },
   "jack_o_lantern": {
-    "keywords": [ "halloween", "light", "pumpkin", "creepy" ],
+    "keywords": ["halloween", "light", "pumpkin", "creepy"],
     "char": "🎃"
   },
   "tada": {
-    "keywords": [ "party", "contulations", "birthday" ],
+    "keywords": ["party", "contulations", "birthday"],
     "char": "🎉"
   },
   "baggage_claim": {
-    "keywords": [ "blue-square", "airport", "transport" ],
+    "keywords": ["blue-square", "airport", "transport"],
     "char": "🛄"
   },
   "de": {
-    "keywords": [ "german", "nation", "flag", "country", "banner" ],
+    "keywords": ["german", "nation", "flag", "country", "banner"],
     "char": "🇩🇪"
   },
   "japan": {
-    "keywords": [ "nation", "country", "japanese", "asia" ],
+    "keywords": ["nation", "country", "japanese", "asia"],
     "char": "🗾"
   },
   "pill": {
-    "keywords": [ "health", "medicine" ],
+    "keywords": ["health", "medicine"],
     "char": "💊"
   },
   "tanabata_tree": {
-    "keywords": [ "plant", "nature", "branch" ],
+    "keywords": ["plant", "nature", "branch"],
     "char": "🎋"
   },
   "balloon": {
-    "keywords": [ "party", "celebration", "birthday" ],
+    "keywords": ["party", "celebration", "birthday"],
     "char": "🎈"
   },
   "japanese_castle": {
-    "keywords": [ "photo", "building" ],
+    "keywords": ["photo", "building"],
     "char": "🏯"
   },
   "pineapple": {
-    "keywords": [ "fruit", "nature", "food" ],
+    "keywords": ["fruit", "nature", "food"],
     "char": "🍍"
   },
   "tangerine": {
-    "keywords": [ "food", "fruit", "nature" ],
+    "keywords": ["food", "fruit", "nature"],
     "char": "🍊"
   },
   "ballot_box_with_check": {
-    "keywords": [ "ok", "agree", "confirm", "black-square", "vote", "election" ],
+    "keywords": ["ok", "agree", "confirm", "black-square", "vote", "election"],
     "char": "☑️"
   },
   "department_store": {
-    "keywords": [ "building", "shopping", "mall" ],
+    "keywords": ["building", "shopping", "mall"],
     "char": "🏬"
   },
   "pisces": {
-    "keywords": [ "purple-square", "sign", "zodiac" ],
+    "keywords": ["purple-square", "sign", "zodiac"],
     "char": "♓"
   },
   "taurus": {
-    "keywords": [ "purple-square", "sign", "zodiac" ],
+    "keywords": ["purple-square", "sign", "zodiac"],
     "char": "♉"
   },
   "bamboo": {
-    "keywords": [ "plant", "nature", "vegetable", "panda" ],
+    "keywords": ["plant", "nature", "vegetable", "panda"],
     "char": "🎍"
   },
   "diamond_shape_with_a_dot_inside": {
-  "keywords": [ "jewel" ], "char": "💠"
-},
+    "keywords": ["jewel"],
+    "char": "💠"
+  },
   "japanese_ogre": {
-    "keywords": [ "monster", "red", "mask", "halloween", "scary", "creepy", "devil", "demon" ],
+    "keywords": ["monster", "red", "mask", "halloween", "scary", "creepy", "devil", "demon"],
     "char": "👹"
   },
   "pizza": {
-    "keywords": [ "food", "party" ],
+    "keywords": ["food", "party"],
     "char": "🍕"
   },
   "taxi": {
-    "keywords": [ "uber", "vehicle", "cars", "transportation" ],
+    "keywords": ["uber", "vehicle", "cars", "transportation"],
     "char": "🚕"
   },
   "banana": {
-    "keywords": [ "fruit", "food" ],
+    "keywords": ["fruit", "food"],
     "char": "🍌"
   },
   "diamonds": {
-    "keywords": [ "poker", "cards" ],
+    "keywords": ["poker", "cards"],
     "char": "♦️"
   },
   "tea": {
-    "keywords": [ "drink", "bowl", "breakfast", "green", "british" ],
+    "keywords": ["drink", "bowl", "breakfast", "green", "british"],
     "char": "🍵"
   },
   "bangbang": {
-    "keywords": [ "exclamation", "surprise" ],
+    "keywords": ["exclamation", "surprise"],
     "char": "‼️"
   },
   "bank": {
-    "keywords": [ "building", "money", "sales", "cash", "business", "enterprise" ],
+    "keywords": ["building", "money", "sales", "cash", "business", "enterprise"],
     "char": "🏦"
   },
   "telephone_receiver": {
-    "keywords": [ "technology", "communication", "dial" ],
+    "keywords": ["technology", "communication", "dial"],
     "char": "📞"
   },
   "bar_chart": {
-    "keywords": [ "graph", "presentation", "stats" ],
+    "keywords": ["graph", "presentation", "stats"],
     "char": "📊"
   },
   "jp": {
-    "keywords": [ "japanese", "nation", "flag", "country", "banner" ],
+    "keywords": ["japanese", "nation", "flag", "country", "banner"],
     "char": "🇯🇵"
   },
   "telescope": {
-    "keywords": [ "stars", "space" ],
+    "keywords": ["stars", "space"],
     "char": "🔭"
   },
   "barber": {
-    "keywords": [ "hair", "salon", "style" ],
+    "keywords": ["hair", "salon", "style"],
     "char": "💈"
   },
   "key": {
-    "keywords": [ "lock", "door", "password" ],
+    "keywords": ["lock", "door", "password"],
     "char": "🔑"
   },
   "tennis": {
-    "keywords": [ "sports", "balls", "green" ],
+    "keywords": ["sports", "balls", "green"],
     "char": "🎾"
   },
   "baseball": {
-    "keywords": [ "sports", "balls", "MLB" ],
+    "keywords": ["sports", "balls", "MLB"],
     "char": "⚾️"
   },
   "do_not_litter": {
-    "keywords": [ "trash", "bin", "garbage", "circle" ],
+    "keywords": ["trash", "bin", "garbage", "circle"],
     "char": "🚯"
   },
   "keycap_ten": {
-    "keywords": [ "numbers", "10", "blue-square" ],
+    "keywords": ["numbers", "10", "blue-square"],
     "char": "🔟"
   },
   "police_car": {
-    "keywords": [ "vehicle", "cars", "transportation", "law", "legal", "enforcement" ],
+    "keywords": ["vehicle", "cars", "transportation", "law", "legal", "enforcement"],
     "char": "🚓"
   },
   "tent": {
-    "keywords": [ "photo", "camp", "outdoors" ],
+    "keywords": ["photo", "camp", "outdoors"],
     "char": "⛺"
   },
   "basketball": {
-    "keywords": [ "sports", "balls", "NBA" ],
+    "keywords": ["sports", "balls", "NBA"],
     "char": "🏀"
   },
   "bath": {
-    "keywords": [ "clean", "shower" ],
+    "keywords": ["clean", "shower"],
     "char": "🛀"
   },
   "three": {
-    "keywords": [ "3", "numbers", "prime", "blue-square" ],
+    "keywords": ["3", "numbers", "prime", "blue-square"],
     "char": "3️⃣"
   },
   "bathtub": {
-    "keywords": [ "clean", "shower" ],
+    "keywords": ["clean", "shower"],
     "char": "🛁"
   },
   "dollar": {
-    "keywords": [ "money", "sales", "bill", "currency" ],
+    "keywords": ["money", "sales", "bill", "currency"],
     "char": "💵"
   },
   "post_office": {
-    "keywords": [ "building", "email", "communication" ],
+    "keywords": ["building", "email", "communication"],
     "char": "🏣"
   },
   "battery": {
-    "keywords": [ "power", "energy", "sustain" ],
+    "keywords": ["power", "energy", "sustain"],
     "char": "🔋"
   },
   "dolls": {
-    "keywords": [ "japanese", "toy", "kimono" ],
+    "keywords": ["japanese", "toy", "kimono"],
     "char": "🎎"
   },
   "postal_horn": {
-    "keywords": [ "instrument", "music" ],
+    "keywords": ["instrument", "music"],
     "char": "📯"
   },
   "postbox": {
-    "keywords": [ "email", "letter", "envelope" ],
+    "keywords": ["email", "letter", "envelope"],
     "char": "📮"
   },
   "ticket": {
-    "keywords": [ "event", "concert", "pass" ],
+    "keywords": ["event", "concert", "pass"],
     "char": "🎫"
   },
   "door": {
-    "keywords": [ "house", "entry", "exit" ],
+    "keywords": ["house", "entry", "exit"],
     "char": "🚪"
   },
   "potable_water": {
-    "keywords": [ "blue-square", "liquid", "restroom", "cleaning", "faucet" ],
+    "keywords": ["blue-square", "liquid", "restroom", "cleaning", "faucet"],
     "char": "🚰"
   },
   "beer": {
-    "keywords": [ "relax", "beverage", "drink", "drunk", "party", "pub", "summer" ],
+    "keywords": ["relax", "beverage", "drink", "drunk", "party", "pub", "summer"],
     "char": "🍺"
   },
   "doughnut": {
-    "keywords": [ "food", "dessert", "snack", "sweet", "donut" ],
+    "keywords": ["food", "dessert", "snack", "sweet", "donut"],
     "char": "🍩"
   },
   "beers": {
-    "keywords": [ "relax", "beverage", "drink", "drunk", "party", "pub", "summer" ],
+    "keywords": ["relax", "beverage", "drink", "drunk", "party", "pub", "summer"],
     "char": "🍻"
   },
   "poultry_leg": {
-    "keywords": [ "food", "meat", "drumstick", "bird", "chicken", "turkey" ],
+    "keywords": ["food", "meat", "drumstick", "bird", "chicken", "turkey"],
     "char": "🍗"
   },
   "koko": {
-    "keywords": [ "blue-square", "here", "katakana", "japanese", "destination" ],
+    "keywords": ["blue-square", "here", "katakana", "japanese", "destination"],
     "char": "🈁"
   },
   "pound": {
-    "keywords": [ "british", "sterling", "money", "sales", "bills", "uk", "england", "currency" ],
+    "keywords": ["british", "sterling", "money", "sales", "bills", "uk", "england", "currency"],
     "char": "💷"
   },
   "tm": {
-    "keywords": [ "trademark", "brand", "law", "legal" ],
+    "keywords": ["trademark", "brand", "law", "legal"],
     "char": "™️"
   },
   "beginner": {
-    "keywords": [ "badge", "shield" ],
+    "keywords": ["badge", "shield"],
     "char": "🔰"
   },
   "kr": {
-    "keywords": [ "korea", "nation", "flag", "country", "banner" ],
+    "keywords": ["korea", "nation", "flag", "country", "banner"],
     "char": "🇰🇷"
   },
   "toilet": {
-    "keywords": [ "restroom", "wc", "washroom" ],
+    "keywords": ["restroom", "wc", "washroom"],
     "char": "🚽"
   },
   "bell": {
-    "keywords": [ "sound", "notification", "christmas", "xmas", "chime" ],
+    "keywords": ["sound", "notification", "christmas", "xmas", "chime"],
     "char": "🔔"
   },
   "tokyo_tower": {
-    "keywords": [ "photo", "japanese" ],
+    "keywords": ["photo", "japanese"],
     "char": "🗼"
   },
   "bento": {
-    "keywords": [ "food", "japanese", "box" ],
+    "keywords": ["food", "japanese", "box"],
     "char": "🍱"
   },
   "large_blue_circle": {
-    "keywords": [ "shape", "icon", "button" ],
+    "keywords": ["shape", "icon", "button"],
     "char": "🔵"
   },
   "tomato": {
-    "keywords": [ "fruit", "vegetable", "nature", "food" ],
+    "keywords": ["fruit", "vegetable", "nature", "food"],
     "char": "🍅"
   },
   "bicyclist": {
-    "keywords": [ "sports", "bike", "exercise", "hipster" ],
+    "keywords": ["sports", "bike", "exercise", "hipster"],
     "char": "🚴"
   },
   "dvd": {
-    "keywords": [ "cd", "disk", "disc" ],
+    "keywords": ["cd", "disk", "disc"],
     "char": "📀"
   },
   "large_blue_diamond": {
-    "keywords": [ "shape", "jewel" ],
+    "keywords": ["shape", "jewel"],
     "char": "🔷"
   },
   "bike": {
-    "keywords": [ "sports", "bicycle", "exercise", "hipster" ],
+    "keywords": ["sports", "bicycle", "exercise", "hipster"],
     "char": "🚲"
   },
   "e-mail": {
-    "keywords": [ "communication", "inbox", "email" ],
+    "keywords": ["communication", "inbox", "email"],
     "char": "📧"
   },
   "large_orange_diamond": {
-    "keywords": [ "shape", "jewel" ],
+    "keywords": ["shape", "jewel"],
     "char": "🔶"
   },
   "top": {
-    "keywords": [ "words", "blue-square" ],
+    "keywords": ["words", "blue-square"],
     "char": "🔝"
   },
   "pushpin": {
-    "keywords": [ "stationery", "mark", "here" ],
+    "keywords": ["stationery", "mark", "here"],
     "char": "📌"
   },
   "tractor": {
-    "keywords": [ "vehicle", "car", "farming", "agriculture" ],
+    "keywords": ["vehicle", "car", "farming", "agriculture"],
     "char": "🚜"
   },
   "birthday": {
-    "keywords": [ "party", "cake", "celebration" ],
+    "keywords": ["party", "cake", "celebration"],
     "char": "🎂"
   },
   "laughing": {
-    "keywords": [ "happy", "joy", "lol", "satisfied", "haha", "face", "glad" ],
+    "keywords": ["happy", "joy", "lol", "satisfied", "haha", "face", "glad"],
     "char": "😆"
   },
   "put_litter_in_its_place": {
-    "keywords": [ "blue-square", "sign", "human", "info" ],
+    "keywords": ["blue-square", "sign", "human", "info"],
     "char": "🚮"
   },
   "traffic_light": {
-    "keywords": [ "transportation", "signal" ],
+    "keywords": ["transportation", "signal"],
     "char": "🚥"
   },
   "black_circle": {
-    "keywords": [ "shape", "button", "round" ],
+    "keywords": ["shape", "button", "round"],
     "char": "⚫"
   },
   "question": {
-    "keywords": [ "doubt", "confused" ],
+    "keywords": ["doubt", "confused"],
     "char": "❓"
   },
   "train": {
-    "keywords": [ "transportation", "vehicle", "carriage", "public", "travel" ],
+    "keywords": ["transportation", "vehicle", "carriage", "public", "travel"],
     "char": "🚋"
   },
   "black_joker": {
-    "keywords": [ "poker", "cards", "game", "play" ],
+    "keywords": ["poker", "cards", "game", "play"],
     "char": "🃏"
   },
   "ledger": {
-    "keywords": [ "notes", "paper" ],
+    "keywords": ["notes", "paper"],
     "char": "📒"
   },
   "train2": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚆"
   },
   "black_large_square": {
-    "keywords": [ "shape", "icon", "button" ],
+    "keywords": ["shape", "icon", "button"],
     "char": "⬛"
   },
   "egg": {
-    "keywords": [ "food", "breakfast" ],
+    "keywords": ["food", "breakfast"],
     "char": "🍳"
   },
   "left_luggage": {
-    "keywords": [ "blue-square", "travel" ],
+    "keywords": ["blue-square", "travel"],
     "char": "🛅"
   },
   "tram": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚊"
   },
   "black_medium_small_square": {
-    "keywords": [ "icon", "shape", "button" ],
+    "keywords": ["icon", "shape", "button"],
     "char": "◾"
   },
   "eggplant": {
-    "keywords": [ "vegetable", "nature", "food", "aubergine" ],
+    "keywords": ["vegetable", "nature", "food", "aubergine"],
     "char": "🍆"
   },
   "left_right_arrow": {
-    "keywords": [ "shape", "direction" ],
+    "keywords": ["shape", "direction"],
     "char": "↔️"
   },
   "triangular_flag_on_post": {
-    "keywords": [ "mark", "milestone", "place" ],
+    "keywords": ["mark", "milestone", "place"],
     "char": "🚩"
   },
   "black_medium_square": {
-    "keywords": [ "shape", "button", "icon" ],
+    "keywords": ["shape", "button", "icon"],
     "char": "◼️"
   },
   "eight": {
-    "keywords": [ "8", "blue-square", "numbers" ],
+    "keywords": ["8", "blue-square", "numbers"],
     "char": "8️⃣"
   },
   "leftwards_arrow_with_hook": {
-    "keywords": [ "back", "return", "blue-square" ],
+    "keywords": ["back", "return", "blue-square"],
     "char": "↩️"
   },
   "radio": {
-    "keywords": [ "communication", "music", "podcast", "program" ],
+    "keywords": ["communication", "music", "podcast", "program"],
     "char": "📻"
   },
   "triangular_ruler": {
-    "keywords": [ "stationery", "math", "architect", "sketch" ],
+    "keywords": ["stationery", "math", "architect", "sketch"],
     "char": "📐"
   },
   "black_nib": {
-    "keywords": [ "pen", "stationery", "writing", "write" ],
+    "keywords": ["pen", "stationery", "writing", "write"],
     "char": "✒️"
   },
   "eight_pointed_black_star": {
-    "keywords": [ "orange-square", "shape", "polygon" ],
+    "keywords": ["orange-square", "shape", "polygon"],
     "char": "✴️"
   },
   "lemon": {
-    "keywords": [ "fruit", "nature" ],
+    "keywords": ["fruit", "nature"],
     "char": "🍋"
   },
   "radio_button": {
-    "keywords": [ "input", "old", "music", "circle" ],
+    "keywords": ["input", "old", "music", "circle"],
     "char": "🔘"
   },
   "trident": {
-    "keywords": [ "weapon", "spear" ],
+    "keywords": ["weapon", "spear"],
     "char": "🔱"
   },
   "black_small_square": {
-    "keywords": [ "shape", "icon" ],
+    "keywords": ["shape", "icon"],
     "char": "▪️"
   },
   "eight_spoked_asterisk": {
-    "keywords": [ "star", "sparkle", "green-square" ],
+    "keywords": ["star", "sparkle", "green-square"],
     "char": "✳️"
   },
   "leo": {
-    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "keywords": ["sign", "purple-square", "zodiac"],
     "char": "♌"
   },
   "rage": {
-    "keywords": [ "angry", "mad", "hate", "despise" ],
+    "keywords": ["angry", "mad", "hate", "despise"],
     "char": "😡"
   },
   "black_square_button": {
-    "keywords": [ "shape", "input", "frame" ],
+    "keywords": ["shape", "input", "frame"],
     "char": "🔲"
   },
   "electric_plug": {
-    "keywords": [ "charger", "power" ],
+    "keywords": ["charger", "power"],
     "char": "🔌"
   },
   "trolleybus": {
-    "keywords": [ "bart", "transportation", "vehicle" ],
+    "keywords": ["bart", "transportation", "vehicle"],
     "char": "🚎"
   },
   "libra": {
-    "keywords": [ "sign", "purple-square", "zodiac" ],
+    "keywords": ["sign", "purple-square", "zodiac"],
     "char": "♎"
   },
   "email": {
-    "keywords": [ "envelope", "letter", "postal", "inbox", "communication" ],
+    "keywords": ["envelope", "letter", "postal", "inbox", "communication"],
     "char": "✉️"
   },
   "light_rail": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚈"
   },
   "trophy": {
-    "keywords": [ "win", "award", "contest", "place", "ftw", "ceremony" ],
+    "keywords": ["win", "award", "contest", "place", "ftw", "ceremony"],
     "char": "🏆"
   },
   "blue_book": {
-    "keywords": [ "read", "library", "knowledge" ],
+    "keywords": ["read", "library", "knowledge"],
     "char": "📘"
   },
   "end": {
-    "keywords": [ "words", "arrow" ],
+    "keywords": ["words", "arrow"],
     "char": "🔚"
   },
   "link": {
-    "keywords": [ "rings", "url" ],
+    "keywords": ["rings", "url"],
     "char": "🔗"
   },
   "tropical_drink": {
-    "keywords": [ "beverage", "cocktail", "summer", "beach" ],
+    "keywords": ["beverage", "cocktail", "summer", "beach"],
     "char": "🍹"
   },
   "blue_car": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚙"
   },
   "railway_car": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚃"
   },
   "envelope_with_arrow": {
-    "keywords": [ "email", "communication" ],
+    "keywords": ["email", "communication"],
     "char": "📩"
   },
   "truck": {
-    "keywords": [ "cars", "transportation" ],
+    "keywords": ["cars", "transportation"],
     "char": "🚚"
   },
   "es": {
-    "keywords": [ "spain", "flag", "nation", "country", "banner" ],
+    "keywords": ["spain", "flag", "nation", "country", "banner"],
     "char": "🇪🇸"
   },
   "lock": {
-    "keywords": [ "security", "password" ],
+    "keywords": ["security", "password"],
     "char": "🔒"
   },
   "trumpet": {
-    "keywords": [ "music", "brass" ],
+    "keywords": ["music", "brass"],
     "char": "🎺"
   },
   "euro": {
-    "keywords": [ "money", "sales", "dollar", "currency" ],
+    "keywords": ["money", "sales", "dollar", "currency"],
     "char": "💶"
   },
   "lock_with_ink_pen": {
-    "keywords": [ "security", "secret" ],
+    "keywords": ["security", "secret"],
     "char": "🔏"
   },
   "boat": {
-    "keywords": [ "ship", "summer", "transportation", "water", "sailing", "sailboat" ],
+    "keywords": ["ship", "summer", "transportation", "water", "sailing", "sailboat"],
     "char": "⛵"
   },
   "european_castle": {
-    "keywords": [ "building", "royalty", "history" ],
+    "keywords": ["building", "royalty", "history"],
     "char": "🏰"
   },
   "lollipop": {
-    "keywords": [ "food", "snack", "candy", "sweet" ],
+    "keywords": ["food", "snack", "candy", "sweet"],
     "char": "🍭"
   },
   "raising_hand": {
-    "keywords": [ "female", "girl", "woman" ],
+    "keywords": ["female", "girl", "woman"],
     "char": "🙋"
   },
   "bomb": {
-    "keywords": [ "boom", "explode", "explosion" ],
+    "keywords": ["boom", "explode", "explosion"],
     "char": "💣"
   },
   "european_post_office": {
-    "keywords": [ "building", "email" ],
+    "keywords": ["building", "email"],
     "char": "🏤"
   },
   "loop": {
-    "keywords": [ "tape", "cassette" ],
+    "keywords": ["tape", "cassette"],
     "char": "➿"
   },
   "book": {
-    "keywords": [ "open_book", "read", "library", "knowledge", "literature" ],
+    "keywords": ["open_book", "read", "library", "knowledge", "literature"],
     "char": "📖"
   },
   "loudspeaker": {
-    "keywords": [ "volume", "sound" ],
+    "keywords": ["volume", "sound"],
     "char": "📢"
   },
   "ramen": {
-    "keywords": [ "food", "japanese", "noodle", "chipsticks" ],
+    "keywords": ["food", "japanese", "noodle", "chipsticks"],
     "char": "🍜"
   },
   "tv": {
-    "keywords": [ "technology", "program", "oldschool", "show" ],
+    "keywords": ["technology", "program", "oldschool", "show"],
     "char": "📺"
   },
   "bookmark": {
-    "keywords": [ "favorite", "label", "save" ],
+    "keywords": ["favorite", "label", "save"],
     "char": "🔖"
   },
   "exclamation": {
-    "keywords": [ "heavy_exclamation_mark", "danger", "surprise", "punctuation", "wow", "warning" ],
+    "keywords": ["heavy_exclamation_mark", "danger", "surprise", "punctuation", "wow", "warning"],
     "char": "❗"
   },
   "love_hotel": {
-    "keywords": [ "like", "affection", "dating" ],
+    "keywords": ["like", "affection", "dating"],
     "char": "🏩"
   },
   "twisted_rightwards_arrows": {
-    "keywords": [ "blue-square", "shuffle", "music", "random" ],
+    "keywords": ["blue-square", "shuffle", "music", "random"],
     "char": "🔀"
   },
   "bookmark_tabs": {
-    "keywords": [ "favorite", "save", "order", "tidy" ],
+    "keywords": ["favorite", "save", "order", "tidy"],
     "char": "📑"
   },
   "recycle": {
-    "keywords": [ "arrow", "environment", "garbage", "trash" ],
+    "keywords": ["arrow", "environment", "garbage", "trash"],
     "char": "♻️"
   },
   "two": {
-    "keywords": [ "numbers", "2", "prime", "blue-square" ],
+    "keywords": ["numbers", "2", "prime", "blue-square"],
     "char": "2️⃣"
   },
   "books": {
-    "keywords": [ "literature", "library" ],
+    "keywords": ["literature", "library"],
     "char": "📚"
   },
   "low_brightness": {
-    "keywords": [ "sun", "afternoon", "warm", "summer" ],
+    "keywords": ["sun", "afternoon", "warm", "summer"],
     "char": "🔅"
   },
   "m": {
-    "keywords": [ "alphabet", "blue-circle", "letter" ],
+    "keywords": ["alphabet", "blue-circle", "letter"],
     "char": "Ⓜ️"
   },
   "red_circle": {
-    "keywords": [ "shape", "error", "danger" ],
+    "keywords": ["shape", "error", "danger"],
     "char": "🔴"
   },
   "mag": {
-    "keywords": [ "search", "zoom" ],
+    "keywords": ["search", "zoom"],
     "char": "🔍"
   },
   "registered": {
-    "keywords": [ "alphabet", "circle" ],
+    "keywords": ["alphabet", "circle"],
     "char": "®️"
   },
   "factory": {
-    "keywords": [ "building", "industry", "pollution", "smoke" ],
+    "keywords": ["building", "industry", "pollution", "smoke"],
     "char": "🏭"
   },
   "mag_right": {
-    "keywords": [ "search", "zoom" ],
+    "keywords": ["search", "zoom"],
     "char": "🔎"
   },
   "u5272": {
-    "keywords": [ "cut", "divide", "chinese", "kanji", "pink-square" ],
+    "keywords": ["cut", "divide", "chinese", "kanji", "pink-square"],
     "char": "🈹"
   },
   "mahjong": {
-    "keywords": [ "game", "play", "chinese", "kanji" ],
+    "keywords": ["game", "play", "chinese", "kanji"],
     "char": "🀄"
   },
   "u5408": {
-    "keywords": [ "japanese", "chinese", "join", "kanji", "red-square" ],
+    "keywords": ["japanese", "chinese", "join", "kanji", "red-square"],
     "char": "🈴"
   },
   "bowling": {
-    "keywords": [ "sports", "fun", "play" ],
+    "keywords": ["sports", "fun", "play"],
     "char": "🎳"
   },
   "mailbox": {
-    "keywords": [ "email", "inbox", "communication" ],
+    "keywords": ["email", "inbox", "communication"],
     "char": "📫"
   },
   "repeat": {
-    "keywords": [ "loop", "record" ],
+    "keywords": ["loop", "record"],
     "char": "🔁"
   },
   "u55b6": {
-    "keywords": [ "japanese", "opening hours", "orange-square" ],
+    "keywords": ["japanese", "opening hours", "orange-square"],
     "char": "🈺"
   },
   "fast_forward": {
-    "keywords": [ "blue-square", "play", "speed", "continue" ],
+    "keywords": ["blue-square", "play", "speed", "continue"],
     "char": "⏩"
   },
   "mailbox_closed": {
-    "keywords": [ "email", "communication", "inbox" ],
+    "keywords": ["email", "communication", "inbox"],
     "char": "📪"
   },
   "repeat_one": {
-    "keywords": [ "blue-square", "loop" ],
+    "keywords": ["blue-square", "loop"],
     "char": "🔂"
   },
   "u6307": {
-    "keywords": [ "chinese", "point", "green-square", "kanji" ],
+    "keywords": ["chinese", "point", "green-square", "kanji"],
     "char": "🈯"
   },
   "fax": {
-    "keywords": [ "communication", "technology" ],
+    "keywords": ["communication", "technology"],
     "char": "📠"
   },
   "mailbox_with_mail": {
-    "keywords": [ "email", "inbox", "communication" ],
+    "keywords": ["email", "inbox", "communication"],
     "char": "📬"
   },
   "restroom": {
-    "keywords": [ "blue-square", "toilet", "refresh", "wc" ],
+    "keywords": ["blue-square", "toilet", "refresh", "wc"],
     "char": "🚻"
   },
   "u6708": {
-    "keywords": [ "chinese", "month", "moon", "japanese", "orange-square", "kanji" ],
+    "keywords": ["chinese", "month", "moon", "japanese", "orange-square", "kanji"],
     "char": "🈷️"
   },
   "bread": {
-    "keywords": [ "food", "wheat", "breakfast", "toast" ],
+    "keywords": ["food", "wheat", "breakfast", "toast"],
     "char": "🍞"
   },
   "mailbox_with_no_mail": {
-    "keywords": [ "email", "inbox" ],
+    "keywords": ["email", "inbox"],
     "char": "📭"
   },
   "u6709": {
-    "keywords": [ "orange-square", "chinese", "have", "kanji" ],
+    "keywords": ["orange-square", "chinese", "have", "kanji"],
     "char": "🈶"
   },
   "rewind": {
-    "keywords": [ "play", "blue-square" ],
+    "keywords": ["play", "blue-square"],
     "char": "⏪"
   },
   "u6e80": {
-    "keywords": [ "full", "chinese", "japanese", "red-square", "kanji" ],
+    "keywords": ["full", "chinese", "japanese", "red-square", "kanji"],
     "char": "🈵"
   },
   "bridge_at_night": {
-    "keywords": [ "photo", "sanfrancisco" ],
+    "keywords": ["photo", "sanfrancisco"],
     "char": "🌉"
   },
   "feet": {
-    "keywords": [ "animal", "tracking", "footprints", "dog", "cat", "paw", "pet", "paw_prints" ],
+    "keywords": ["animal", "tracking", "footprints", "dog", "cat", "pet", "paw_prints"],
     "char": "🐾"
   },
   "u7121": {
-    "keywords": [ "nothing", "chinese", "kanji", "japanese", "orange-square" ],
+    "keywords": ["nothing", "chinese", "kanji", "japanese", "orange-square"],
     "char": "🈚"
   },
   "ferris_wheel": {
-    "keywords": [ "photo", "carnival", "londoneye" ],
+    "keywords": ["photo", "carnival", "londoneye"],
     "char": "🎡"
   },
   "rice": {
-    "keywords": [ "food", "china", "asian" ],
+    "keywords": ["food", "china", "asian"],
     "char": "🍚"
   },
   "u7533": {
-    "keywords": [ "chinese", "japanese", "kanji", "orange-square" ],
+    "keywords": ["chinese", "japanese", "kanji", "orange-square"],
     "char": "🈸"
   },
   "file_folder": {
-    "keywords": [ "documents", "business", "office" ],
+    "keywords": ["documents", "business", "office"],
     "char": "📁"
   },
   "rice_ball": {
-    "keywords": [ "food", "japanese" ],
+    "keywords": ["food", "japanese"],
     "char": "🍙"
   },
   "u7981": {
-    "keywords": [ "kanji", "japanese", "chinese", "forbidden", "limit", "restricted", "red-square" ],
+    "keywords": ["kanji", "japanese", "chinese", "forbidden", "limit", "restricted", "red-square"],
     "char": "🈲"
   },
   "rice_cracker": {
-    "keywords": [ "food", "japanese" ],
+    "keywords": ["food", "japanese"],
     "char": "🍘"
   },
   "u7a7a": {
-    "keywords": [ "kanji", "japanese", "chinese", "empty", "sky", "blue-square" ],
+    "keywords": ["kanji", "japanese", "chinese", "empty", "sky", "blue-square"],
     "char": "🈳"
   },
   "bulb": {
-    "keywords": [ "light", "electricity" ],
+    "keywords": ["light", "electricity"],
     "char": "💡"
   },
   "rice_scene": {
-    "keywords": [ "photo", "japan", "asia", "tsukimi" ],
+    "keywords": ["photo", "japan", "asia", "tsukimi"],
     "char": "🎑"
   },
   "bullettrain_front": {
-    "keywords": [ "transportation", "vehicle", "speed", "fast", "public", "travel" ],
+    "keywords": ["transportation", "vehicle", "speed", "fast", "public", "travel"],
     "char": "🚅"
   },
   "fire_engine": {
-    "keywords": [ "transportation", "cars", "vehicle" ],
+    "keywords": ["transportation", "cars", "vehicle"],
     "char": "🚒"
   },
   "bullettrain_side": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚄"
   },
   "fireworks": {
-    "keywords": [ "photo", "festival", "carnival", "congratulations" ],
+    "keywords": ["photo", "festival", "carnival", "congratulations"],
     "char": "🎆"
   },
   "meat_on_bone": {
-    "keywords": [ "good", "food", "drumstick" ],
+    "keywords": ["good", "food", "drumstick"],
     "char": "🍖"
   },
   "rocket": {
-    "keywords": [ "launch", "ship", "staffmode", "NASA", "outer space" ],
+    "keywords": ["launch", "ship", "staffmode", "NASA", "outer space"],
     "char": "🚀"
   },
   "bus": {
-    "keywords": [ "car", "vehicle", "transportation" ],
+    "keywords": ["car", "vehicle", "transportation"],
     "char": "🚌"
   },
   "mega": {
-    "keywords": [ "sound", "speaker", "volume" ],
+    "keywords": ["sound", "speaker", "volume"],
     "char": "📣"
   },
   "roller_coaster": {
-    "keywords": [ "carnival", "playground", "photo", "fun" ],
+    "keywords": ["carnival", "playground", "photo", "fun"],
     "char": "🎢"
   },
   "underage": {
-    "keywords": [ "18", "drink", "pub", "night", "minor", "circle" ],
+    "keywords": ["18", "drink", "pub", "night", "minor", "circle"],
     "char": "🔞"
   },
   "busstop": {
-    "keywords": [ "transportation", "wait" ],
+    "keywords": ["transportation", "wait"],
     "char": "🚏"
   },
   "melon": {
-    "keywords": [ "fruit", "nature", "food" ],
+    "keywords": ["fruit", "nature", "food"],
     "char": "🍈"
   },
   "memo": {
-    "keywords": [ "write", "documents", "stationery", "pencil", "paper", "writing", "legal" ],
+    "keywords": ["write", "documents", "stationery", "pencil", "paper", "writing", "legal"],
     "char": "📝"
   },
   "unlock": {
-    "keywords": [ "privacy", "security" ],
+    "keywords": ["privacy", "security"],
     "char": "🔓"
   },
   "fish_cake": {
-    "keywords": [ "food", "japan", "sea", "beach" ],
+    "keywords": ["food", "japan", "sea", "beach"],
     "char": "🍥"
   },
   "mens": {
-    "keywords": [ "toilet", "restroom", "wc", "blue-square" ],
+    "keywords": ["toilet", "restroom", "wc", "blue-square"],
     "char": "🚹"
   },
   "rotating_light": {
-    "keywords": [ "police", "ambulance", "911", "emergency", "alert", "error", "pinged", "law", "legal" ],
+    "keywords": ["police", "ambulance", "911", "emergency", "alert", "error", "pinged", "law", "legal"],
     "char": "🚨"
   },
   "up": {
-    "keywords": [ "blue-square", "above", "high" ],
+    "keywords": ["blue-square", "above", "high"],
     "char": "🆙"
   },
   "fishing_pole_and_fish": {
-    "keywords": [ "food", "hobby" ],
+    "keywords": ["food", "hobby"],
     "char": "🎣"
   },
   "round_pushpin": {
-    "keywords": [ "stationery", "location", "map", "here" ],
+    "keywords": ["stationery", "location", "map", "here"],
     "char": "📍"
   },
   "us": {
-    "keywords": [ "nation", "flag", "american", "country", "banner" ],
+    "keywords": ["nation", "flag", "american", "country", "banner"],
     "char": "🇺🇸"
   },
   "cake": {
-    "keywords": [ "food", "dessert" ],
+    "keywords": ["food", "dessert"],
     "char": "🍰"
   },
   "metro": {
-    "keywords": [ "transportation", "blue-square", "mrt", "underground", "tube" ],
+    "keywords": ["transportation", "blue-square", "mrt", "underground", "tube"],
     "char": "🚇"
   },
   "rowboat": {
-    "keywords": [ "sports", "hobby", "water", "ship" ],
+    "keywords": ["sports", "hobby", "water", "ship"],
     "char": "🚣"
   },
   "calendar": {
-    "keywords": [ "schedule", "date", "planning" ],
+    "keywords": ["schedule", "date", "planning"],
     "char": "📆"
   },
   "five": {
-    "keywords": [ "5", "numbers", "blue-square", "prime" ],
+    "keywords": ["5", "numbers", "blue-square", "prime"],
     "char": "5️⃣"
   },
   "microphone": {
-    "keywords": [ "sound", "music", "PA" ],
+    "keywords": ["sound", "music", "PA"],
     "char": "🎤"
   },
   "ru": {
-    "keywords": [ "russian", "nation", "flag", "country", "banner" ],
+    "keywords": ["russian", "nation", "flag", "country", "banner"],
     "char": "🇷🇺"
   },
   "vertical_traffic_light": {
-    "keywords": [ "transportation", "driving" ],
+    "keywords": ["transportation", "driving"],
     "char": "🚦"
   },
   "calling": {
-    "keywords": [ "iphone", "incoming" ],
+    "keywords": ["iphone", "incoming"],
     "char": "📲"
   },
   "flags": {
-    "keywords": [ "fish", "japanese", "koinobori", "carp", "banner" ],
+    "keywords": ["fish", "japanese", "koinobori", "carp", "banner"],
     "char": "🎏"
   },
   "microscope": {
-    "keywords": [ "laboratory", "experiment", "zoomin", "science" ],
+    "keywords": ["laboratory", "experiment", "zoomin", "science"],
     "char": "🔬"
   },
   "rugby_football": {
-    "keywords": [ "sports", "team" ],
+    "keywords": ["sports", "team"],
     "char": "🏉"
   },
   "vhs": {
-    "keywords": [ "record", "video", "oldschool", "90s", "80s" ],
+    "keywords": ["record", "video", "oldschool", "90s", "80s"],
     "char": "📼"
   },
   "flashlight": {
-    "keywords": [ "dark", "camping", "sight", "night" ],
+    "keywords": ["dark", "camping", "sight", "night"],
     "char": "🔦"
   },
   "vibration_mode": {
-    "keywords": [ "orange-square", "phone" ],
+    "keywords": ["orange-square", "phone"],
     "char": "📳"
   },
   "camera": {
-    "keywords": [ "gadgets", "photo" ],
+    "keywords": ["gadgets", "photo"],
     "char": "📷"
   },
   "floppy_disk": {
-    "keywords": [ "oldschool", "technology", "save", "90s" ],
+    "keywords": ["oldschool", "technology", "save", "90s"],
     "char": "💾"
   },
   "minibus": {
-    "keywords": [ "vehicle", "car", "transportation" ],
+    "keywords": ["vehicle", "car", "transportation"],
     "char": "🚐"
   },
   "video_camera": {
-    "keywords": [ "film", "record" ],
+    "keywords": ["film", "record"],
     "char": "📹"
   },
   "cancer": {
-    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "keywords": ["sign", "zodiac", "purple-square"],
     "char": "♋"
   },
   "flower_playing_cards": {
-  "keywords": [ "game" ], "char": "🎴"
-},
+    "keywords": ["game"],
+    "char": "🎴"
+  },
   "minidisc": {
-    "keywords": [ "technology", "record", "data", "disk" ],
+    "keywords": ["technology", "record", "data", "disk"],
     "char": "💽"
   },
   "video_game": {
-    "keywords": [ "play", "console", "PS4", "controller" ],
+    "keywords": ["play", "console", "PS4", "controller"],
     "char": "🎮"
   },
   "candy": {
-    "keywords": [ "snack", "dessert", "sweet" ],
+    "keywords": ["snack", "dessert", "sweet"],
     "char": "🍬"
   },
   "mobile_phone_off": {
-    "keywords": [ "mute", "orange-square", "silence", "quiet" ],
+    "keywords": ["mute", "orange-square", "silence", "quiet"],
     "char": "📴"
   },
   "sa": {
-    "keywords": [ "japanese", "blue-square", "katakana" ],
+    "keywords": ["japanese", "blue-square", "katakana"],
     "char": "🈂️"
   },
   "violin": {
-    "keywords": [ "music", "instrument", "orchestra", "symphony" ],
+    "keywords": ["music", "instrument", "orchestra", "symphony"],
     "char": "🎻"
   },
   "capital_abcd": {
-    "keywords": [ "alphabet", "words", "blue-square" ],
+    "keywords": ["alphabet", "words", "blue-square"],
     "char": "🔠"
   },
   "money_with_wings": {
-    "keywords": [ "dollar", "bills", "payment", "sale" ],
+    "keywords": ["dollar", "bills", "payment", "sale"],
     "char": "💸"
   },
   "sagittarius": {
-    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "keywords": ["sign", "zodiac", "purple-square"],
     "char": "♐"
   },
   "virgo": {
-    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "keywords": ["sign", "zodiac", "purple-square"],
     "char": "♍"
   },
   "capricorn": {
-    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "keywords": ["sign", "zodiac", "purple-square"],
     "char": "♑"
   },
   "football": {
-    "keywords": [ "sports", "balls", "NFL" ],
+    "keywords": ["sports", "balls", "NFL"],
     "char": "🏈"
   },
   "moneybag": {
-    "keywords": [ "dollar", "payment", "coins", "sale" ],
+    "keywords": ["dollar", "payment", "coins", "sale"],
     "char": "💰"
   },
   "car": {
-    "keywords": [ "red", "transportation", "vehicle" ],
+    "keywords": ["red", "transportation", "vehicle"],
     "char": "🚗"
   },
   "sake": {
-    "keywords": [ "wine", "drink", "drunk", "beverage", "japanese" ],
+    "keywords": ["wine", "drink", "drunk", "beverage", "japanese"],
     "char": "🍶"
   },
   "vs": {
-    "keywords": [ "words", "orange-square" ],
+    "keywords": ["words", "orange-square"],
     "char": "🆚"
   },
   "card_index": {
-    "keywords": [ "business", "stationery" ],
+    "keywords": ["business", "stationery"],
     "char": "📇"
   },
   "fork_and_knife": {
-    "keywords": [ "cutlery", "kitchen" ],
+    "keywords": ["cutlery", "kitchen"],
     "char": "🍴"
   },
   "carousel_horse": {
-    "keywords": [ "photo", "carnival" ],
+    "keywords": ["photo", "carnival"],
     "char": "🎠"
   },
   "fountain": {
-    "keywords": [ "photo", "summer", "water", "fresh" ],
+    "keywords": ["photo", "summer", "water", "fresh"],
     "char": "⛲"
   },
   "monorail": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚝"
   },
   "santa": {
-    "keywords": [ "festival", "man", "male", "xmas", "father christmas" ],
+    "keywords": ["festival", "man", "male", "xmas", "father christmas"],
     "char": "🎅"
   },
   "four": {
-    "keywords": [ "4", "numbers", "blue-square" ],
+    "keywords": ["4", "numbers", "blue-square"],
     "char": "4️⃣"
   },
   "satellite": {
-    "keywords": [ "communication", "future", "radio", "space" ],
+    "keywords": ["communication", "future", "radio", "space"],
     "char": "📡"
   },
   "mortar_board": {
-    "keywords": [ "school", "college", "degree", "university", "graduation", "cap", "hat", "legal" ],
+    "keywords": ["school", "college", "degree", "university", "graduation", "cap", "hat", "legal"],
     "char": "🎓"
   },
   "warning": {
-    "keywords": [ "exclamation", "wip", "alert", "error", "problem", "issue" ],
+    "keywords": ["exclamation", "wip", "alert", "error", "problem", "issue"],
     "char": "⚠️"
   },
   "cd": {
-    "keywords": [ "technology", "dvd", "disk", "disc" ],
+    "keywords": ["technology", "dvd", "disk", "disc"],
     "char": "💿"
   },
   "fr": {
-    "keywords": [ "banner", "flag", "nation", "france", "french", "country" ],
+    "keywords": ["banner", "flag", "nation", "france", "french", "country"],
     "char": "🇫🇷"
   },
   "mount_fuji": {
-    "keywords": [ "photo", "mountain", "nature", "japanese" ],
+    "keywords": ["photo", "mountain", "nature", "japanese"],
     "char": "🗻"
   },
   "saxophone": {
-    "keywords": [ "music", "instrument", "jazz", "blues" ],
+    "keywords": ["music", "instrument", "jazz", "blues"],
     "char": "🎷"
   },
   "watch": {
-    "keywords": [ "time", "accessories" ],
+    "keywords": ["time", "accessories"],
     "char": "⌚"
   },
   "chart": {
-    "keywords": [ "green-square", "graph", "presentation", "stats" ],
+    "keywords": ["green-square", "graph", "presentation", "stats"],
     "char": "💹"
   },
   "free": {
-    "keywords": [ "blue-square", "words" ],
+    "keywords": ["blue-square", "words"],
     "char": "🆓"
   },
   "mountain_bicyclist": {
-    "keywords": [ "transportation", "sports", "human", "race", "bike" ],
+    "keywords": ["transportation", "sports", "human", "race", "bike"],
     "char": "🚵"
   },
   "school": {
-    "keywords": [ "building", "student", "education", "learn", "teach" ],
+    "keywords": ["building", "student", "education", "learn", "teach"],
     "char": "🏫"
   },
   "chart_with_downwards_trend": {
-   "keywords": [ "graph", "presentation", "stats", "recession", "business", "economics", "money", "sales", "bad",  "failure" ],
+    "keywords": ["graph", "presentation", "stats", "recession", "business", "economics", "money", "sales", "bad", "failure"],
     "char": "📉"
   },
   "fried_shrimp": {
-    "keywords": [ "food", "animal", "appetizer", "summer" ],
+    "keywords": ["food", "animal", "appetizer", "summer"],
     "char": "🍤"
   },
   "mountain_cableway": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚠"
   },
   "school_satchel": {
-    "keywords": [ "student", "education", "bag" ],
+    "keywords": ["student", "education", "bag"],
     "char": "🎒"
   },
   "watermelon": {
-    "keywords": [ "fruit", "food", "picnic", "summer" ],
+    "keywords": ["fruit", "food", "picnic", "summer"],
     "char": "🍉"
   },
   "chart_with_upwards_trend": {
-   "keywords": [ "graph", "presenetation", "stats", "recovery", "business", "economics", "money", "sales",  "good", "success" ],
+    "keywords": ["graph", "presenetation", "stats", "recovery", "business", "economics", "money", "sales", "good", "success"],
     "char": "📈"
   },
   "fries": {
-    "keywords": [ "chips", "snack", "fast food" ],
+    "keywords": ["chips", "snack", "fast food"],
     "char": "🍟"
   },
   "mountain_railway": {
-    "keywords": [ "transportation", "vehicle" ],
+    "keywords": ["transportation", "vehicle"],
     "char": "🚞"
   },
   "scissors": {
-    "keywords": [ "stationery", "cut" ],
+    "keywords": ["stationery", "cut"],
     "char": "✂️"
   },
   "checkered_flag": {
-    "keywords": [ "contest", "finishline", "rase", "gokart" ],
+    "keywords": ["contest", "finishline", "rase", "gokart"],
     "char": "🏁"
   },
   "scorpius": {
-    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "keywords": ["sign", "zodiac", "purple-square"],
     "char": "♏"
   },
   "wavy_dash": {
-    "keywords": [ "draw", "line" ],
+    "keywords": ["draw", "line"],
     "char": "〰️"
   },
   "cherries": {
-    "keywords": [ "food", "fruit" ],
+    "keywords": ["food", "fruit"],
     "char": "🍒"
   },
   "fuelpump": {
-    "keywords": [ "gas station", "petroleum" ],
+    "keywords": ["gas station", "petroleum"],
     "char": "⛽"
   },
   "movie_camera": {
-    "keywords": [ "film", "record" ],
+    "keywords": ["film", "record"],
     "char": "🎥"
   },
   "moyai": {
-    "keywords": [ "stone", "easter island" ],
+    "keywords": ["stone", "easter island"],
     "char": "🗿"
   },
   "scroll": {
-    "keywords": [ "documents", "ancient", "history", "paper" ],
+    "keywords": ["documents", "ancient", "history", "paper"],
     "char": "📜"
   },
   "wc": {
-    "keywords": [ "toilet", "restroom", "blue-square" ],
+    "keywords": ["toilet", "restroom", "blue-square"],
     "char": "🚾"
   },
   "seat": {
-    "keywords": [ "sit", "airplane", "transport", "bus", "flight" ],
+    "keywords": ["sit", "airplane", "transport", "bus", "flight"],
     "char": "💺"
   },
   "children_crossing": {
-    "keywords": [ "school", "warning", "danger", "sign", "driving", "yellow-diamond" ],
+    "keywords": ["school", "warning", "danger", "sign", "driving", "yellow-diamond"],
     "char": "🚸"
   },
   "game_die": {
-    "keywords": [ "dice", "random", "tabbletop", "play" ],
+    "keywords": ["dice", "random", "tabbletop", "play"],
     "char": "🎲"
   },
   "secret": {
-    "keywords": [ "privacy", "chinese", "sshh", "kanji", "red-circle" ],
+    "keywords": ["privacy", "chinese", "sshh", "kanji", "red-circle"],
     "char": "㊙️"
   },
   "wedding": {
-    "keywords": [ "love", "like", "affection", "couple", "marriage", "bride", "groom" ],
+    "keywords": ["love", "like", "affection", "couple", "marriage", "bride", "groom"],
     "char": "💒"
   },
   "chocolate_bar": {
-    "keywords": [ "food", "snack", "dessert", "sweet" ],
+    "keywords": ["food", "snack", "dessert", "sweet"],
     "char": "🍫"
   },
   "gb": {
-    "keywords": [ "banner", "nation", "flag", "british", "UK", "country", "english", "england", "union jack" ],
+    "keywords": ["banner", "nation", "flag", "british", "UK", "country", "english", "england", "union jack"],
     "char": "🇬🇧"
   },
   "musical_keyboard": {
-    "keywords": [ "piano", "instrument" ],
+    "keywords": ["piano", "instrument"],
     "char": "🎹"
   },
   "musical_note": {
-    "keywords": [ "score", "tone", "sound" ],
+    "keywords": ["score", "tone", "sound"],
     "char": "🎵"
   },
   "church": {
-    "keywords": [ "building", "religion", "christ" ],
+    "keywords": ["building", "religion", "christ"],
     "char": "⛪"
   },
   "gemini": {
-    "keywords": [ "sign", "zodiac", "purple-square" ],
+    "keywords": ["sign", "zodiac", "purple-square"],
     "char": "♊"
   },
   "musical_score": {
-    "keywords": [ "treble", "clef" ],
+    "keywords": ["treble", "clef"],
     "char": "🎼"
   },
   "seven": {
-    "keywords": [ "7", "numbers", "blue-square", "prime" ],
+    "keywords": ["7", "numbers", "blue-square", "prime"],
     "char": "7️⃣"
   },
   "wheelchair": {
-    "keywords": [ "blue-square", "disabled" ],
+    "keywords": ["blue-square", "disabled"],
     "char": "♿"
   },
   "cinema": {
-    "keywords": [ "blue-square", "record", "film", "movie" ],
+    "keywords": ["blue-square", "record", "film", "movie"],
     "char": "🎦"
   },
   "ghost": {
-    "keywords": [ "halloween", "spooky", "scary" ],
+    "keywords": ["halloween", "spooky", "scary"],
     "char": "👻"
   },
   "mute": {
-    "keywords": [ "sound", "volume", "silence" ],
+    "keywords": ["sound", "volume", "silence"],
     "char": "🔇"
   },
   "shaved_ice": {
-    "keywords": [ "hot", "dessert", "summer" ],
+    "keywords": ["hot", "dessert", "summer"],
     "char": "🍧"
   },
   "white_check_mark": {
-    "keywords": [ "green-square", "ok", "agree", "vote", "election" ],
+    "keywords": ["green-square", "ok", "agree", "vote", "election"],
     "char": "✅"
   },
   "circus_tent": {
-    "keywords": [ "festival", "carnival", "party" ],
+    "keywords": ["festival", "carnival", "party"],
     "char": "🎪"
   },
   "gift": {
-    "keywords": [ "present", "birthday", "christmas", "xmas" ],
+    "keywords": ["present", "birthday", "christmas", "xmas"],
     "char": "🎁"
   },
   "white_circle": {
-    "keywords": [ "shape", "round" ],
+    "keywords": ["shape", "round"],
     "char": "⚪"
   },
   "city_sunrise": {
-    "keywords": [ "photo", "good morning", "dawn" ],
+    "keywords": ["photo", "good morning", "dawn"],
     "char": "🌇"
   },
   "gift_heart": {
-    "keywords": [ "love", "valentines" ],
+    "keywords": ["love", "valentines"],
     "char": "💝"
   },
   "name_badge": {
-    "keywords": [ "fire", "forbid" ],
+    "keywords": ["fire", "forbid"],
     "char": "📛"
   },
   "white_flower": {
-    "keywords": [ "japanese", "spring" ],
+    "keywords": ["japanese", "spring"],
     "char": "💮"
   },
   "city_sunset": {
-    "keywords": [ "photo", "evening", "sky", "buildings" ],
+    "keywords": ["photo", "evening", "sky", "buildings"],
     "char": "🌆"
   },
   "ship": {
-    "keywords": [ "transportation", "titanic", "deploy" ],
+    "keywords": ["transportation", "titanic", "deploy"],
     "char": "🚢"
   },
   "white_large_square": {
-    "keywords": [ "shape", "icon", "stone", "button" ],
+    "keywords": ["shape", "icon", "stone", "button"],
     "char": "⬜"
   },
   "cl": {
-    "keywords": [ "alphabet", "words", "red-square" ],
+    "keywords": ["alphabet", "words", "red-square"],
     "char": "🆑"
   },
   "white_medium_small_square": {
-    "keywords": [ "shape", "stone", "icon", "button" ],
+    "keywords": ["shape", "stone", "icon", "button"],
     "char": "◽"
   },
   "negative_squared_cross_mark": {
-    "keywords": [ "x", "green-square", "no", "deny" ],
+    "keywords": ["x", "green-square", "no", "deny"],
     "char": "❎"
   },
   "white_medium_square": {
-    "keywords": [ "shape", "stone", "icon" ],
+    "keywords": ["shape", "stone", "icon"],
     "char": "◻️"
   },
   "clapper": {
-    "keywords": [ "movie", "film", "record" ],
+    "keywords": ["movie", "film", "record"],
     "char": "🎬"
   },
   "white_small_square": {
-    "keywords": [ "shape", "icon" ],
+    "keywords": ["shape", "icon"],
     "char": "▫️"
   },
   "clipboard": {
-    "keywords": [ "stationery", "documents" ],
+    "keywords": ["stationery", "documents"],
     "char": "📋"
   },
   "new": {
-    "keywords": [ "blue-square", "words", "start" ],
+    "keywords": ["blue-square", "words", "start"],
     "char": "🆕"
   },
   "white_square_button": {
-    "keywords": [ "shape", "input" ],
+    "keywords": ["shape", "input"],
     "char": "🔳"
   },
   "clock1": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕐"
   },
   "golf": {
-    "keywords": [ "sports", "business", "flag", "hole" ],
+    "keywords": ["sports", "business", "flag", "hole"],
     "char": "⛳"
   },
   "shower": {
-    "keywords": [ "clean", "water", "bathroom" ],
+    "keywords": ["clean", "water", "bathroom"],
     "char": "🚿"
   },
   "wind_chime": {
-    "keywords": [ "nature", "ding" ],
+    "keywords": ["nature", "ding"],
     "char": "🎐"
   },
   "clock10": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕙"
   },
   "grapes": {
-    "keywords": [ "fruit", "food", "wine" ],
+    "keywords": ["fruit", "food", "wine"],
     "char": "🍇"
   },
   "signal_strength": {
-    "keywords": [ "blue-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth" ],
+    "keywords": ["blue-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth"],
     "char": "📶"
   },
   "wine_glass": {
-    "keywords": [ "drink", "beverage", "drunk", "alcohol" ],
+    "keywords": ["drink", "beverage", "drunk", "alcohol"],
     "char": "🍷"
   },
   "clock1030": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕥"
   },
   "green_apple": {
-    "keywords": [ "fruit", "nature" ],
+    "keywords": ["fruit", "nature"],
     "char": "🍏"
   },
   "newspaper": {
-    "keywords": [ "press", "headline" ],
+    "keywords": ["press", "headline"],
     "char": "📰"
   },
   "six": {
-    "keywords": [ "6", "numbers", "blue-square" ],
+    "keywords": ["6", "numbers", "blue-square"],
     "char": "6️⃣"
   },
   "clock11": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕚"
   },
   "green_book": {
-    "keywords": [ "read", "library", "knowledge" ],
+    "keywords": ["read", "library", "knowledge"],
     "char": "📗"
   },
   "ng": {
-    "keywords": [ "blue-square", "words", "shape", "icon" ],
+    "keywords": ["blue-square", "words", "shape", "icon"],
     "char": "🆖"
   },
   "six_pointed_star": {
-    "keywords": [ "purple-square" ],
+    "keywords": ["purple-square"],
     "char": "🔯"
   },
   "clock1130": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕦"
   },
   "nine": {
-    "keywords": [ "blue-square", "numbers", "9" ],
+    "keywords": ["blue-square", "numbers", "9"],
     "char": "9️⃣"
   },
   "ski": {
-    "keywords": [ "sports", "winter", "cold" ],
+    "keywords": ["sports", "winter", "cold"],
     "char": "🎿"
   },
   "clock12": {
-    "keywords": [ "time", "noon", "midnight", "late", "early", "schedule" ],
+    "keywords": ["time", "noon", "midnight", "late", "early", "schedule"],
     "char": "🕛"
   },
   "grey_exclamation": {
-    "keywords": [ "surprise", "punctuation", "gray", "wow", "warning" ],
+    "keywords": ["surprise", "punctuation", "gray", "wow", "warning"],
     "char": "❕"
   },
   "no_bell": {
-    "keywords": [ "sound", "volume", "mute", "quiet", "silent" ],
+    "keywords": ["sound", "volume", "mute", "quiet", "silent"],
     "char": "🔕"
   },
   "clock1230": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕧"
   },
   "grey_question": {
-    "keywords": [ "doubts", "gray", "huh" ],
+    "keywords": ["doubts", "gray", "huh"],
     "char": "❔"
   },
   "no_bicycles": {
-    "keywords": [ "cyclist", "prohibited", "circle" ],
+    "keywords": ["cyclist", "prohibited", "circle"],
     "char": "🚳"
   },
   "clock130": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕜"
   },
   "no_entry": {
-    "keywords": [ "limit", "security", "privacy", "bad", "denied", "stop", "circle" ],
+    "keywords": ["limit", "security", "privacy", "bad", "denied", "stop", "circle"],
     "char": "⛔"
   },
   "womens": {
-    "keywords": [ "purple-square", "woman", "female", "toilet", "loo", "restroom" ],
+    "keywords": ["purple-square", "woman", "female", "toilet", "loo", "restroom"],
     "char": "🚺"
   },
   "clock2": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕑"
   },
   "no_entry_sign": {
-    "keywords": [ "forbid", "stop", "limit", "denied", "disallow", "circle" ],
+    "keywords": ["forbid", "stop", "limit", "denied", "disallow", "circle"],
     "char": "🚫"
   },
   "slot_machine": {
-    "keywords": [ "bet", "gamble", "vegas", "fruit machine", "luck", "casino" ],
+    "keywords": ["bet", "gamble", "vegas", "fruit machine", "luck", "casino"],
     "char": "🎰"
   },
   "clock230": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕝"
   },
   "small_blue_diamond": {
-    "keywords": [ "shape", "jewel", "gem" ],
+    "keywords": ["shape", "jewel", "gem"],
     "char": "🔹"
   },
   "wrench": {
-    "keywords": [ "tools", "diy", "ikea" ],
+    "keywords": ["tools", "diy", "ikea"],
     "char": "🔧"
   },
   "clock3": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕒"
   },
   "no_mobile_phones": {
-    "keywords": [ "iphone", "mute", "circle" ],
+    "keywords": ["iphone", "mute", "circle"],
     "char": "📵"
   },
   "small_orange_diamond": {
-    "keywords": [ "shape", "jewel", "gem" ],
+    "keywords": ["shape", "jewel", "gem"],
     "char": "🔸"
   },
   "x": {
-    "keywords": [ "no", "delete", "remove" ],
+    "keywords": ["no", "delete", "remove"],
     "char": "❌"
   },
   "clock330": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕞"
   },
   "guitar": {
-    "keywords": [ "music", "instrument" ],
+    "keywords": ["music", "instrument"],
     "char": "🎸"
   },
   "small_red_triangle": {
-  "keywords": [ "shape" ], "char": "🔺"
-},
+    "keywords": ["shape"],
+    "char": "🔺"
+  },
   "clock4": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕓"
   },
   "gun": {
-    "keywords": [ "violence", "weapon", "pistol", "revolver" ],
+    "keywords": ["violence", "weapon", "pistol", "revolver"],
     "char": "🔫"
   },
   "no_pedestrians": {
-    "keywords": [ "rules", "crossing", "walking", "circle" ],
+    "keywords": ["rules", "crossing", "walking", "circle"],
     "char": "🚷"
   },
   "small_red_triangle_down": {
-  "keywords": [ "shape" ], "char": "🔻"
-},
+    "keywords": ["shape"],
+    "char": "🔻"
+  },
   "yen": {
-    "keywords": [ "money", "sales", "japanese", "dollar", "currency" ],
+    "keywords": ["money", "sales", "japanese", "dollar", "currency"],
     "char": "💴"
   },
   "clock430": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕟"
   },
   "no_smoking": {
-    "keywords": [ "cigarette", "blue-square", "smell", "smoke" ],
+    "keywords": ["cigarette", "blue-square", "smell", "smoke"],
     "char": "🚭"
   },
   "clock5": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕔"
   },
   "hamburger": {
-    "keywords": [ "meat", "fast food", "beef", "cheeseburger", "mcdonalds", "burger king" ],
+    "keywords": ["meat", "fast food", "beef", "cheeseburger", "mcdonalds", "burger king"],
     "char": "🍔"
   },
   "non-potable_water": {
-    "keywords": [ "drink", "faucet", "tap", "circle" ],
+    "keywords": ["drink", "faucet", "tap", "circle"],
     "char": "🚱"
   },
   "clock530": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕠"
   },
   "hammer": {
-    "keywords": [ "tools", "verdict", "judge", "done", "law", "legal", "ruling", "gavel" ],
+    "keywords": ["tools", "verdict", "judge", "done", "law", "legal", "ruling", "gavel"],
     "char": "🔨"
   },
   "zero": {
-    "keywords": [ "0", "numbers", "blue-square", "null" ],
+    "keywords": ["0", "numbers", "blue-square", "null"],
     "char": "0️⃣"
   },
   "clock6": {
-    "keywords": [ "time", "late", "early", "schedule", "dawn", "dusk" ],
+    "keywords": ["time", "late", "early", "schedule", "dawn", "dusk"],
     "char": "🕕"
   },
   "notebook": {
-    "keywords": [ "stationery", "record", "notes", "paper" ],
+    "keywords": ["stationery", "record", "notes", "paper"],
     "char": "📓"
   },
   "clock630": {
-    "keywords": [ "time", "late", "early", "schedule" ],
+    "keywords": ["time", "late", "early", "schedule"],
     "char": "🕡"
   },
   "notebook_with_decorative_cover": {
-    "keywords": [ "classroom", "notes", "record", "paper" ],
+    "keywords": ["classroom", "notes", "record", "paper"],
     "char": "📔"
   },
   "horse_racing": {
-    "keywords": [ "animal", "betting", "competition", "gambling" ],
+    "keywords": ["animal", "betting", "competition", "gambling"],
     "char": "🏇"
   },
   "christmas_tree": {
-    "keywords": [ "festival", "vacation", "december", "xmas", "celebration" ],
+    "keywords": ["festival", "vacation", "december", "xmas", "celebration"],
     "char": "🎄"
   },
   "octocat": {
-    "keywords": [ "animal", "octopus", "github", "custom*" ],
+    "keywords": ["animal", "octopus", "github", "custom_"],
     "char": null
   },
   "shipit": {
-    "keywords": [ "squirrel", "detective", "animal", "sherlock", "inspector", "custom*" ],
+    "keywords": ["squirrel", "detective", "animal", "sherlock", "inspector", "custom_"],
     "char": null
   },
   "bowtie": {
-    "keywords": [ "face", "formal", "fashion", "suit", "classy", "custom*" ],
+    "keywords": ["face", "formal", "fashion", "suit", "classy", "custom_"],
     "char": null
   },
   "neckbeard": {
-    "keywords": [ "nerdy", "face", "custom*" ],
+    "keywords": ["nerdy", "face", "custom_"],
     "char": null
   },
   "metal": {
-    "keywords": [ "fingers", "rocknroll", "concert", "band", "custom*" ],
+    "keywords": ["fingers", "rocknroll", "concert", "band", "custom_"],
     "char": null
   },
   "fu": {
-    "keywords": [ "fuck", "finger", "dislike", "thumbsdown", "disapprove", "no", "custom*" ],
+    "keywords": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no", "custom_"],
     "char": null
   },
   "trollface": {
-    "keywords": [ "internet", "meme", "custom*" ],
+    "keywords": ["internet", "meme", "custom_"],
     "char": null
   },
   "godmode": {
-    "keywords": [ "custom*", "doom" ],
+    "keywords": ["custom_", "doom"],
     "char": null
   },
   "goberserk": {
-    "keywords": [ "custom*", "doom", "rage", "bloody", "hurt" ],
+    "keywords": ["custom_", "doom", "rage", "bloody", "hurt"],
     "char": null
   },
   "finnadie": {
-    "keywords": [ "custom*", "doom", "oldschool" ],
+    "keywords": ["custom_", "doom", "oldschool"],
     "char": null
   },
   "feelsgood": {
-    "keywords": [ "custom*", "doom", "oldschool" ],
+    "keywords": ["custom_", "doom", "oldschool"],
     "char": null
   },
   "rage1": {
-    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "keywords": ["angry", "mad", "custom_", "hate", "despise"],
     "char": null
   },
   "rage2": {
-    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "keywords": ["angry", "mad", "custom_", "hate", "despise"],
     "char": null
   },
   "rage3": {
-    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "keywords": ["angry", "mad", "custom_", "hate", "despise"],
     "char": null
   },
   "rage4": {
-    "keywords": [ "angry", "mad", "custom*", "hate", "despise" ],
+    "keywords": ["angry", "mad", "custom_", "hate", "despise"],
     "char": null
   },
   "suspect": {
-    "keywords": [ "mad", "custom*" ],
+    "keywords": ["mad", "custom_"],
     "char": null
   },
   "hurtrealbad": {
-    "keywords": [ "mad", "injured", "doom", "oldschool", "custom*" ],
+    "keywords": ["mad", "injured", "doom", "oldschool", "custom_"],
     "char": null
   }
 }
