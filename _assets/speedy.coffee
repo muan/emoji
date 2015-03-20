@@ -30,8 +30,25 @@ setRelatedDOMVisibility = (keyword) ->
     else
       ga 'send', 'event', 'search', keyword
 
-$(document).on 'search keyup', '.speedy-filter', ->
-  location.hash = $(this).val()
+timeout = null;
+delayedSearch = (delayTime)->
+
+  ###
+  We don't want timeouts stacking on top of eachother 
+  which would defeat what the delayed search function does
+  ###
+  clearTimeout(timeout)
+
+  timeout = setTimeout(
+    (-> search(
+      location.hash = $('.speedy-filter').val()) 
+    ), delayTime)
+
+
+$(document).on 'search keyup', '.speedy-filter', -> 
+  delayTime = 1000
+  delayedSearch(delayTime)
+
 
 $(document).on 'click', '.group', ->
   ga 'send', 'event', 'search', 'quick group search'

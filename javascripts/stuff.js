@@ -21,16 +21,16 @@ $(document).on('emoji:ready', function() {
   }
 });
 
-focusOnSearch = function(e) {
+focusOnSearch = function(key) {
   var t;
-  if (e.keyCode === 191 && !$(".input-search:focus").length) {
-    $(".input-search").focus();
+  if (!$(".input-search:focus").length) {
+    $('.input-search').focus();
     t = $(".input-search").get(0);
     if (t.value.length) {
       t.selectionStart = 0;
       t.selectionEnd = t.value.length;
     }
-    return false;
+    return true;
   }
 };
 
@@ -43,13 +43,13 @@ $.getJSON('emojis.json', function(emojis) {
   return $(document).trigger('emoji:ready');
 });
 
-$(document).keydown(function(e) {
-  return focusOnSearch(e);
+$(document).keydown(function(key) {
+  return focusOnSearch(key);
 });
 
-$(document).on('keydown', '.emoji-wrapper input', function(e) {
+$(document).on('keydown', '.emoji-wrapper input', function(key) {
   $(".input-search").blur();
-  return focusOnSearch(e);
+  return focusOnSearch(key);
 });
 
 $(document).on('click', '[data-clipboard-text]', function() {
