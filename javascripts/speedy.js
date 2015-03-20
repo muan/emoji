@@ -45,7 +45,7 @@ setRelatedDOMVisibility = function(keyword) {
 };
 
 $(document).on('search keyup', '.speedy-filter', function() {
-  return location.hash = $(this).val();
+  return location.hash = $(this).val().replace(' ', '_');
 });
 
 $(document).on('click', '.group', function() {

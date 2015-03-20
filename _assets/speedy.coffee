@@ -31,7 +31,7 @@ setRelatedDOMVisibility = (keyword) ->
       ga 'send', 'event', 'search', keyword
 
 $(document).on 'search keyup', '.speedy-filter', ->
-  location.hash = $(this).val()
+  location.hash = $(this).val().replace(' ', '_')
 
 $(document).on 'click', '.group', ->
   ga 'send', 'event', 'search', 'quick group search'
