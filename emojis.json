@@ -614,7 +614,7 @@
   "envelope_with_arrow": ["email", "communication"],
   "truck": ["cars", "transportation"],
   "es": ["spain", "flag", "nation", "country", "banner"],
-  "lock": ["security", "password"],
+  "lock": ["security", "password" padlock   ],
   "trumpet": ["music", "brass"],
   "euro": ["money", "sales", "dollar", "currency"],
   "lock_with_ink_pen": ["security", "secret"],
