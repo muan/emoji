@@ -8,10 +8,8 @@ $(document).on 'emoji:ready', ->
     hasFlash = Boolean(new ActiveXObject('ShockwaveFlash.ShockwaveFlash'))
   catch exception
     hasFlash = ('undefined' != typeof navigator.mimeTypes['application/x-shockwave-flash'])
-  if not hasFlash
-    $(".js-copy-queue").css("display", "none")
 
-  if navigator.userAgent.match(/iPad|iPhone/i)
+  if not hasFlash || navigator.userAgent.match(/iPad|iPhone/i)
     $(document).on 'click', '.emoji-code', ->
       this.selectionStart = 0
       this.selectionEnd = this.value.length

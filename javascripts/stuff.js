@@ -12,10 +12,7 @@ $(document).on('emoji:ready', function() {
     exception = _error;
     hasFlash = 'undefined' !== typeof navigator.mimeTypes['application/x-shockwave-flash'];
   }
-  if (!hasFlash) {
-    $(".js-copy-queue").css("display", "none");
-  }
-  if (navigator.userAgent.match(/iPad|iPhone/i)) {
+  if (!hasFlash || navigator.userAgent.match(/iPad|iPhone/i)) {
     return $(document).on('click', '.emoji-code', function() {
       this.selectionStart = 0;
       return this.selectionEnd = this.value.length;
