@@ -2,9 +2,19 @@
 var focusOnSearch;
 
 $(document).on('emoji:ready', function() {
-  var clip;
+  var clip, exception, hasFlash;
   $(".input-search").focus();
   $(".loading").remove();
+  hasFlash = false;
+  try {
+    hasFlash = Boolean(new ActiveXObject('ShockwaveFlash.ShockwaveFlash'));
+  } catch (_error) {
+    exception = _error;
+    hasFlash = 'undefined' !== typeof navigator.mimeTypes['application/x-shockwave-flash'];
+  }
+  if (!hasFlash) {
+    $(".js-copy-queue").css("display", "none");
+  }
   if (navigator.userAgent.match(/iPad|iPhone/i)) {
     return $(document).on('click', '.emoji-code', function() {
       this.selectionStart = 0;
