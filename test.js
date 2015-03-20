@@ -1,6 +1,5 @@
 var fs          = require('fs')
 var rawData     = fs.read('emojis.json').toString()
-var data        = JSON.parse(fs.read('emojis.json'))
 var keys        = rawData.match(/"(.+)":/g).map(function(key){return key.replace(/"|:/g,'')})
 var buildFailed = false
 var passed      = function() { console.log("\x1B[92mPASSED\x1B[0m\n") }
@@ -8,9 +7,30 @@ var failed      = function() {
   console.log("\x1B[91mFAILED\x1B[0m\n")
   buildFailed = true
 }
+var reveal = function() {
+  if(buildFailed) {
+    console.log(":cry: \x1B[91mNo good, something failed.\x1B[0m :boom:\n")
+    phantom.exit(buildFailed)
+  } else {
+    console.log(":sparkles: \x1B[96mWho's awesome? You're awesome!\x1B[0m :+1:\n")
+    phantom.exit()
+  }
+}
 
 //
-console.log("\nTEST: Correct number of emojis")
+console.log("\nTEST: Correct JSON format")
+
+try {
+  var data = JSON.parse(fs.read('emojis.json'))
+  passed()
+} catch(e) {
+  console.log('Invalid JSON format. See the CONTRIBUTING doc for reference.')
+  failed()
+  reveal()
+}
+
+//
+console.log("TEST: Correct number of emojis")
 
 if(keys.length !== 884) {
   console.log("There are 884 emojis, but emojis.json has " + keys.length + " entries.")
@@ -107,11 +127,4 @@ if(offenses.length > 0) {
   passed()
 }
 
-//
-if(buildFailed) {
-  console.log(":cry: \x1B[91mNo good, something failed.\x1B[0m :boom:\n")
-  phantom.exit(buildFailed)
-} else {
-  console.log(":sparkles: \x1B[96mWho's awesome? You're awesome!\x1B[0m :+1:\n")
-  phantom.exit()
-}
+reveal()
