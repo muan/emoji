@@ -2800,7 +2800,11 @@
     "char": "🌅",
     "category": "places"
   },
-
+  "night_with_stars": {
+    "keywords": ["evening", "city", "downtown"],
+    "char": "🌃",
+    "category": "places"
+  },
   "statue_of_liberty": {
     "keywords": ["american", "newyork"],
     "char": "🗽",
