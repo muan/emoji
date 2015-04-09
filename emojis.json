@@ -610,7 +610,7 @@
     "category": "people"
   },
   "muscle": {
-    "keywords": ["arm", "flex", "hand", "summer"],
+    "keywords": ["arm", "flex", "hand", "summer", "strong"],
     "char": "💪",
     "category": "people"
   },
@@ -4041,7 +4041,7 @@
     "category": "symbols"
   },
   "heavy_plus_sign": {
-    "keywords": ["math", "calculation"],
+    "keywords": ["math", "calculation", "addition", "more", "increase"],
     "char": "➕",
     "category": "symbols"
   },
