@@ -32,8 +32,8 @@ try {
 //
 console.log("TEST: Correct number of emojis")
 
-if(keys.length !== 861) {
-  console.log("There are 861 emojis, but emojis.json has " + keys.length + " entries.")
+if(keys.length !== 862) {
+  console.log("There are 862 emojis, but emojis.json has " + keys.length + " entries.")
   failed()
 } else {
   passed()
