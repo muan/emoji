@@ -3216,7 +3216,7 @@
     "char": "0️⃣",
     "category": "symbols"
   },
-  "ten": {
+  "keycap_ten": {
     "keywords": ["numbers", "10", "blue-square"],
     "char": "🔟",
     "category": "symbols"
