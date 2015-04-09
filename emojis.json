@@ -1715,13 +1715,23 @@
     "char": "📻",
     "category": "objects"
   },
+  "loud_sound": {
+    "keywords": ["volume", "noise", "noisy", "speaker", "broadcast"],
+    "char": "🔊",
+    "category": "objects"
+  },
   "sound": {
-    "keywords": ["volume", "speaker"],
+    "keywords": ["volume", "speaker", "broadcast"],
     "char": "🔉",
     "category": "objects"
   },
+  "speaker": {
+    "keywords": ["sound", "volume", "silence", "broadcast"],
+    "char": "🔈",
+    "category": "objects"
+  },
   "mute": {
-    "keywords": ["sound", "volume", "silence"],
+    "keywords": ["sound", "volume", "silence", "quiet"],
     "char": "🔇",
     "category": "objects"
   },
