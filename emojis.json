@@ -2665,10 +2665,6 @@
     "char": "🌽",
     "category": "objects"
   },
-
-  // places
-
-
   "house": {
     "keywords": ["building", "home"],
     "char": "🏠",
