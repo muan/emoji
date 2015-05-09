@@ -607,7 +607,7 @@
   "end": ["words", "arrow"],
   "link": ["rings", "url"],
   "rage4": ["angry", "mad", "ghonly", "hate", "despise"],
-  "tropical_drink": ["beverage", "cocktail", "summer", "beach", "alcohol", "booze", "drink"],
+  "tropical_drink": ["beverage", "cocktail", "summer", "beach", "alcohol", "booze"],
   "blue_car": ["transportation", "vehicle"],
   "envelope": ["email", "letter", "postal", "communication"],
   "railway_car": ["transportation", "vehicle"],
