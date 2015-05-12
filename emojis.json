@@ -267,7 +267,7 @@
   "hibiscus": ["plant", "vegetable", "flowers", "beach"],
   "maple_leaf": ["nature", "plant", "vegetable", "canada", "fall"],
   "leaves": ["nature", "plant", "tree", "vegetable", "grass", "lawn", "spring"],
-  "fallen_leaf": ["nature", "plant", "vegetable", "leaves", "fall"],
+  "fallen_leaf": ["nature", "plant", "vegetable", "leaves"],
   "herb": ["vegetable", "plant", "medicine", "weed", "grass", "lawn"],
   "ear_of_rice": ["nature", "plant"],
   "mushroom": ["plant", "vegetable"],
