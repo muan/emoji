@@ -1,4 +1,5 @@
 _site/
+.idea
 .sass-cache/
 .ruby-version
 *.map

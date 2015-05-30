@@ -196,7 +196,7 @@ ul, li {
   @include inline-block;
   text-indent: -9999px;
   overflow: hidden;
-  @include transform(scale(0.8));
+  @include transform(scale(0.8) perspective(1px));
   cursor: pointer;
 }
 [data-clipboard-text] { cursor: pointer; }
