@@ -882,5 +882,6 @@
   "notebook_with_decorative_cover": ["classroom", "notes", "record", "paper", "study"],
   "horse_racing": ["animal", "betting", "competition", "gambling", "luck"],
   "christmas_tree": ["festival", "vacation", "december", "xmas", "celebration"],
-  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no"]
+  "fu": ["fuck", "finger", "dislike", "thumbsdown", "disapprove", "no"],
+  "partycat": ["animal", "fun", "happy", "joy", "face", "comics"]
 }
