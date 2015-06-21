@@ -28,10 +28,11 @@ focusOnSearch = (e) ->
     false
 
 $.getJSON 'emojis.json', (emojis) ->
+  hasFont = hasAppleColorEmoji()
   container = $('.emojis-container')
   Object.keys(emojis).forEach( (key) ->
     emoji = emojis[key]
-    charHTML = if emoji["char"]
+    charHTML = if hasFont && emoji["char"]
       "<div class='native-emoji' title='#{key}'>#{emoji["char"]}</div>"
     else
       "<div class='emoji s_#{key.replace(/\+/,'')}' title='#{key}'>#{key}</div>"
