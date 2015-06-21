@@ -6,7 +6,7 @@ function hasAppleColorEmoji () {
     tag.style.fontFamily = i === 1 ? 'thisisnotafont' : 'AppleColorEmoji'
     document.body.appendChild(tag)
     widths.push(tag.offsetWidth)
-    tag.remove()
+    document.body.removeChild(tag)
   })
   return widths[0] != widths[1]
 }
