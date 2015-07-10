@@ -1,0 +1,13 @@
+{
+  "name": "emoji",
+  "version": "0.0.0",
+  "homepage": "https://github.com/muan/emoji",
+  "authors": [
+    "Mu-An Chiou <me@muanchiou.com>"
+  ],
+  "description": "Emoji searcher",
+  "license": "MIT",
+  "dependencies": {
+    "emojilib": "~0.0.3"
+  }
+}

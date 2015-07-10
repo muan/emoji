@@ -1,0 +1,29 @@
+{
+  "name": "emojilib",
+  "version": "0.0.4",
+  "homepage": "https://github.com/muan/emojilib",
+  "authors": [
+    "Mu-An Chiou <me@muanchiou.com>"
+  ],
+  "description": "Emoji keyword lib in JSON",
+  "main": "emojis.json",
+  "keywords": [
+    "emoji"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "test.js",
+    "*.yml",
+    "package.json",
+    "CONTRIBUTING.md"
+  ],
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.4",
+    "commit": "a37a3cb8afd7be575fa3952c90206239c004d32f"
+  },
+  "_source": "git://github.com/muan/emojilib.git",
+  "_target": "~0.0.3",
+  "_originalSource": "emojilib"
+}

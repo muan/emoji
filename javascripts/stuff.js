@@ -36,7 +36,7 @@ function focusOnSearch (e) {
   }
 }
 
-$.getJSON('emojis.json', function (emojis) {
+$.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
   var hasFont = hasAppleColorEmoji()
   var container = $('.emojis-container')
   Object.keys(emojis).forEach( function (key) {

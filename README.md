@@ -15,4 +15,6 @@ View emoji in groups and food-attack hungry people
 
 #### Please contribute :pray:
 
-There are almost 900 emoji, more keywords let you find emoji more easily. Go to [`emojis.json`](https://github.com/muan/emoji/blob/gh-pages/emojis.json) for the list of emoji & keywords.
+**As of 2015/07/10, the emoji keyword library has been migrated to its own repository [muan/emojilib](https://github.com/muan/emojilib).**
+
+There are almost 900 emoji, more keywords let you find emoji more easily. Go to [`emojis.json`](https://github.com/muan/emojilib/blob/gh-pages/emojis.json) for the list of emoji & keywords.
