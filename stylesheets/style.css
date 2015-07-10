@@ -125,7 +125,8 @@ ul {
   white-space: nowrap; }
   .emoji-wrapper .keywords {
     font-size: 0; }
-  .emoji-wrapper .emoji {
+  .emoji-wrapper .emoji,
+  .emoji-wrapper .native-emoji {
     position: absolute;
     margin-top: -3px; }
   .emoji-wrapper input {
@@ -210,20 +211,28 @@ ul, li {
   text-align: center;
   border-radius: 5px; }
 
+.native-emoji,
 .emoji {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
+  cursor: pointer; }
+
+.native-emoji {
+  font-size: 19px;
+  padding: 10px 2px;
+  font-family: AppleColorEmoji; }
+
+.emoji {
   text-indent: -9999px;
   overflow: hidden;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
   -o-transform: scale(0.8);
-  transform: scale(0.8);
-  cursor: pointer; }
+  transform: scale(0.8); }
 
 [data-clipboard-text] {
   cursor: pointer; }

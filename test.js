@@ -1,6 +1,5 @@
 var fs          = require('fs')
 var rawData     = fs.read('emojis.json').toString()
-var keys        = rawData.match(/"(.+)":/g).map(function(key){return key.replace(/"|:/g,'')})
 var buildFailed = false
 var passed      = function() { console.log("\x1B[92mPASSED\x1B[0m\n") }
 var failed      = function() {
@@ -22,6 +21,7 @@ console.log("\nTEST: Correct JSON format")
 
 try {
   var data = JSON.parse(fs.read('emojis.json'))
+  var keys = Object.keys(data)
   passed()
 } catch(e) {
   console.log('Invalid JSON format. See the CONTRIBUTING doc for reference.')
@@ -32,8 +32,8 @@ try {
 //
 console.log("TEST: Correct number of emojis")
 
-if(keys.length !== 884) {
-  console.log("There are 884 emojis, but emojis.json has " + keys.length + " entries.")
+if(keys.length !== 862) {
+  console.log("There are 862 emojis, but emojis.json has " + keys.length + " entries.")
   failed()
 } else {
   passed()
@@ -69,13 +69,13 @@ var unnecessities = []
 var unnecessitiesInKeywords = []
 
 keys.forEach(function(key) {
-  data[key].forEach(function(keyword) {
+  data[key]["keywords"].forEach(function(keyword) {
     if(key.match(keyword)) {
       unnecessities.push([key, keyword])
     }
 
-    var otherKeywords = data[key].slice()
-    otherKeywords.splice(data[key].indexOf(keyword), 1)
+    var otherKeywords = data[key]["keywords"].slice()
+    otherKeywords.splice(data[key]["keywords"].indexOf(keyword), 1)
     otherKeywords.forEach(function(otherKeyword) {
       if(otherKeyword.match(keyword)) {
         unnecessitiesInKeywords.push([otherKeyword, keyword, key])
@@ -102,18 +102,12 @@ console.log("TEST: Line format")
 
 var offenses = []
 var lines = rawData.replace(/^{\n([\s\S]*)\n}\n$/, '$1').split("\n")
-var baseRegex = '^  "[\\w+-]+": \\["[\\w- ]+"(, "[\\w- ]+")*\\]'
+var baseRegex = '^    "keywords": \\["[\\w- ]+"(, "[\\w- ]+")*\\]'
 var contentRegex = new RegExp(baseRegex + ',$')
 var lastLineRegex = new RegExp(baseRegex + '$')
 lines.forEach(function(line, index) {
-  if(index === lines.length - 1) {
-    if(!line.match(lastLineRegex)) {
-      offenses.push(index + 2)
-    }
-  } else {
-    if(!line.match(contentRegex)) {
-      offenses.push(index + 2)
-    }
+  if(line.match(/keywords/) && !line.match(contentRegex)) {
+    offenses.push(index + 2)
   }
 })
 

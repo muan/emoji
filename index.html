@@ -10,15 +10,16 @@
     <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji." property="description">
     <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji." property="og:description">
     <meta content="http://emoji.muan.co/appicon.png" property="og:image">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Emoji searcher" /> 
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Emoji searcher" />
     <title>Emoji searcher</title>
     <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
     <link href="stylesheets/emoji.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
     <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/hasAppleColorEmoji.js"></script>
     <script src="javascripts/zeroclipboard.js"></script>
     <script src="javascripts/stuff.js"></script>
-    <script src="javascripts/speedy.js"></script>
+    <script src="javascripts/search.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,6 +27,10 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-21332781-16', 'muan.co');
       ga('send', 'pageview');
+
+      if(location.hostname === "muan.co") {
+        location.href = "http://emoji.muan.co/" + location.hash
+      }
     </script>
   </head>
 
@@ -61,8 +66,8 @@
       <a href="#photo" class="mojigroup button small">
         <div class="emoji s_tokyo_tower" title="photo"></div>
       </a>
-      <a href="#ghonly" class="mojigroup button small">
-        <div class="emoji s_octocat" title="ghonly"></div>
+      <a href="#custom_" class="mojigroup button small">
+        <div class="emoji s_octocat" title="custom_"></div>
       </a>
     </header>
 
