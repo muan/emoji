@@ -27,6 +27,10 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-21332781-16', 'muan.co');
       ga('send', 'pageview');
+
+      if(location.hostname === "muan.co") {
+        location.href = "http://emoji.muan.co/" + location.hash
+      }
     </script>
   </head>
 
