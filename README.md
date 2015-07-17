@@ -1,4 +1,4 @@
-## Emoji finder [![Travis CI](https://travis-ci.org/muan/emoji.svg?branch=gh-pages)](https://travis-ci.org/muan/emoji)
+## Emoji finder
 
 :heart: me some emoji. Go to http://emoji.muan.co/
 
