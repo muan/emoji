@@ -100,6 +100,22 @@ var multiSelect = (function () {
 
   return this;
 })();
+
+var alert = (function () {
+  var node = $('#alert');
+
+  this.show = function (text) {
+    node
+      .stop(true, true)
+      .text(text)
+      .fadeIn()
+      .delay(1000)
+      .fadeOut()
+  }
+
+  return this;
+})();
+
 $(document).on('emoji:ready', function () {
   $(".input-search").focus()
   $(".loading").remove()
@@ -124,7 +140,7 @@ $(document).on('emoji:ready', function () {
     });
 
     clip.on('complete', function (clip, args) {
-      $('<div class=alert></div>').text('Copied ' + args.text).appendTo('body').fadeIn().delay(1000).fadeOut()
+      alert.show('Copied ' + args.text);
 
       // is SHIFT key is pressed, add multi select emoji
       if(multiSelect.active) {

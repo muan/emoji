@@ -202,7 +202,7 @@ ul, li {
   .input-search::-webkit-search-cancel-button, .input-search::-webkit-search-decoration {
     -webkit-appearance: none; }
 
-.alert {
+#alert {
   font-size: 13px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -211,15 +211,16 @@ ul, li {
   position: fixed;
   margin: auto;
   left: 50%;
-  width: 200px;
-  margin-left: -100px;
-  top: 10px;
-  background: rgba(10, 50, 90, 0.7);
+  width: 320px;
+  margin-left: -160px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
   font-weight: bold;
-  padding: 7px;
+  padding: 7px 10px;
   text-align: center;
-  border-radius: 5px; }
+  border-radius: 0 0 3px 3px;
+  -webkit-font-smoothing: antialiased; }
 
 .native-emoji,
 .emoji {
