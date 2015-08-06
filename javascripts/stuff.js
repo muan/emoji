@@ -1,3 +1,105 @@
+var multiSelect = (function () {
+
+  /**
+   * currently selected emoji
+   * @type {Array}
+   * @example [':necktie:', ':jeans:', ':bowtie:']
+   */
+  var selectedEmojis = [];
+
+  /**
+   * indicates if multi select behaviour is active
+   * @type {Boolean}
+   */
+  this.active = false;
+
+  /**
+   * add emoji string as selection 
+   * @param {String}
+   */
+  this.add = function (text) {
+    var arr = text.split(' ');
+    var newEmoji;
+
+    if(arr.length) {
+      newEmoji = arr[arr.length - 1];
+    } else {
+      newEmoji = text;
+    }
+
+    selectedEmojis.push(newEmoji);
+
+    this.update();
+    this.highlight();
+  };
+
+  /**
+   * Highlight current selections
+   */
+  this.highlight = function () {
+    $.each(selectedEmojis, function (index, value) {
+      $('[data-clipboard-text$="' + value + '"]').addClass('emoji--highlight')
+    })
+  };
+
+  /**
+   * Dehighight selections
+   */
+  this.dehighight = function () {
+    $('.emoji--highlight').removeClass('emoji--highlight');
+  };
+
+  /**
+   * Reset the selection, including the array, clipboards texts and the highlighting
+   */
+  this.reset = function () {
+    selectedEmojis = [];
+
+    $('[data-clipboard-text]').each(function () {
+      var emojis = $(this).data('clipboard-text').split(' ');
+      var original = emojis[emojis.length - 1];
+      $(this).attr('data-clipboard-text', original);
+    });
+
+    this.dehighight();
+  };
+
+  /**
+   * Append to all clipboard texts the multi selected emojis
+   */
+  this.update = function () {
+    if(!selectedEmojis.length) return;
+
+    $('[data-clipboard-text]').each(function () {
+      var prefix = selectedEmojis.join(' ');
+      var newContent = prefix + ' ' + $(this).data('clipboard-text');
+      $(this).attr('data-clipboard-text', newContent)
+    });
+  };
+
+  /**
+   * turn on multi selection when SHIFT key is pressed
+   */
+  $(document).on('keydown', function () {
+    if(event.which === 16) {
+      event.preventDefault();
+      this.active = true;
+    }
+  }.bind(this));
+
+  /**
+   * turn off and reset multi selection when SHIFT key is released
+   */
+  $(document).on('keyup', function (event) {
+    if(event.which === 16) {
+      event.preventDefault();
+      this.active = false;
+      this.reset();
+    }
+  }.bind(this));
+
+  return this;
+})();
 $(document).on('emoji:ready', function () {
   $(".input-search").focus()
   $(".loading").remove()
@@ -15,10 +117,21 @@ $(document).on('emoji:ready', function () {
       this.selectionEnd = this.value.length
     })
   } else {
-    var clip = new ZeroClipboard( $('[data-clipboard-text]'),{ moviePath: '/assets/zeroclipboard.swf'} )
-    clip.on('complete', function (_, args) {
+    var nodes = $('[data-clipboard-text]');
+
+    var clip = new ZeroClipboard(nodes, { 
+      moviePath: '/assets/zeroclipboard.swf'
+    });
+
+    clip.on('complete', function (clip, args) {
       $('<div class=alert></div>').text('Copied ' + args.text).appendTo('body').fadeIn().delay(1000).fadeOut()
-    })
+
+      // is SHIFT key is pressed, add multi select emoji
+      if(multiSelect.active) {
+        multiSelect.add(args.text);
+      }
+    });
+
     $('.emoji-code').attr('readonly', 'readonly')
   }
 })

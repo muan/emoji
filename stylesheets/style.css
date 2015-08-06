@@ -119,7 +119,14 @@ ul {
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
-  width: 25%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  margin: 0 0.5% 1%;
+  width: 24%;
   padding: 12px 5px;
   overflow: hidden;
   white-space: nowrap; }
@@ -131,6 +138,9 @@ ul {
     margin-top: -3px; }
   .emoji-wrapper input {
     margin-left: 25px; }
+
+.emoji--highlight {
+  border-color: #999; }
 
 .global-zeroclipboard-container {
   background-color: rgba(0, 0, 0, 0.02); }
