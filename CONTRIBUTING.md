@@ -49,7 +49,7 @@ When you're done, press `ctrl + c` to stop everything.
 
 - It's preferred that when adding a keyword to one specific emoji, you use that emoji or a relevant emoji as the commit message. For example: [`2a34a84`](https://github.com/muan/emoji/commit/2a34a84576ec1565587bb78ff465844c835819ad)
 
-- Make sure you have a good description in the pull request if your changes contain more than keyword changes.<br>
+- Make sure you have a good description in the pull request if your changes contain more than keyword changes. The rules are the following:<br>
   :x: `Update html`<br>
   :o: `Change a typo in the toggle text button`
 
