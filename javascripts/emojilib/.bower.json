@@ -1,6 +1,6 @@
 {
   "name": "emojilib",
-  "version": "0.0.4",
+  "version": "1.1.0",
   "homepage": "https://github.com/muan/emojilib",
   "authors": [
     "Mu-An Chiou <me@muanchiou.com>"
@@ -15,15 +15,16 @@
     "test.js",
     "*.yml",
     "package.json",
-    "CONTRIBUTING.md"
+    "CONTRIBUTING.md",
+    "**/.*"
   ],
-  "_release": "0.0.4",
+  "_release": "1.1.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.0.4",
-    "commit": "a37a3cb8afd7be575fa3952c90206239c004d32f"
+    "tag": "1.1.0",
+    "commit": "debb8c2271c7eeba72872bc7758de66aa6f6f42a"
   },
   "_source": "git://github.com/muan/emojilib.git",
-  "_target": "~0.0.3",
+  "_target": "1.1.0",
   "_originalSource": "emojilib"
 }
