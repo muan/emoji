@@ -11,17 +11,23 @@ $(document).on('emoji:ready', function () {
 
   if (!hasFlash || navigator.userAgent.match(/iPad|iPhone/i)) {
     $(document).on('click', '.emoji-code', function () {
-      this.selectionStart = 0
-      this.selectionEnd = this.value.length
+      this.select()
+      document.execCommand('copy')
+      getSelection().removeAllRanges()
+      alertCopied(this.value)
     })
   } else {
     var clip = new ZeroClipboard( $('[data-clipboard-text]'),{ moviePath: '/assets/zeroclipboard.swf'} )
     clip.on('complete', function (_, args) {
-      $('<div class=alert></div>').text('Copied ' + args.text).appendTo('body').fadeIn().delay(1000).fadeOut()
+      alertCopied(args.text)
     })
     $('.emoji-code').attr('readonly', 'readonly')
   }
 })
+
+function alertCopied (emoji) {
+  $('<div class=alert></div>').text('Copied ' + emoji).appendTo('body').fadeIn().delay(1000).fadeOut()
+}
 
 function focusOnSearch (e) {
   var searchField = $('.input-search')[0]
