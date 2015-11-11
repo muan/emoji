@@ -197,21 +197,23 @@ ul, li {
 .alert {
   font-size: 13px;
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
   display: none;
   position: fixed;
   margin: auto;
   left: 50%;
-  width: 200px;
-  margin-left: -100px;
-  top: 10px;
-  background: rgba(10, 50, 90, 0.7);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
   font-weight: bold;
-  padding: 7px;
+  padding: 7px 20px;
   text-align: center;
-  border-radius: 5px; }
+  border-radius: 50px; }
 
 .native-emoji,
 .emoji {
@@ -276,9 +278,11 @@ code {
 @media (max-width: 480px) {
   .input-search {
     width: 60px;
-    position: absolute; }
-    .input-search:focus {
-      width: 100%; }
+    position: absolute;
+    width: 100%; }
+
+  .mojigroup {
+    display: none; }
 
   input {
     font-size: 14px; }
