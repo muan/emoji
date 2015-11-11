@@ -31,13 +31,13 @@ function alertCopied (emoji) {
 
 function focusOnSearch (e) {
   var searchField = $('.input-search')[0]
-  if (e.keyCode == 191 && !searchField.length) {
-    searchField.focus()
-    var t = searchField.get(0)
-    if (t.value.length) {
-      t.selectionStart = 0
-      t.selectionEnd = t.value.length
+  if (e.keyCode == 191 && searchField) {
+    if (searchField.value.length) {
+      searchField.selectionStart = 0
+      searchField.selectionEnd = searchField.value.length
     }
+    searchField.focus()
+    e.preventDefault()
     return false
   }
 }
