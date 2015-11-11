@@ -58,6 +58,7 @@ $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
       ":' /><span class='keywords'>" + key + " " + emoji["keywords"] + "</span></li>")
   })
   $(document).trigger('emoji:ready')
+  $('.emojis-container').toggleClass('hide-text', localStorage.getItem('emoji-text-display') === 'false')
 })
 
 $(document).keydown(function (e) { focusOnSearch(e) })
@@ -74,6 +75,7 @@ $(document).on('click', '[data-clipboard-text]', function () {
 $(document).on('click', '.js-hide-text', function () {
   $('.emojis-container').toggleClass('hide-text')
   var showorhide = $('.emojis-container').hasClass('hide-text') ? 'hide' : 'show'
+  localStorage.setItem('emoji-text-display', !$('.emojis-container').hasClass('hide-text'))
   ga('send', 'event', 'toggle text', showorhide)
   return false
 })
