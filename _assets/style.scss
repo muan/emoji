@@ -6,8 +6,8 @@ form { margin: 0; }
 
 body {
   &, input {
-    font-family: helvetica, sans-serif;
-    font-size: 13px;
+    font-family: andalemono, menlo, monospace;
+    font-size: 12px;
     font-weight: 400;
   }
   line-height: 1.6em;
@@ -40,7 +40,6 @@ footer {
 }
 
 section {
-  border: 1px solid #eee;
   @include clearfix;
   overflow: hidden;
 }
@@ -107,7 +106,6 @@ ul {
 .emoji-wrapper {
   @include inline-block;
   width: 25%;
-  padding: 12px 5px;
   overflow: hidden;
   white-space: nowrap;
 
@@ -118,24 +116,33 @@ ul {
   .emoji,
   .native-emoji {
     position: absolute;
-    margin-top: -3px;
+    margin: 7px 8px;
   }
 
-  input { margin-left: 25px; }
+  input {
+    cursor: pointer;
+    padding: 12px 5px 12px 35px;
+  }
+
+  &:hover {
+    background: #f5f5f5;
+  }
 }
 
 .global-zeroclipboard-container {
   background-color: rgba(0,0,0,.02);
 }
 
-ul.hide-text {
-
+.hide-text {
   .emoji-wrapper {
-    width: 30px;
+    width: 40px;
     height: 40px;
   }
 
-  input { display: none; }
+  input { 
+    position: absolute; 
+    opacity: 0;
+  }
 }
 
 ul, li {

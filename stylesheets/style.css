@@ -12,8 +12,8 @@ body {
   color: #333;
   background-color: #fff; }
   body, body input {
-    font-family: helvetica, sans-serif;
-    font-size: 13px;
+    font-family: andalemono, menlo, monospace;
+    font-size: 12px;
     font-weight: 400; }
   body img {
     vertical-align: middle; }
@@ -46,7 +46,6 @@ footer {
   text-align: center; }
 
 section {
-  border: 1px solid #eee;
   *zoom: 1;
   overflow: hidden; }
   section:before, section:after {
@@ -120,7 +119,6 @@ ul {
   *display: inline;
   *vertical-align: auto;
   width: 25%;
-  padding: 12px 5px;
   overflow: hidden;
   white-space: nowrap; }
   .emoji-wrapper .keywords {
@@ -128,18 +126,22 @@ ul {
   .emoji-wrapper .emoji,
   .emoji-wrapper .native-emoji {
     position: absolute;
-    margin-top: -3px; }
+    margin: 7px 8px; }
   .emoji-wrapper input {
-    margin-left: 25px; }
+    cursor: pointer;
+    padding: 12px 5px 12px 35px; }
+  .emoji-wrapper:hover {
+    background: #f5f5f5; }
 
 .global-zeroclipboard-container {
   background-color: rgba(0, 0, 0, 0.02); }
 
-ul.hide-text .emoji-wrapper {
-  width: 30px;
+.hide-text .emoji-wrapper {
+  width: 40px;
   height: 40px; }
-ul.hide-text input {
-  display: none; }
+.hide-text input {
+  position: absolute;
+  opacity: 0; }
 
 ul, li {
   list-style-type: none; }
@@ -286,3 +288,5 @@ code {
 
   .emoji-wrapper {
     padding: 0; } }
+
+/*# sourceMappingURL=style.css.map */
