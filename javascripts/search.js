@@ -1,13 +1,15 @@
+/* global ga, $ */
+
 $(document).on('emoji:ready', function () {
-  if (location.hash.length) {
-    search($('.speedy-filter').val(location.hash.substr(1)).val())
+  if (window.location.hash.length) {
+    search($('.speedy-filter').val(window.location.hash.substr(1)).val())
   } else {
     search()
   }
 })
 
 function search (keyword) {
-  var keyword = typeof keyword === 'undefined' ? '' : keyword
+  keyword = typeof keyword === 'undefined' ? '' : keyword
   $('.keyword').text(keyword)
   keyword = keyword.trim()
 
@@ -16,8 +18,8 @@ function search (keyword) {
     if (keyword.length) {
       $('.result').hide()
       $('.result').each(function () {
-        if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1) {
-        $(this).show()
+        if ($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1) {
+          $(this).show()
         }
       })
     } else {
@@ -29,7 +31,7 @@ function search (keyword) {
 
 function setRelatedDOMVisibility (keyword) {
   var foundSomething = Boolean($('.result:visible').length)
-  $('.no-results').toggle( !foundSomething )
+  $('.no-results').toggle(!foundSomething)
 
   if (keyword.length >= 3) {
     if (!foundSomething) {
@@ -41,7 +43,7 @@ function setRelatedDOMVisibility (keyword) {
 }
 
 $(document).on('search keyup', '.speedy-filter', function () {
-  location.hash = $(this).val().replace(' ', '_')
+  window.location.hash = $(this).val().replace(' ', '_')
 })
 
 $(document).on('click', '.group', function () {
@@ -52,11 +54,11 @@ $(document).on('click', '.group', function () {
 $(document).on('click', '.speedy-remover', function () {
   $('.speedy-filter').val('')
   $('.result').show()
-  location.hash = ''
+  window.location.hash = ''
 })
 
 window.onhashchange = function () {
-  search($('.speedy-filter').val(location.hash.substr(1)).val())
+  search($('.speedy-filter').val(window.location.hash.substr(1)).val())
   $('[href^="#"]').removeClass('active')
-  $("[href='#{location.hash}']").addClass('active')
+  $("[href='#{window.location.hash}']").addClass('active')
 }

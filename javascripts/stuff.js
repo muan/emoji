@@ -1,23 +1,25 @@
+/* global ga, ZeroClipboard, ActiveXObject, $, localStorage */
+
 $(document).on('emoji:ready', function () {
-  $(".input-search").focus()
-  $(".loading").remove()
+  $('.input-search').focus()
+  $('.loading').remove()
 
   var hasFlash = false
   try {
     hasFlash = Boolean(new ActiveXObject('ShockwaveFlash.ShockwaveFlash'))
   } catch (exception) {
-    hasFlash = ('undefined' != typeof navigator.mimeTypes['application/x-shockwave-flash'])
+    hasFlash = (typeof navigator.mimeTypes['application/x-shockwave-flash'] !== 'undefined')
   }
 
   if (!hasFlash || navigator.userAgent.match(/iPad|iPhone/i)) {
     $(document).on('click', '.emoji-code', function () {
       this.select()
       document.execCommand('copy')
-      getSelection().removeAllRanges()
+      window.getSelection().removeAllRanges()
       alertCopied(this.value)
     })
   } else {
-    var clip = new ZeroClipboard( $('[data-clipboard-text]'),{ moviePath: '/assets/zeroclipboard.swf'} )
+    var clip = new ZeroClipboard($('[data-clipboard-text]'), { moviePath: '/assets/zeroclipboard.swf' })
     clip.on('complete', function (_, args) {
       alertCopied(args.text)
     })
@@ -31,7 +33,7 @@ function alertCopied (emoji) {
 
 function focusOnSearch (e) {
   var searchField = $('.input-search')[0]
-  if (e.keyCode == 191 && searchField) {
+  if (e.keyCode === 191 && searchField) {
     if (searchField.value.length) {
       searchField.selectionStart = 0
       searchField.selectionEnd = searchField.value.length
@@ -43,19 +45,19 @@ function focusOnSearch (e) {
 }
 
 $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
-  var hasFont = hasAppleColorEmoji()
+  var hasFont = window.hasAppleColorEmoji()
   var container = $('.emojis-container')
-  Object.keys(emojis).forEach( function (key) {
+  Object.keys(emojis).forEach(function (key) {
     var emoji = emojis[key]
     var charHTML
-    if (hasFont && emoji["char"]) {
-      charHTML = "<div class='native-emoji' title='" + key + "'>" + emoji['char'] + "</div>"
+    if (hasFont && emoji['char']) {
+      charHTML = '<div class="native-emoji" title="' + key + '">' + emoji['char'] + '</div>'
     } else {
-      charHTML = "<div class='emoji s_" + key.replace(/\+/,'') + "' title='" + key + "'>" + key + "</div>"
+      charHTML = '<div class="emoji s_' + key.replace(/\+/, '') + '" title="' + key + '">' + key + '</div>'
     }
-    container.append("<li class='result emoji-wrapper' data-clipboard-text=':" + key + ":'>" +
-      charHTML + "<input type='text' class='autofocus plain emoji-code' value=':" + key +
-      ":' /><span class='keywords'>" + key + " " + emoji["keywords"] + "</span></li>")
+    container.append('<li class="result emoji-wrapper" data-clipboard-text=":' + key + ':">' +
+      charHTML + '<input type="text" class="autofocus plain emoji-code" value=":' + key +
+      ':" /><span class="keywords">' + key + ' ' + emoji['keywords'] + '</span></li>')
   })
   $(document).trigger('emoji:ready')
   $('.emojis-container').toggleClass('hide-text', localStorage.getItem('emoji-text-display') === 'false')
@@ -64,7 +66,7 @@ $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
 $(document).keydown(function (e) { focusOnSearch(e) })
 
 $(document).on('keydown', '.emoji-wrapper input', function (e) {
-  $(".input-search").blur()
+  $('.input-search').blur()
   focusOnSearch(e)
 })
 
@@ -81,7 +83,7 @@ $(document).on('click', '.js-hide-text', function () {
 })
 
 $(document).on('click', '.js-clear-search, .mojigroup.active', function () {
-  location.hash = ""
+  window.location.hash = ''
   return false
 })
 
