@@ -11,7 +11,7 @@ $(document).on('emoji:ready', function () {
     hasFlash = (typeof navigator.mimeTypes['application/x-shockwave-flash'] !== 'undefined')
   }
 
-  if (!hasFlash || navigator.userAgent.match(/iPad|iPhone/i)) {
+  if (!hasFlash || navigator.userAgent.match(/iPad|iPhone|Chrome/i)) {
     $(document).on('click', '.emoji-code', function () {
       this.select()
       document.execCommand('copy')
