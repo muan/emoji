@@ -8,6 +8,6 @@
   "description": "Emoji searcher",
   "license": "MIT",
   "dependencies": {
-    "emojilib": "1.1.0"
+    "emojilib": "2.0.2"
   }
 }
