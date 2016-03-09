@@ -50,7 +50,7 @@ $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
   Object.keys(emojis).forEach(function (key) {
     var emoji = emojis[key]
     var charHTML
-    if (hasFont && emoji['char']) {
+    if ((hasFont || navigator.platform.match(/Mac/)) && emoji['char']) {
       charHTML = '<div class="native-emoji" title="' + key + '">' + emoji['char'] + '</div>'
     } else {
       charHTML = '<div class="emoji s_' + key.replace(/\+/, '') + '" title="' + key + '">' + key + '</div>'
