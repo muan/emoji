@@ -8,6 +8,10 @@ $(document).on('emoji:ready', function () {
   }
 })
 
+function myFoo(){
+  console.log("Help");
+}
+
 function search (keyword) {
   keyword = typeof keyword === 'undefined' ? '' : keyword
   $('.keyword').text(keyword)
