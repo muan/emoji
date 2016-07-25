@@ -43,22 +43,37 @@ function focusOnSearch (e) {
     return false
   }
 }
+/*
+  All data related to emoticons are stored in /javascripts/emojilib/emojis.json
+  each emoticon has data as follows -
+  "joy": { "keywords": ["face", "cry", "tears", "weep", "happy", "haha"], "char": "😂", "category": "people" }
+  
+  $.getJSON is an special Jquery http GET request to read a JSON file over HTTP.
+
+*/
 
 $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
+  // Here it checks that browser or the device actually suppports the emoticons or not
   var hasFont = window.hasAppleColorEmoji()
+  // It creates the conatined
   var container = $('.emojis-container')
+  // Iterates over the all emoticons present in JSON file
   Object.keys(emojis).forEach(function (key) {
+    // get the data as object of the single emoticon
     var emoji = emojis[key]
     var charHTML
+    // If browser supports emoticons then show the emoticon present as emoji['char'] or simply put name which is same as key
     if ((hasFont || navigator.platform.match(/Mac/)) && emoji['char']) {
       charHTML = '<div class="native-emoji" title="' + key + '">' + emoji['char'] + '</div>'
     } else {
       charHTML = '<div class="emoji s_' + key.replace(/\+/, '') + '" title="' + key + '">' + key + '</div>'
     }
+    // iterating over container and putting all info in the html
     container.append('<li class="result emoji-wrapper" data-clipboard-text=":' + key + ':">' +
       charHTML + '<input type="text" class="autofocus plain emoji-code" value=":' + key +
       ':" /><span class="keywords">' + key + ' ' + emoji['keywords'] + '</span></li>')
   })
+  // As soon as all emoticons displayed properly trigger the ready even so that search can be possible
   $(document).trigger('emoji:ready')
   $('.emojis-container').toggleClass('hide-text', localStorage.getItem('emoji-text-display') === 'false')
 })
