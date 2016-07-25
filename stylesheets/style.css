@@ -118,7 +118,7 @@ ul {
   zoom: 1;
   *display: inline;
   *vertical-align: auto;
-  width: 25%;
+  width: 100%;
   overflow: hidden;
   white-space: nowrap; }
   .emoji-wrapper .keywords {
