@@ -12,11 +12,16 @@ function myFoo(){
   console.log("Help");
 }
 
+// This funciton is called upon once there is any activity in search field
 function search (keyword) {
+  // checks if keyword is of the defined type other wise make it empty string
   keyword = typeof keyword === 'undefined' ? '' : keyword
   $('.keyword').text(keyword)
+  // trim the string
   keyword = keyword.trim()
 
+// if keyword is not from the keywords of any emoticon hide the result pane and show the result nothing matches 
+// Else show the results
   if (window.speedy_keyword !== keyword) {
     window.speedy_keyword = keyword
     if (keyword.length) {
@@ -27,6 +32,7 @@ function search (keyword) {
         }
       })
     } else {
+      
       $('.result').show()
     }
   }
