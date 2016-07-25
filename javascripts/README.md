@@ -1,6 +1,6 @@
 ###  Documentation of stuff.js and search.js
 
-Stuff.jS
+stuff.js
 
 $.getJSON is an special Jquery http GET request to read a JSON file over HTTP. 
 Here it is accessing /javascripts/emojilib/emojis.json from the directory.  
@@ -12,7 +12,7 @@ And then append the other information about this emoticon which will be used dur
 As JSON object shows that each emoji has multiple keywords these keywords are then appended into the SPAN tag.
 
 
-Search.js
+search.js
 
 Search function called upon any activity done in input field as it is being listened. 
 This function is called by trimmed string and again further it is checked if it is of unknown type. 
