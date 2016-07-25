@@ -1,5 +1,15 @@
 ###  Documentation of stuff.js and search.js
 
+All data related to emoticons are stored in /javascripts/emojilib/emojis.json
+
+each emoticon has data as follows - 
+
+"joy": {
+    "keywords": ["face", "cry", "tears", "weep", "happy", "haha"],
+    "char": "😂",
+    "category": "people"
+  }
+
 stuff.js
 
 1. $.getJSON is an special Jquery http GET request to read a JSON file over HTTP. 
@@ -17,4 +27,6 @@ search.js
 1. Search function called upon any activity done in input field as it is being listened. 
 2. This function is called by trimmed string and again further it is checked if it is of unknown type. 
 3. If it is of unknown type it is re-assigned to empty for making function non-breakable. 
-4. If there is no matching keyword for any emoticons then result area is made hidden.
+4. If there is no matching keyword for any emoticons then result area is made hidden. 
+5. Keywords are fetched from keywords field from joy object from JSON file. 
+
