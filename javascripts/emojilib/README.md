@@ -25,11 +25,13 @@ npm install emojilib --save
   "grinning": {
     "keywords": ["face", "smile", "happy", "joy"],
     "char": "😀",
+    "fitzpatrick_scale": false,
     "category": "people"
   },
   "grin": {
     "keywords": ["face", "happy", "smile", "joy"],
     "char": "😁",
+    "fitzpatrick_scale": false,
     "category": "people"
   },
   ...
@@ -37,6 +39,18 @@ npm install emojilib --save
 
 > emoji.ordered
 [ 'grinning', 'grimacing', 'grin', 'joy', 'smiley', 'smile', 'sweat_smile', ...]
+
+> emoji.fitzpatrick_scale_modifiers
+[ '🏻', '🏼', '🏽', '🏾', '🏿' ]
+
+> emoji.lib.v.fitzpatrick_scale
+true
+
+> emoji.lib.turtle.fitzpatrick_scale
+false
+
+> emoji.lib.v.char + emoji.fitzpatrick_scale_modifiers[4]
+'✌🏿'
 ```
 
 ## :electric_plug: Powered by emojilib
@@ -48,6 +62,9 @@ npm install emojilib --save
 * [Menubar emoji search: Mojibar](https://github.com/muan/mojibar) – [muan/mojibar](https://github.com/muan/mojibar)
 * [Emoji CLI](https://github.com/muan/emoji-cli) – [muan/emoji-cli](https://github.com/muan/emoji-cli)
 * [Emoji Lookup for Launchbar](https://github.com/jasonrudolph/launchbar-emoji-lookup) – [jasonrudolph/launchbar-emoji-lookup](https://github.com/jasonrudolph/launchbar-emoji-lookup)
+* [commemoji](https://www.npmjs.com/package/commemoji) - [martellaj/commemoji](https://github.com/martellaj/commemoji)
+* [Emoji Stream](https://www.npmjs.com/package/emoji-stream) – [johnelliott/emoji-stream](https://github.com/johnelliott/emoji-stream)
+* [EmojiPanel for Twitter](http://bit.ly/emojipanel) - [danbovey/EmojiPanel](https://github.com/danbovey/EmojiPanel)
 
 ## :heart: YES
 
