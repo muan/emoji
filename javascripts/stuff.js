@@ -12,11 +12,18 @@ $(document).on('emoji:ready', function () {
   }
 
   if (!hasFlash || navigator.userAgent.match(/iPad|iPhone|Chrome/i)) {
-    $(document).on('click', '.emoji-code', function () {
-      this.select()
+    $(document).on('click', '.emoji-code', function (evt) {
+      if (evt.shiftKey) {
+        window.getSelection().removeAllRanges()
+        var range = document.createRange()
+        range.selectNodeContents(this.previousElementSibling)
+        window.getSelection().addRange(range)
+      } else {
+        this.select()
+      }
       document.execCommand('copy')
       window.getSelection().removeAllRanges()
-      alertCopied(this.value)
+      alertCopied(evt.shiftKey ? this.previousElementSibling.innerText : this.value)
     })
   } else {
     var clip = new ZeroClipboard($('[data-clipboard-text]'), { moviePath: '/assets/zeroclipboard.swf' })
