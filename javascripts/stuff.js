@@ -62,6 +62,8 @@ $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
   var container = $('.emojis-container')
   Object.keys(emojis).forEach(function (key) {
     var emoji = emojis[key]
+    if (emoji['category'] === '_custom') return
+
     var charHTML
     charHTML = '<div class="js-emoji-char native-emoji" title="' + key + '">' + emoji['char'] + '</div>'
     container.append('<li class="result emoji-wrapper js-emoji">' +
