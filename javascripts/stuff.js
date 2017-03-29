@@ -1,6 +1,6 @@
 /* global ga, $, localStorage */
 $(document).on('emoji:ready', function () {
-  var hasFont = false//hasAppleColorEmoji()
+  var hasFont = hasAppleColorEmoji()
   $('.input-search').focus()
   $('.loading').remove()
 
