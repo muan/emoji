@@ -1,0 +1,16 @@
+{
+  "name": "hasAppleColorEmoji",
+  "main": "hasAppleColorEmoji.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/muan/hasAppleColorEmoji",
+  "authors": [
+    "Mu-An Chiou <me@muanchiou.com>"
+  ],
+  "description": "Check if user has the font AppleColorEmoji",
+  "keywords": [
+    "emoji",
+    "font",
+    "AppleColorEmoji"
+  ],
+  "license": "MIT"
+}

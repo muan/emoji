@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body {
+      text-align: center;
+      padding: 5%;
+      font-family: monospace;
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: #555;
+    }
+  </style>
+  <script src="hasAppleColorEmoji.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var text
+    if(hasAppleColorEmoji()) {
+      text = "Yes, you have 🍎🎨😍!"
+    } else {
+      text = "No, you don't have AppleColorEmoji. 😞"
+    }
+    document.body.appendChild(document.createTextNode(text))
+  </script>
+</body>
+</html>

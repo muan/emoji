@@ -1,11 +1,16 @@
 /* global ga, $, localStorage */
-
 $(document).on('emoji:ready', function () {
+  var hasFont = hasAppleColorEmoji()
   $('.input-search').focus()
   $('.loading').remove()
 
+  if (!hasFont) {
+    prepareTwemoji()
+  }
+
   $(document).on('click', '.js-emoji', function (evt) {
     var node
+    var text
 
     if (evt.shiftKey) {
       getSelection().removeAllRanges()
@@ -13,16 +18,28 @@ $(document).on('emoji:ready', function () {
       node = this.querySelector('.js-emoji-char')
       range.selectNodeContents(node)
       getSelection().addRange(range)
+
+      text = hasFont ? node.textContent : node.querySelector('img').alt
     } else {
       node = this.querySelector('.js-emoji-code')
       node.select()
+      text = node.value
     }
 
     document.execCommand('copy')
-
-    alertCopied(evt.shiftKey ? node.innerText : node.value)
+    alertCopied(text)
   })
 })
+
+function prepareTwemoji () {
+  var twemojiScript = document.createElement('script')
+  twemojiScript.src = '//twemoji.maxcdn.com/2/twemoji.min.js?2.2.3'
+  twemojiScript.onload = function () {
+    twemoji.parse(document.body)
+    document.body.classList.add('twemojified')
+  }
+  document.head.appendChild(twemojiScript)
+}
 
 function alertCopied (emoji) {
   $('<div class=alert></div>').text('Copied ' + emoji).appendTo('body').fadeIn().delay(1000).fadeOut()
@@ -42,7 +59,6 @@ function focusOnSearch (e) {
 }
 
 $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
-  var hasFont = window.hasAppleColorEmoji()
   var container = $('.emojis-container')
   Object.keys(emojis).forEach(function (key) {
     var emoji = emojis[key]

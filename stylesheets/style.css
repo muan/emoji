@@ -4,6 +4,7 @@ img { vertical-align: middle; }
 .pull-right { float: right; position: relative; }
 input:invalid { visibility: hidden; }
 [data-clipboard-text] { cursor: pointer; }
+.text-big { font-size: 20px; }
 
 body,
 input,
@@ -32,7 +33,7 @@ footer {
 .site-header,
 .site-footer {
   width: 100%;
-  max-width: 800px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
@@ -154,7 +155,7 @@ ul, li {
 .button {
   background: none;
   line-height: 1;
-  padding: 10px 12px 9px;
+  padding: 10px 10px 9px;
   margin-left: 5px;
   display: inline-block;
   vertical-align: top;
@@ -164,10 +165,6 @@ ul, li {
   color: #777;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.button-with-emoji {
-  padding: 2px 3px;
 }
 
 .button:hover {
@@ -228,28 +225,21 @@ ul, li {
   cursor: pointer;
 }
 
+.twemojified .native-emoji {
+  padding: 0;
+}
+
 .native-emoji {
   font-size: 19px;
   padding: 10px 2px;
   font-family: AppleColorEmoji;
 }
 
-.emoji {
-  text-indent: -9999px;
-  overflow: hidden;
-  transform: scale(0.8);
-}
-
-
 .no-results {
   background-color: #f9f9f9;
   padding: 50px 30px;
   text-align: center;
   border-radius: 3px;
-}
-
-.call {
-  font-size: 16px;
 }
 
 .no-results-text {

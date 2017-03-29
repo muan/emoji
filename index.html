@@ -16,7 +16,7 @@
     <link href="stylesheets/emoji.css" rel="stylesheet">
     <link href="stylesheets/style.css" rel="stylesheet">
     <script src="javascripts/jquery.js"></script>
-    <script src="javascripts/hasAppleColorEmoji.js"></script>
+    <script src="javascripts/hasAppleColorEmoji/hasAppleColorEmoji.js"></script>
     <script src="javascripts/stuff.js"></script>
     <script src="javascripts/search.js"></script>
     <script>
@@ -37,21 +37,21 @@
     <header class="site-header">
       <button type="button" class="button pull-right js-hide-text">Toggle text</button>
       <input type="search" class="input-search speedy-filter" placeholder="Search">
-      <a href="#" class="button js-clear-search clear-search">&times;</a>
-      <a href="#cats" class="mojigroup button small button-with-emoji">
-        <div class="emoji s_cat2" title="cats"></div>
+      <a href="#" class="button js-clear-search clear-search">❌</a>
+      <a href="#cats" class="mojigroup button">
+        🐈
       </a>
-      <a href="#transportation" class="mojigroup button small button-with-emoji">
-        <div class="emoji s_red_car" title="transportation"></div>
+      <a href="#transportation" class="mojigroup button">
+        🚗
       </a>
-      <a href="#food" class="mojigroup button small button-with-emoji">
-        <div class="emoji s_bento" title="food"></div>
+      <a href="#food" class="mojigroup button">
+        🍱
       </a>
-      <a href="#fruit" class="mojigroup button small button-with-emoji">
-        <div class="emoji s_apple" title="fruit"></div>
+      <a href="#fruit" class="mojigroup button">
+        🍎
       </a>
-      <a href="#photo" class="mojigroup button small button-with-emoji">
-        <div class="emoji s_tokyo_tower" title="photo"></div>
+      <a href="#photo" class="mojigroup button">
+        🌁
       </a>
     </header>
 
@@ -64,9 +64,9 @@
       </div>
 
       <div class="no-results">
-        <div class="emoji s_cry" title="cry"></div>
+        <span class="text-big">😭</span>
         <br><div class="no-results-text">No results</div>
-        <p class="call">
+        <p>
           Help your future self by adding
           <strong class="keyword"></strong>
           to the library.
