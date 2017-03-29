@@ -1,6 +1,5 @@
 html { padding: 0; }
 form { margin: 0; }
-img { vertical-align: middle; }
 .pull-right { float: right; position: relative; }
 input:invalid { visibility: hidden; }
 [data-clipboard-text] { cursor: pointer; }
@@ -121,6 +120,12 @@ ul {
   padding: 10px;
 }
 
+/* Twemoji */
+.emoji {
+  width: 18px;
+  height: 18px;
+}
+
 .emoji-wrapper {
   display: inline-block;
   width: 25%;
@@ -218,8 +223,7 @@ ul, li {
   border-radius: 50px;
 }
 
-.native-emoji,
-.emoji {
+.native-emoji {
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
@@ -227,6 +231,11 @@ ul, li {
 
 .twemojified .native-emoji {
   padding: 0;
+}
+
+.twemojified .mojigroup,
+.twemojified .clear-search {
+  padding: 5px 7px;
 }
 
 .native-emoji {
@@ -272,11 +281,10 @@ code {
 
 @media (max-width: 480px) {
   .input-search {
-    width: 60px;
-    position: absolute;
     width: 100%;
   }
 
+  .clear-search,
   .mojigroup {
     display: none;
   }
