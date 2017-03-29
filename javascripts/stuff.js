@@ -1,37 +1,27 @@
-/* global ga, ZeroClipboard, ActiveXObject, $, localStorage */
+/* global ga, $, localStorage */
 
 $(document).on('emoji:ready', function () {
   $('.input-search').focus()
   $('.loading').remove()
 
-  var hasFlash = false
-  try {
-    hasFlash = Boolean(new ActiveXObject('ShockwaveFlash.ShockwaveFlash'))
-  } catch (exception) {
-    hasFlash = (typeof navigator.mimeTypes['application/x-shockwave-flash'] !== 'undefined')
-  }
+  $(document).on('click', '.js-emoji', function (evt) {
+    var node
 
-  if (!hasFlash || navigator.userAgent.match(/iPad|iPhone|Chrome/i)) {
-    $(document).on('click', '.emoji-code', function (evt) {
-      if (evt.shiftKey) {
-        window.getSelection().removeAllRanges()
-        var range = document.createRange()
-        range.selectNodeContents(this.previousElementSibling)
-        window.getSelection().addRange(range)
-      } else {
-        this.select()
-      }
-      document.execCommand('copy')
-      window.getSelection().removeAllRanges()
-      alertCopied(evt.shiftKey ? this.previousElementSibling.innerText : this.value)
-    })
-  } else {
-    var clip = new ZeroClipboard($('[data-clipboard-text]'), { moviePath: '/assets/zeroclipboard.swf' })
-    clip.on('complete', function (_, args) {
-      alertCopied(args.text)
-    })
-    $('.emoji-code').attr('readonly', 'readonly')
-  }
+    if (evt.shiftKey) {
+      getSelection().removeAllRanges()
+      var range = document.createRange()
+      node = this.querySelector('.js-emoji-char')
+      range.selectNodeContents(node)
+      getSelection().addRange(range)
+    } else {
+      node = this.querySelector('.js-emoji-code')
+      node.select()
+    }
+
+    document.execCommand('copy')
+
+    alertCopied(evt.shiftKey ? node.innerText : node.value)
+  })
 })
 
 function alertCopied (emoji) {
@@ -57,14 +47,10 @@ $.getJSON('/javascripts/emojilib/emojis.json', function (emojis) {
   Object.keys(emojis).forEach(function (key) {
     var emoji = emojis[key]
     var charHTML
-    if ((hasFont || navigator.platform.match(/Mac/)) && emoji['char']) {
-      charHTML = '<div class="native-emoji" title="' + key + '">' + emoji['char'] + '</div>'
-    } else {
-      charHTML = '<div class="emoji s_' + key.replace(/\+/, '') + '" title="' + key + '">' + key + '</div>'
-    }
-    container.append('<li class="result emoji-wrapper" data-clipboard-text=":' + key + ':">' +
-      charHTML + '<input type="text" class="autofocus plain emoji-code" value=":' + key +
-      ':" /><span class="keywords">' + key + ' ' + emoji['keywords'] + '</span></li>')
+    charHTML = '<div class="js-emoji-char native-emoji" title="' + key + '">' + emoji['char'] + '</div>'
+    container.append('<li class="result emoji-wrapper js-emoji">' +
+      charHTML + '<input type="text" class="js-emoji-code autofocus plain emoji-code" value=":' + key +
+      ':" readonly /><span class="keywords">' + key + ' ' + emoji['keywords'] + '</span></li>')
   })
   $(document).trigger('emoji:ready')
   $('.emojis-container').toggleClass('hide-text', localStorage.getItem('emoji-text-display') === 'false')

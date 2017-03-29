@@ -1,0 +1,38 @@
+{
+  "name": "twemoji",
+  "description": "A Unicode standard based way to implement emoji across all platforms.",
+  "main": "./2/twemoji.amd.js",
+  "ignore": [
+    "*",
+    "!2/72x72/*",
+    "!2/svg/*",
+    "!2/twemoji.js",
+    "!2/twemoji.*.js",
+    "!package.json",
+    "!LICENSE",
+    "!README.md"
+  ],
+  "twemoji": "git://github.com/twitter/twemoji.git#gh-pages",
+  "homepage": "https://github.com/twitter/twemoji",
+  "authors": [
+    "Twitter, Inc."
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "version": "2.2.5",
+  "_release": "2.2.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.5",
+    "commit": "510e19199a810a84ad1ee3928689fa8ab3efc6be"
+  },
+  "_source": "https://github.com/twitter/twemoji.git",
+  "_target": "^2.2.5",
+  "_originalSource": "twemoji",
+  "_direct": true
+}

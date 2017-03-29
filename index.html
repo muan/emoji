@@ -17,7 +17,6 @@
     <link href="stylesheets/style.css" rel="stylesheet">
     <script src="javascripts/jquery.js"></script>
     <script src="javascripts/hasAppleColorEmoji.js"></script>
-    <script src="javascripts/zeroclipboard.js"></script>
     <script src="javascripts/stuff.js"></script>
     <script src="javascripts/search.js"></script>
     <script>
@@ -35,39 +34,24 @@
   </head>
 
   <body>
-    <header>
-      <a href="#" class="button pull-right js-hide-text">Toggle text</a>
+    <header class="site-header">
+      <button type="button" class="button pull-right js-hide-text">Toggle text</button>
       <input type="search" class="input-search speedy-filter" placeholder="Search">
       <a href="#" class="button js-clear-search clear-search">&times;</a>
-      <a href="#xmas" class="mojigroup button small">
-        <div class="emoji s_santa" title="xmas"></div>
-      </a>
-      <a href="#sad" class="mojigroup button small">
-        <div class="emoji s_cry" title="sad"></div>
-      </a>
-      <a href="#awesome" class="mojigroup button small">
-        <div class="emoji s_1" title="awesome"></div>
-      </a>
-      <a href="#fashion" class="mojigroup button small">
-        <div class="emoji s_high_heel" title="fashion"></div>
-      </a>
-      <a href="#cats" class="mojigroup button small">
+      <a href="#cats" class="mojigroup button small button-with-emoji">
         <div class="emoji s_cat2" title="cats"></div>
       </a>
-      <a href="#transportation" class="mojigroup button small">
+      <a href="#transportation" class="mojigroup button small button-with-emoji">
         <div class="emoji s_red_car" title="transportation"></div>
       </a>
-      <a href="#food" class="mojigroup button small">
+      <a href="#food" class="mojigroup button small button-with-emoji">
         <div class="emoji s_bento" title="food"></div>
       </a>
-      <a href="#fruit" class="mojigroup button small">
+      <a href="#fruit" class="mojigroup button small button-with-emoji">
         <div class="emoji s_apple" title="fruit"></div>
       </a>
-      <a href="#photo" class="mojigroup button small">
+      <a href="#photo" class="mojigroup button small button-with-emoji">
         <div class="emoji s_tokyo_tower" title="photo"></div>
-      </a>
-      <a href="#custom_" class="mojigroup button small">
-        <div class="emoji s_octocat" title="custom_"></div>
       </a>
     </header>
 
@@ -93,8 +77,7 @@
       </div>
     </section>
 
-    <footer>
-      Press <code>/</code> to search.
+    <footer class="site-footer">
       Made by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>, with
       <a href="https://github.com/muan/emoji/graphs/contributors" target="_blank">many awesome contributors</a>.
       Contribute on <a href="https://github.com/muan/emoji/" target="_blank">GitHub</a>.
