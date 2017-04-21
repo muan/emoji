@@ -8,7 +8,7 @@
   "description": "Emoji searcher",
   "license": "MIT",
   "dependencies": {
-    "hasAppleColorEmoji": "1.0.0",
+    "hasAppleColorEmoji": "1.0.1",
     "emojilib": "2.2.0"
   }
 }
