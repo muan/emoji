@@ -13,7 +13,7 @@ Tell a story
 :oden::spaghetti::cookie::stew::ice_cream::icecream::sushi::curry::custard::dango::pizza::ramen::fried_shrimp::fries::chocolate_bar::hamburger:<br />
 View emoji in groups and food-attack hungry people
 
-#### Please contribute :pray:
+#### Please contribute :pray: and give us ideas for future emojis :smile:
 
 **As of 2015/07/10, the emoji keyword library has been migrated to its own repository [muan/emojilib](https://github.com/muan/emojilib).**
 
