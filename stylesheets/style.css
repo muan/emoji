@@ -172,6 +172,11 @@ ul, li {
   font-weight: bold;
 }
 
+.size-btn.active{
+  background: #009688;
+  color: #fff;
+}
+
 .button:hover {
   border-color: #36a;
 }

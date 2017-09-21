@@ -93,6 +93,18 @@ $(document).on('click', '.js-hide-text', function () {
   return false
 })
 
+$(document).on('click', '.size-btn', function () {
+  var size = $(this).data('size');
+  $('.size-btn').removeClass('active');
+  $(this).addClass('active');
+  var $style = $('#dynamic-style');
+  if($style.length){
+    $style.remove();
+  }
+  $('<style id="dynamic-style">.native-emoji>.emoji{width:' + size + 'px !important;height:' + size + 'px !important;}</style>').appendTo(document.body);
+  return false
+})
+
 $(document).on('click', '.js-clear-search, .mojigroup.active', function () {
   window.location.hash = ''
   return false
