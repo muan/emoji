@@ -40,9 +40,6 @@ npm install emojilib --save
 > emoji.ordered
 [ 'grinning', 'grimacing', 'grin', 'joy', 'smiley', 'smile', 'sweat_smile', ...]
 
-> emoji.simple
-[ "100": "💯", "1234": "🔢", "grinning": "😀", "grimacing": "😬", ...]
-
 > emoji.fitzpatrick_scale_modifiers
 [ '🏻', '🏼', '🏽', '🏾', '🏿' ]
 
