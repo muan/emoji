@@ -1,7 +1,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
     <ShortName>Emoji searcher</ShortName>
     <Description>Find the emoji that echoes your mind.</Description>
-    <Image height="64" width="64" type="image/png">http://emoji.muan.co/fav.png</Image>
-    <Url type="text/html" method="get" template="http://emoji.muan.co/#{searchTerms}"/>
-    <Url type="application/opensearchdescription+xml" rel="self" template="http://emoji.muan.co/opensearch.xml"/>
+    <Image height="64" width="64" type="image/png">https://emoji.muan.co/fav.png</Image>
+    <Url type="text/html" method="get" template="https://emoji.muan.co/#{searchTerms}"/>
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://emoji.muan.co/opensearch.xml"/>
 </OpenSearchDescription>
