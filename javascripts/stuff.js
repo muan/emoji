@@ -1,4 +1,4 @@
-/* global ga, $, localStorage */
+/* global $, localStorage */
 $(document).on('emoji:ready', function () {
   var hasFont = hasAppleColorEmoji()
   $('.input-search').focus()
@@ -81,23 +81,14 @@ $(document).on('keydown', '.emoji-wrapper input', function (e) {
   focusOnSearch(e)
 })
 
-$(document).on('click', '[data-clipboard-text]', function () {
-  ga('send', 'event', 'copy', $(this).attr('data-clipboard-text'))
-})
-
 $(document).on('click', '.js-hide-text', function () {
   $('.emojis-container').toggleClass('hide-text')
   var showorhide = $('.emojis-container').hasClass('hide-text') ? 'hide' : 'show'
   localStorage.setItem('emoji-text-display', !$('.emojis-container').hasClass('hide-text'))
-  ga('send', 'event', 'toggle text', showorhide)
   return false
 })
 
 $(document).on('click', '.js-clear-search, .mojigroup.active', function () {
   window.location.hash = ''
   return false
-})
-
-$(document).on('click', '.js-contribute', function () {
-  ga('send', 'event', 'contribute', 'click')
 })

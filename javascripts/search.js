@@ -1,4 +1,4 @@
-/* global ga, $ */
+/* global $ */
 
 $(document).on('emoji:ready', function () {
   if (window.location.hash.length) {
@@ -32,14 +32,6 @@ function search (keyword) {
 function setRelatedDOMVisibility (keyword) {
   var foundSomething = Boolean($('.result:visible').length)
   $('.no-results').toggle(!foundSomething)
-
-  if (keyword.length >= 3) {
-    if (!foundSomething) {
-      ga('send', 'event', 'search', 'no results')
-    } else {
-      ga('send', 'event', 'search', keyword)
-    }
-  }
 }
 
 $(document).on('search keyup', '.speedy-filter', function () {
@@ -47,7 +39,6 @@ $(document).on('search keyup', '.speedy-filter', function () {
 })
 
 $(document).on('click', '.group', function () {
-  ga('send', 'event', 'search', 'quick group search')
   search($('.speedy-filter').val($(this).attr('href').substr(1)).val())
 })
 
