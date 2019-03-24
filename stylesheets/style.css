@@ -1,9 +1,9 @@
-html { padding: 0; }
 form { margin: 0; }
 .pull-right { float: right; position: relative; }
 input:invalid { visibility: hidden; }
 [data-clipboard-text] { cursor: pointer; }
 .text-big { font-size: 20px; }
+[hidden] { display: none !important; }
 
 body,
 input,
@@ -209,7 +209,6 @@ ul, li {
   font-size: 13px;
   white-space: nowrap;
   overflow: hidden;
-  display: none;
   position: fixed;
   margin: auto;
   left: 50%;

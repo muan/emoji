@@ -1,55 +1,54 @@
-/* global $ */
+var filter = document.querySelector('.speedy-filter')
 
-$(document).on('emoji:ready', function () {
+function searchHash() {
   if (window.location.hash.length) {
-    search($('.speedy-filter').val(window.location.hash.substr(1)).val())
+    filter.value = window.location.hash.substr(1)
+    search(filter.value)
   } else {
     search()
   }
-})
+}
+document.addEventListener('emoji:ready', searchHash)
 
 function search (keyword) {
   keyword = typeof keyword === 'undefined' ? '' : keyword
-  $('.keyword').text(keyword)
+  document.querySelector('.keyword').textContent = keyword
   keyword = keyword.trim()
 
   if (window.speedy_keyword !== keyword) {
     window.speedy_keyword = keyword
-    if (keyword.length) {
-      $('.result').hide()
-      $('.result').each(function () {
-        if ($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1) {
-          $(this).show()
-        }
-      })
-    } else {
-      $('.result').show()
+    for (const result of document.querySelectorAll('.result')) {
+      result.hidden = keyword.length > 0 ? result.textContent.toLowerCase().indexOf(keyword.toLowerCase()) < 0 : false
     }
   }
   setRelatedDOMVisibility(keyword)
 }
 
 function setRelatedDOMVisibility (keyword) {
-  var foundSomething = Boolean($('.result:visible').length)
-  $('.no-results').toggle(!foundSomething)
+  var foundSomething = !!document.querySelector('.result:not([hidden])')
+  document.querySelector('.no-results').hidden = foundSomething
 }
 
-$(document).on('search keyup', '.speedy-filter', function () {
-  window.location.hash = $(this).val().replace(' ', '_')
-})
+function updateHashWithInputValue() {
+  window.location.hash = filter.value.replace(' ', '_')
+}
 
-$(document).on('click', '.group', function () {
-  search($('.speedy-filter').val($(this).attr('href').substr(1)).val())
-})
+filter.addEventListener('input', updateHashWithInputValue)
 
-$(document).on('click', '.speedy-remover', function () {
-  $('.speedy-filter').val('')
-  $('.result').show()
-  window.location.hash = ''
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('group')) {
+    filter.value = event.target.href.substr(1)
+    search(filter.value)
+  } else if (event.target.classList.contains('js-clear-search')) {
+    filter.value = ''
+  }
 })
 
 window.onhashchange = function () {
-  search($('.speedy-filter').val(window.location.hash.substr(1)).val())
-  $('[href^="#"]').removeClass('active')
-  $("[href='#{window.location.hash}']").addClass('active')
+  searchHash()
+  for (const link of document.querySelectorAll('.active[href^="#"]')) {
+    link.classList.remove('active')
+  }
+  var active = document.querySelector("[href='#{window.location.hash}']")
+  if (active) active.classList.add('active')
 }
