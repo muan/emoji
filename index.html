@@ -14,10 +14,7 @@
     <title>Emoji searcher</title>
     <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
     <link href="stylesheets/style.css" rel="stylesheet">
-    <script src="javascripts/jquery.js"></script>
     <script src="javascripts/hasAppleColorEmoji/hasAppleColorEmoji.js"></script>
-    <script src="javascripts/stuff.js"></script>
-    <script src="javascripts/search.js"></script>
     <script>
       if(location.hostname === "muan.co") {
         location.href = "https://emoji.muan.co/" + location.hash
@@ -28,7 +25,7 @@
   <body>
     <header class="site-header">
       <button type="button" class="button pull-right js-hide-text">Toggle text</button>
-      <input type="search" class="input-search speedy-filter" placeholder="Search">
+      <input type="search" class="input-search speedy-filter" placeholder="Search" autofocus aria-label="Search emoji">
       <a href="#" class="button js-clear-search clear-search">❌</a>
       <a href="#cats" class="mojigroup button">
         🐈
@@ -47,13 +44,13 @@
       </a>
     </header>
 
-    <section class="list">
+    <main class="list">
       <ul class="emojis-container">
       </ul>
 
       <div class="loading">
         Loading
-        <noscript>but not really, becasue this needs JavaScript.</noscrip>
+        <noscript>but not really, becasue this needs JavaScript.</noscript>
       </div>
 
       <div class="no-results">
@@ -68,12 +65,14 @@
           <a class="button js-contribute contribute-button" href="https://github.com/muan/emojilib/edit/master/emojis.json" target="_blank">Contribute to emojilib</a>
         </p>
       </div>
-    </section>
+    </main>
 
     <footer class="site-footer">
       Made by <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a>, with
       <a href="https://github.com/muan/emoji/graphs/contributors" target="_blank">many awesome contributors</a>.
       Contribute on <a href="https://github.com/muan/emoji/" target="_blank">GitHub</a>.
     </footer>
+    <script type="text/javascript" src="javascripts/stuff.js"></script>
+    <script type="text/javascript" src="javascripts/search.js"></script>
   </body>
 </html>
