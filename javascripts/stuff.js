@@ -68,7 +68,6 @@ fetch(url).then(data => data.json()).then(json => {
   var html
   for (key in json) {
     var emoji = json[key]
-    if (emoji['category'] === '_custom') return
 
     html += `<li class="result emoji-wrapper js-emoji">
       <div class="js-emoji-char native-emoji" title="${key}">${emoji['char']}</div>
