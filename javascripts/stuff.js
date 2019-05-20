@@ -28,8 +28,8 @@ document.addEventListener('click', function (evt) {
     alertCopied(text)
   } else if (evt.target.classList.contains('js-hide-text')) {
     container.classList.toggle('hide-text')
-    var showorhide = container.classList.contains('hide-text') ? 'hide' : 'show'
-    localStorage.setItem('emoji-text-display', !showorhide)
+    var showorhide = container.classList.contains('hide-text')
+    localStorage.setItem('emoji-text-display', showorhide.toString())
   }
 })
 
