@@ -137,20 +137,18 @@ ul {
   font-size: 0;
 }
 
+::selection {
+  background-color: transparent;
+}
+
 .emoji-wrapper:hover {
   background: #f5f5f5;
 }
 
-.hide-text .emoji-wrapper {
+.emoji-wrapper {
   width: auto;
   padding: 8px;
   position: relative;
-}
-
-.hide-text input {
-  left: 0;
-  position: absolute;
-  opacity: 0;
 }
 
 ul, li {

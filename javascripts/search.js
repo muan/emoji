@@ -15,10 +15,10 @@ function search (keyword) {
   document.querySelector('.keyword').textContent = keyword
   keyword = keyword.trim()
 
-  if (window.speedy_keyword !== keyword) {
-    window.speedy_keyword = keyword
+  if (window.speedyKeyword !== keyword) {
+    window.speedyKeyword = keyword
     for (const result of document.querySelectorAll('.result')) {
-      result.hidden = keyword.length > 0 ? result.textContent.toLowerCase().indexOf(keyword.toLowerCase()) < 0 : false
+      result.hidden = keyword.length > 0 ? result.getAttribute('title').toLowerCase().indexOf(keyword.toLowerCase()) < 0 : false
     }
   }
   setRelatedDOMVisibility(keyword)
