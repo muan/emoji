@@ -10,7 +10,7 @@ function searchHash() {
 }
 document.addEventListener('emoji:ready', searchHash)
 
-function search (keyword) {
+function search(keyword) {
   keyword = typeof keyword === 'undefined' ? '' : keyword
   document.querySelector('.keyword').textContent = keyword
   keyword = keyword.trim()
@@ -24,7 +24,7 @@ function search (keyword) {
   setRelatedDOMVisibility(keyword)
 }
 
-function setRelatedDOMVisibility (keyword) {
+function setRelatedDOMVisibility(keyword) {
   var foundSomething = !!document.querySelector('.result:not([hidden])')
   document.querySelector('.no-results').hidden = foundSomething
 }
@@ -39,7 +39,7 @@ document.addEventListener('click', event => {
   if (event.target.classList.contains('group')) {
     filter.value = event.target.href.substr(1)
     search(filter.value)
-  } else if (event.target.classList.contains('js-clear-search')) {
+  } else if (event.target.classList.contains('js-clear-search') || event.target.classList.contains('input-search')) {
     filter.value = ''
   }
 })
