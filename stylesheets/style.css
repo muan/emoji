@@ -17,7 +17,7 @@ body {
   padding: 10px;
   margin: 0;
   color: #333;
-  background-color: lightyellow;
+  background-color: #fff;
 }
 
 input,
@@ -54,7 +54,6 @@ footer {
 
 .list {
   overflow: hidden;
-  background-color:lightpink;
 }
 
 .loading {
