@@ -10,7 +10,7 @@ function searchHash() {
 }
 document.addEventListener('emoji:ready', searchHash)
 
-function search (keyword) {
+function search(keyword) {
   keyword = typeof keyword === 'undefined' ? '' : keyword
   document.querySelector('.keyword').textContent = keyword
   keyword = keyword.trim()
@@ -24,7 +24,7 @@ function search (keyword) {
   setRelatedDOMVisibility(keyword)
 }
 
-function setRelatedDOMVisibility (keyword) {
+function setRelatedDOMVisibility(keyword) {
   var foundSomething = !!document.querySelector('.result:not([hidden])')
   document.querySelector('.no-results').hidden = foundSomething
 }
