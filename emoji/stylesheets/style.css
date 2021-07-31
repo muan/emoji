@@ -1,0 +1,294 @@
+form { margin: 0; }
+.pull-right { float: right; position: relative; }
+input:invalid { visibility: hidden; }
+[data-clipboard-text] { cursor: pointer; }
+.text-big { font-size: 20px; }
+[hidden] { display: none !important; }
+
+body,
+input,
+button {
+  font-family: andalemono, menlo, monospace;
+  font-size: 12px;
+}
+
+body {
+  line-height: 1.6em;
+  padding: 10px;
+  margin: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+input,
+div,
+a,
+footer {
+  box-sizing: border-box;
+}
+
+.container,
+.list,
+.site-header,
+.site-footer {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.site-header {
+  white-space: nowrap;
+  position: relative;
+  line-height: 1;
+  margin-bottom: 10px;
+  padding-bottom:  10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-footer {
+  margin-top: 10px;
+  padding-top:  10px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.list {
+  overflow: hidden;
+}
+
+.loading {
+  background-color: #fff;
+  padding: 100px 0 120px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.loading + .no-results { display: none; }
+
+.mojigroup {
+  margin: 0 0 10px 5px;
+  padding: 3px 4px 1px;
+}
+
+.mojigroup.active {
+  background-color: #f9f9f9;
+  border-color: #58b2ee;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #08c;
+}
+
+ul {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.plain {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.plain:focus {
+  box-shadow: none; outline: none;
+}
+
+.emoji-group {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.emojis-container {
+  font-size: 0;
+  line-height: 0;
+}
+
+.emoji-code {
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Twemoji */
+.emoji {
+  width: 18px;
+  height: 18px;
+}
+
+.emoji-wrapper {
+  display: inline-block;
+  width: 25%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.keywords {
+  font-size: 0;
+}
+
+::selection {
+  background-color: transparent;
+}
+
+.emoji-wrapper:hover {
+  background: #f5f5f5;
+}
+
+.emoji-wrapper {
+  width: auto;
+  padding: 8px;
+  position: relative;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.button {
+  background: none;
+  line-height: 1;
+  padding: 10px 10px 9px;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button:hover {
+  border-color: #36a;
+}
+
+.button.clear-search {
+  color: #ee9d9d;
+}
+.button.clear-search:hover {
+  border-color: #ee9d9d;
+}
+
+.input-search {
+  min-height: 32px;
+  padding: 7px 15px;
+  outline: none;
+  color: #333;
+  border: 1px solid #ddd;
+  margin: 0;
+  width: 150px;
+  border-radius: 15px;
+  appearance: textfield;
+}
+
+.input-search::-webkit-search-cancel-button,
+.input-search::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.input-search:focus {
+  border-color: #51a7e8;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5);
+}
+
+.alert {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: fixed;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.native-emoji {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.twemojified .native-emoji {
+  padding: 0;
+}
+
+.twemojified .mojigroup,
+.twemojified .clear-search {
+  padding: 5px 7px;
+}
+
+.native-emoji {
+  font-size: 19px;
+  padding: 10px 2px;
+  font-family: AppleColorEmoji;
+}
+
+.no-results {
+  background-color: #f9f9f9;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.no-results-text {
+  font-weight: bold;
+  color: #555;
+  border-bottom: 1px solid #aaa;
+  display: inline-block;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.contribute-button {
+  background-color: #36a;
+  border-color: #36a;
+  color: #fff;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #aaa;
+  padding: 0 2px;
+  border-radius: 3px; color: #666;
+  font-family: Monaco, monospace;
+  font-size: 11px;
+}
+
+.tips {
+  color: #777;
+}
+
+@media (max-width: 480px) {
+  .input-search {
+    width: 100%;
+  }
+
+  .clear-search,
+  .mojigroup {
+    display: none;
+  }
+
+  input { font-size: 14px; }
+
+  ul { padding: 0; }
+
+  .emoji-wrapper { padding: 0; }
+}
