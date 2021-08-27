@@ -14,7 +14,7 @@ button {
 
 body {
   line-height: 1.6em;
-  padding: 10px;
+  padding: 0px;
   margin: 0;
   color: #333;
   background-color: #fff;
@@ -30,6 +30,7 @@ footer {
 .container,
 .list,
 .site-header,
+.fixed-header,
 .site-footer {
   width: 100%;
   max-width: 780px;
@@ -39,9 +40,16 @@ footer {
 .site-header {
   white-space: nowrap;
   position: relative;
+  z-index: 5;
+}
+
+.fixed-header {
+  position: fixed;
+  background-color: #fff;
   line-height: 1;
   margin-bottom: 10px;
-  padding-bottom:  10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
 }
 

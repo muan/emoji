@@ -39,7 +39,7 @@ document.addEventListener('click', event => {
   if (event.target.classList.contains('group')) {
     filter.value = event.target.href.substr(1)
     search(filter.value)
-  } else if (event.target.classList.contains('js-clear-search')) {
+  } else if (event.target.classList.contains('js-clear-search') || event.target.classList.contains('input-search')) {
     filter.value = ''
   }
 })
