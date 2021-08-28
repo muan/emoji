@@ -1,95 +1,104 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='/fav.png' rel='shortcut icon'>
-    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="Emoji searcher" property="og:title">
-    <meta content="Emoji searcher" property="title">
-    <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji." property="description">
-    <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji." property="og:description">
-    <meta content="https://emoji.muan.co/appicon.png" property="og:image">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Emoji searcher" />
-    <title>Emoji searcher</title>
-    <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
-    <link href="stylesheets/style.css" rel="stylesheet">
-    <script>
-      if(location.hostname === "muan.co") {
-        location.href = "https://emoji.muan.co/" + location.hash
-      }
-    </script>
-  </head>
 
-  <body>
-    <header class="site-header">
-      <button type="button" class="button pull-right js-twemoji">Twemoji</button>
-      <button type="button" class="button pull-right js-remove-twemoji">Remove Twemoji</button>
-      <input type="search" class="input-search speedy-filter" placeholder="Search" autofocus aria-label="Search emoji">
-      <a href="#" class="button js-clear-search clear-search">❌</a>
-      <a href="#face" class="mojigroup button">
-        😃
-      </a>
-      <a href="#fingers" class="mojigroup button">
-        🤚
-      </a>
-      <a href="#animal" class="mojigroup button">
-        🐤
-      </a>
-      <a href="#transportation" class="mojigroup button">
-        🚗
-      </a>
-      <a href="#food" class="mojigroup button">
-        🍱
-      </a>
-      <a href="#building" class="mojigroup button">
-        🏫
-      </a>
-      <a href="#arrow" class="mojigroup button">
-        ⬆️
-      </a>
-      <a href="#chinese" class="mojigroup button">
-        🈳
-      </a>
-      <a href="#numbers" class="mojigroup button">
-        1️⃣
-      </a>
-      <a href="#flag" class="mojigroup button">
-        🏳️‍🌈
-      </a>
-      
-    
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href='/fav.png' rel='shortcut icon'>
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+  <meta content="Emoji searcher" property="og:title">
+  <meta content="Emoji searcher" property="title">
+  <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji."
+    property="description">
+  <meta content="Find the emoji that echoes your heart using keywords! No need to remember all the names of emoji."
+    property="og:description">
+  <meta content="https://emoji.muan.co/appicon.png" property="og:image">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Emoji searcher" />
+  <title>Emoji searcher</title>
+  <link rel="apple-touch-icon-precomposed" sizes="64x64" href="/appicon.png">
+  <link href="stylesheets/style.css" rel="stylesheet">
+  <script>
+    if (location.hostname === "muan.co") {
+      location.href = "https://emoji.muan.co/" + location.hash
+    }
+  </script>
+</head>
 
-    <main class="list">
-      <ul class="emojis-container">
-      </ul>
+<body>
 
-      <div class="loading">
-        Loading
-        <noscript>but not really, becasue this needs JavaScript.</noscript>
-      </div>
+  <header class="site-header">
+    <h1 style="text-align:center">Emoji Collection<h1>
+        <p style="font-size:15px;text-align:center">~Click on the emoji you want and it will being copied!~</p>
+        <button type="button" class="button pull-right js-twemoji">Twemoji</button>
+        <button type="button" class="button pull-right js-remove-twemoji">Remove Twemoji</button>
+        <input type="search" class="input-search speedy-filter" placeholder="Search" autofocus
+          aria-label="Search emoji">
+        <a href="#" class="button js-clear-search clear-search" title="Clear Search">❌</a>
+        <a href="#face" class="mojigroup button">
+          😃
+        </a>
+        <a href="#fingers" class="mojigroup button">
+          🤚
+        </a>
+        <a href="#animal" class="mojigroup button">
+          🐤
+        </a>
+        <a href="#transportation" class="mojigroup button">
+          🚗
+        </a>
+        <a href="#food" class="mojigroup button">
+          🍱
+        </a>
+        <a href="#building" class="mojigroup button">
+          🏫
+        </a>
+        <a href="#arrow" class="mojigroup button">
+          ⬆️
+        </a>
+        <a href="#chinese" class="mojigroup button">
+          🈳
+        </a>
+        <a href="#numbers" class="mojigroup button">
+          1️⃣
+        </a>
+        <a href="#flag" class="mojigroup button">
+          🏳️‍🌈
+        </a>
+  </header>
 
-      <div class="no-results">
-        <span class="text-big">😭</span>
-        <br><div class="no-results-text">No results</div>
-        <p>
-          Help your future self by adding
-          <strong class="keyword"></strong>
-          to the library.
-        </p>
-        <p>
-          <a class="button js-contribute contribute-button" href="https://github.com/muan/emojilib/edit/master/emojis.json" target="_blank">Contribute to emojilib</a>
-        </p>
-      </div>
-    </main>
+  <main class="list">
+    <ul class="emojis-container">
+      <p>Just click on the emoji which you like to copy </p>
 
-    <footer class="site-footer">
-      <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a> |
-      <a href="https://github.com/muan/emoji/" target="_blank">Site source</a> |
-      <a href="https://github.com/muan/emojilib" target="_blank">Data source</a>
-    </footer>
-    <script type="text/javascript" src="javascripts/stuff.js"></script>
-    <script type="text/javascript" src="javascripts/search.js"></script>
-  </body>
+    </ul>
+
+    <div class="loading">
+      Loading
+      <noscript>but not really, becasue this needs JavaScript.</noscript>
+    </div>
+
+    <div class="no-results">
+      <span class="text-big">😭</span>
+      <br>
+      <div class="no-results-text">No results</div>
+      <p>
+        Help your future self by adding
+        <strong class="keyword"></strong>
+        to the library.
+      </p>
+      <p>
+        <a class="button js-contribute contribute-button" href="https://github.com/muan/emojilib/edit/master/emojis.json" target="_blank">Contribute to emojilib</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://twitter.com/muanchiou" target="_blank">@muanchiou</a> |
+    <a href="https://github.com/muan/emoji/" target="_blank">Site source</a> |
+    <a href="https://github.com/muan/emojilib" target="_blank">Data source</a>
+  </footer>
+  <script type="text/javascript" src="javascripts/stuff.js"></script>
+  <script type="text/javascript" src="javascripts/search.js"></script>
+</body>
+
 </html>
