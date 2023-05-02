@@ -41,6 +41,7 @@ document.addEventListener('click', event => {
     search(filter.value)
   } else if (event.target.classList.contains('js-clear-search')) {
     filter.value = ''
+    filter.focus()
   }
 })
 
